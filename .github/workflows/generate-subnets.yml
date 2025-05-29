@@ -1,0 +1,43 @@
+name: Generate subnets
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate_lists:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Pull Changes
+        run: git pull
+
+      - name: Download and install Mihomo
+        run: |
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -L https://github.com/MetaCubeX/mihomo/releases/download/v1.19.9/mihomo-linux-amd64-v1.19.9.gz -o ./mihomo.gz
+          gunzip -c ./mihomo.gz > ./mihomo
+          chmod +x ./mihomo
+
+      - name: Generate block lists
+        env:
+          NO_SKIP: true
+        run: |
+          chmod +x ./update_subnets_list.sh
+          ./update_subnets_list.sh
+      - name: Get current date
+        id: date
+        run: |
+          echo "DATE=$(TZ=Europe/Moscow date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Generating .mrs rules ${{ env.DATE }}" -a || echo "No changes to commit"
+          git push
