@@ -39,8 +39,8 @@ rm -f ${FOLDER}*.yaml 2>/dev/null
 
 main() {
 	download https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst ${FOLDER}itdog-russia-inside.txt
-	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/native.apple.txt ${FOLDER}guberniev-include.txt
-	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/native.xiaomi.txt ${FOLDER}antifilter-community.txt
+	download https://raw.githubusercontent.com/GubernievS/AntiZapret-VPN/refs/heads/main/setup/root/antizapret/download/include-hosts.txt ${FOLDER}guberniev-include.txt
+	download https://community.antifilter.download/list/domains.lst ${FOLDER}antifilter-community.txt
 	download https://raw.githubusercontent.com/dartraiden/no-russia-hosts/refs/heads/master/hosts.txt ${FOLDER}no-russia-hosts
 
 	grep -v -F -x -f excluded-no-russia-hosts ${FOLDER}no-russia-hosts > ${FOLDER}no-russia-hosts.txt
