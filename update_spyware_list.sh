@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 FOLDER="spyware/"
 
@@ -53,13 +53,15 @@ main() {
 		local tmp_file=${file%.*}.tmp
 		local yaml_file=${file%.*}.yaml
 		local rms_file=${file%.*}.rms
-		cleanup ${file} ${tmp_file}
+		cleanup "${file}" "${tmp_file}"
 		yaml "${tmp_file}" "${yaml_file}"
 		mrs "${yaml_file}" "${rms_file}"
 	done
 
 	rm -f ${FOLDER}*.txt 2>/dev/null
 	rm -f ${FOLDER}*.tmp 2>/dev/null
+    rm -f ./mihomo
+    rm -f ./mihomo.gz
 }
 
 main

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 FOLDER="subnets/"
 
@@ -60,7 +60,8 @@ main() {
 	cat ${FOLDER}ipv4/cloudflare.txt ${FOLDER}ipv6/cloudflare.txt | sort | uniq > ${FOLDER}cloudflare.txt
 	echo >> ${FOLDER}ipv4/discord.txt
 	cat ${FOLDER}ipv4/discord.txt ${FOLDER}ipv6/discord.txt | sort | uniq > ${FOLDER}discord.txt
-	local file
+
+    local file
 	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
     	echo "Processing: $file"
 		local tmp_file="${file%.*}.tmp"

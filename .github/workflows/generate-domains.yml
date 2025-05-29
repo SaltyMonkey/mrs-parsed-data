@@ -36,6 +36,12 @@ jobs:
         run: |
           chmod +x ./update_spyware_list.sh
           ./update_spyware_list.sh
+      - name: Cleanup
+        env:
+          NO_SKIP: true
+        run: |
+          rm -f ./mihomo
+          rm -f ./mihomo.gz
       - name: Get current date
         id: date
         run: |

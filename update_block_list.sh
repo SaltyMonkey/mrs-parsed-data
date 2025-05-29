@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 FOLDER="blocks/"
 
@@ -54,7 +54,7 @@ main() {
 		local tmp_file=${file%.*}.tmp
 		local yaml_file=${file%.*}.yaml
 		local rms_file=${file%.*}.rms
-		cleanup ${file} ${tmp_file}
+		cleanup "${file}" "${tmp_file}"
 		yaml "${tmp_file}" "${yaml_file}"
 		mrs "${yaml_file}" "${rms_file}"
 
