@@ -1,0 +1,78 @@
+#!/bin/sh
+
+FOLDER="subnets/"
+
+download() {
+	local uri="$1"
+	local output_path="$2"
+	local code
+	curl "${uri}" -o "${output_path}"
+	code=$?
+	if [ $code -ne 0 ]; then
+    	echo "Curl failed with exit code $code"
+	fi
+}
+
+split_subnets() {
+	local input_file ipv4_file ipv6_file
+	input_file="$1"
+	ipv4_file="$2"
+	ipv6_file="$3"
+	grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}\b' $input_file > $ipv4_file
+	grep -Ev '\b([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}\b' $input_file > $ipv6_file
+}
+cleanup() {
+	local input_file="$1"
+	local output_file="$2"
+	grep -v -E '^\s*#|^\s*$' "${input_file}" > "${output_file}"
+}
+
+yaml() {
+	local input_file="$1"
+	local output_file="$2"
+	echo "payload:" > "${output_file}"
+	cat "${input_file}" | sed "s/.*/  - '&'/" >> ${output_file}
+}
+
+mrs() {
+	local input_file="$1"
+	local output_file="$2"
+	./mihomo convert-ruleset ipcidr yaml "${input_file}" ${output_file}
+}
+
+mkdir -p ${FOLDER}
+mkdir -p ${FOLDER}ipv4/
+mkdir -p ${FOLDER}ipv6/
+
+find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
+find ${FOLDER} -type f -name "*.tmp" -exec rm -f {} +
+find ${FOLDER} -type f -name "*.yaml" -exec rm -f {} +
+
+
+main() {
+	download "https://www.cloudflare.com/ips-v4" ${FOLDER}ipv4/cloudflare.txt
+	download "https://www.cloudflare.com/ips-v6" ${FOLDER}ipv6/cloudflare.txt
+	download "https://core.telegram.org/resources/cidr.txt" ${FOLDER}telegram.txt
+	download "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg&site=discord.media" ${FOLDER}ipv4/discord.txt
+	download "https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg&site=discord.media" ${FOLDER}ipv6/discord.txt
+	split_subnets ${FOLDER}telegram.txt ${FOLDER}ipv4/telegram.txt ${FOLDER}ipv6/telegram.txt
+	echo >> ${FOLDER}ipv4/cloudflare.txt
+	cat ${FOLDER}ipv4/cloudflare.txt ${FOLDER}ipv6/cloudflare.txt | sort | uniq > ${FOLDER}cloudflare.txt
+	echo >> ${FOLDER}ipv4/discord.txt
+	cat ${FOLDER}ipv4/discord.txt ${FOLDER}ipv6/discord.txt | sort | uniq > ${FOLDER}discord.txt
+	local file
+	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
+    	echo "Processing: $file"
+		local tmp_file="${file%.*}.tmp"
+		local yaml_file="${file%.*}.yaml"
+		local rms_file="${file%.*}.rms"
+		cleanup ${file} "${tmp_file}"
+		yaml "${tmp_file}" "${yaml_file}"
+		mrs "${yaml_file}" "${rms_file}"
+	done
+
+	find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
+	find ${FOLDER} -type f -name "*.tmp" -exec rm -f {} +
+}
+
+main
