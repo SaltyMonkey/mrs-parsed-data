@@ -1,6 +1,7 @@
 #!/bin/bash
 
 FOLDER="blocks/"
+MANUAL_FOLDER="/manual/"
 
 download() {
 	local uri="$1"
@@ -43,7 +44,7 @@ main() {
 	download https://community.antifilter.download/list/domains.lst ${FOLDER}antifilter-community.txt
 	download https://raw.githubusercontent.com/dartraiden/no-russia-hosts/refs/heads/master/hosts.txt ${FOLDER}no-russia-hosts
 
-	grep -v -F -x -f excluded-no-russia-hosts ${FOLDER}no-russia-hosts > ${FOLDER}no-russia-hosts.txt
+	grep -v -F -x -f ${MANUAL_FOLDER}excluded-no-russia-hosts ${FOLDER}no-russia-hosts > ${FOLDER}no-russia-hosts.txt
 	rm -r ${FOLDER}no-russia-hosts
 
 	cat ${FOLDER}guberniev-include.txt ${FOLDER}itdog-russia-inside.txt | sort | uniq > ${FOLDER}just-domains.txt

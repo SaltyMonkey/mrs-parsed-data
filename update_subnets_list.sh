@@ -55,9 +55,12 @@ main() {
 	download "https://core.telegram.org/resources/cidr.txt" ${FOLDER}telegram.txt
 	download "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg&site=discord.media" ${FOLDER}ipv4/discord.txt
 	download "https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg&site=discord.media" ${FOLDER}ipv6/discord.txt
+
 	split_subnets ${FOLDER}telegram.txt ${FOLDER}ipv4/telegram.txt ${FOLDER}ipv6/telegram.txt
+
 	echo >> ${FOLDER}ipv4/cloudflare.txt
 	cat ${FOLDER}ipv4/cloudflare.txt ${FOLDER}ipv6/cloudflare.txt | sort | uniq > ${FOLDER}cloudflare.txt
+
 	echo >> ${FOLDER}ipv4/discord.txt
 	cat ${FOLDER}ipv4/discord.txt ${FOLDER}ipv6/discord.txt | sort | uniq > ${FOLDER}discord.txt
 
