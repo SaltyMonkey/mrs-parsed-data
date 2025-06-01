@@ -36,6 +36,12 @@ jobs:
         run: |
           chmod +x ./update_spyware_list.sh
           ./update_spyware_list.sh
+      - name: Generate services lists
+        env:
+          NO_SKIP: true
+        run: |
+          chmod +x ./update_services_list.sh
+          ./update_services_list.sh
       - name: Cleanup
         env:
           NO_SKIP: true
