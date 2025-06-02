@@ -71,7 +71,6 @@ payload:
   - '+.sites.fastspring.com'
   - '+.furaffinity.net'
   - '+.fujitsu.com'
-  - '+.gllto.glpals.com'
   - '+.grafana.com'
   - '+.groupon.com'
   - '+.grouponcdn.com'
@@ -650,3 +649,5 @@ payload:
   - '+.ebay.com'
   - '+.rapidapi.com'
   - '+.cleanbrowsing.org'
+  - '+.store.galaxy-of-heroes.starwars.ea.com'
+  - '+.glpals.com'
