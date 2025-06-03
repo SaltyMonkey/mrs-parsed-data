@@ -24,14 +24,13 @@ yaml() {
 mrs() {
 	local input_file="$1"
 	local output_file="$2"
-	./mihomo convert-ruleset domain yaml "${input_file}" ${output_file}
+	./mihomo convert-ruleset domain yaml ${input_file} ${output_file}
 }
 
 mkdir -p ${FOLDER}
 
 find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
 find ${FOLDER} -type f -name "*.yaml" -exec rm -f {} +
-
 
 main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains.com" ${FOLDER}jet-brains-com.txt
