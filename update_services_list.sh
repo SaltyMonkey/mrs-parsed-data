@@ -21,13 +21,6 @@ yaml() {
 	cat "${input_file}" | sed "s/.*/  - '+.&'/" >> ${output_file}
 }
 
-yaml_no_modifier() {
-	local input_file="$1"
-	local output_file="$2"
-	echo "payload:" > "${output_file}"
-	cat "${input_file}" | sed "s/.*/  - '&'/" >> ${output_file}
-}
-
 mrs() {
 	local input_file="$1"
 	local output_file="$2"
