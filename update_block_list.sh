@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FOLDER="blocks/"
-MANUAL_FOLDER="/manual/"
+MANUAL_FOLDER="manual/"
 
 download() {
 	local uri="$1"
