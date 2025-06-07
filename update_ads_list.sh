@@ -44,10 +44,11 @@ main() {
 	download https://nsfw.oisd.nl/domainswild ${FOLDER}oisd-nsfw.txt
 	download https://big.oisd.nl/domainswild ${FOLDER}oisd-big.txt
 	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.txt ${FOLDER}hagezi-pro-ads.txt
+	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.mini.txt ${FOLDER}hagezi-pro-mini-ads.txt
 
 	local file
 	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
-   	 	echo "Processing: $file"
+		echo "Processing: $file"
 		local tmp_file=${file%.*}.tmp
 		local yaml_file=${file%.*}.yaml
 		local rms_file=${file%.*}.rms
