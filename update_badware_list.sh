@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER="spyware/"
+FOLDER="badware/"
 
 download() {
 	local uri="$1"

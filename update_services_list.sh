@@ -54,6 +54,8 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=spotify.com&wildcard=1" ${FOLDER}spotify.txt
 
     download "https://iplist.opencck.org/?format=text&data=domains&site=discord.com&site=discord.gg&site=discord.media&wildcard=1" ${FOLDER}discord.txt
+    download "https://iplist.opencck.org/?format=text&data=domains&site=rutracker.org&wildcard=1" ${FOLDER}rutracker.txt
+    download "https://iplist.opencck.org/?format=text&data=domains&site=nnmclub.to&wildcard=1" ${FOLDER}nnmclub.txt
 
     cat ${FOLDER}jet-brains-com.txt ${FOLDER}jet-brains-cdn.txt ${FOLDER}jet-brains-grazieai.txt | sort | uniq > ${FOLDER}jet-brains.txt
 
