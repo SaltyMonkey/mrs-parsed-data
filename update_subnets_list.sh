@@ -49,7 +49,6 @@ find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
 find ${FOLDER} -type f -name "*.tmp" -exec rm -f {} +
 find ${FOLDER} -type f -name "*.yaml" -exec rm -f {} +
 
-
 main() {
 	download "https://www.cloudflare.com/ips-v4" ${FOLDER}ipv4/cloudflare.txt
 	download "https://www.cloudflare.com/ips-v6" ${FOLDER}ipv6/cloudflare.txt
