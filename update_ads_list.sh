@@ -1,7 +1,6 @@
 #!/bin/bash
 
-FOLDER="blocks/"
-MANUAL_FOLDER="manual/"
+FOLDER="ads/"
 
 download() {
 	local uri="$1"
@@ -24,7 +23,7 @@ yaml() {
 	local input_file="$1"
 	local output_file="$2"
 	echo "payload:" > "${output_file}"
-	cat "$input_file" | sed "s/.*/  - '+.&'/" >> $output_file
+	cat "${input_file}" | sed "s/.*/  - '&'/" >> $output_file
 }
 
 mrs() {
@@ -33,36 +32,33 @@ mrs() {
 	./mihomo convert-ruleset domain yaml ${input_file} ${output_file}
 }
 
+
 mkdir -p ${FOLDER}
 rm -f ${FOLDER}*.txt 2>/dev/null
 rm -f ${FOLDER}*.tmp 2>/dev/null
 rm -f ${FOLDER}*.yaml 2>/dev/null
 
 main() {
-	download https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst ${FOLDER}itdog-russia-inside.txt
-	download https://raw.githubusercontent.com/GubernievS/AntiZapret-VPN/refs/heads/main/setup/root/antizapret/download/include-hosts.txt ${FOLDER}guberniev-include.txt
-	download https://community.antifilter.download/list/domains.lst ${FOLDER}antifilter-community.txt
-	download https://raw.githubusercontent.com/dartraiden/no-russia-hosts/refs/heads/master/hosts.txt ${FOLDER}no-russia-hosts
-
-	grep -v -F -x -f ${MANUAL_FOLDER}excluded-no-russia-hosts ${FOLDER}no-russia-hosts > ${FOLDER}no-russia-hosts.txt
-	rm -r ${FOLDER}no-russia-hosts
-
-	cat ${FOLDER}guberniev-include.txt ${FOLDER}itdog-russia-inside.txt | sort | uniq > ${FOLDER}just-domains.txt
+	download https://nsfw-small.oisd.nl/domainswild ${FOLDER}oisd-nsfw-small.txt
+	download https://small.oisd.nl/domainswild ${FOLDER}oisd-small.txt
+	download https://nsfw.oisd.nl/domainswild ${FOLDER}oisd-nsfw.txt
+	download https://big.oisd.nl/domainswild ${FOLDER}oisd-big.txt
+	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.txt ${FOLDER}hagezi-pro-ads.txt
 
 	local file
 	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
-    	echo "Processing: $file"
+   	 	echo "Processing: $file"
 		local tmp_file=${file%.*}.tmp
 		local yaml_file=${file%.*}.yaml
 		local rms_file=${file%.*}.rms
 		cleanup "${file}" "${tmp_file}"
 		yaml "${tmp_file}" "${yaml_file}"
 		mrs "${yaml_file}" "${rms_file}"
-
 	done
 
 	rm -f ${FOLDER}*.txt 2>/dev/null
 	rm -f ${FOLDER}*.tmp 2>/dev/null
+    rm -f ${FOLDER}*.yaml 2>/dev/null
 }
 
 main

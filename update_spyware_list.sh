@@ -33,7 +33,7 @@ mrs() {
 }
 
 
-mkdir -p spyware
+mkdir -p ${FOLDER}
 rm -f ${FOLDER}*.txt 2>/dev/null
 rm -f ${FOLDER}*.tmp 2>/dev/null
 rm -f ${FOLDER}*.yaml 2>/dev/null
@@ -48,7 +48,7 @@ main() {
 	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/native.vivo.txt ${FOLDER}hagezi-sw-vivo.txt
 
 	local file
-	find spyware -type f -name "*.txt" | while IFS= read -r file; do
+	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
    	 	echo "Processing: $file"
 		local tmp_file=${file%.*}.tmp
 		local yaml_file=${file%.*}.yaml
@@ -60,8 +60,7 @@ main() {
 
 	rm -f ${FOLDER}*.txt 2>/dev/null
 	rm -f ${FOLDER}*.tmp 2>/dev/null
-    rm -f ./mihomo
-    rm -f ./mihomo.gz
+    rm -f ${FOLDER}*.yaml 2>/dev/null
 }
 
 main
