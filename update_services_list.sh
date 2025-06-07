@@ -46,7 +46,7 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=linkedin.com&wildcard=1" ${FOLDER}linkedin.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=chatgpt.com&wildcard=1" ${FOLDER}chatgpt.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=copilot&wildcard=1" ${FOLDER}copilot.txt
-
+    download "https://iplist.opencck.org/?format=text&data=domains&site=grok.com&wildcard=1" ${FOLDER}grok.com.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=x.com&wildcard=1" ${FOLDER}x-com.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=facebook.com&wildcard=1" ${FOLDER}meta.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=instagram.com&wildcard=1" ${FOLDER}instagram.txt
@@ -62,8 +62,8 @@ main() {
     cat ${MANUAL_FOLDER}manual-service-hetzner >> ${FOLDER}hetzner.txt
     cat ${MANUAL_FOLDER}manual-service-ovh >> ${FOLDER}ovh.txt
     cat ${MANUAL_FOLDER}manual-service-cloudflare >> ${FOLDER}cloudflare.txt
-    cat ${MANUAL_FOLDER}manual-service-discord >> ${FOLDER}discord.txt
     cat ${MANUAL_FOLDER}manual-service-telegram >> ${FOLDER}telegram.txt
+    cat ${MANUAL_FOLDER}manual-service-nix-distros >> ${FOLDER}nix.txt
 
     local file
 	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
