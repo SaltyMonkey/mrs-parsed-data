@@ -48,6 +48,7 @@ main() {
 	rm -r ${FOLDER}no-russia-hosts
 
 	cat ${FOLDER}guberniev-include.txt ${FOLDER}itdog-russia-inside.txt | sort | uniq > ${FOLDER}just-domains.txt
+    rm -r ${FOLDER}guberniev-include.txt
 
 	local file
 	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
