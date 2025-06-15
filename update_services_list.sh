@@ -64,6 +64,8 @@ main() {
     cat ${MANUAL_FOLDER}manual-service-cloudflare >> ${FOLDER}cloudflare.txt
     cat ${MANUAL_FOLDER}manual-service-telegram >> ${FOLDER}telegram.txt
     cat ${MANUAL_FOLDER}manual-service-nix-distros >> ${FOLDER}nix.txt
+    cat ${MANUAL_FOLDER}manual-service-atlassian >> ${FOLDER}atlassian.txt
+    cat ${MANUAL_FOLDER}manual-service-docker >> ${FOLDER}docker.txt
 
     local file
 	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
