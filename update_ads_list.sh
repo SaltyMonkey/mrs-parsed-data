@@ -45,6 +45,7 @@ main() {
 	download https://big.oisd.nl/domainswild ${FOLDER}oisd-big.txt
 	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.txt ${FOLDER}hagezi-pro-ads.txt
 	download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.mini.txt ${FOLDER}hagezi-pro-mini-ads.txt
+    download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40google-ads" ${FOLDER}google-ads.txt
 
 	local file
 	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
