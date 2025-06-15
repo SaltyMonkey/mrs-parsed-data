@@ -4,27 +4,27 @@ FOLDER="services/"
 MANUAL_FOLDER="manual/"
 
 download() {
-	local uri="$1"
-	local output_path="$2"
-	local code
-	curl "${uri}" -o "${output_path}"
-	code=$?
-	if [ $code -ne 0 ]; then
-    	echo "Curl failed with exit code $code"
-	fi
+    local uri="$1"
+    local output_path="$2"
+    local code
+    curl "${uri}" -o "${output_path}"
+    code=$?
+    if [ $code -ne 0 ]; then
+        echo "Curl failed with exit code $code"
+    fi
 }
 
 yaml() {
-	local input_file="$1"
-	local output_file="$2"
-	echo "payload:" > "${output_file}"
-	cat "$input_file" | sed "s/.*/  - '+.&'/" >> $output_file
+    local input_file="$1"
+    local output_file="$2"
+    echo "payload:" > "${output_file}"
+    cat "$input_file" | sed "s/.*/  - '+.&'/" >> $output_file
 }
 
 mrs() {
-	local input_file="$1"
-	local output_file="$2"
-	./mihomo convert-ruleset domain yaml ${input_file} ${output_file}
+    local input_file="$1"
+    local output_file="$2"
+    ./mihomo convert-ruleset domain yaml ${input_file} ${output_file}
 }
 
 mkdir -p ${FOLDER}
@@ -68,15 +68,15 @@ main() {
     cat ${MANUAL_FOLDER}manual-service-docker >> ${FOLDER}docker.txt
 
     local file
-	find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
-    	echo "Processing: $file"
-		local yaml_file="${file%.*}.yaml"
-		local rms_file="${file%.*}.rms"
-		yaml "${file}" "${yaml_file}"
-		mrs "${yaml_file}" "${rms_file}"
-	done
+    find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
+        echo "Processing: $file"
+        local yaml_file="${file%.*}.yaml"
+        local rms_file="${file%.*}.rms"
+        yaml "${file}" "${yaml_file}"
+        mrs "${yaml_file}" "${rms_file}"
+    done
 
-	find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
+    find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
     find ${FOLDER} -type f -name "*.yaml" -exec rm -f {} +
 
 }
