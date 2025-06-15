@@ -36,16 +36,16 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains.com&wildcard=1" ${FOLDER}jet-brains-com.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains%40cdn&wildcard=1" ${FOLDER}jet-brains-cdn.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains%40grazie.ai&wildcard=1" ${FOLDER}jet-brains-grazieai.txt
-
+    download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40google-gemini" ${FOLDER}gemini.txt
+    download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40notebooklm" ${FOLDER}notebooklm.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=netflix.com&wildcard=1" ${FOLDER}netflix.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=hdrezka.ag&wildcard=1" ${FOLDER}hdrezka.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=lostfilm.tv&wildcard=1" ${FOLDER}lostfilm.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=kinozal.tv&wildcard=1" ${FOLDER}kinozal.txt
-
     download "https://iplist.opencck.org/?format=text&data=domains&site=medium.com&wildcard=1" ${FOLDER}medium.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=linkedin.com&wildcard=1" ${FOLDER}linkedin.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=chatgpt.com&wildcard=1" ${FOLDER}chatgpt.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=copilot&wildcard=1" ${FOLDER}copilot.txt
+    download "https://iplist.opencck.org/?format=text&data=domains&site=copilot" ${FOLDER}copilot.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=grok.com&wildcard=1" ${FOLDER}grok.com.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=x.com&wildcard=1" ${FOLDER}x-com.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=facebook.com&wildcard=1" ${FOLDER}meta.txt
