@@ -23,7 +23,12 @@ jobs:
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -L https://github.com/MetaCubeX/mihomo/releases/download/v1.19.9/mihomo-linux-amd64-v1.19.9.gz -o ./mihomo.gz
           gunzip -c ./mihomo.gz > ./mihomo
           chmod +x ./mihomo
-
+      - name: Generate services lists
+        env:
+          NO_SKIP: true
+        run: |
+          chmod +x ./update_services_list.sh
+          ./update_services_list.sh
       - name: Generate bypass lists
         env:
           NO_SKIP: true
@@ -42,12 +47,6 @@ jobs:
         run: |
           chmod +x ./update_ads_list.sh
           ./update_ads_list.sh
-      - name: Generate services lists
-        env:
-          NO_SKIP: true
-        run: |
-          chmod +x ./update_services_list.sh
-          ./update_services_list.sh
       - name: Cleanup
         env:
           NO_SKIP: true

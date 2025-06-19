@@ -2,12 +2,14 @@
 
 FOLDER="bypass/"
 MANUAL_FOLDER="manual/"
+SERVICES_FOLDER=FOLDER="services/"
+All_SERVICES_FILENAME="all_services.lst";
 
 download() {
     local uri="$1"
     local output_path="$2"
     local code
-    curl -L "${uri}" -o "${output_path}"
+    curl -sL "${uri}" -o "${output_path}"
     code=$?
     if [ $code -ne 0 ]; then
         echo "Curl failed with exit code $code"
@@ -47,7 +49,7 @@ main() {
     grep -v -F -x -f ${MANUAL_FOLDER}excluded-no-russia-hosts ${FOLDER}no-russia-hosts > ${FOLDER}no-russia-hosts.txt
     rm -r ${FOLDER}no-russia-hosts
 
-    cat ${FOLDER}guberniev-include.txt ${FOLDER}itdog-russia-inside.txt | sort | uniq > ${FOLDER}just-domains.txt
+    cat ${FOLDER}guberniev-include.txt ${FOLDER}itdog-russia-inside.txt ${SERVICES_FOLDER}${All_SERVICES_FILENAME} | sort | uniq > ${FOLDER}just-domains.txt
     rm -r ${FOLDER}guberniev-include.txt
 
     local file

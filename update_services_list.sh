@@ -1,13 +1,14 @@
 #!/bin/bash
 
 FOLDER="services/"
-MANUAL_FOLDER="manual/"
+MANUAL_FOLDER="manual/services/"
+All_SERVICES_FILENAME="all_services.lst";
 
 download() {
     local uri="$1"
     local output_path="$2"
     local code
-    curl "${uri}" -o "${output_path}"
+    curl -sL "${uri}" -o "${output_path}"
     code=$?
     if [ $code -ne 0 ]; then
         echo "Curl failed with exit code $code"
@@ -67,10 +68,14 @@ main() {
     cat ${MANUAL_FOLDER}manual-service-atlassian >> ${FOLDER}atlassian.txt
     cat ${MANUAL_FOLDER}manual-service-docker >> ${FOLDER}docker.txt
     cat ${MANUAL_FOLDER}manual-service-amazon >> ${FOLDER}amazon.txt
+    cat ${MANUAL_FOLDER}manual-servicedeepl >> ${FOLDER}deepl.txt
 
     local file
     find ${FOLDER} -type f -name "*.txt" | while IFS= read -r file; do
         echo "Processing: $file"
+
+        cat $$file >> ${FOLDER}${All_SERVICES_FILENAME}
+
         local yaml_file="${file%.*}.yaml"
         local rms_file="${file%.*}.rms"
         yaml "${file}" "${yaml_file}"

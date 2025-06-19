@@ -6,7 +6,7 @@ download() {
     local uri="$1"
     local output_path="$2"
     local code
-    curl -L "${uri}" -o "${output_path}"
+    curl -sL "${uri}" -o "${output_path}"
     code=$?
     if [ $code -ne 0 ]; then
         echo "Curl failed with exit code $code"
