@@ -21,6 +21,13 @@ split_subnets() {
     grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}\b' $input_file > $ipv4_file
     grep -Ev '\b([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}\b' $input_file > $ipv6_file
 }
+
+parse_json() {
+    local file="$1"
+    local output_file="$2"
+    cat $file | jq -r '.[] | .[]' > "$output_file"
+}
+
 cleanup() {
     local input_file="$1"
     local output_file="$2"
@@ -58,6 +65,9 @@ main() {
     download "https://core.telegram.org/resources/cidr.txt" ${FOLDER}dual/telegram.txt
     split_subnets ${FOLDER}dual/telegram.txt ${FOLDER}ipv4/telegram.txt ${FOLDER}ipv6/telegram.txt
 
+    download "https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips" ${FOLDER}ipv4/cloudfront.json
+    parse_json ${FOLDER}ipv4/cloudfront.json ${FOLDER}ipv4/cloudfront.txt
+
     echo >> ${FOLDER}ipv4/cloudflare.txt
     cat ${FOLDER}ipv4/cloudflare.txt ${FOLDER}ipv6/cloudflare.txt | sort | uniq > ${FOLDER}dual/cloudflare.txt
 
@@ -78,6 +88,7 @@ main() {
     find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
     find ${FOLDER} -type f -name "*.tmp" -exec rm -f {} +
     find ${FOLDER} -type f -name "*.yaml" -exec rm -f {} +
+    find ${FOLDER} -type f -name "*.json" -exec rm -f {} +
 }
 
 main
