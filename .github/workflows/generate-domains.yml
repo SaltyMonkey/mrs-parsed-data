@@ -59,8 +59,8 @@ jobs:
           echo "DATE=$(TZ=Europe/Moscow date +'%Y-%m-%dT%H:%M:%S')"  >> $GITHUB_ENV
       - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+           git config --local user.email "1570693+SaltyMonkey@users.noreply.github.com"
+          git config --local user.name "SaltyMonkey"
           git add .
           git commit -m "Generating .mrs rules ${{ env.DATE }}" -a || echo "No changes to commit"
           git push
