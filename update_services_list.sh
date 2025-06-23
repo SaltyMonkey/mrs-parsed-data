@@ -32,6 +32,7 @@ mkdir -p ${FOLDER}
 
 find ${FOLDER} -type f -name "*.txt" -exec rm -f {} +
 find ${FOLDER} -type f -name "*.yaml" -exec rm -f {} +
+rm -r ${FOLDER}${All_SERVICES_FILENAME}
 
 main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains.com&wildcard=1" ${FOLDER}jet-brains-com.txt
