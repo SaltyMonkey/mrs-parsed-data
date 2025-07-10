@@ -1,0 +1,5 @@
+enable=avoid-nullary-conditions
+enable=check-unassigned-uppercase
+enable=quote-safe-variables
+enable=add-default-case
+external-sources=true
