@@ -51,6 +51,8 @@ main() {
     cat "${MANUAL_FOLDER}"manual-service-amazon >> "${FOLDER}"amazon.txt
     cat "${MANUAL_FOLDER}"manual-service-deepl >> "${FOLDER}"deepl.txt
     cat "${MANUAL_FOLDER}"manual-service-tuya >> "${FOLDER}"tuya.txt
+    cat "${MANUAL_FOLDER}"manual-service-twitch-fix >> "${FOLDER}"twitch-fix.txt
+    cat "${MANUAL_FOLDER}"manual-service-anydesk >> "${FOLDER}"anydesk.txt
 
     local file
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
