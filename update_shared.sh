@@ -14,7 +14,9 @@ download() {
 cleanup() {
     local input_file="$1"
     local output_file="$2"
-    grep -v -E '^\s*#|^\s*$' "$input_file" > "$output_file"
+    local tmp_file=$(mktemp)
+    grep -v -E '^\s*#|^\s*$' "$input_file" > "$tmp_file"
+    mv "$tmp_file" "$output_file"
 }
 
 yaml() {
