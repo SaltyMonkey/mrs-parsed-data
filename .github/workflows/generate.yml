@@ -1,4 +1,4 @@
-name: Generate domains
+name: Generate data
 
 on:
   schedule:
