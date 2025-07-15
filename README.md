@@ -139,6 +139,7 @@
 
 ## Combined RMS
 - [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/cloudflare.rms)
+- [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/discord-voice.rms)
 - [discord.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/discord.rms)
 - [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/telegram.rms)
 
@@ -147,11 +148,13 @@
 - [antifiltercommunity.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifiltercommunity.rms)
 - [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.rms)
 - [cloudfront.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.rms)
+- [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.rms)
 - [discord.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord.rms)
 - [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/telegram.rms)
 
 ## IPv6 RMS
 - [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/cloudflare.rms)
+- [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/discord-voice.rms)
 - [discord.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/discord.rms)
 - [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/telegram.rms)
 
@@ -159,6 +162,7 @@
 
 - [Rekryt](https://github.com/rekryt/iplist) for https://iplist.opencck.org and hard work with updates
 - [ITDog](https://github.com/itdoginfo) and community for Russia Inside list
+- [GubernievS](https://github.com/GubernievS/AntiZapret-VPN/blob/main/setup/root/antizapret/download/include-hosts.txt) for include-hosts list with additional domains for bypass
 - [Hagezi](https://github.com/hagezi/dns-blocklists) for ADS/BAdware lists
 - [OISD.nl Team](https://oisd.nl/) For ADS/NSFW lists
 - [Antifilter Community](https://community.antifilter.download/) for IP/Domain lists
