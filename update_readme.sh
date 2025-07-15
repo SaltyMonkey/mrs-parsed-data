@@ -58,6 +58,7 @@ $(generate_markdown_list "rms" ./subnets/ipv6 "IPv6 RMS")
 
 - [Rekryt](https://github.com/rekryt/iplist) for https://iplist.opencck.org and hard work with updates
 - [ITDog](https://github.com/itdoginfo) and community for Russia Inside list
+- [GubernievS](https://github.com/GubernievS/AntiZapret-VPN/blob/main/setup/root/antizapret/download/include-hosts.txt) for include-hosts list with additional domains for bypass
 - [Hagezi](https://github.com/hagezi/dns-blocklists) for ADS/BAdware lists
 - [OISD.nl Team](https://oisd.nl/) For ADS/NSFW lists
 - [Antifilter Community](https://community.antifilter.download/) for IP/Domain lists
