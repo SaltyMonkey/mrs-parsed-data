@@ -12,11 +12,6 @@ jobs:
   generate_lists:
     runs-on: ubuntu-latest
     steps:
-      - name: Download and install Mihomo
-        run: |
-          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -L https://github.com/MetaCubeX/mihomo/releases/download/v1.19.9/mihomo-linux-amd64-v1.19.9.gz -o ./mihomo.gz
-          gunzip -c ./mihomo.gz > ./mihomo
-          chmod +x ./mihomo
       - name: Install Dependencies
         run: |
           sudo apt update
@@ -25,6 +20,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Pull Changes
         run: git pull
+      - name: Download and install Mihomo
+        run: |
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -L https://github.com/MetaCubeX/mihomo/releases/download/v1.19.9/mihomo-linux-amd64-v1.19.9.gz -o ./mihomo.gz
+          gunzip -c ./mihomo.gz > ./mihomo
+          chmod +x ./mihomo
       - name: Generate services lists
         env:
           NO_SKIP: true
