@@ -1,5 +1,5 @@
 #!/bin/bash
-GITHUBLINK="https://github.com/SaltyMonkey/rms-parsed-data/raw/refs/heads/main"
+GITHUBLINK="https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main"
 
 rm -f ./README.md
 
