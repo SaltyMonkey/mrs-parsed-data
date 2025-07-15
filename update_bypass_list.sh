@@ -2,7 +2,7 @@
 
 FOLDER="bypass/"
 MANUAL_FOLDER="manual/"
-SERVICES_FOLDER=FOLDER="services/"
+SERVICES_FOLDER="services/"
 All_SERVICES_FILENAME="all_services.lst";
 YAMLFOLDER="bypass/yaml/"
 

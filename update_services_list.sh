@@ -61,12 +61,15 @@ main() {
         echo "Processing: $file"
 
         cat "$file" >> "${FOLDER}${All_SERVICES_FILENAME}"
+        echo >> "${FOLDER}${All_SERVICES_FILENAME}"
 
         local yaml_file="${file%.*}.yaml"
         local rms_file="${file%.*}.rms"
         yaml_subdomains "${file}" "${yaml_file}"
         mrs_domain "${yaml_file}" "${rms_file}"
     done
+
+    cleanup "${FOLDER}${All_SERVICES_FILENAME}" "${FOLDER}${All_SERVICES_FILENAME}"
 
     mv "${FOLDER}"*.yaml "${YAMLFOLDER}"
     find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
