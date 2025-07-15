@@ -12,12 +12,14 @@ mkdir -p "${FOLDER}"dual/
 find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.tmp" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
+find "${FOLDER}" -type f -name "*.json" -exec rm -f {} +
 
 main() {
     download "https://www.cloudflare.com/ips-v4" "${FOLDER}"ipv4/cloudflare.txt
     download "https://www.cloudflare.com/ips-v6" "${FOLDER}"ipv6/cloudflare.txt
     download "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg&site=discord.media" "${FOLDER}"ipv4/discord.txt
     download "https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg&site=discord.media" "${FOLDER}"ipv6/discord.txt
+    download "https://community.antifilter.download/list/community.lst" "${FOLDER}"ipv4/antifiltercommunity.txt
 
     download "https://core.telegram.org/resources/cidr.txt" "${FOLDER}"dual/telegram.txt
     split_subnets "${FOLDER}"dual/telegram.txt "${FOLDER}"ipv4/telegram.txt "${FOLDER}"ipv6/telegram.txt

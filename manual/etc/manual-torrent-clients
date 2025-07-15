@@ -1,4 +1,3 @@
-# Windows (с заглавными буквами и .exe)
 uTorrent.exe
 BitTorrent.exe
 qBittorrent.exe
@@ -30,8 +29,6 @@ Lesta.exe
 LGC.exe
 TorrServer.exe
 Azureus.exe
-
-# Linux (обычно в нижнем регистре)
 utorrent
 bittorrent
 qbittorrent
@@ -73,8 +70,6 @@ lesta
 lgc
 torrserver
 azureus
-
-# Android (имена пакетов)
 org.qbittorrent.client
 com.utorrent.client
 org.deluge

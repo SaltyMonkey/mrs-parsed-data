@@ -3,69 +3,63 @@ GITHUBLINK="https://github.com/SaltyMonkey/rms-parsed-data/raw/refs/heads/main"
 
 rm -f ./README.md
 
-SERVICES_rms=$(find "./services" -type f -name "*.rms" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-SERVICES_YAML=$(find "./services" -type f -name "*.yaml" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-BYPASS_rms=$(find "./bypass" -type f -name "*.rms" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-BYPASS_YAML=$(find "./bypass" -type f -name "*.yaml" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-ADS_rms=$(find "./ads" -type f -name "*.rms" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-ADS_YAML=$(find "./ads" -type f -name "*.yaml" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-BADWARE_rms=$(find "./badware" -type f -name "*.rms" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-BADWARE_YAML=$(find "./badware" -type f -name "*.yaml" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
-SUBNETS_rms=$(find "./subnets" -type f -name "*.rms" | while read -r file; do
-    file_name=$(basename "$file")
-    file_path=${file#./}
-    echo "- [$file_name]($GITHUBLINK/$file_path)"
-done)
+generate_markdown_list() {
+    local ext="$1"
+    local dir="$2"
+    local heading="$3"
+
+    echo "## $heading"
+
+    if find "$dir" -type f -name "*.$ext" | grep -q .; then
+        find "$dir" -type f -name "*.$ext" | sort | while read -r file; do
+            local file_name
+            file_name=$(basename "$file")
+            local file_path=${file#./}
+            echo "- [$file_name]($GITHUBLINK/$file_path)"
+        done
+    else
+        echo "_No files found._"
+    fi
+
+    echo
+}
 
 cat <<EOF >> ./README.md
+
 ## Services
-$SERVICES_rms
-$SERVICES_YAML
+
+$(generate_markdown_list "rms" ./services "RMS")
+$(generate_markdown_list "yaml" ./services "YAML")
 
 ## ADS
-$ADS_rms
-$ADS_YAML
+
+$(generate_markdown_list "rms" ./ads "RMS")
+$(generate_markdown_list "yaml" ./ads "YAML")
 
 ## Badware
-$BADWARE_rms
-$BADWARE_YAML
+
+$(generate_markdown_list "rms" ./badware "RMS")
+$(generate_markdown_list "yaml" ./badware "YAML")
 
 ## Bypass
-$BYPASS_rms
-$BYPASS_YAML
+
+$(generate_markdown_list "rms" ./bypass "RMS")
+$(generate_markdown_list "yaml" ./bypass "YAML")
 
 ## Subnets
-$SUBNETS_rms
+
+$(generate_markdown_list "rms" ./subnets/dual "Combined RMS")
+
+$(generate_markdown_list "rms" ./subnets/ipv4 "IPv4 RMS")
+
+$(generate_markdown_list "rms" ./subnets/ipv6 "IPv6 RMS")
+
+## Credits:
+
+- [Rekryt](https://github.com/rekryt/iplist) for https://iplist.opencck.org and hard work with updates
+- [ITDog](https://github.com/itdoginfo) and community for Russia Inside list
+- [Hagezi](https://github.com/hagezi/dns-blocklists) for ADS/BAdware lists
+- [OISD.nl Team](https://oisd.nl/) For ADS/NSFW lists
+- [Antifilter Community](https://community.antifilter.download/) for IP/Domain lists
+
 EOF
