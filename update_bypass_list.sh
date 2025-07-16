@@ -25,7 +25,9 @@ main() {
     grep -v -F -x -f "${MANUAL_FOLDER}"excluded-no-russia-hosts "${FOLDER}"no-russia-hosts > "${FOLDER}"no-russia-hosts.txt
     rm -r "${FOLDER}"no-russia-hosts
 
-    cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt "${SERVICES_FOLDER}${All_SERVICES_FILENAME}" | sort | uniq > "${FOLDER}"just-domains.txt
+    #cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt "${SERVICES_FOLDER}${All_SERVICES_FILENAME}" | sort | uniq > "${FOLDER}"just-domains.txt
+    cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt | sort | uniq > "${FOLDER}"just-domains.txt
+
     rm -f "${FOLDER}"guberniev-include.txt
 
     local file
