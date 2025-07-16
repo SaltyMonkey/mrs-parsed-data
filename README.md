@@ -145,7 +145,6 @@
 
 ## IPv4 RMS
 - [antifilter-community.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifilter-community.rms)
-- [antifiltercommunity.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifiltercommunity.rms)
 - [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.rms)
 - [cloudfront.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.rms)
 - [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.rms)
