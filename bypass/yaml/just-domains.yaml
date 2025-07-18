@@ -95,6 +95,7 @@ payload:
   - '+.app.engagor.com'
   - '+.app.flourish.studio'
   - '+.app.langdock.com'
+  - '+.app.n8n.cloud'
   - '+.app.terraform.io'
   - '+.app.zerossl.com'
   - '+.arbat.media'
