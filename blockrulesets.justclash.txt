@@ -1,0 +1,15 @@
+Google ads|google-ads|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/google-ads.rms
+Hagezi pro ads|hagezi-pro-ads|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/hagezi-pro-ads.rms
+Hagezi pro mini ads|hagezi-pro-mini-ads|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/hagezi-pro-mini-ads.rms
+Oisd big|oisd-big|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-big.rms
+Oisd nsfw small|oisd-nsfw-small|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-nsfw-small.rms
+Oisd nsfw|oisd-nsfw|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-nsfw.rms
+Oisd small|oisd-small|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-small.rms
+Hagezi spy apple|hagezi-spy-apple|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-apple.rms
+Hagezi spy huawei|hagezi-spy-huawei|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-huawei.rms
+Hagezi spy lgwebos|hagezi-spy-lgwebos|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-lgwebos.rms
+Hagezi spy opporealme|hagezi-spy-opporealme|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-opporealme.rms
+Hagezi spy samsung|hagezi-spy-samsung|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-samsung.rms
+Hagezi spy vivo|hagezi-spy-vivo|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-vivo.rms
+Hagezi spy winoffice|hagezi-spy-winoffice|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-winoffice.rms
+Hagezi spy xiaomi|hagezi-spy-xiaomi|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-xiaomi.rms

@@ -39,7 +39,7 @@
 - [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/telegram.rms)
 - [tuya.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/tuya.rms)
 - [twitch-fix.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/twitch-fix.rms)
-- [x-com.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x-com.rms)
+- [x.com.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.com.rms)
 - [youtube.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.rms)
 ## YAML
 - [amazon.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/amazon.yaml)
@@ -79,7 +79,7 @@
 - [telegram.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/telegram.yaml)
 - [tuya.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/tuya.yaml)
 - [twitch-fix.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/twitch-fix.yaml)
-- [x-com.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/x-com.yaml)
+- [x.com.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/x.com.yaml)
 - [youtube.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/youtube.yaml)
 
 ## ADS
@@ -104,23 +104,23 @@
 ## Badware
 
 ## RMS
-- [hagezi-sw-apple.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-apple.rms)
-- [hagezi-sw-huawei.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-huawei.rms)
-- [hagezi-sw-lgwebos.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-lgwebos.rms)
-- [hagezi-sw-oppo-realme.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-oppo-realme.rms)
-- [hagezi-sw-samsung.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-samsung.rms)
-- [hagezi-sw-vivo.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-vivo.rms)
-- [hagezi-sw-winoffice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-winoffice.rms)
-- [hagezi-sw-xiaomi.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-sw-xiaomi.rms)
+- [hagezi-spy-apple.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-apple.rms)
+- [hagezi-spy-huawei.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-huawei.rms)
+- [hagezi-spy-lgwebos.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-lgwebos.rms)
+- [hagezi-spy-opporealme.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-opporealme.rms)
+- [hagezi-spy-samsung.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-samsung.rms)
+- [hagezi-spy-vivo.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-vivo.rms)
+- [hagezi-spy-winoffice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-winoffice.rms)
+- [hagezi-spy-xiaomi.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-xiaomi.rms)
 ## YAML
-- [hagezi-sw-apple.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-apple.yaml)
-- [hagezi-sw-huawei.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-huawei.yaml)
-- [hagezi-sw-lgwebos.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-lgwebos.yaml)
-- [hagezi-sw-oppo-realme.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-oppo-realme.yaml)
-- [hagezi-sw-samsung.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-samsung.yaml)
-- [hagezi-sw-vivo.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-vivo.yaml)
-- [hagezi-sw-winoffice.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-winoffice.yaml)
-- [hagezi-sw-xiaomi.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-sw-xiaomi.yaml)
+- [hagezi-spy-apple.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-apple.yaml)
+- [hagezi-spy-huawei.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-huawei.yaml)
+- [hagezi-spy-lgwebos.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-lgwebos.yaml)
+- [hagezi-spy-opporealme.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-opporealme.yaml)
+- [hagezi-spy-samsung.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-samsung.yaml)
+- [hagezi-spy-vivo.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-vivo.yaml)
+- [hagezi-spy-winoffice.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-winoffice.yaml)
+- [hagezi-spy-xiaomi.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-xiaomi.yaml)
 
 ## Bypass
 
@@ -140,7 +140,6 @@
 ## Combined RMS
 - [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/cloudflare.rms)
 - [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/discord-voice.rms)
-- [discord.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/discord.rms)
 - [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/telegram.rms)
 
 ## IPv4 RMS
@@ -148,13 +147,11 @@
 - [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.rms)
 - [cloudfront.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.rms)
 - [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.rms)
-- [discord.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord.rms)
 - [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/telegram.rms)
 
 ## IPv6 RMS
 - [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/cloudflare.rms)
 - [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/discord-voice.rms)
-- [discord.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/discord.rms)
 - [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/telegram.rms)
 
 ## Credits:
