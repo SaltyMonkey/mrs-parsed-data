@@ -1,0 +1,40 @@
+#!/bin/bash
+GITHUBLINK="https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main"
+
+RULESETS_FILEPATH="./rulesets.justclash.txt"
+BLOCKRULESETS_FILEPATH="./blockrulesets.justclash.txt"
+
+rm -f $RULESETS_FILEPATH
+rm -f $BLOCKRULESETS_FILEPATH
+generate_list() {
+    local ext="$1"
+    local dir="$2"
+    local ruletype="$3"
+    local readable_name_addon="$4"
+    if find "$dir" -type f -name "*.$ext" | grep -q .; then
+        find "$dir" -type f -name "*.$ext" | sort | while read -r file; do
+            local file_name
+            file_name=$(basename "$file" ."$ext")
+            local file_path=${file#./}
+            local github_path=$GITHUBLINK/$file_path
+            local readable_upper_name=${file_name^}
+            readable_name=${readable_upper_name//-/ }
+            if [ -n "$readable_name_addon" ]; then
+                readable_name="$readable_name $readable_name_addon"
+            fi
+            echo "$readable_name|$file_name|$ruletype|$ext|$github_path"
+        done
+    fi
+}
+
+cat <<EOF >> "$RULESETS_FILEPATH"
+$(generate_list "rms" ./bypass "domain")
+$(generate_list "rms" ./services "domain")
+$(generate_list "rms" ./subnets/ipv4 "ipcidr" "CIDR")
+
+EOF
+
+cat <<EOF >> "$BLOCKRULESETS_FILEPATH"
+$(generate_list "rms" ./ads "domain")
+$(generate_list "rms" ./badware "domain")
+EOF

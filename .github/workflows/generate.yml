@@ -61,6 +61,12 @@ jobs:
         run: |
           chmod +x ./update_readme.sh
           ./update_readme.sh
+      - name: Update JustClash lists
+        env:
+          NO_SKIP: true
+        run: |
+          chmod +x ./update_justclash_lists.sh
+          ./update_justclash_lists.sh
       - name: Cleanup
         env:
           NO_SKIP: true
