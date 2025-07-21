@@ -32,13 +32,13 @@ generate_list() {
 }
 
 cat <<EOF >> "$RULESETS_FILEPATH"
-$(generate_list "rms" ./bypass "domain")
-$(generate_list "rms" ./services "domain")
-$(generate_list "rms" ./subnets/ipv4 "ipcidr" "CIDR" "ipcidr")
+$(generate_list "mrs" ./bypass "domain")
+$(generate_list "mrs" ./services "domain")
+$(generate_list "mrs" ./subnets/ipv4 "ipcidr" "CIDR" "ipcidr")
 
 EOF
 
 cat <<EOF >> "$BLOCKRULESETS_FILEPATH"
-$(generate_list "rms" ./ads "domain")
-$(generate_list "rms" ./badware "domain")
+$(generate_list "mrs" ./ads "domain")
+$(generate_list "mrs" ./badware "domain")
 EOF

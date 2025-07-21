@@ -64,9 +64,9 @@ main() {
         echo >> "${FOLDER}${All_SERVICES_FILENAME}"
 
         local yaml_file="${file%.*}.yaml"
-        local rms_file="${file%.*}.rms"
+        local mrs_file="${file%.*}.mrs"
         yaml_subdomains "${file}" "${yaml_file}"
-        mrs_domain "${yaml_file}" "${rms_file}"
+        mrs_domain "${yaml_file}" "${mrs_file}"
     done
 
     cleanup "${FOLDER}${All_SERVICES_FILENAME}" "${FOLDER}${All_SERVICES_FILENAME}"

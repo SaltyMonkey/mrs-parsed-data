@@ -27,10 +27,10 @@ main() {
         echo "Processing: $file"
         local tmp_file=${file%.*}.tmp
         local yaml_file=${file%.*}.yaml
-        local rms_file=${file%.*}.rms
+        local mrs_file=${file%.*}.mrs
         cleanup "${file}" "${tmp_file}"
         yaml "${tmp_file}" "${yaml_file}"
-        mrs_domain "${yaml_file}" "${rms_file}"
+        mrs_domain "${yaml_file}" "${mrs_file}"
     done
 
     mv  "$FOLDER"*.yaml "$YAMLFOLDER"

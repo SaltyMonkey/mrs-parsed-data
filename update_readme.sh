@@ -28,31 +28,31 @@ cat <<EOF >> ./README.md
 
 ## Services
 
-$(generate_markdown_list "rms" ./services "RMS")
+$(generate_markdown_list "mrs" ./services "MRS")
 $(generate_markdown_list "yaml" ./services "YAML")
 
 ## ADS
 
-$(generate_markdown_list "rms" ./ads "RMS")
+$(generate_markdown_list "mrs" ./ads "MRS")
 $(generate_markdown_list "yaml" ./ads "YAML")
 
 ## Badware
 
-$(generate_markdown_list "rms" ./badware "RMS")
+$(generate_markdown_list "mrs" ./badware "MRS")
 $(generate_markdown_list "yaml" ./badware "YAML")
 
 ## Bypass
 
-$(generate_markdown_list "rms" ./bypass "RMS")
+$(generate_markdown_list "mrs" ./bypass "MRS")
 $(generate_markdown_list "yaml" ./bypass "YAML")
 
 ## Subnets
 
-$(generate_markdown_list "rms" ./subnets/dual "Combined RMS")
+$(generate_markdown_list "mrs" ./subnets/dual "Combined MRS")
 
-$(generate_markdown_list "rms" ./subnets/ipv4 "IPv4 RMS")
+$(generate_markdown_list "mrs" ./subnets/ipv4 "IPv4 MRS")
 
-$(generate_markdown_list "rms" ./subnets/ipv6 "IPv6 RMS")
+$(generate_markdown_list "mrs" ./subnets/ipv6 "IPv6 MRS")
 
 ## Credits:
 
