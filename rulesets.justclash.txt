@@ -41,9 +41,9 @@ Tuya|tuya|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-da
 Twitch fix|twitch-fix|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/twitch-fix.rms
 X.com|x.com|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.com.rms
 Youtube|youtube|domain|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.rms
-Antifilter community CIDR|antifilter-community|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifilter-community.rms
-Cloudflare CIDR|cloudflare|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.rms
-Cloudfront CIDR|cloudfront|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.rms
-Discord voice CIDR|discord-voice|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.rms
-Telegram CIDR|telegram|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/telegram.rms
+Antifilter community CIDR|antifilter-community-ipcidr|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifilter-community.rms
+Cloudflare CIDR|cloudflare-ipcidr|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.rms
+Cloudfront CIDR|cloudfront-ipcidr|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.rms
+Discord voice CIDR|discord-voice-ipcidr|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.rms
+Telegram CIDR|telegram-ipcidr|ipcidr|rms|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/telegram.rms
 
