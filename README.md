@@ -1,46 +1,46 @@
 
 ## Services
 
-## RMS
-- [amazon.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amazon.rms)
-- [anydesk.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/anydesk.rms)
-- [atlassian.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/atlassian.rms)
-- [chatgpt.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/chatgpt.rms)
-- [claudeai.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/claudeai.rms)
-- [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/cloudflare.rms)
-- [copilot.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/copilot.rms)
-- [daramalivelife.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/daramalivelife.rms)
-- [deepl.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/deepl.rms)
-- [discord.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/discord.rms)
-- [docker.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/docker.rms)
-- [doramyclub.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/doramyclub.rms)
-- [gemini.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/gemini.rms)
-- [grok.com.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.com.rms)
-- [hdrezka.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hdrezka.rms)
-- [hetzner.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hetzner.rms)
-- [instagram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/instagram.rms)
-- [jet-brains-cdn.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains-cdn.rms)
-- [jet-brains-com.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains-com.rms)
-- [jet-brains-grazieai.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains-grazieai.rms)
-- [jet-brains.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains.rms)
-- [kinopub.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/kinopub.rms)
-- [kinozal.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/kinozal.rms)
-- [linkedin.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/linkedin.rms)
-- [lostfilm.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/lostfilm.rms)
-- [medium.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/medium.rms)
-- [meta.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/meta.rms)
-- [netflix.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/netflix.rms)
-- [nix.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/nix.rms)
-- [nnmclub.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/nnmclub.rms)
-- [notebooklm.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/notebooklm.rms)
-- [ovh.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/ovh.rms)
-- [rutracker.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/rutracker.rms)
-- [spotify.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/spotify.rms)
-- [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/telegram.rms)
-- [tuya.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/tuya.rms)
-- [twitch-fix.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/twitch-fix.rms)
-- [x.com.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.com.rms)
-- [youtube.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.rms)
+## MRS
+- [amazon.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amazon.mrs)
+- [anydesk.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/anydesk.mrs)
+- [atlassian.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/atlassian.mrs)
+- [chatgpt.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/chatgpt.mrs)
+- [claudeai.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/claudeai.mrs)
+- [cloudflare.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/cloudflare.mrs)
+- [copilot.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/copilot.mrs)
+- [daramalivelife.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/daramalivelife.mrs)
+- [deepl.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/deepl.mrs)
+- [discord.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/discord.mrs)
+- [docker.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/docker.mrs)
+- [doramyclub.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/doramyclub.mrs)
+- [gemini.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/gemini.mrs)
+- [grok.com.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.com.mrs)
+- [hdrezka.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hdrezka.mrs)
+- [hetzner.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hetzner.mrs)
+- [instagram.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/instagram.mrs)
+- [jet-brains-cdn.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains-cdn.mrs)
+- [jet-brains-com.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains-com.mrs)
+- [jet-brains-grazieai.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains-grazieai.mrs)
+- [jet-brains.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/jet-brains.mrs)
+- [kinopub.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/kinopub.mrs)
+- [kinozal.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/kinozal.mrs)
+- [linkedin.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/linkedin.mrs)
+- [lostfilm.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/lostfilm.mrs)
+- [medium.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/medium.mrs)
+- [meta.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/meta.mrs)
+- [netflix.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/netflix.mrs)
+- [nix.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/nix.mrs)
+- [nnmclub.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/nnmclub.mrs)
+- [notebooklm.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/notebooklm.mrs)
+- [ovh.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/ovh.mrs)
+- [rutracker.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/rutracker.mrs)
+- [spotify.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/spotify.mrs)
+- [telegram.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/telegram.mrs)
+- [tuya.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/tuya.mrs)
+- [twitch-fix.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/twitch-fix.mrs)
+- [x.com.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.com.mrs)
+- [youtube.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.mrs)
 ## YAML
 - [amazon.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/amazon.yaml)
 - [anydesk.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/anydesk.yaml)
@@ -84,14 +84,14 @@
 
 ## ADS
 
-## RMS
-- [google-ads.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/google-ads.rms)
-- [hagezi-pro-ads.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/hagezi-pro-ads.rms)
-- [hagezi-pro-mini-ads.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/hagezi-pro-mini-ads.rms)
-- [oisd-big.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-big.rms)
-- [oisd-nsfw-small.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-nsfw-small.rms)
-- [oisd-nsfw.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-nsfw.rms)
-- [oisd-small.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-small.rms)
+## MRS
+- [google-ads.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/google-ads.mrs)
+- [hagezi-pro-ads.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/hagezi-pro-ads.mrs)
+- [hagezi-pro-mini-ads.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/hagezi-pro-mini-ads.mrs)
+- [oisd-big.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-big.mrs)
+- [oisd-nsfw-small.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-nsfw-small.mrs)
+- [oisd-nsfw.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-nsfw.mrs)
+- [oisd-small.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/oisd-small.mrs)
 ## YAML
 - [google-ads.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/yaml/google-ads.yaml)
 - [hagezi-pro-ads.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/ads/yaml/hagezi-pro-ads.yaml)
@@ -103,15 +103,15 @@
 
 ## Badware
 
-## RMS
-- [hagezi-spy-apple.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-apple.rms)
-- [hagezi-spy-huawei.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-huawei.rms)
-- [hagezi-spy-lgwebos.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-lgwebos.rms)
-- [hagezi-spy-opporealme.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-opporealme.rms)
-- [hagezi-spy-samsung.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-samsung.rms)
-- [hagezi-spy-vivo.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-vivo.rms)
-- [hagezi-spy-winoffice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-winoffice.rms)
-- [hagezi-spy-xiaomi.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-xiaomi.rms)
+## MRS
+- [hagezi-spy-apple.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-apple.mrs)
+- [hagezi-spy-huawei.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-huawei.mrs)
+- [hagezi-spy-lgwebos.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-lgwebos.mrs)
+- [hagezi-spy-opporealme.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-opporealme.mrs)
+- [hagezi-spy-samsung.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-samsung.mrs)
+- [hagezi-spy-vivo.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-vivo.mrs)
+- [hagezi-spy-winoffice.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-winoffice.mrs)
+- [hagezi-spy-xiaomi.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/hagezi-spy-xiaomi.mrs)
 ## YAML
 - [hagezi-spy-apple.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-apple.yaml)
 - [hagezi-spy-huawei.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/badware/yaml/hagezi-spy-huawei.yaml)
@@ -124,11 +124,11 @@
 
 ## Bypass
 
-## RMS
-- [antifilter-community.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/antifilter-community.rms)
-- [itdog-russia-inside.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/itdog-russia-inside.rms)
-- [just-domains.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/just-domains.rms)
-- [no-russia-hosts.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/no-russia-hosts.rms)
+## MRS
+- [antifilter-community.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/antifilter-community.mrs)
+- [itdog-russia-inside.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/itdog-russia-inside.mrs)
+- [just-domains.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/just-domains.mrs)
+- [no-russia-hosts.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/no-russia-hosts.mrs)
 ## YAML
 - [antifilter-community.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/antifilter-community.yaml)
 - [itdog-russia-inside.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/itdog-russia-inside.yaml)
@@ -137,22 +137,22 @@
 
 ## Subnets
 
-## Combined RMS
-- [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/cloudflare.rms)
-- [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/discord-voice.rms)
-- [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/telegram.rms)
+## Combined MRS
+- [cloudflare.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/cloudflare.mrs)
+- [discord-voice.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/discord-voice.mrs)
+- [telegram.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/telegram.mrs)
 
-## IPv4 RMS
-- [antifilter-community.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifilter-community.rms)
-- [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.rms)
-- [cloudfront.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.rms)
-- [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.rms)
-- [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/telegram.rms)
+## IPv4 MRS
+- [antifilter-community.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifilter-community.mrs)
+- [cloudflare.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.mrs)
+- [cloudfront.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.mrs)
+- [discord-voice.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.mrs)
+- [telegram.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/telegram.mrs)
 
-## IPv6 RMS
-- [cloudflare.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/cloudflare.rms)
-- [discord-voice.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/discord-voice.rms)
-- [telegram.rms](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/telegram.rms)
+## IPv6 MRS
+- [cloudflare.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/cloudflare.mrs)
+- [discord-voice.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/discord-voice.mrs)
+- [telegram.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/telegram.mrs)
 
 ## Credits:
 
