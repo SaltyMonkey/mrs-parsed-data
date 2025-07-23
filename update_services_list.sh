@@ -15,9 +15,6 @@ find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
 rm -r "${FOLDER}${All_SERVICES_FILENAME}"
 
 main() {
-    download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains.com&wildcard=1" "${FOLDER}"jet-brains-com.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains%40cdn&wildcard=1" "${FOLDER}"jet-brains-cdn.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=jetbrains%40grazie.ai&wildcard=1" "${FOLDER}"jet-brains-grazieai.txt
     download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40google-gemini" "${FOLDER}"gemini.txt
     download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40notebooklm" "${FOLDER}"notebooklm.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=netflix.com&wildcard=1" "${FOLDER}"netflix.txt
@@ -33,7 +30,6 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=x.com&wildcard=1" "${FOLDER}"x.com.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=facebook.com&wildcard=1" "${FOLDER}"meta.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=instagram.com&wildcard=1" "${FOLDER}"instagram.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=youtube.com&wildcard=1" "${FOLDER}"youtube.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=spotify.com&wildcard=1" "${FOLDER}"spotify.txt
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=deepl.com" "${FOLDER}"deepl.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=discord.com&site=discord.gg&site=discord.media&wildcard=1" "${FOLDER}"discord.txt
@@ -43,8 +39,13 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=daramalive.life" "${FOLDER}"daramalivelife.txt
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=kino.pub" "${FOLDER}"kinopub.txt
     download "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=anydesk.com" "${FOLDER}"anydesk.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon.yaml" "${FOLDER}"amazon.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/youtube.yaml" "${FOLDER}"youtube.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/whatsapp.yaml" "${FOLDER}"whatsapp.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-play.yaml" "${FOLDER}"google-play.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/akamai.yaml" "${FOLDER}"akamai.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/twitch.yaml" "${FOLDER}"twitch.yaml
 
-    cat "${FOLDER}"jet-brains-com.txt "${FOLDER}"jet-brains-cdn.txt "${FOLDER}"jet-brains-grazieai.txt | sort | uniq > "${FOLDER}"jet-brains.txt
     cat "${MANUAL_FOLDER}"manual-service-hetzner >> "${FOLDER}"hetzner.txt
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
     cat "${MANUAL_FOLDER}"manual-service-cloudflare >> "${FOLDER}"cloudflare.txt
@@ -52,11 +53,17 @@ main() {
     cat "${MANUAL_FOLDER}"manual-service-nix-distros >> "${FOLDER}"nix.txt
     cat "${MANUAL_FOLDER}"manual-service-atlassian >> "${FOLDER}"atlassian.txt
     cat "${MANUAL_FOLDER}"manual-service-docker >> "${FOLDER}"docker.txt
-    cat "${MANUAL_FOLDER}"manual-service-amazon >> "${FOLDER}"amazon.txt
     cat "${MANUAL_FOLDER}"manual-service-tuya >> "${FOLDER}"tuya.txt
     cat "${MANUAL_FOLDER}"manual-service-twitch-fix >> "${FOLDER}"twitch-fix.txt
 
     local file
+
+    find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
+        echo "Processing YAML: $file"
+        local mrs_file=${file%.*}.mrs
+        mrs_domain "${file}" "${mrs_file}"
+    done
+
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
         echo "Processing: $file"
 

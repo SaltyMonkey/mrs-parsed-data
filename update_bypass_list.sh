@@ -2,8 +2,8 @@
 
 FOLDER="bypass/"
 MANUAL_FOLDER="manual/"
-SERVICES_FOLDER="services/"
-All_SERVICES_FILENAME="all_services.lst";
+#SERVICES_FOLDER="services/"
+#All_SERVICES_FILENAME="all_services.lst";
 YAMLFOLDER="bypass/yaml/"
 
 source ./update_shared.sh
@@ -35,6 +35,7 @@ main() {
 
     find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
         echo "Processing YAML: $file"
+        local mrs_file=${file%.*}.mrs
         mrs_domain "${file}" "${mrs_file}"
     done
 
