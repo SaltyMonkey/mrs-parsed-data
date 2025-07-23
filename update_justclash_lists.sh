@@ -20,6 +20,12 @@ generate_list() {
             local github_path=$GITHUBLINK/$file_path
             local readable_upper_name=${file_name^}
             readable_name=${readable_upper_name//-/ }
+            readable_name=$(echo "$readable_name" | sed '
+                s/\bru\b/RU/gi;
+                s/\brussia\b/Russia/gi;
+                s/\bads\b/ADS/gi;
+                s/\bnsfw\b/NSFW/gi
+            ')
             if [ -n "$readable_name_addon" ]; then
                 readable_name="$readable_name $readable_name_addon"
             fi

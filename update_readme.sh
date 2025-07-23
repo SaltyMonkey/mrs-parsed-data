@@ -56,6 +56,7 @@ $(generate_markdown_list "mrs" ./subnets/ipv6 "IPv6 MRS")
 
 ## Credits:
 
+- [MetaCubeX](https://github.com/MetaCubeX/meta-rules-dat) for meta-rules-dat repository
 - [Rekryt](https://github.com/rekryt/iplist) for https://iplist.opencck.org and hard work with updates
 - [ITDog](https://github.com/itdoginfo) and community for Russia Inside list
 - [GubernievS](https://github.com/GubernievS/AntiZapret-VPN/blob/main/setup/root/antizapret/download/include-hosts.txt) for include-hosts list with additional domains for bypass

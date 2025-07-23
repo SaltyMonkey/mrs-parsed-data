@@ -21,7 +21,8 @@ main() {
     download https://raw.githubusercontent.com/GubernievS/AntiZapret-VPN/refs/heads/main/setup/root/antizapret/download/include-hosts.txt "${FOLDER}"guberniev-include.txt
     download https://community.antifilter.download/list/domains.lst "${FOLDER}"antifilter-community.txt
     download https://raw.githubusercontent.com/dartraiden/no-russia-hosts/refs/heads/master/hosts.txt "${FOLDER}"no-russia-hosts
-
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-gov-ru.yaml "${FOLDER}"category-gov-ru.yaml
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.yaml "${FOLDER}"category-ru.yaml
     grep -v -F -x -f "${MANUAL_FOLDER}"excluded-no-russia-hosts "${FOLDER}"no-russia-hosts > "${FOLDER}"no-russia-hosts.txt
     rm -r "${FOLDER}"no-russia-hosts
 
@@ -31,6 +32,12 @@ main() {
     rm -f "${FOLDER}"guberniev-include.txt
 
     local file
+
+    find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
+        echo "Processing YAML: $file"
+        mrs_domain "${file}" "${mrs_file}"
+    done
+
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
         echo "Processing: $file"
         local tmp_file=${file%.*}.tmp
