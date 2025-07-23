@@ -1,7 +1,7 @@
 Antifilter community|antifilter-community|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/antifilter-community.mrs
-Itdog russia inside|itdog-russia-inside|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/itdog-russia-inside.mrs
+Itdog Russia inside|itdog-russia-inside|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/itdog-russia-inside.mrs
 Just domains|just-domains|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/just-domains.mrs
-No russia hosts|no-russia-hosts|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/no-russia-hosts.mrs
+No Russia hosts|no-russia-hosts|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/no-russia-hosts.mrs
 Amazon|amazon|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amazon.mrs
 Anydesk|anydesk|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/anydesk.mrs
 Atlassian|atlassian|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/atlassian.mrs
