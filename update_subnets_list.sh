@@ -20,6 +20,7 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg" "${FOLDER}"ipv4/discord-voice.txt
     download "https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg" "${FOLDER}"ipv6/discord-voice.txt
     download "https://community.antifilter.download/list/community.lst" "${FOLDER}"ipv4/antifilter-community.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml" "${FOLDER}"ipv4/apple.yaml
 
     download "https://core.telegram.org/resources/cidr.txt" "${FOLDER}"dual/telegram.txt
     split_subnets "${FOLDER}"dual/telegram.txt "${FOLDER}"ipv4/telegram.txt "${FOLDER}"ipv6/telegram.txt
@@ -34,6 +35,14 @@ main() {
     cat "${FOLDER}"ipv4/discord-voice.txt "${FOLDER}"ipv6/discord-voice.txt | sort | uniq > "${FOLDER}"dual/discord-voice.txt
 
     local file
+
+
+    find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
+        echo "Processing YAML: $file"
+        local mrs_file=${file%.*}.mrs
+        mrs_ipcidr "${file}" "${mrs_file}"
+    done
+
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
         echo "Processing: $file"
         local tmp_file="${file%.*}.tmp"
