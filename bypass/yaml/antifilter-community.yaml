@@ -44,6 +44,7 @@ payload:
   - '+.apt.releases.hashicorp.com'
   - '+.aqicn.org'
   - '+.arc.intel.com'
+  - '+.archiveofourown.org'
   - '+.arm.com'
   - '+.artifacts.elastic.co'
   - '+.atlassian.com'
