@@ -29,7 +29,7 @@ main() {
         local yaml_file=${file%.*}.yaml
         local mrs_file=${file%.*}.mrs
         cleanup "${file}" "${tmp_file}"
-        yaml "${tmp_file}" "${yaml_file}"
+        yaml_subdomains "${tmp_file}" "${yaml_file}"
         mrs_domain "${yaml_file}" "${mrs_file}"
     done
 

@@ -42,7 +42,7 @@ yaml_subdomains() {
     local input_file="$1"
     local output_file="$2"
     echo "payload:" > "${output_file}"
-    cat "$input_file" | sed "s/.*/  - '+.&'/" >> "$output_file"
+    cat "$input_file" | sed "s/^\*\. //; s/.*/  - '+.&'/" >> "$output_file"
 }
 
 parse_json() {
