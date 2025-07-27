@@ -1,7 +1,7 @@
 payload:
-  - '+.akamaized.net'
-  - '+.t.co'
-  - '+.tweetdeck.com'
-  - '+.twimg.com'
-  - '+.twitter.com'
-  - '+.x.com'
+    - '+.akamaized.net'
+    - '+.t.co'
+    - '+.tweetdeck.com'
+    - '+.twimg.com'
+    - '+.twitter.com'
+    - '+.x.com'
