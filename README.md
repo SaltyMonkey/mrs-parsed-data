@@ -189,6 +189,7 @@
 - [just-domains.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/just-domains.mrs)
 - [no-russia-hosts.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/no-russia-hosts.mrs)
 ## YAML
+- [antifilter-community.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/antifilter-community.yaml)
 - [category-dev.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/category-dev.yaml)
 - [category-gov-ru.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/category-gov-ru.yaml)
 - [category-ru.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/category-ru.yaml)
