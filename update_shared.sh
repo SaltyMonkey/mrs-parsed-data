@@ -59,3 +59,11 @@ split_subnets() {
     grep -E '\b([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}\b' $input_file > $ipv4_file
     grep -Ev '\b([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}\b' $input_file > $ipv6_file
 }
+
+get_cidrs_by_asn() {
+    local asn="$1"
+    local input_file="$2"
+    local output_file="$3"
+
+    awk -v target_asn="$asn" '$2 == target_asn {print $1}' "$input_file" > "$output_file"
+}
