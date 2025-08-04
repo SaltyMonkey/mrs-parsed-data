@@ -30,7 +30,7 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=x.com&wildcard=1" "${FOLDER}"x.com.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=facebook.com&wildcard=1" "${FOLDER}"meta.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=instagram.com&wildcard=1" "${FOLDER}"instagram.txt
-    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.yaml" "${FOLDER}"spotify.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.yaml" "${FOLDER}"spotify.yaml
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=deepl.com" "${FOLDER}"deepl.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=discord.com&site=discord.gg&site=discord.media&wildcard=1" "${FOLDER}"discord.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=rutracker.org&wildcard=1" "${FOLDER}"rutracker.txt
@@ -73,7 +73,7 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/fastly.yaml" "${FOLDER}"fastly.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/openwrt.yaml" "${FOLDER}"openwrt.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/tencent.yaml" "${FOLDER}"tencent.yaml
-    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/openwrt.yaml/vercel.yaml" "${FOLDER}"vercel.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/vercel.yaml" "${FOLDER}"vercel.yaml
 
     cat "${MANUAL_FOLDER}"manual-service-hetzner >> "${FOLDER}"hetzner.txt
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt

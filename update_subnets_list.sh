@@ -23,8 +23,8 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml" "${FOLDER}"ipv4/apple.yaml
 
     download "https://bgp.tools/table.txt" "${FOLDER}"table.txt
-    get_cidrs_by_asn 24940 "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
-    get_cidrs_by_asn 16276 "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
+    get_cidrs_by_asn "24940" "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
+    get_cidrs_by_asn "16276" "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
     split_subnets "${FOLDER}"dual/hetzner.txt "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
     split_subnets "${FOLDER}"dual/ovh.txt "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
     rm -rf "${FOLDER}"table.txt
