@@ -140,6 +140,8 @@ rutracker.ru
 rutracker.wiki
 rutrk.org
 t-ru.org
+cdn32.lol
+cdntogo.net
 kino.pub
 fast.com
 netflix.ca
@@ -279,17 +281,26 @@ fbcdn.com
 fbcdn.net
 ig.me
 instagram.com
-akamaized.net
-byspotify.com
-pscdn.co
-scdn.co
-spoti.fi
-spotify-everywhere.com
-spotify.com
-spotify.design
-spotifycdn.com
-spotifycdn.net
-spotifycharts.com
-spotifycodes.com
-spotifyforbrands.com
-spotifyjobs.com
+payload:
+    - audio-ak-spotify-com.akamaized.net
+    - audio4-ak-spotify-com.akamaized.net
+    - cdn-spotify-experiments.conductrics.com
+    - heads-ak-spotify-com.akamaized.net
+    - heads4-ak-spotify-com.akamaized.net
+    - spotify.com.edgesuite.net
+    - spotify.map.fastly.net
+    - spotify.map.fastlylb.net
+    - +.byspotify.com
+    - +.pscdn.co
+    - +.scdn.co
+    - +.spoti.fi
+    - +.spotify-everywhere.com
+    - +.spotify.com
+    - +.spotify.design
+    - +.spotifycdn.com
+    - +.spotifycdn.net
+    - +.spotifycharts.com
+    - +.spotifycodes.com
+    - +.spotifyforbrands.com
+    - +.spotifyjobs.com
+    - +.spotify.link
