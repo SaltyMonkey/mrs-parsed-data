@@ -17,12 +17,14 @@ rm -f "${FOLDER}"*.yaml 2>/dev/null
 rm -f "${YAMLFOLDER}"*.yaml 2>/dev/null
 
 main() {
-    download https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst "${FOLDER}"itdog-russia-inside.txt
-    download https://raw.githubusercontent.com/GubernievS/AntiZapret-VPN/refs/heads/main/setup/root/antizapret/download/include-hosts.txt "${FOLDER}"guberniev-include.txt
-    download https://community.antifilter.download/list/domains.lst "${FOLDER}"antifilter-community.txt
-    download https://raw.githubusercontent.com/dartraiden/no-russia-hosts/refs/heads/master/hosts.txt "${FOLDER}"no-russia-hosts
-    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-gov-ru.yaml "${FOLDER}"category-gov-ru.yaml
-    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.yaml "${FOLDER}"category-ru.yaml
+    download "https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst" "${FOLDER}"itdog-russia-inside.txt
+    download "https://raw.githubusercontent.com/GubernievS/AntiZapret-VPN/refs/heads/main/setup/root/antizapret/download/include-hosts.txt" "${FOLDER}"guberniev-include.txt
+    download "https://community.antifilter.download/list/domains.lst "${FOLDER}"antifilter-community.txt"
+    download "https://raw.githubusercontent.com/dartraiden/no-russia-hosts/refs/heads/master/hosts.txt" "${FOLDER}"no-russia-hosts
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-gov-ru.yaml" "${FOLDER}"category-gov-ru.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.yaml" "${FOLDER}"category-ru.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev.yaml" "${FOLDER}"category-dev.yaml
+
     grep -v -F -x -f "${MANUAL_FOLDER}"excluded-no-russia-hosts "${FOLDER}"no-russia-hosts > "${FOLDER}"no-russia-hosts.txt
     rm -r "${FOLDER}"no-russia-hosts
 
