@@ -3,8 +3,13 @@
 download() {
     local uri="$1"
     local output_path="$2"
+    local user_agent="$3"
     local code
-    curl -sL "${uri}" -o "${output_path}"
+    if [ -z "$user_agent" ]; then
+        curl -sL "${uri}" -o "${output_path}"
+    else
+        curl --user-agent "$user_agent" -sL "${uri}" -o "${output_path}"
+    fi
     code=$?
     if [ "$code" -ne 0 ]; then
         echo "Curl failed with exit code $code"

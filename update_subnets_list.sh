@@ -22,7 +22,7 @@ main() {
     download "https://community.antifilter.download/list/community.lst" "${FOLDER}"ipv4/antifilter-community.txt
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml" "${FOLDER}"ipv4/apple.yaml
 
-    download "https://bgp.tools/table.txt" "${FOLDER}"table.txt
+    download "https://bgp.tools/table.txt" "${FOLDER}"table.txt "SaltyMonkey - 1570693+SaltyMonkey@users.noreply.github.com"
     get_cidrs_by_asn "24940" "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
     get_cidrs_by_asn "16276" "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
     split_subnets "${FOLDER}"dual/hetzner.txt "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
