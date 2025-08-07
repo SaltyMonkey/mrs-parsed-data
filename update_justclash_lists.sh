@@ -4,8 +4,8 @@ GITHUBLINK="https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/h
 RULESETS_FILEPATH="./rulesets.justclash.txt"
 BLOCKRULESETS_FILEPATH="./blockrulesets.justclash.txt"
 
-rm -f $RULESETS_FILEPATH
-rm -f $BLOCKRULESETS_FILEPATH
+rm -f "$RULESETS_FILEPATH"
+rm -f "$BLOCKRULESETS_FILEPATH"
 generate_list() {
     local ext="$1"
     local dir="$2"

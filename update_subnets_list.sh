@@ -1,6 +1,7 @@
 #!/bin/bash
 
 FOLDER="subnets/"
+YAMLFOLDER="subnets/yaml/"
 
 source ./update_shared.sh
 
@@ -25,15 +26,27 @@ main() {
     download "https://bgp.tools/table.txt" "${FOLDER}"table.txt "SaltyMonkey - 1570693+SaltyMonkey@users.noreply.github.com"
     get_cidrs_by_asn "24940" "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
     get_cidrs_by_asn "16276" "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
+    get_cidrs_by_asn "200325" "${FOLDER}"table.txt "${FOLDER}"dual/bunny.txt
     split_subnets "${FOLDER}"dual/hetzner.txt "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
     split_subnets "${FOLDER}"dual/ovh.txt "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
+    split_subnets "${FOLDER}"dual/bunny.txt "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt
     rm -rf "${FOLDER}"table.txt
 
     download "https://core.telegram.org/resources/cidr.txt" "${FOLDER}"dual/telegram.txt
     split_subnets "${FOLDER}"dual/telegram.txt "${FOLDER}"ipv4/telegram.txt "${FOLDER}"ipv6/telegram.txt
 
     download "https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips" "${FOLDER}"ipv4/cloudfront.json
-    parse_json "${FOLDER}"ipv4/cloudfront.json "${FOLDER}"ipv4/cloudfront.txt
+    parse_json "${FOLDER}"ipv4/cloudfront.json "${FOLDER}"ipv4/cloudfront.txt '(.CLOUDFRONT_GLOBAL_IP_LIST + .CLOUDFRONT_REGIONAL_EDGE_IP_LIST)[]'
+
+    download "https://api.fastly.com/public-ip-list" "${FOLDER}"dual/fastly.json
+    parse_json "${FOLDER}"dual/fastly.json "${FOLDER}"ipv4/fastly.txt '.addresses[]'
+    parse_json "${FOLDER}"dual/fastly.json "${FOLDER}"ipv6/fastly.txt '.ipv6_addresses[]'
+    parse_json "${FOLDER}"dual/fastly.json "${FOLDER}"dual/fastly.txt '(.addresses + .ipv6_addresses)[]'
+
+    download "https://api.gcore.com/cdn/public-net-list" "${FOLDER}"dual/gcore.json
+    parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"ipv4/gcore.txt '.addresses[]'
+    parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"ipv6/gcore.txt '.addresses_v6[]'
+    parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"dual/gcore.txt '(.addresses + .addresses_v6)[]'
 
     echo >> "${FOLDER}"ipv4/cloudflare.txt
     cat "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt | sort | uniq > "${FOLDER}"dual/cloudflare.txt

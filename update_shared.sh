@@ -53,7 +53,12 @@ yaml_subdomains() {
 parse_json() {
     local file="$1"
     local output_file="$2"
-    cat "$file" | jq -r '.[] | .[]' > "$output_file"
+    local jq_command="$3"
+    if [ -z "$jq_command" ]; then
+        cat "$file" | jq -r '.[] | .[]' > "$output_file"
+    else
+        cat "$file" | jq -r "$jq_command" > "$output_file"
+    fi
 }
 
 split_subnets() {
