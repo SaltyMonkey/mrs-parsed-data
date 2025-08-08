@@ -1,4 +1,9 @@
 payload:
-    - '+.fastly.com'
-    - '+.fastly.net'
-    - '+.glitch.me'
+    - +.fastly-edge.com
+    - +.fastly-terrarium.com
+    - +.fastly.com
+    - +.fastly.io
+    - +.fastly.net
+    - +.fastlylabs.com
+    - +.fastlylb.net
+    - +.zencdn.net
