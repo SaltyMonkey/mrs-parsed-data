@@ -87,7 +87,6 @@ main() {
     cat "${MANUAL_FOLDER}"manual-service-twitch-fix >> "${FOLDER}"twitch-fix.txt
     cat "${MANUAL_FOLDER}"manual-service-bunny >> "${FOLDER}"bunny.txt
     cat "${MANUAL_FOLDER}"manual-service-gcore >> "${FOLDER}"gcore.txt
-    cat "${MANUAL_FOLDER}"manual-service-fastly >> "${FOLDER}"fastly.txt
 
     local file
 
