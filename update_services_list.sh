@@ -74,11 +74,10 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/openwrt.yaml" "${FOLDER}"openwrt.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/tencent.yaml" "${FOLDER}"tencent.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/vercel.yaml" "${FOLDER}"vercel.yaml
-    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/twitch.yaml" "${FOLDER}"twitch.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cloudflare.yaml" "${FOLDER}"cloudflare.yaml
 
     cat "${MANUAL_FOLDER}"manual-service-hetzner >> "${FOLDER}"hetzner.txt
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
-    cat "${MANUAL_FOLDER}"manual-service-cloudflare >> "${FOLDER}"cloudflare.txt
     cat "${MANUAL_FOLDER}"manual-service-telegram >> "${FOLDER}"telegram.txt
     cat "${MANUAL_FOLDER}"manual-service-nix-distros >> "${FOLDER}"nix.txt
     cat "${MANUAL_FOLDER}"manual-service-atlassian >> "${FOLDER}"atlassian.txt
