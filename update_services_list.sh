@@ -74,6 +74,7 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/openwrt.yaml" "${FOLDER}"openwrt.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/tencent.yaml" "${FOLDER}"tencent.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/vercel.yaml" "${FOLDER}"vercel.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/twitch.yaml" "${FOLDER}"twitch.yaml
 
     cat "${MANUAL_FOLDER}"manual-service-hetzner >> "${FOLDER}"hetzner.txt
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
@@ -84,6 +85,9 @@ main() {
     cat "${MANUAL_FOLDER}"manual-service-docker >> "${FOLDER}"docker.txt
     cat "${MANUAL_FOLDER}"manual-service-tuya >> "${FOLDER}"tuya.txt
     cat "${MANUAL_FOLDER}"manual-service-twitch-fix >> "${FOLDER}"twitch-fix.txt
+    cat "${MANUAL_FOLDER}"manual-service-bunny >> "${FOLDER}"bunny.txt
+    cat "${MANUAL_FOLDER}"manual-service-gcore >> "${FOLDER}"gcore.txt
+    cat "${MANUAL_FOLDER}"manual-service-fastly >> "${FOLDER}"fastly.txt
 
     local file
 
