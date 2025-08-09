@@ -5,11 +5,6 @@ payload:
     - push-apple.com.akadns.net
     - beatselectronicsllc.tt.omtrdc.net
     - www-cdn.icloud.com.akadns.net
-    - notary-submissions-prod.s3-accelerate.amazonaws.com
-    - notary-submissions-prod.s3.us-west-2.amazonaws.com
-    - appleworldwidedeveloper.hb-api.omtrdc.net
-    - appleworldwidedeveloper.sc.omtrdc.net
-    - p-events-delivery.akamaized.net
     - apple-tv-plus-press.apple.com
     - hls-amt.itunes.apple.com
     - hls.itunes.apple.com
@@ -17,6 +12,11 @@ payload:
     - play-edge.itunes.apple.com
     - tv.applemusic.com
     - uts-api.itunes.apple.com
+    - notary-submissions-prod.s3-accelerate.amazonaws.com
+    - notary-submissions-prod.s3.us-west-2.amazonaws.com
+    - appleworldwidedeveloper.hb-api.omtrdc.net
+    - appleworldwidedeveloper.sc.omtrdc.net
+    - p-events-delivery.akamaized.net
     - +.apple
     - +.beatsbydre-mall.com
     - +.iphonecases100.com
@@ -33,35 +33,33 @@ payload:
     - +.apple.de
     - +.apple.dk
     - +.apple.ee
+    - +.webkit.org
+    - +.researchkit.tv
+    - +.researchkit.org
+    - +.researchkit.net
+    - +.researchkit.hk
+    - +.researchandcare.org
+    - +.carekit.org
+    - +.webkitgtk.org
+    - +.apple-mapkit.com
+    - +.foundationdb.org
+    - +.apple-cloudkit.com
+    - +.servicetalk.io
+    - +.macosforge.org
+    - +.macruby.org
+    - +.calendarserver.org
+    - +.wpewebkit.org
+    - +.webobjects.com
+    - +.appleswift.com
+    - +.swift.org
+    - +.macruby.net
+    - +.cups.org
+    - +.macruby.com
     - +.itunesparty.com
     - +.itunesmatch.com
     - +.ituneslogin.net
     - +.ituneslatino.com
     - +.itunesiradio.com
-    - +.itunesfestivals.com
-    - +.itunesessentials.com
-    - +.itunes12days.com
-    - +.itunes.us
-    - +.itunes.rio
-    - +.itunes.com
-    - +.itunes.mx
-    - +.itunes.hk
-    - +.itunes.org
-    - +.12diasderegalosdeitunes.cl
-    - +.iutunes.com
-    - +.itunes.ca
-    - +.itunes-radio.net
-    - +.itunesradio.com
-    - +.ituneas.com
-    - +.itunbes.com
-    - +.itun.es
-    - +.12joursdecadeauxdeitunes.com
-    - +.12diasderegalosdeitunes.pe
-    - +.12diasderegalosdeitunes.hn
-    - +.12diasderegalosdeitunes.gt
-    - +.12diasderegalosdeitunes.cr
-    - +.itunesradio.rio
-    - +.itunesradio.tv
     - +.apple.es
     - +.apple.eu
     - +.apple.fi
@@ -83,11 +81,11 @@ payload:
     - +.apple.me
     - +.apple.my
     - +.apple.net
-    - +.itunesstore.co
-    - +.itunesu.com
-    - +.12diasderegalosdeitunes.com
-    - +.itunesu.net
-    - +.12diasdepresentesdeitunes.com
+    - +.itunesfestivals.com
+    - +.itunesessentials.com
+    - +.itunes12days.com
+    - +.itunes.us
+    - +.itunes.rio
     - +.apple.nl
     - +.apple.no
     - +.apple.pk
@@ -117,33 +115,33 @@ payload:
     - +.applestore.cc
     - +.applestore.ch
     - +.applestore.cm
-    - +.wwwitunes.com
-    - +.12diasderegalosdeitunes.co
-    - +.itunesradio.tw
-    - +.itunes.co
+    - +.itunes.com
+    - +.itunes.mx
+    - +.itunes.hk
+    - +.itunes.org
     - +.applestore.com
-    - +.webkit.org
-    - +.researchkit.tv
-    - +.researchkit.org
-    - +.researchkit.net
-    - +.researchkit.hk
-    - +.researchandcare.org
-    - +.carekit.org
-    - +.webkitgtk.org
-    - +.apple-mapkit.com
-    - +.foundationdb.org
-    - +.apple-cloudkit.com
-    - +.servicetalk.io
-    - +.macosforge.org
-    - +.macruby.org
-    - +.calendarserver.org
-    - +.wpewebkit.org
+    - +.12diasderegalosdeitunes.cl
+    - +.iutunes.com
+    - +.itunes.ca
+    - +.itunes-radio.net
+    - +.itunesradio.com
+    - +.ituneas.com
+    - +.itunbes.com
+    - +.itun.es
+    - +.12joursdecadeauxdeitunes.com
+    - +.12diasderegalosdeitunes.pe
+    - +.12diasderegalosdeitunes.hn
+    - +.12diasderegalosdeitunes.gt
+    - +.12diasderegalosdeitunes.cr
+    - +.itunesradio.rio
+    - +.itunesradio.tv
+    - +.itunesstore.co
     - +.applestore.de
     - +.applestore.hk
     - +.applestore.kr
     - +.applestore.me
     - +.applestore.net
-    - +.webobjects.com
+    - +.itunesu.com
     - +.applestore.ph
     - +.applestore.qa
     - +.applestore.sg
@@ -167,7 +165,7 @@ payload:
     - +.imac-apple.com
     - +.imac-applecomputer.com
     - +.imac.co
-    - +.swift.org
+    - +.itunesu.net
     - +.imac.com
     - +.imac.eu
     - +.imac.gr
@@ -179,15 +177,15 @@ payload:
     - +.euroipad.com
     - +.findmyipad.com
     - +.indiaipad.com
-    - +.macruby.net
+    - +.12diasdepresentesdeitunes.com
     - +.ipad.de
     - +.ipad.host
     - +.ipad.wang
     - +.ipad3.com
     - +.ipadair.cl
     - +.ipadair.cm
-    - +.cups.org
-    - +.macruby.com
+    - +.wwwitunes.com
+    - +.12diasderegalosdeitunes.co
     - +.ipadair.fr
     - +.ipadair.hk
     - +.ipadair.ie
@@ -195,6 +193,7 @@ payload:
     - +.ipadair.tw
     - +.ipadaustralia.com
     - +.ipadmini.cm
+    - +.itunesradio.tw
     - +.ipadmini.lk
     - +.ipadpro.buzz
     - +.ukipad.com
@@ -223,7 +222,7 @@ payload:
     - +.iphone-zh.com
     - +.iphone.cm
     - +.iphone.com
-    - +.appleswift.com
+    - +.itunes.co
     - +.wwwicloud.com
     - +.iphone.es
     - +.iphone.host
@@ -766,6 +765,7 @@ payload:
     - +.beatsbydre-headphones.com
     - +.beatsbydre-headphonesshop.com
     - +.apple.ae
+    - +.12diasderegalosdeitunes.com
     - +.apple.at
     - +.applescript.info
     - +.beatsbydre-sell.com
@@ -1435,10 +1435,8 @@ payload:
     - +.applestore.com.hr
     - +.applestore.com.hk
     - +.applestore.com.gr
-    - +.12diasderegalosdeitunes.com.ve
+    - +.apple.com.py
     - +.quicktime.com.au
-    - +.apple.co.mz
-    - +.applestore.com.eg
     - +.applestore.co.uk
     - +.applestore.co.ug
     - +.applestore.co.jp
@@ -1449,10 +1447,18 @@ payload:
     - +.apple.com.tr
     - +.apple.com.sv
     - +.apple.com.sg
-    - +.apple.com.py
+    - +.applestore.com.eg
     - +.apple.com.pt
     - +.apple.com.pr
     - +.apple.com.pl
+    - +.12diasderegalosdeitunes.com.ve
+    - +.12diasderegalosdeitunes.com.ni
+    - +.itunes.co.th
+    - +.12diasderegalosdeitunes.com.hn
+    - +.12diasderegalosdeitunes.com.co
+    - +.12diasderegalosdeitunes.co.ve
+    - +.12diasderegalosdeitunes.co.ni
+    - +.12diasderegalosdeitunes.co.cr
     - +.apple.com.pe
     - +.apple.com.pa
     - +.apple.com.my
@@ -1472,19 +1478,13 @@ payload:
     - +.apple.co.uk
     - +.apple.co.th
     - +.apple.co.nz
-    - +.applestore.com.au
+    - +.apple.co.mz
     - +.apple.co.kr
     - +.apple.co.jp
     - +.apple.co.hu
     - +.apple.co.cr
+    - +.applestore.com.au
     - +.webobjects.co.uk
-    - +.12diasderegalosdeitunes.com.ni
-    - +.itunes.co.th
-    - +.12diasderegalosdeitunes.com.hn
-    - +.12diasderegalosdeitunes.com.co
-    - +.12diasderegalosdeitunes.co.ve
-    - +.12diasderegalosdeitunes.co.ni
-    - +.12diasderegalosdeitunes.co.cr
     - +.itunes-apple.com.akadns.net
     - +.apple.cn
     - +.apple.com.cn
@@ -1793,16 +1793,17 @@ payload:
     - +.icloud.com.cn
     - +.icloud.net.cn
     - +.icloudapple.cn
+    - +.apple-itunes.cn
+    - +.itunes-apple.cn
+    - +.itunesapple.cn
+    - +.itunesradio.cn
+    - +.itunesradio.com.cn
     - +.swiftui.cn
     - +.swiftui.com.cn
     - +.api-adservices.apple.com
     - +.iadsdk.apple.com
     - +.iad.apple.com
     - +.qwapi.com
-    - +.researchkit.cn
-    - +.researchkit.com.cn
-    - +.swiftui.cn
-    - +.swiftui.com.cn
     - certs-lb.apple.com.akadns.net
     - certs.apple.com
     - crl-lb.apple.com.akadns.net
@@ -1812,8 +1813,7 @@ payload:
     - ocsp2-lb.apple.com.akadns.net
     - ocsp2.apple.com
     - valid.apple.com
-    - +.apple-itunes.cn
-    - +.itunes-apple.cn
-    - +.itunesapple.cn
-    - +.itunesradio.cn
-    - +.itunesradio.com.cn
+    - +.researchkit.cn
+    - +.researchkit.com.cn
+    - +.swiftui.cn
+    - +.swiftui.com.cn
