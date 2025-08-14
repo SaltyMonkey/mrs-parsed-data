@@ -27,9 +27,11 @@ main() {
     get_cidrs_by_asn "24940" "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
     get_cidrs_by_asn "16276" "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
     get_cidrs_by_asn "200325" "${FOLDER}"table.txt "${FOLDER}"dual/bunny.txt
+    get_cidrs_by_asn "32934" "${FOLDER}"table.txt "${FOLDER}"dual/meta.txt
     split_subnets "${FOLDER}"dual/hetzner.txt "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
     split_subnets "${FOLDER}"dual/ovh.txt "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
     split_subnets "${FOLDER}"dual/bunny.txt "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt
+    split_subnets "${FOLDER}"dual/meta.txt "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt
     rm -rf "${FOLDER}"table.txt
 
     download "https://core.telegram.org/resources/cidr.txt" "${FOLDER}"dual/telegram.txt
