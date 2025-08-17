@@ -530,6 +530,7 @@ payload:
     - '+.gateway.pinata.cloud'
     - '+.geforcenow.com'
     - '+.gelbooru.com'
+    - '+.gemini.google.com'
     - '+.genteka.ru'
     - '+.geolocation.onetrust.com'
     - '+.geospy.ai'
