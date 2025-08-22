@@ -112,7 +112,7 @@ payload:
     - +.itopsdk.com
     - +.my-qcloud.com
     - +.myelasticsearch.com
-    - +.discuz.org
+    - +.doh.pub
     - +.myqcloud.com
     - +.onexmail.com
     - +.openapp.run
@@ -128,9 +128,9 @@ payload:
     - +.qcloudclass.com
     - +.qcloudcos.cn
     - +.qcloudcos.com
-    - +.discuz.net
-    - +.comsenz.com
-    - +.doh.pub
+    - +.dnsv5.com
+    - +.dnspod.org
+    - +.dnsv3.com
     - +.qclouder.com
     - +.qcloudgme.com
     - +.qcloudimg.com
@@ -193,7 +193,7 @@ payload:
     - +.tencentbyod.com
     - +.tencentcdb.cn
     - +.tencentcdb.com
-    - +.dnsv5.com
+    - +.dnsv4.com
     - +.tencentclb.com
     - +.tencentcloud-aiot.com
     - +.tencentcloudapi.com
@@ -205,7 +205,7 @@ payload:
     - +.tencentcloudses.com
     - +.tencentcos.cn
     - +.tencentcos.com
-    - +.dnspod.org
+    - +.dns.pub
     - +.tencentcs.com
     - +.tencentdayu.com
     - +.tencentdb.com
@@ -224,12 +224,12 @@ payload:
     - +.tencentyun.com
     - +.tendbcluster.com
     - +.tendis.net
-    - +.dnsv3.com
+    - +.dnsapi.cn
     - +.testmeet.cn
     - +.tcloudscdn.com
     - +.tgovcloud.com
     - +.tidaas.com
-    - +.dnsv4.com
+    - +.dnspod.mobi
     - +.timmerse.com
     - +.tlivecdn.com
     - +.tlivepush.com
@@ -253,7 +253,7 @@ payload:
     - +.wework-studio.com
     - +.xqymuy.com
     - +.yufuid.com
-    - +.dns.pub
+    - +.dot.pub
     - +.yufuid.net
     - +.tcloudhw.net
     - +.dnse0.cn
@@ -298,13 +298,13 @@ payload:
     - +.tdnsv13.net
     - +.tdnsv14.net
     - +.tdnsv15.net
-    - +.dnsapi.cn
-    - +.dnspod.mobi
-    - +.dot.pub
     - +.dnspod.com
     - +.dnspod.cn
     - +.dnsv2.com
     - +.dnspod.net
+    - +.discuz.org
+    - +.discuz.net
+    - +.comsenz.com
     - +.ym.run
     - +.qq.xn--fiqs8s
     - +.ma.run
@@ -327,20 +327,20 @@ payload:
     - +.qq.design
     - +.openmidas.com
     - +.tencentcos.com.cn
-    - +.jrzk.net.cn
+    - +.ectencent.com.cn
     - +.testjrzk.net.cn
     - +.tencentcdb.com.cn
     - +.yufuid.com.cn
     - +.gtimg.com.cn
     - +.qq.cn.com
-    - +.dnspod.com.cn
+    - +.jrzk.net.cn
     - +.rtx.com.cn
     - +.qcloudcos.com.cn
     - +.foxmail.com.cn
     - +.oracle-tencent.net.cn
     - +.qq.com.cn
-    - +.ectencent.com.cn
     - +.dnsv1.com.cn
+    - +.dnspod.com.cn
     - +.oracle-tencent.com.cn
     - +.timatrix.com.cn
     - +.tencent.net.cn
