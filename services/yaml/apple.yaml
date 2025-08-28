@@ -3,12 +3,6 @@ payload:
     - apple.com.akadns.net
     - courier-push-apple.com.akadns.net
     - push-apple.com.akadns.net
-    - www-cdn.icloud.com.akadns.net
-    - notary-submissions-prod.s3-accelerate.amazonaws.com
-    - notary-submissions-prod.s3.us-west-2.amazonaws.com
-    - appleworldwidedeveloper.hb-api.omtrdc.net
-    - appleworldwidedeveloper.sc.omtrdc.net
-    - p-events-delivery.akamaized.net
     - apple-tv-plus-press.apple.com
     - hls-amt.itunes.apple.com
     - hls.itunes.apple.com
@@ -16,9 +10,15 @@ payload:
     - play-edge.itunes.apple.com
     - tv.applemusic.com
     - uts-api.itunes.apple.com
+    - notary-submissions-prod.s3-accelerate.amazonaws.com
+    - notary-submissions-prod.s3.us-west-2.amazonaws.com
+    - appleworldwidedeveloper.hb-api.omtrdc.net
+    - appleworldwidedeveloper.sc.omtrdc.net
+    - p-events-delivery.akamaized.net
+    - www-cdn.icloud.com.akadns.net
     - beatselectronicsllc.tt.omtrdc.net
     - +.apple
-    - +.webobjects.com
+    - +.icloud.ch
     - +.iphonecases100.com
     - +.apple.be
     - +.apple.bg
@@ -242,7 +242,7 @@ payload:
     - +.powerbeatsbydrdre.com
     - +.iphonecase2013.com
     - +.iphonecase5.com
-    - +.calendarserver.org
+    - +.icloud.de
     - +.iphonecases5.com
     - +.powerbeats2wireless.com
     - +.iphonecollcase.com
@@ -468,7 +468,7 @@ payload:
     - +.applebk.net
     - +.applecarbon.com
     - +.applecard.tv
-    - +.wpewebkit.org
+    - +.icloud.com
     - +.applecentar.rs
     - +.newdrediscount.com
     - +.applecentre.info
@@ -514,7 +514,7 @@ payload:
     - +.applereach.net
     - +.apples-msk.ru
     - +.applescreensavers.com
-    - +.macruby.org
+    - +.icloud.ee
     - +.appleshare.info
     - +.ms4dre.com
     - +.applesurveys.com
@@ -665,6 +665,28 @@ payload:
     - +.xn--hxtr4rozx.xn--czr694b
     - +.xn--kput3imi374g.xn--hxt814e
     - +.xn--ruq8a011kt6y.xn--hxt814e
+    - +.monstercheapbeatss.com
+    - +.monstercasquebeatspascher.net
+    - +.monsterbydrebeat.com
+    - +.monsterbeatstudio.com
+    - +.monsterbeatstienda.com
+    - +.monsterbeatstang.com
+    - +.monsterbeatssydneyaustralia.com
+    - +.monsterbeatsstore.com
+    - +.monsterbeatsshops.net
+    - +.monsterbeatssales.com
+    - +.monsterbeatsru.com
+    - +.monsterbeatspascher.net
+    - +.monsterbeatsoutlet.us
+    - +.monsterbeatsonlinestoreuk.com
+    - +.monsterbeatsok.com
+    - +.monsterbeatsnegozi.net
+    - +.monsterbeatsmall.com
+    - +.monsterbeatsitaly.com
+    - +.monsterbeatshere.com
+    - +.monsterbeatsheadphones.net
+    - +.monsterbeatsheadphone.com
+    - +.monsterbeatsforsale.com
     - +.itunes.co
     - +.itunesradio.tw
     - +.12diasderegalosdeitunes.co
@@ -703,25 +725,51 @@ payload:
     - +.ituneslogin.net
     - +.itunesmatch.com
     - +.itunesparty.com
-    - +.monstercheapbeatss.com
-    - +.monstercasquebeatspascher.net
-    - +.monsterbydrebeat.com
-    - +.monsterbeatstudio.com
-    - +.monsterbeatstienda.com
-    - +.monsterbeatstang.com
-    - +.monsterbeatssydneyaustralia.com
-    - +.monsterbeatsstore.com
-    - +.monsterbeatsshops.net
-    - +.appleswift.com
+    - +.monsterbeatsfinland.com
+    - +.monsterbeatsfactory.net
+    - +.monsterbeatsdrdrecheap.com
+    - +.monsterbeatscommunity.com
+    - +.monsterbeatscasques.com
+    - +.monsterbeatsbydreshop.com
+    - +.monsterbeatsbydres.com
+    - +.monsterbeatsbydrenew.com
+    - +.monsterbeatsbydrefactory.com
+    - +.macruby.com
+    - +.cups.org
+    - +.macruby.net
     - +.swift.org
+    - +.appleswift.com
+    - +.webobjects.com
+    - +.wpewebkit.org
+    - +.calendarserver.org
+    - +.macruby.org
+    - +.macosforge.org
+    - +.servicetalk.io
+    - +.apple-cloudkit.com
+    - +.foundationdb.org
+    - +.apple-mapkit.com
+    - +.webkitgtk.org
+    - +.carekit.org
+    - +.researchandcare.org
+    - +.researchkit.hk
+    - +.researchkit.net
+    - +.researchkit.org
+    - +.researchkit.tv
+    - +.webkit.org
+    - +.monsterbeatsbydrebilligde.com
+    - +.monsterbeatsbydreaustraliacheap.com
+    - +.monsterbeatsbydre2015.com
+    - +.monsterbeatsbydre-usa.com
+    - +.monsterbeatsbydre-nz.com
+    - +.monsterbeatsbydrdrestudio.com
     - +.applemx-icloud.com
     - +.icloud-content.com
     - +.icloud-isupport.com
     - +.icloud-sandbox.com
-    - +.icloud.ch
-    - +.icloud.com
-    - +.icloud.de
-    - +.icloud.ee
+    - +.apple.ae
+    - +.newestbeatsbydre.com
+    - +.apple.at
+    - +.applescript.info
     - +.icloud.fi
     - +.icloud.fr
     - +.icloud.hu
@@ -758,54 +806,6 @@ payload:
     - +.myicloud.net
     - +.mylcloud.net
     - +.wwwicloud.com
-    - +.monsterbeatssales.com
-    - +.monsterbeatsru.com
-    - +.monsterbeatspascher.net
-    - +.macruby.com
-    - +.cups.org
-    - +.macruby.net
-    - +.apple.ae
-    - +.newestbeatsbydre.com
-    - +.apple.at
-    - +.applescript.info
-    - +.macosforge.org
-    - +.servicetalk.io
-    - +.apple-cloudkit.com
-    - +.foundationdb.org
-    - +.apple-mapkit.com
-    - +.webkitgtk.org
-    - +.carekit.org
-    - +.researchandcare.org
-    - +.researchkit.hk
-    - +.researchkit.net
-    - +.researchkit.org
-    - +.researchkit.tv
-    - +.webkit.org
-    - +.monsterbeatsoutlet.us
-    - +.monsterbeatsonlinestoreuk.com
-    - +.monsterbeatsok.com
-    - +.monsterbeatsnegozi.net
-    - +.monsterbeatsmall.com
-    - +.monsterbeatsitaly.com
-    - +.monsterbeatshere.com
-    - +.monsterbeatsheadphones.net
-    - +.monsterbeatsheadphone.com
-    - +.monsterbeatsforsale.com
-    - +.monsterbeatsfinland.com
-    - +.monsterbeatsfactory.net
-    - +.monsterbeatsdrdrecheap.com
-    - +.monsterbeatscommunity.com
-    - +.monsterbeatscasques.com
-    - +.monsterbeatsbydreshop.com
-    - +.monsterbeatsbydres.com
-    - +.monsterbeatsbydrenew.com
-    - +.monsterbeatsbydrefactory.com
-    - +.monsterbeatsbydrebilligde.com
-    - +.monsterbeatsbydreaustraliacheap.com
-    - +.monsterbeatsbydre2015.com
-    - +.monsterbeatsbydre-usa.com
-    - +.monsterbeatsbydre-nz.com
-    - +.monsterbeatsbydrdrestudio.com
     - +.monsterbeatsbydrdrecanada.com
     - +.monsterbeatsbydrdre-usa.com
     - +.monsterbeatsbydrdre-nz.com
@@ -1363,7 +1363,6 @@ payload:
     - +.monsterbeatsalestore.com
     - +.monsterbeatssalg.com
     - +.monsterbeatsau.com
-    - +.12diasderegalosdeitunes.com.ve
     - +.ipodshop.com.au
     - +.apple.co.cr
     - +.12diasderegalosdeitunes.co.cr
@@ -1373,6 +1372,7 @@ payload:
     - +.12diasderegalosdeitunes.com.hn
     - +.itunes.co.th
     - +.12diasderegalosdeitunes.com.ni
+    - +.12diasderegalosdeitunes.com.ve
     - +.macbookair.co.kr
     - +.webobjects.co.uk
     - +.quicktime.com.au
@@ -1780,23 +1780,11 @@ payload:
     - www.apple.com
     - www.apple.com.edgekey.net.globalredir.akadns.net
     - xp.apple.com
-    - +.api-adservices.apple.com
-    - +.iadsdk.apple.com
-    - +.iad.apple.com
-    - +.qwapi.com
     - +.apple-itunes.cn
     - +.itunes-apple.cn
     - +.itunesapple.cn
     - +.itunesradio.cn
     - +.itunesradio.com.cn
-    - +.swiftui.cn
-    - +.swiftui.com.cn
-    - +.apple-icloud.cn
-    - +.appleicloud.cn
-    - +.icloud-apple.cn
-    - +.icloud.com.cn
-    - +.icloud.net.cn
-    - +.icloudapple.cn
     - +.researchkit.cn
     - +.researchkit.com.cn
     - +.swiftui.cn
@@ -1810,6 +1798,18 @@ payload:
     - ocsp2-lb.apple.com.akadns.net
     - ocsp2.apple.com
     - valid.apple.com
+    - +.apple-icloud.cn
+    - +.appleicloud.cn
+    - +.icloud-apple.cn
+    - +.icloud.com.cn
+    - +.icloud.net.cn
+    - +.icloudapple.cn
+    - +.swiftui.cn
+    - +.swiftui.com.cn
+    - +.api-adservices.apple.com
+    - +.iadsdk.apple.com
+    - +.iad.apple.com
+    - +.qwapi.com
     - +.beats1.cn
     - +.beats1.com.cn
     - +.beats2.com.cn
