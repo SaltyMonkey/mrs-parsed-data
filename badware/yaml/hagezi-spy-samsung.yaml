@@ -220,8 +220,6 @@ payload:
     - '+.samsungtvads.com'
     - '+.www.samsungtvads.com'
     - '+.business.samsungusa.com'
-    - '+.app.business.samsungusa.com'
-    - '+.images.business.samsungusa.com'
     - '+.api-samsung.swypeconnect.com'
     - '+.lbs-samsung.swypeconnect.com'
     - '+.samsungau.api.useinsider.com'
