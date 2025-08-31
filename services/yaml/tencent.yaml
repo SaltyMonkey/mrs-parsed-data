@@ -1,6 +1,6 @@
 payload:
-    - +.srmkp.cn
-    - +.tencenttid.com
+    - +.tcdnvod.com
+    - +.tlivecdn.com
     - +.acimg.cn
     - +.apcdns.net
     - +.foxmail.com
@@ -14,19 +14,19 @@ payload:
     - +.qpic.cn
     - +.qq.com
     - +.qq.wang
-    - +.m9.run
-    - +.m6.run
-    - +.m1.run
+    - +.coding.net
+    - +.coding.me
+    - +.cnb.cool
     - +.qqmail.com
     - +.qzone.com
-    - +.ma.run
-    - +.oracle-tencent.net
+    - +.weixinbridge.com
+    - +.wegamedeveloper.com
     - +.servicewechat.com
     - +.tencent.cn
     - +.tencent.com
-    - +.um.run
+    - +.tjstats.com
     - +.tencent.net
-    - +.oracle-tencent.com
+    - +.tencentcloud.com
     - +.tencentmusic.com
     - +.tenpay.com
     - +.tfogc.com
@@ -61,19 +61,6 @@ payload:
     - +.fymallqa4.com
     - +.fymallqa7.com
     - +.fymallqa9.com
-    - +.openmidas.com
-    - +.qq.design
-    - +.qqgamedesign.com
-    - +.tencent-cloud.cn
-    - +.tencent-cloud.com
-    - +.tencent.design
-    - +.tencentcloud.com
-    - +.tjstats.com
-    - +.wegamedeveloper.com
-    - +.weixinbridge.com
-    - +.cnb.cool
-    - +.coding.me
-    - +.coding.net
     - +.yuewen.com
     - +.hongxiu.com
     - +.lrts.me
@@ -84,7 +71,7 @@ payload:
     - +.webnovel.com
     - +.xs8.cn
     - +.xxsy.net
-    - +.tamaegis.com
+    - +.tencentcloudmarket.com
     - +.bkapps.com
     - +.aitransfy.com
     - +.apaas-zone-test.com
@@ -97,7 +84,7 @@ payload:
     - +.byodonline.com
     - +.cdn-go.cn
     - +.cdndoctor.com
-    - +.cdngot.com
+    - +.tcloudbase.com
     - +.cdntip.com
     - +.cdntips.com
     - +.cdntips.net
@@ -179,9 +166,9 @@ payload:
     - +.spcdntipbak.com
     - +.spcloudhw.com
     - +.spcloudhw.net
-    - +.dnspod.mobi
-    - +.xn--r70as2s.xn--fiqs8s
-    - +.tencentcloudmarket.com
+    - +.srmkp.cn
+    - +.starlakelab.com
+    - +.tamaegis.com
     - +.tapd.cn
     - +.tcdlive.com
     - +.tcdnhw.com
@@ -192,9 +179,9 @@ payload:
     - +.tcdnos.com
     - +.tcdnos.net
     - +.tcdntip.com
-    - +.tcdnvod.com
-    - +.tcdnvodbak.com
-    - +.tcloudbase.com
+    - +.txyscdn.com
+    - +.xn--r70as2s.xn--fiqs8s
+    - +.cdngot.com
     - +.tcloudbase.net
     - +.acctdns.com
     - +.tcloudbi.com
@@ -210,6 +197,7 @@ payload:
     - +.tefscloud.net
     - +.tenant-zone-dev.com
     - +.tencdns.net
+    - +.tencent-cloud.com
     - +.tencent-cloud.net
     - +.tencentapps.com
     - +.tencentbyod.com
@@ -240,7 +228,7 @@ payload:
     - +.tencentidentity.com
     - +.tencentproxy.com
     - +.tencentrio.com
-    - +.starlakelab.com
+    - +.tencenttid.com
     - +.tencentwemeet.club
     - +.tencentwepark.com
     - +.tencentyun.com
@@ -251,9 +239,9 @@ payload:
     - +.testwaf.com
     - +.tgovcloud.com
     - +.tidaas.com
-    - +.qq.xn--fiqs8s
+    - +.dnspod.mobi
     - +.timmerse.com
-    - +.tlivecdn.com
+    - +.tcdnvodbak.com
     - +.tlivepush.com
     - +.tlivesource.com
     - +.tourismshow.cn
@@ -264,7 +252,7 @@ payload:
     - +.txidc.wang
     - +.txlivecdn.com
     - +.txtyxg.com
-    - +.txyscdn.com
+    - +.qq.xn--fiqs8s
     - +.txyscdn.net
     - +.uncnn.cn
     - +.vcloudstc.com
@@ -330,31 +318,42 @@ payload:
     - +.rumt-zh.com
     - +.ym.run
     - +.oracle-tencent.cn
-    - +.timatrix.com.cn
-    - +.rtx.com.cn
-    - +.tencent.net.cn
-    - +.qq.com.cn
-    - +.qq.cn.com
-    - +.gtimg.com.cn
+    - +.oracle-tencent.com
+    - +.um.run
+    - +.oracle-tencent.net
+    - +.ma.run
+    - +.m1.run
+    - +.m6.run
+    - +.m9.run
+    - +.tencent.design
+    - +.tencent-cloud.cn
+    - +.qqgamedesign.com
+    - +.qq.design
+    - +.openmidas.com
     - +.foxmail.com.cn
-    - +.testjrzk.net.cn
-    - +.tencentcos.com.cn
-    - +.ectencent.com.cn
-    - +.yufuid.com.cn
-    - +.dnsv1.com.cn
-    - +.tencent.com.cn
-    - +.qcloudcos.com.cn
     - +.tencentcdb.com.cn
     - +.dnspod.com.cn
+    - +.timatrix.com.cn
     - +.oracle-tencent.net.cn
     - +.oracle-tencent.com.cn
     - +.jrzk.net.cn
+    - +.gtimg.com.cn
+    - +.qcloudcos.com.cn
+    - +.qq.cn.com
+    - +.qq.com.cn
+    - +.rtx.com.cn
+    - +.dnsv1.com.cn
+    - +.yufuid.com.cn
+    - +.ectencent.com.cn
+    - +.tencentcos.com.cn
+    - +.testjrzk.net.cn
+    - +.tencent.net.cn
+    - +.tencent.com.cn
     - +.tencent.co.id
     - +.tencent.com.hk
     - +.wetv.vip
     - +.wetvinfo.com
     - wetv.qq.com
-    - +.weui.io
     - +.battlecare.net
     - +.gameitop.com
     - +.gameloop.com
@@ -540,3 +539,4 @@ payload:
     - +.trace.qq.com
     - +.ugdtimg.com
     - +.wit.qq.com
+    - +.weui.io
