@@ -55,8 +55,8 @@ yaml_sort_by_alphabet() {
     local output_file="$2"
     local section="$3"
     local tmp_file=$(mktemp)
-    yq eval ".${section} |= sort" "$file" > "$tmp_file"
-    $tmp_file > "$output_file"
+    yq e ".${section} |= sort" "$file" > "$tmp_file"
+    mv "$tmp_file" "$output_file"
 }
 
 parse_json() {

@@ -43,8 +43,8 @@ $(generate_markdown_list "yaml" ./badware "YAML")
 
 ## Bypass
 
-$(generate_markdown_list "mrs" ./bypass "MRS")
-$(generate_markdown_list "yaml" ./bypass "YAML")
+$(generate_markdown_list "mrs" ./block "MRS")
+$(generate_markdown_list "yaml" ./block "YAML")
 
 ## Subnets
 
