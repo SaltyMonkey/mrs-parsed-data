@@ -32,7 +32,6 @@
 - [gemini.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/gemini.mrs)
 - [google-play.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/google-play.mrs)
 - [google.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/google.mrs)
-- [grok.com.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.com.mrs)
 - [grok.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.mrs)
 - [hdrezka.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hdrezka.mrs)
 - [hetzner.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hetzner.mrs)
@@ -71,7 +70,6 @@
 - [twitch.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/twitch.mrs)
 - [vercel.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/vercel.mrs)
 - [whatsapp.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/whatsapp.mrs)
-- [x.com.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.com.mrs)
 - [x.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.mrs)
 - [youtube.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.mrs)
 ## YAML
@@ -196,6 +194,7 @@
 - [category-speedtest.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/category-speedtest.mrs)
 - [itdog-russia-inside.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/itdog-russia-inside.mrs)
 - [just-domains.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/just-domains.mrs)
+- [no-russia-hosts.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/no-russia-hosts.mrs)
 ## YAML
 - [antifilter-community.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/antifilter-community.yaml)
 - [category-dev.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/category-dev.yaml)
@@ -204,6 +203,7 @@
 - [category-speedtest.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/category-speedtest.yaml)
 - [itdog-russia-inside.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/itdog-russia-inside.yaml)
 - [just-domains.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/just-domains.yaml)
+- [no-russia-hosts.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/no-russia-hosts.yaml)
 
 ## Subnets
 

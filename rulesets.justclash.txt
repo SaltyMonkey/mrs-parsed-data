@@ -5,6 +5,7 @@ Category RU|category-ru|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey
 Category speedtest|category-speedtest|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/category-speedtest.mrs
 Itdog Russia inside|itdog-russia-inside|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/itdog-russia-inside.mrs
 Just domains|just-domains|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/just-domains.mrs
+No Russia hosts|no-russia-hosts|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/no-russia-hosts.mrs
 Akamai|akamai|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/akamai.mrs
 Amazon|amazon|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amazon.mrs
 Amd|amd|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amd.mrs
@@ -35,7 +36,6 @@ Gcore|gcore|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-
 Gemini|gemini|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/gemini.mrs
 Google play|google-play|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/google-play.mrs
 Google|google|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/google.mrs
-Grok.com|grok.com|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.com.mrs
 Grok|grok|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.mrs
 Hdrezka|hdrezka|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hdrezka.mrs
 Hetzner|hetzner|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hetzner.mrs
@@ -74,7 +74,6 @@ Twitch fix|twitch-fix|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/m
 Twitch|twitch|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/twitch.mrs
 Vercel|vercel|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/vercel.mrs
 Whatsapp|whatsapp|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/whatsapp.mrs
-X.com|x.com|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.com.mrs
 X|x|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.mrs
 Youtube|youtube|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.mrs
 Antifilter community CIDR|antifilter-community-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifilter-community.mrs
