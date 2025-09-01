@@ -55,7 +55,7 @@ yaml_sort_by_alphabet() {
     local output_file="$2"
     local section="$3"
     local tmp_file=$(mktemp)
-    yq e ".${section} |= sort" "$file" > "$tmp_file"
+    ./yq e ".${section} |= sort" "$file" > "$tmp_file"
     mv "$tmp_file" "$output_file"
 }
 

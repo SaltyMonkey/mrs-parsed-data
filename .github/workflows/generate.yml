@@ -16,7 +16,6 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y jq
-          sudo apt install -y yq
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Pull Changes
@@ -26,6 +25,10 @@ jobs:
           curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -L https://github.com/MetaCubeX/mihomo/releases/download/v1.19.9/mihomo-linux-amd64-v1.19.9.gz -o ./mihomo.gz
           gunzip -c ./mihomo.gz > ./mihomo
           chmod +x ./mihomo
+      - name: Download and install yq
+        run: |
+          wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O ./yq
+          chmod +x ./yq
       - name: Generate services lists
         env:
           NO_SKIP: true
