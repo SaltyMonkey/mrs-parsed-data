@@ -34,6 +34,7 @@ main() {
     find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
         echo "Processing YAML: $file"
         local mrs_file=${file%.*}.mrs
+        yaml_sort_by_alphabet "$file" "$file" "payload"
         mrs_domain "${file}" "${mrs_file}"
     done
 

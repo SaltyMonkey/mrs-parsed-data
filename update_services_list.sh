@@ -75,6 +75,7 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/vercel.yaml" "${FOLDER}"vercel.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cloudflare.yaml" "${FOLDER}"cloudflare.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/meta.yaml" "${FOLDER}"meta.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/artstation.yaml" "${FOLDER}"artstation.yaml
 
     cat "${MANUAL_FOLDER}"manual-service-hetzner >> "${FOLDER}"hetzner.txt
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
@@ -92,6 +93,7 @@ main() {
     find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
         echo "Processing YAML: $file"
         local mrs_file=${file%.*}.mrs
+        yaml_sort_by_alphabet "$file" "$file" "payload"
         mrs_domain "${file}" "${mrs_file}"
     done
 
