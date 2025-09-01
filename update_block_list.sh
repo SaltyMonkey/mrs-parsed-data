@@ -1,10 +1,9 @@
 #!/bin/bash
 
-FOLDER="bypass/"
-MANUAL_FOLDER="manual/"
+FOLDER="block/"
 #SERVICES_FOLDER="services/"
 #All_SERVICES_FILENAME="all_services.lst";
-YAMLFOLDER="bypass/yaml/"
+YAMLFOLDER="block/yaml/"
 
 source ./update_shared.sh
 
@@ -26,12 +25,8 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev.yaml "${FOLDER}"category-dev.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-speedtest.yaml "${FOLDER}"category-speedtest.yaml
 
-    grep -v -F -x -f "${MANUAL_FOLDER}"excluded-no-russia-hosts "${FOLDER}"no-russia-hosts > "${FOLDER}"no-russia-hosts.txt
-    rm -r "${FOLDER}"no-russia-hosts
-
     #cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt "${SERVICES_FOLDER}${All_SERVICES_FILENAME}" | sort | uniq > "${FOLDER}"just-domains.txt
     cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt | sort | uniq > "${FOLDER}"just-domains.txt
-
     rm -f "${FOLDER}"guberniev-include.txt
 
     local file
@@ -50,7 +45,6 @@ main() {
         cleanup "${file}" "${tmp_file}"
         yaml_subdomains "${tmp_file}" "${yaml_file}"
         mrs_domain "${yaml_file}" "${mrs_file}"
-
     done
 
     mv  "$FOLDER"*.yaml "$YAMLFOLDER"

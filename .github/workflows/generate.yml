@@ -35,8 +35,8 @@ jobs:
         env:
           NO_SKIP: true
         run: |
-          chmod +x ./update_bypass_list.sh
-          ./update_bypass_list.sh
+          chmod +x ./update_block_list.sh
+          ./update_block_list.sh
       - name: Generate spyware lists
         env:
           NO_SKIP: true
