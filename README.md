@@ -33,6 +33,7 @@
 - [google-play.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/google-play.mrs)
 - [google.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/google.mrs)
 - [grok.com.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.com.mrs)
+- [grok.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/grok.mrs)
 - [hdrezka.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hdrezka.mrs)
 - [hetzner.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hetzner.mrs)
 - [hewlett-packard.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/hewlett-packard.mrs)
@@ -71,6 +72,7 @@
 - [vercel.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/vercel.mrs)
 - [whatsapp.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/whatsapp.mrs)
 - [x.com.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.com.mrs)
+- [x.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.mrs)
 - [youtube.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.mrs)
 ## YAML
 - [akamai.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/akamai.yaml)
@@ -103,7 +105,7 @@
 - [gemini.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/gemini.yaml)
 - [google-play.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/google-play.yaml)
 - [google.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/google.yaml)
-- [grok.com.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/grok.com.yaml)
+- [grok.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/grok.yaml)
 - [hdrezka.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/hdrezka.yaml)
 - [hetzner.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/hetzner.yaml)
 - [hewlett-packard.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/hewlett-packard.yaml)
@@ -141,7 +143,7 @@
 - [twitch.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/twitch.yaml)
 - [vercel.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/vercel.yaml)
 - [whatsapp.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/whatsapp.yaml)
-- [x.com.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/x.com.yaml)
+- [x.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/x.yaml)
 - [youtube.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/youtube.yaml)
 
 ## ADS
