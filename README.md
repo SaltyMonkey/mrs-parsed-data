@@ -187,9 +187,21 @@
 ## Bypass
 
 ## MRS
-_No files found._
+- [antifilter-community.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/antifilter-community.mrs)
+- [category-dev.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/category-dev.mrs)
+- [category-gov-ru.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/category-gov-ru.mrs)
+- [category-ru.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/category-ru.mrs)
+- [category-speedtest.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/category-speedtest.mrs)
+- [itdog-russia-inside.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/itdog-russia-inside.mrs)
+- [just-domains.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/just-domains.mrs)
 ## YAML
-_No files found._
+- [antifilter-community.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/antifilter-community.yaml)
+- [category-dev.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/category-dev.yaml)
+- [category-gov-ru.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/category-gov-ru.yaml)
+- [category-ru.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/category-ru.yaml)
+- [category-speedtest.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/category-speedtest.yaml)
+- [itdog-russia-inside.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/itdog-russia-inside.yaml)
+- [just-domains.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/block/yaml/just-domains.yaml)
 
 ## Subnets
 
