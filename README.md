@@ -7,6 +7,7 @@
 - [amd.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amd.mrs)
 - [anydesk.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/anydesk.mrs)
 - [apple.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/apple.mrs)
+- [artstation.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/artstation.mrs)
 - [atlassian.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/atlassian.mrs)
 - [azure.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/azure.mrs)
 - [bilibili.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/bilibili.mrs)
@@ -77,6 +78,7 @@
 - [amd.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/amd.yaml)
 - [anydesk.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/anydesk.yaml)
 - [apple.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/apple.yaml)
+- [artstation.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/artstation.yaml)
 - [atlassian.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/atlassian.yaml)
 - [azure.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/azure.yaml)
 - [bilibili.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/bilibili.yaml)
@@ -185,29 +187,16 @@
 ## Bypass
 
 ## MRS
-- [antifilter-community.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/antifilter-community.mrs)
-- [category-dev.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-dev.mrs)
-- [category-gov-ru.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-gov-ru.mrs)
-- [category-ru.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-ru.mrs)
-- [category-speedtest.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-speedtest.mrs)
-- [itdog-russia-inside.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/itdog-russia-inside.mrs)
-- [just-domains.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/just-domains.mrs)
-- [no-russia-hosts.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/no-russia-hosts.mrs)
+_No files found._
 ## YAML
-- [antifilter-community.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/antifilter-community.yaml)
-- [category-dev.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/category-dev.yaml)
-- [category-gov-ru.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/category-gov-ru.yaml)
-- [category-ru.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/category-ru.yaml)
-- [category-speedtest.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/category-speedtest.yaml)
-- [itdog-russia-inside.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/itdog-russia-inside.yaml)
-- [just-domains.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/just-domains.yaml)
-- [no-russia-hosts.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/yaml/no-russia-hosts.yaml)
+_No files found._
 
 ## Subnets
 
 ## Combined MRS
 - [bunny.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/bunny.mrs)
 - [cloudflare.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/cloudflare.mrs)
+- [digitalocean.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/digitalocean.mrs)
 - [discord-voice.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/discord-voice.mrs)
 - [fastly.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/fastly.mrs)
 - [gcore.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/dual/gcore.mrs)
@@ -222,6 +211,7 @@
 - [bunny.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/bunny.mrs)
 - [cloudflare.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.mrs)
 - [cloudfront.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.mrs)
+- [digitalocean.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/digitalocean.mrs)
 - [discord-voice.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.mrs)
 - [fastly.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/fastly.mrs)
 - [gcore.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/gcore.mrs)
@@ -233,6 +223,7 @@
 ## IPv6 MRS
 - [bunny.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/bunny.mrs)
 - [cloudflare.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/cloudflare.mrs)
+- [digitalocean.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/digitalocean.mrs)
 - [discord-voice.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/discord-voice.mrs)
 - [fastly.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/fastly.mrs)
 - [gcore.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv6/gcore.mrs)

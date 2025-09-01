@@ -1,16 +1,10 @@
-Antifilter community|antifilter-community|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/antifilter-community.mrs
-Category dev|category-dev|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-dev.mrs
-Category gov RU|category-gov-ru|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-gov-ru.mrs
-Category RU|category-ru|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-ru.mrs
-Category speedtest|category-speedtest|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/category-speedtest.mrs
-Itdog Russia inside|itdog-russia-inside|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/itdog-russia-inside.mrs
-Just domains|just-domains|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/just-domains.mrs
-No Russia hosts|no-russia-hosts|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/bypass/no-russia-hosts.mrs
+
 Akamai|akamai|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/akamai.mrs
 Amazon|amazon|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amazon.mrs
 Amd|amd|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/amd.mrs
 Anydesk|anydesk|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/anydesk.mrs
 Apple|apple|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/apple.mrs
+Artstation|artstation|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/artstation.mrs
 Atlassian|atlassian|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/atlassian.mrs
 Azure|azure|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/azure.mrs
 Bilibili|bilibili|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/bilibili.mrs
@@ -80,6 +74,7 @@ Apple CIDR|apple-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey
 Bunny CIDR|bunny-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/bunny.mrs
 Cloudflare CIDR|cloudflare-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudflare.mrs
 Cloudfront CIDR|cloudfront-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/cloudfront.mrs
+Digitalocean CIDR|digitalocean-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/digitalocean.mrs
 Discord voice CIDR|discord-voice-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/discord-voice.mrs
 Fastly CIDR|fastly-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/fastly.mrs
 Gcore CIDR|gcore-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/gcore.mrs

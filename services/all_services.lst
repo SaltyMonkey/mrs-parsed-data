@@ -8,6 +8,7 @@ docker.io
 docker-pinata-support.s3.amazonaws.com
 docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 dckr.io
+dockerstatic.com
 licdn.com
 linkedin.com
 daramalive.life
@@ -53,9 +54,6 @@ tuyacn.com
 tuyaus.com
 tuyaaf.com
 iot334.com
-tuyaus.com
-tuyacn.com
-tuyaeu.com
 tuyain.com
 iotbing.com
 tuya-inc.cn
@@ -115,6 +113,7 @@ fedorapeople.org
 fedoraproject.org
 fedoramagazine.org
 archlinux.org
+archlinuxarm.org
 kde.org
 kali.org
 manjaro.org
