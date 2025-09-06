@@ -75,6 +75,7 @@ payload:
     - '+.eu-errup.vivoglobal.com'
     - '+.eu-onrt-stsdk.vivoglobal.com'
     - '+.eu-ort-stsdk.vivoglobal.com'
+    - '+.eu-p.vivoglobal.com'
     - '+.eu-pnrt-stsdk.vivoglobal.com'
     - '+.eu-romsp-unifyconfig.vivoglobal.com'
     - '+.eu-st-sl.vivoglobal.com'
