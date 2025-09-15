@@ -507,7 +507,6 @@ payload:
     - '+.g00.msn.com'
     - '+.gateway.bingviz.microsoftapp.net'
     - '+.geo.hub.analytics.trafficmanager.net'
-    - '+.geover-prod.do.dsp.mp.microsoft.com'
     - '+.germanywestcentral-0.in.applicationinsights.azure.com'
     - '+.germanywestcentral-1.in.applicationinsights.azure.com'
     - '+.ghochv3eng.trafficmanager.net'
