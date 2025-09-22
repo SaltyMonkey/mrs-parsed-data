@@ -75,6 +75,7 @@ main() {
         local mrs_file="${file%.*}.mrs"
         cleanup "${file}" "${tmp_file}"
         yaml "${tmp_file}" "${yaml_file}"
+        yaml_sort_by_alphabet "$yaml_file" "$yaml_file" "payload"
         mrs_ipcidr "${yaml_file}" "${mrs_file}"
     done
 
