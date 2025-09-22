@@ -2,6 +2,7 @@
 
 FOLDER="subnets/"
 YAMLFOLDER="subnets/yaml/"
+MANUAL_FOLDER="manual/subnets/ipv4/"
 
 source ./update_shared.sh
 
@@ -52,6 +53,8 @@ main() {
     parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"ipv6/gcore.txt '.addresses_v6[]'
     parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"dual/gcore.txt '(.addresses + .addresses_v6)[]'
 
+    cat "${MANUAL_FOLDER}"manual-tuya >> "${FOLDER}"ipv4/tuya.txt
+
     echo >> "${FOLDER}"ipv4/cloudflare.txt
     cat "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt | sort | uniq > "${FOLDER}"dual/cloudflare.txt
 
@@ -59,8 +62,6 @@ main() {
     cat "${FOLDER}"ipv4/discord-voice.txt "${FOLDER}"ipv6/discord-voice.txt | sort | uniq > "${FOLDER}"dual/discord-voice.txt
 
     local file
-
-
     find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
         echo "Processing YAML: $file"
         local mrs_file=${file%.*}.mrs
