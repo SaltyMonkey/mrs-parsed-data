@@ -1,8 +1,8 @@
 #!/bin/bash
 GITHUBLINK="https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main"
 
-RULESETS_FILEPATH="./rulesets.justclash.txt"
-BLOCKRULESETS_FILEPATH="./blockrulesets.justclash.txt"
+RULESETS_FILEPATH="./rulesets.txt"
+BLOCKRULESETS_FILEPATH="./block.rulesets.txt"
 
 rm -f "$RULESETS_FILEPATH"
 rm -f "$BLOCKRULESETS_FILEPATH"
