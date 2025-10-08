@@ -38,6 +38,7 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=daramalive.life" "${FOLDER}"daramalivelife.txt
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=kino.pub" "${FOLDER}"kinopub.txt
     download "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=anydesk.com" "${FOLDER}"anydesk.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geosite/telegram.yaml" "${FOLDER}"telegram.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xbox.yaml" "${FOLDER}"xbox.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/perplexity.yaml" "${FOLDER}"perplexity.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/youtube.yaml" "${FOLDER}"youtube.yaml
@@ -80,7 +81,6 @@ main() {
 
     cat "${MANUAL_FOLDER}"manual-service-hetzner >> "${FOLDER}"hetzner.txt
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
-    cat "${MANUAL_FOLDER}"manual-service-telegram >> "${FOLDER}"telegram.txt
     cat "${MANUAL_FOLDER}"manual-service-nix-distros >> "${FOLDER}"nix.txt
     cat "${MANUAL_FOLDER}"manual-service-atlassian >> "${FOLDER}"atlassian.txt
     cat "${MANUAL_FOLDER}"manual-service-docker >> "${FOLDER}"docker.txt
