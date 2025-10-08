@@ -75,6 +75,7 @@ Twitch|twitch|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parse
 Vercel|vercel|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/vercel.mrs
 Whatsapp|whatsapp|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/whatsapp.mrs
 X|x|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.mrs
+Xbox|xbox|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/xbox.mrs
 Youtube|youtube|domain|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.mrs
 Antifilter community CIDR|antifilter-community-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/antifilter-community.mrs
 Apple CIDR|apple-ipcidr|ipcidr|mrs|https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/subnets/ipv4/apple.mrs

@@ -71,6 +71,7 @@
 - [vercel.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/vercel.mrs)
 - [whatsapp.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/whatsapp.mrs)
 - [x.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/x.mrs)
+- [xbox.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/xbox.mrs)
 - [youtube.mrs](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/youtube.mrs)
 ## YAML
 - [akamai.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/akamai.yaml)
@@ -142,6 +143,7 @@
 - [vercel.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/vercel.yaml)
 - [whatsapp.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/whatsapp.yaml)
 - [x.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/x.yaml)
+- [xbox.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/xbox.yaml)
 - [youtube.yaml](https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main/services/yaml/youtube.yaml)
 
 ## ADS
