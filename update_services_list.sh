@@ -38,6 +38,7 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=daramalive.life" "${FOLDER}"daramalivelife.txt
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=kino.pub" "${FOLDER}"kinopub.txt
     download "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=anydesk.com" "${FOLDER}"anydesk.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xbox.yaml" "${FOLDER}"xbox.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/perplexity.yaml" "${FOLDER}"perplexity.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/youtube.yaml" "${FOLDER}"youtube.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon.yaml" "${FOLDER}"amazon.yaml
