@@ -49,6 +49,7 @@ payload:
   - '+.api.installer.xiaomi.com'
   - '+.api.jr.mi.com'
   - '+.api.launcher.intl.miui.com'
+  - '+.api.micloud.xiaomi.net'
   - '+.api.mintbrs.intl.miui.com'
   - '+.api.miui.security.xiaomi.com'
   - '+.api.muc.intl.miui.com'
