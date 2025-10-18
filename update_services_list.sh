@@ -19,6 +19,7 @@ main() {
     download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40notebooklm" "${FOLDER}"notebooklm.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=netflix.com&wildcard=1" "${FOLDER}"netflix.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=hdrezka.ag&wildcard=1" "${FOLDER}"hdrezka.txt
+    download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=filmix.fm" "${FOLDER}"filmix.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=lostfilm.tv&wildcard=1" "${FOLDER}"lostfilm.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=kinozal.tv&wildcard=1" "${FOLDER}"kinozal.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=medium.com&wildcard=1" "${FOLDER}"medium.txt
@@ -32,7 +33,6 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.yaml" "${FOLDER}"spotify.yaml
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=deepl.com" "${FOLDER}"deepl.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=discord.com&site=discord.gg&site=discord.media&wildcard=1" "${FOLDER}"discord.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=rutracker.org&wildcard=1" "${FOLDER}"rutracker.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=nnmclub.to&wildcard=1" "${FOLDER}"nnmclub.txt
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=doramy.club" "${FOLDER}"doramyclub.txt
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=daramalive.life" "${FOLDER}"daramalivelife.txt
@@ -44,6 +44,7 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/youtube.yaml" "${FOLDER}"youtube.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon.yaml" "${FOLDER}"amazon.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple.yaml" "${FOLDER}"apple.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mongodb.yaml" "${FOLDER}"mongodb.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/azure.yaml" "${FOLDER}"azure.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/azure.yaml" "${FOLDER}"azure.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bilibili.yaml" "${FOLDER}"bilibili.yaml
@@ -78,13 +79,19 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cloudflare.yaml" "${FOLDER}"cloudflare.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/meta.yaml" "${FOLDER}"meta.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/artstation.yaml" "${FOLDER}"artstation.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/npmjs.yaml" "${FOLDER}"npmjs.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/paypal.yaml" "${FOLDER}"paypal.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/pixiv.yaml" "${FOLDER}"pixiv.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/rutracker.yaml" "${FOLDER}"rutracker.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/hetzner.yaml" "${FOLDER}"hetzner.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/panasonic.yaml" "${FOLDER}"panasonic.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia.yaml" "${FOLDER}"nvidia.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cdn77.yaml" "${FOLDER}"cdn77.yaml
 
-    cat "${MANUAL_FOLDER}"manual-service-hetzner >> "${FOLDER}"hetzner.txt
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
     cat "${MANUAL_FOLDER}"manual-service-nix-distros >> "${FOLDER}"nix.txt
     cat "${MANUAL_FOLDER}"manual-service-atlassian >> "${FOLDER}"atlassian.txt
     cat "${MANUAL_FOLDER}"manual-service-docker >> "${FOLDER}"docker.txt
-    cat "${MANUAL_FOLDER}"manual-service-tuya >> "${FOLDER}"tuya.txt
     cat "${MANUAL_FOLDER}"manual-service-twitch-fix >> "${FOLDER}"twitch-fix.txt
     cat "${MANUAL_FOLDER}"manual-service-bunny >> "${FOLDER}"bunny.txt
     cat "${MANUAL_FOLDER}"manual-service-gcore >> "${FOLDER}"gcore.txt

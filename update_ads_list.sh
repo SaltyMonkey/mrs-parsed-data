@@ -20,9 +20,20 @@ main() {
     download https://big.oisd.nl/domainswild "${FOLDER}"oisd-big.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.txt "${FOLDER}"hagezi-pro-ads.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.mini.txt "${FOLDER}"hagezi-pro-mini-ads.txt
-    download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40google-ads" "${FOLDER}"google-ads.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.plus.mini.txt "${FOLDER}"hagezi-pro-plus-mini-ads.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/light.txt "${FOLDER}"hagezi-light-ads.txt
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-ads.yaml "${FOLDER}"google-ads.yaml
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ads-all.yaml "${FOLDER}category-ads-all.yaml"
 
     local file
+
+    find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
+        echo "Processing YAML: $file"
+        local mrs_file=${file%.*}.mrs
+        yaml_sort_by_alphabet "$file" "$file" "payload"
+        mrs_domain "${file}" "${mrs_file}"
+    done
+
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
         echo "Processing: $file"
         local tmp_file=${file%.*}.tmp

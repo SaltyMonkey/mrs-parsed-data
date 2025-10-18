@@ -23,6 +23,7 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-gov-ru.yaml "${FOLDER}"category-gov-ru.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.yaml "${FOLDER}"category-ru.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev.yaml "${FOLDER}"category-dev.yaml
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-anticensorship.yaml "${FOLDER}"category-anticensorship.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-speedtest.yaml "${FOLDER}"category-speedtest.yaml
 
     #cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt "${SERVICES_FOLDER}${All_SERVICES_FILENAME}" | sort | uniq > "${FOLDER}"just-domains.txt
