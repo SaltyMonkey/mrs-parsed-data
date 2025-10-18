@@ -53,6 +53,8 @@ payload:
   - +.ap-tokyo.tencentcos.com.cn
   - +.apaas-zone-test.com
   - +.apcdns.net
+  - +.apdcdn.com
+  - +.apdcdn.net
   - +.apigwtencent.com
   - +.battlecare.net
   - +.bcfmglobal.com
@@ -481,6 +483,7 @@ payload:
   - +.tingbook.com
   - +.tjstats.com
   - +.tlivecdn.com
+  - +.tlivemcdn.com
   - +.tlivepush.com
   - +.tlivesource.com
   - +.tourismshow.cn

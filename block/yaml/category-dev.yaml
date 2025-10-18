@@ -291,6 +291,7 @@ payload:
   - +.npmjs.org
   - +.nuget.org
   - +.nugettest.org
+  - +.octocaptcha.com
   - +.ogp.me
   - +.oneapi.com
   - +.opengraphprotocol.com
@@ -497,6 +498,7 @@ payload:
   - firebaselogging.googleapis.com
   - firebaseperusertopics-pa.googleapis.com
   - firebaseremoteconfig.googleapis.com
+  - github-api.arkoselabs.com
   - github-cloud.s3.amazonaws.com
   - gitlab-assets.oss-cn-hongkong.aliyuncs.com
   - homebrew.bintray.com
