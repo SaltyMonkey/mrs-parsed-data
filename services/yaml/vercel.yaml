@@ -11,6 +11,7 @@ payload:
   - +.vercel.app
   - +.vercel.blog
   - +.vercel.com
+  - +.vercel.dev
   - +.vercel.events
   - +.vercel.live
   - +.vercel.pub
