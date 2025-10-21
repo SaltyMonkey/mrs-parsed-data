@@ -98,6 +98,7 @@ payload:
   - '+.cc2.sys.miui.com'
   - '+.ccc.sys.intl.xiaomi.com'
   - '+.ccc.sys.miui.com'
+  - '+.cdn-exp-sg-recommend.pt.xiaomi.com'
   - '+.cdn.exp.xiaomi.com'
   - '+.cdn.fds-ssl.api.xiaomi.com'
   - '+.cdn.fds.api.xiaomi.com'
