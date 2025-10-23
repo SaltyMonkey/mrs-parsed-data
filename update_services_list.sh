@@ -3,7 +3,6 @@
 FOLDER="services/"
 YAMLFOLDER="services/yaml/"
 MANUAL_FOLDER="manual/services/"
-All_SERVICES_FILENAME="all_services.lst";
 
 source ./update_shared.sh
 
@@ -12,7 +11,6 @@ mkdir -p "${YAMLFOLDER}"
 
 find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
-rm -r "${FOLDER}${All_SERVICES_FILENAME}"
 
 main() {
     download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40google-gemini" "${FOLDER}"gemini.txt
@@ -108,16 +106,11 @@ main() {
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
         echo "Processing: $file"
 
-        cat "$file" >> "${FOLDER}${All_SERVICES_FILENAME}"
-        echo >> "${FOLDER}${All_SERVICES_FILENAME}"
-
         local yaml_file="${file%.*}.yaml"
         local mrs_file="${file%.*}.mrs"
         yaml_subdomains "${file}" "${yaml_file}"
         mrs_domain "${yaml_file}" "${mrs_file}"
     done
-
-    cleanup "${FOLDER}${All_SERVICES_FILENAME}" "${FOLDER}${All_SERVICES_FILENAME}"
 
     mv "${FOLDER}"*.yaml "${YAMLFOLDER}"
     find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
