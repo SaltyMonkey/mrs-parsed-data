@@ -1,5 +1,6 @@
 payload:
   - +.argotunnel.com
+  - +.cf-china.info
   - +.cf-ipfs.com
   - +.cf-ns.com
   - +.cf-ns.net
@@ -37,6 +38,7 @@ payload:
   - +.cloudflareportal.com
   - +.cloudflarepreview.com
   - +.cloudflareprod.com
+  - +.cloudflareregistrar.com
   - +.cloudflareresolve.com
   - +.cloudflaressl.com
   - +.cloudflarestaging.com
