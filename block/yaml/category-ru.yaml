@@ -1,5 +1,7 @@
 payload:
+  - +.5post.market
   - +.boosty.to
+  - +.chizhik.club
   - +.donationalerts.com
   - +.emias.info
   - +.memealerts.com
@@ -7,7 +9,9 @@ payload:
   - +.mvk.com
   - +.mycdn.me
   - +.naydex.net
+  - +.okolo.app
   - +.ozonusercontent.com
+  - +.perekrestok.com
   - +.psk
   - +.rostaxi.org
   - +.ru
@@ -35,6 +39,14 @@ payload:
   - +.vkuserlive.net
   - +.vkuservideo.com
   - +.vkuservideo.net
+  - +.x5.ai
+  - +.x5.com
+  - +.x5.digital
+  - +.x5.group
+  - +.x5.media
+  - +.x5.team
+  - +.x5.tech
+  - +.x5static.net
   - +.xn--80adxhks
   - +.xn--80asehdb
   - +.xn--80aswg
