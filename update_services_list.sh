@@ -38,6 +38,8 @@ main() {
     download "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=anydesk.com" "${FOLDER}"anydesk.txt
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geosite/telegram.yaml" "${FOLDER}"telegram.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xbox.yaml" "${FOLDER}"xbox.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/archive.yaml" "${FOLDER}"archive.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/alibaba.yaml" "${FOLDER}"alibaba.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/perplexity.yaml" "${FOLDER}"perplexity.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/youtube.yaml" "${FOLDER}"youtube.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon.yaml" "${FOLDER}"amazon.yaml
@@ -83,16 +85,21 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/rutracker.yaml" "${FOLDER}"rutracker.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/hetzner.yaml" "${FOLDER}"hetzner.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/panasonic.yaml" "${FOLDER}"panasonic.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/flibusta.yaml" "${FOLDER}"flibusta.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia.yaml" "${FOLDER}"nvidia.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cdn77.yaml" "${FOLDER}"cdn77.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/steam.yaml" "${FOLDER}"steam.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ea.yaml" "${FOLDER}"ea.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mega.yaml" "${FOLDER}"mega.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/docker.yaml" "${FOLDER}"docker.yaml
 
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
     cat "${MANUAL_FOLDER}"manual-service-nix-distros >> "${FOLDER}"nix.txt
     cat "${MANUAL_FOLDER}"manual-service-atlassian >> "${FOLDER}"atlassian.txt
-    cat "${MANUAL_FOLDER}"manual-service-docker >> "${FOLDER}"docker.txt
     cat "${MANUAL_FOLDER}"manual-service-twitch-fix >> "${FOLDER}"twitch-fix.txt
     cat "${MANUAL_FOLDER}"manual-service-bunny >> "${FOLDER}"bunny.txt
     cat "${MANUAL_FOLDER}"manual-service-gcore >> "${FOLDER}"gcore.txt
+    cat "${MANUAL_FOLDER}"manual-service-dns-test >> "${FOLDER}"dns-test.txt
 
     local file
 

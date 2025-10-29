@@ -24,7 +24,13 @@ generate_list() {
                 s/\bru\b/RU/gi;
                 s/\brussia\b/Russia/gi;
                 s/\bads\b/ADS/gi;
-                s/\bnsfw\b/NSFW/gi
+                s/\bnsfw\b/NSFW/gi;
+                s/\bdns\b/DNS/gi;
+                s/\bibm\b/IBM/gi;
+                s/\bovh\b/OVH/gi;
+                s/\bqt\b/QT/gi;
+                s/\bamd\b/AMD/gi;
+                s/\bgpt\b/GPT/gi;
             ')
             if [ -n "$readable_name_addon" ]; then
                 readable_name="$readable_name $readable_name_addon"
