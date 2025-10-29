@@ -96,6 +96,14 @@ payload:
   - +.cosger.myqcloud.com
   - +.coshk.myqcloud.com
   - +.cossgp.myqcloud.com
+  - +.dcloudlive.com
+  - +.dcloudlive.net
+  - +.dcloudsp.com
+  - +.dcloudsp.net
+  - +.dcloudstc.com
+  - +.dcloudstc.net
+  - +.dcloudvod.com
+  - +.dcloudvod.net
   - +.discuz.net
   - +.discuz.org
   - +.dns.pub
@@ -448,6 +456,7 @@ payload:
   - +.tencentcos.cn
   - +.tencentcos.com
   - +.tencentcos.com.cn
+  - +.tencentcs.cn
   - +.tencentcs.com
   - +.tencentdayu.com
   - +.tencentdb.com
