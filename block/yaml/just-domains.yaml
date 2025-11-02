@@ -2009,6 +2009,7 @@ payload:
     - '+.ooguy.com'
     - '+.openai.com'
     - '+.openai.qualtrics.com'
+    - '+.openevidence.com'
     - '+.openh264.org'
     - '+.openmedia.io'
     - '+.openrouter.ai'

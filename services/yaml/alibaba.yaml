@@ -30,6 +30,7 @@ payload:
   - +.afp.alicdn.com
   - +.agoodm.m.taobao.com
   - +.agoodm.wapa.taobao.com
+  - +.ali-health.com
   - +.aliapp.org
   - +.alibaba
   - +.alibaba-inc.com
@@ -66,6 +67,7 @@ payload:
   - +.aliimg.com
   - +.alikmd.com
   - +.alikunlun.com
+  - +.alikunlun.net
   - +.alimama.com
   - +.alimebot.com
   - +.alimei.com
