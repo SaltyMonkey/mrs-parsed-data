@@ -191,6 +191,7 @@ payload:
     - '+.apad.top'
     - '+.api.app.prod.grazie.aws.intellij.net'
     - '+.api.cdnlibs.org'
+    - '+.api.imgur.com'
     - '+.api.jetbrains.ai'
     - '+.api.recraft.ai'
     - '+.api.service-kp.com'
