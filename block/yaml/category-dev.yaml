@@ -199,6 +199,7 @@ payload:
   - +.hexdocs.pm
   - +.hhvm.com
   - +.hyperscan.io
+  - +.imageglass.org
   - +.insiderdevtour.com
   - +.intellij.com
   - +.intellij.net
@@ -277,6 +278,7 @@ payload:
   - +.mongodb.com
   - +.mongodb.org
   - +.mono-project.com
+  - +.mpv.io
   - +.msdn.com
   - +.msinnovationchallenge.com
   - +.mspairlift.com

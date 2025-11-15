@@ -451,6 +451,7 @@ payload:
   - '+.us.api.micloud.xiaomi.net'
   - '+.us.statusapi.micloud.xiaomi.net'
   - '+.userid.xiaomi.com'
+  - '+.video.intl.xiaomi.com'
   - '+.video.kts.g.mi.com'
   - '+.video.market.xiaomi.com'
   - '+.vip-api.xmpush.global.xiaomi.com'
