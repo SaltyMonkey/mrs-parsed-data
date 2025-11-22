@@ -1,5 +1,5 @@
 #!/bin/bash
-GITHUBLINK="https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main"
+JSDELIVR="https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data"
 
 rm -f ./README.md
 
@@ -8,14 +8,14 @@ generate_markdown_list() {
     local dir="$2"
     local heading="$3"
 
-    echo "## $heading"
+    echo "### $heading"
 
     if find "$dir" -type f -name "*.$ext" | grep -q .; then
         find "$dir" -type f -name "*.$ext" | sort | while read -r file; do
             local file_name
             file_name=$(basename "$file")
             local file_path=${file#./}
-            echo "- [$file_name]($GITHUBLINK/$file_path)"
+            echo "- [$file_name]($JSDELIVR/$file_path)"
         done
     else
         echo "_No files found._"

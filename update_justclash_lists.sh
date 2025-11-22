@@ -1,5 +1,5 @@
 #!/bin/bash
-GITHUBLINK="https://raw.githubusercontent.com/SaltyMonkey/mrs-parsed-data/refs/heads/main"
+JSDELIVR="https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data"
 
 RULESETS_FILEPATH="./rulesets.txt"
 BLOCKRULESETS_FILEPATH="./block.rulesets.txt"
@@ -17,7 +17,7 @@ generate_list() {
             local file_name
             file_name=$(basename "$file" ."$ext")
             local file_path=${file#./}
-            local github_path=$GITHUBLINK/$file_path
+            local github_path=$JSDELIVR/$file_path
             local readable_upper_name=${file_name^}
             readable_name=${readable_upper_name//-/ }
             readable_name=$(echo "$readable_name" | sed '
