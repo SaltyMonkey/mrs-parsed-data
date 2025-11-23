@@ -4,7 +4,9 @@ payload:
   - +.chizhik.club
   - +.donationalerts.com
   - +.emias.info
+  - +.kinopoisk-ru.clstorage.net
   - +.memealerts.com
+  - +.moscow
   - +.mradx.net
   - +.mvk.com
   - +.mycdn.me
@@ -15,6 +17,8 @@ payload:
   - +.psk
   - +.rostaxi.org
   - +.ru
+  - +.ru.com
+  - +.ru.net
   - +.su
   - +.userapi.com
   - +.vk-apps.com
@@ -39,6 +43,8 @@ payload:
   - +.vkuserlive.net
   - +.vkuservideo.com
   - +.vkuservideo.net
+  - +.webvisor.com
+  - +.webvisor.org
   - +.x5.ai
   - +.x5.com
   - +.x5.digital
@@ -54,6 +60,7 @@ payload:
   - +.xn--d1acj3b
   - +.xn--p1acf
   - +.xn--p1ai
+  - +.yads.tech
   - +.yandex
   - +.yandex-bank.net
   - +.yandex-images.clstorage.net
@@ -90,5 +97,7 @@ payload:
   - +.yandexadexchange.net
   - +.yandexcloud.net
   - +.yandexcom.net
+  - +.yandexmetrica.com
   - +.yandexwebcache.org
+  - +.yastat.net
   - +.yastatic.net
