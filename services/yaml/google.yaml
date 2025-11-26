@@ -26,6 +26,8 @@ payload:
   - +.angulardart.org
   - +.api.ai
   - +.apigee.com
+  - +.app-analytics-services-att.com
+  - +.app-analytics-services.com
   - +.app-measurement-cn.com
   - +.app-measurement.com
   - +.appbridge.ca
@@ -433,6 +435,7 @@ payload:
   - +.google.ws
   - +.googleacquisitionmigration.com
   - +.googleadapis.com
+  - +.googleadapis.l.google.com
   - +.googleads-cn.com
   - +.googleads.com
   - +.googleadservices-cn.com
@@ -537,6 +540,7 @@ payload:
   - +.mdialog.com
   - +.meet.new
   - +.mfg-inspector.com
+  - +.mobileads.google.com
   - +.mobileview.page
   - +.moodstocks.com
   - +.near.by
@@ -556,9 +560,11 @@ payload:
   - +.openweave.io
   - +.orbitera.com
   - +.page.link
+  - +.pagead.l.google.com
   - +.pagespeedmobilizer.com
   - +.pageview.mobi
   - +.panoramio.com
+  - +.partnerad.l.google.com
   - +.partylikeits1986.org
   - +.paxlicense.org
   - +.picasa.com
@@ -902,6 +908,7 @@ payload:
   - fontfiles.googleapis.com
   - fonts.googleapis.com
   - fonts.gstatic.com
+  - fundingchoicesmessages.google.com
   - g0.gstatic.com
   - g1.gstatic.com
   - g2.gstatic.com

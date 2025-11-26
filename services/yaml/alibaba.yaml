@@ -11,6 +11,9 @@ payload:
   - +.a.alimama.cn
   - +.acjs.aliyun.com
   - +.acloudrender.com
+  - +.ad.api.3g.youku.com
+  - +.ad.api.mobile.youku.com
+  - +.ad.mobile.youku.com
   - +.adash-c.m.taobao.com
   - +.adash-c.ut.taobao.com
   - +.adash-emas.cn-hangzhou.aliyuncs.com
@@ -25,11 +28,10 @@ payload:
   - +.adashx4ae.ut.taobao.com
   - +.adashx4yt.m.taobao.com
   - +.adashxgc.ut.taobao.com
+  - +.ads.uc.cn
   - +.adsh.m.taobao.com
-  - +.afp.adchina.com
-  - +.afp.alicdn.com
-  - +.agoodm.m.taobao.com
-  - +.agoodm.wapa.taobao.com
+  - +.adslot.uc.cn
+  - +.adtrack.quark.cn
   - +.ali-health.com
   - +.aliapp.org
   - +.alibaba
@@ -68,6 +70,7 @@ payload:
   - +.alikmd.com
   - +.alikunlun.com
   - +.alikunlun.net
+  - +.alimama.alicdn.com
   - +.alimama.com
   - +.alimebot.com
   - +.alimei.com
@@ -80,7 +83,6 @@ payload:
   - +.alipay.com.cn
   - +.alipay.hk
   - +.alipaydns.com
-  - +.alipaylog.com
   - +.alipaylog.com
   - +.alipaymo.com
   - +.alipayobjects.com
@@ -111,23 +113,21 @@ payload:
   - +.alyms.cn
   - +.amap.com
   - +.amapauto.com
-  - +.amdc.alipay.com
   - +.anav.com
   - +.antfin.com
   - +.antfortune.com
   - +.antgroup-inc.cn
   - +.antgroup.com
-  - +.api.wapa.taobao.com
-  - +.api.waptest.taobao.com
-  - +.apoll.m.taobao.com
   - +.asczwa.com
   - +.asczxcefsv.com
   - +.asmlink.cn
   - +.atanx.alicdn.com
   - +.atanx2.alicdn.com
   - +.atatech.org
+  - +.atm.youku.com
   - +.autonavi.com
   - +.b2byao.com
+  - +.baichuan-sdk.alicdn.com
   - +.bazai.com
   - +.bcvbw.com
   - +.c-adash.m.taobao.com
@@ -135,13 +135,10 @@ payload:
   - +.cainiao.com
   - +.cainiao.com.cn
   - +.cainiaoyizhan.com
-  - +.cdn0.mobmore.com
   - +.cdngslb.com
   - +.cheng.xin
-  - +.click.aliyun.com
-  - +.click.mz.simba.taobao.com
+  - +.cibntv.net
   - +.cloudeagle.cn
-  - +.cm.ipinyou.com
   - +.cnzz.com
   - +.cueme.cn
   - +.damai.cn
@@ -159,7 +156,7 @@ payload:
   - +.dongting.com
   - +.doservice.com
   - +.dratio.com
-  - +.dsp.simba.taobao.com
+  - +.e.stat.ykimg.com
   - +.ele.me
   - +.ele.to
   - +.eleme.cn
@@ -168,31 +165,22 @@ payload:
   - +.elemecdn.com
   - +.elenet.me
   - +.emas-poc.com
+  - +.ems.youku.com
   - +.etao.com
-  - +.ex.mobmore.com
-  - +.ex.puata.info
-  - +.fav.simba.taobao.com
   - +.fcapp.run
-  - +.feedback.whalecloud.com
   - +.feizhu.cn
   - +.feizhu.com
-  - +.ff.win.taobao.com
   - +.fliggy.com
   - +.fliggy.hk
-  - +.fm.p0y.cn
+  - +.fourier.taobao.com
   - +.freshhema.com
   - +.freshippo.com
   - +.fund123.cn
   - +.g.click.taobao.com
-  - +.g.tbcdn.cn
   - +.gaode.com
-  - +.gma.alicdn.com
   - +.gongyi.xin
   - +.goofish.com
-  - +.gtms01.alicdn.com
-  - +.gtms02.alicdn.com
-  - +.gtms03.alicdn.com
-  - +.gtms04.alicdn.com
+  - +.guanggaoad.youku.com
   - +.guoguo-app.com
   - +.h-adashx.ut.ele.me
   - +.h-adashx.ut.taobao.com
@@ -202,25 +190,18 @@ payload:
   - +.hemaos.com
   - +.hemashare.cn
   - +.hichina.com
-  - +.hydra.alibaba.com
-  - +.hz.pre.tbusergw.taobao.net
-  - +.hz.tbusergw.taobao.net
-  - +.i.ipinyou.com
   - +.ialicdn.com
   - +.ica-alliance.org
   - +.iconfont.cn
   - +.ics.design
-  - +.init.phpwind.com
-  - +.intl.wapa.taobao.com
-  - +.intl.waptest.taobao.com
   - +.iuynfg.com
   - +.jhgtgb.com
   - +.juhuasuan.com
-  - +.jxlog.istreamsche.com
   - +.kanbox.com
   - +.kaola.com
   - +.kaolacdn.com
   - +.koubei.com
+  - +.kumiao.com
   - +.kunlunaq.com
   - +.kunlunar.com
   - +.kunlunca.com
@@ -246,6 +227,7 @@ payload:
   - +.liangxinyao.com
   - +.lingshoujia.com
   - +.log.umtrack.com
+  - +.lstat.youku.com
   - +.lwurl.to
   - +.lydaas.cn
   - +.lydaas.com
@@ -256,17 +238,16 @@ payload:
   - +.lydass.net
   - +.m-adash.m.taobao.com
   - +.m-now.cn
-  - +.m.intl.taobao.com
-  - +.m.simba.taobao.com
   - +.maitix.com
+  - +.marketing.alibaba.com
   - +.mashort.cn
-  - +.match.p4p.1688.com
-  - +.material.istreamsche.com
   - +.mdeer.com
   - +.mei.com
   - +.miaostreet.com
-  - +.mlt01.com
+  - +.mmstat.com
+  - +.mobilemsg.youku.com
   - +.mobmore.com
+  - +.msg.youku.com
   - +.mshare.cc
   - +.mxhichina.com
   - +.myalicdn.com
@@ -274,7 +255,6 @@ payload:
   - +.nbsdk-baichuan.taobao.com
   - +.nic.xin
   - +.npmmirror.com
-  - +.osfota.cdn.aliyun.com
   - +.oss-ap-northeast-1.aliyuncs.com
   - +.oss-ap-northeast-2.aliyuncs.com
   - +.oss-ap-south-1.aliyuncs.com
@@ -302,39 +282,31 @@ payload:
   - +.oss-me-east-1.aliyuncs.com
   - +.oss-us-east-1.aliyuncs.com
   - +.oss-us-west-1.aliyuncs.com
-  - +.osupdate.aliyun.com
-  - +.osupdateservice.yunos.com
+  - +.p-log.ykimg.com
   - +.pailitao.com
+  - +.passport-log.youku.com
   - +.philanthropy.xin
   - +.phpwind.com
   - +.phpwind.net
-  - +.pindao.huoban.taobao.com
+  - +.pl.youku.com
   - +.puata.info
-  - +.push.wandoujia.com
   - +.qingtingtrip.com
   - +.quark.cn
-  - +.re.m.taobao.com
-  - +.re.taobao.com
-  - +.redirect.simba.taobao.com
+  - +.retcode.taobao.com
   - +.rexpos.cn
-  - +.rj.m.taobao.co
-  - +.rj.m.taobao.com
+  - +.s-adashx.ut.youku.com
   - +.saee.org.cn
-  - +.sdkinit.taobao.com
   - +.shenjing.com
   - +.shujupie.com
   - +.shuqi.com
   - +.shuqireader.com
   - +.shyhhema.com
-  - +.simaba.taobao.com
-  - +.simba.m.taobao.com
   - +.sm.cn
+  - +.soku.com
   - +.sparenode.com
-  - +.srd.simba.taobao.com
-  - +.stats.ipinyou.com
-  - +.strip.taobaocdn.com
+  - +.stat.youku.com
+  - +.statis.api.3g.youku.com
   - +.supet.com
-  - +.tanxlog.istreamsche.com
   - +.taobao
   - +.taobao.com
   - +.taobao.org
@@ -345,21 +317,18 @@ payload:
   - +.tbcache.com
   - +.tbcdn.cn
   - +.tburl.in
+  - +.tce.alicdn.com
   - +.teambition.com
   - +.teambition.net
   - +.teambitionapis.com
-  - +.tejia.taobao.com
-  - +.temai.taobao.com
   - +.tmall
   - +.tmall.com
   - +.tmall.ru
   - +.tmalltv.com
   - +.tmjl.ai
   - +.tns.simba.taobao.com
-  - +.tongji.linezing.com
+  - +.track.lc.quark.cn
   - +.ttpod.com
-  - +.tvupgrade.yunos.com
-  - +.tyh.taobao.com
   - +.uc.cn
   - +.uc123.com
   - +.ucweb.com
@@ -368,14 +337,13 @@ payload:
   - +.umengcloud.com
   - +.umsns.com
   - +.umtrack.com
-  - +.userimg.qunar.com
   - +.uyunad.com
   - +.v6-adashx.ut.amap.com
   - +.v6-adashx.ut.cainiao.com
   - +.v6-adashx.ut.ele.me
   - +.v6-adashx.ut.taobao.com
+  - +.v6-adashx.ut.youku.com
   - +.w.cnzz.com
-  - +.w.m.taobao.com
   - +.wandoujia.com
   - +.whalecloud.com
   - +.xiami.com
@@ -383,7 +351,10 @@ payload:
   - +.xiami.net
   - +.xin.xin
   - +.xinlingshou.cn
-  - +.yiliao.hupan.com
+  - +.yk-ssp.ad.youku.com
+  - +.ykad-data.youku.com
+  - +.ykimg.com
+  - +.youku.com
   - +.yowhale.com
   - +.yunos-inc.com
   - +.yunos.com

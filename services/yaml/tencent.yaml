@@ -3,8 +3,10 @@ payload:
   - +.acctdns.com
   - +.acctdns.net
   - +.acimg.cn
+  - +.ad.browser.qq.com
   - +.ad.qq.com
   - +.ad.qun.qq.com
+  - +.ad.weixin.qq.com
   - +.adfilter.imtt.qq.com
   - +.adnet.qq.com
   - +.adping.qq.com
@@ -59,6 +61,7 @@ payload:
   - +.apigwtencent.com
   - +.battlecare.net
   - +.bcfmglobal.com
+  - +.beacon.cdn.qq.com
   - +.beacon.qq.com
   - +.beaconcdn.qq.com
   - +.bkapigw.com
@@ -67,6 +70,7 @@ payload:
   - +.bktencent.com
   - +.brawlstars.cn
   - +.btrace.qq.com
+  - +.bugly.qq.com
   - +.build9s.io
   - +.byodonline.com
   - +.ca.file.myqcloud.com
@@ -207,6 +211,7 @@ payload:
   - +.hk.file.myqcloud.com
   - +.hkgcloudcs.com
   - +.hongxiu.com
+  - +.hq-tracking.qq.com
   - +.hr-welink.com
   - +.idcgcloudcs.com
   - +.idqqimg.com
@@ -238,6 +243,7 @@ payload:
   - +.mahjongcup.cn
   - +.mahjongcup.com
   - +.mahjongcup.net
+  - +.mdt.qq.com
   - +.metalrevolution.com
   - +.midasbuy.com
   - +.mpush.qq.com
@@ -492,6 +498,8 @@ payload:
   - +.tlivemcdn.com
   - +.tlivepush.com
   - +.tlivesource.com
+  - +.tmead.y.qq.com
+  - +.tmeadcomm.y.qq.com
   - +.tourismshow.cn
   - +.tourismuser.cn
   - +.trace.qq.com
