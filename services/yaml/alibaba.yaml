@@ -71,6 +71,7 @@ payload:
   - +.alikunlun.com
   - +.alikunlun.net
   - +.alimama.alicdn.com
+  - +.alimama.cn
   - +.alimama.com
   - +.alimebot.com
   - +.alimei.com
@@ -194,6 +195,7 @@ payload:
   - +.ica-alliance.org
   - +.iconfont.cn
   - +.ics.design
+  - +.imgcook.com
   - +.iuynfg.com
   - +.jhgtgb.com
   - +.juhuasuan.com
@@ -251,6 +253,7 @@ payload:
   - +.mshare.cc
   - +.mxhichina.com
   - +.myalicdn.com
+  - +.myquark.cn
   - +.nbsdk-baichuan.alicdn.com
   - +.nbsdk-baichuan.taobao.com
   - +.nic.xin
@@ -307,8 +310,10 @@ payload:
   - +.stat.youku.com
   - +.statis.api.3g.youku.com
   - +.supet.com
+  - +.tanx.com
   - +.taobao
   - +.taobao.com
+  - +.taobao.net
   - +.taobao.org
   - +.taobaocdn.com
   - +.taobizhong.com

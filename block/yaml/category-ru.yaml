@@ -20,6 +20,7 @@ payload:
   - +.ru.com
   - +.ru.net
   - +.su
+  - +.tatar
   - +.userapi.com
   - +.vk-apps.com
   - +.vk-cdn.me
@@ -92,6 +93,7 @@ payload:
   - +.yandex.sx
   - +.yandex.tj
   - +.yandex.tm
+  - +.yandex.tr
   - +.yandex.ua
   - +.yandex.uz
   - +.yandexadexchange.net
