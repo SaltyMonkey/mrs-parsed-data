@@ -32,6 +32,8 @@ payload:
   - +.adsh.m.taobao.com
   - +.adslot.uc.cn
   - +.adtrack.quark.cn
+  - +.ae-rus.net
+  - +.aestatic.net
   - +.ali-health.com
   - +.aliapp.org
   - +.alibaba
@@ -60,6 +62,7 @@ payload:
   - +.alicloudccp.com
   - +.alidayu.com
   - +.alidns.com
+  - +.aliexpress-media.com
   - +.aliexpress.com
   - +.aliexpress.ru
   - +.alifanyi.com
