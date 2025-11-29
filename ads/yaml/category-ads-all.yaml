@@ -194,10 +194,12 @@ payload:
   - +.cdn.advertserve.com
   - +.cdn.banclip.com
   - +.cdn.pocoiq.cn
-  - +.cdn.segment.com
   - +.cfts1tifqr.com
   - +.china-caa.org
   - +.chinaciaf.org
+  - +.clearbit.com
+  - +.clearbitjs.com
+  - +.clearbitscripts.com
   - +.click.ali213.net
   - +.click.hunantv.com
   - +.click.uve.mobile.sina.cn
@@ -482,6 +484,10 @@ payload:
   - +.sbeacon.sina.com.cn
   - +.sclick.baidu.com
   - +.sdkclick.mobile.sina.cn
+  - +.segment.com
+  - +.segment.io
+  - +.segmenthub.com
+  - +.segmentify.com
   - +.sentry.d.mi.com
   - +.sentry.d.xiaomi.net
   - +.sentry.music.163.com
@@ -564,7 +570,6 @@ payload:
   - +.wm.baidu.com
   - +.wuliao.epro.sogou.com
   - +.wwads.cn
-  - +.x.clearbitjs.com
   - +.xy-log.tagtic.cn
   - +.yektanet.com
   - +.yfanads.cn
