@@ -54,6 +54,7 @@ payload:
   - +.one.one.one
   - +.pacloudflare.com
   - +.pages.dev
+  - +.r2.dev
   - +.trycloudflare.com
   - +.videodelivery.net
   - +.warp.plus
