@@ -18,6 +18,7 @@ payload:
   - +.adslvseed.qq.com
   - +.adsmind.apdcdn.tc.qq.com
   - +.adsqqclick.qq.com
+  - +.adstats.tencentmusic.com
   - +.adstestview.qq.com
   - +.adsview.qq.com
   - +.adsview2.qq.com
@@ -214,6 +215,7 @@ payload:
   - +.hongxiu.com
   - +.hq-tracking.qq.com
   - +.hr-welink.com
+  - +.htrace.wetvinfo.com
   - +.idcgcloudcs.com
   - +.idqqimg.com
   - +.iemiq.com
@@ -247,6 +249,7 @@ payload:
   - +.mdt.qq.com
   - +.metalrevolution.com
   - +.midasbuy.com
+  - +.monitor.music.qq.com
   - +.mpush.qq.com
   - +.mszdld.cn
   - +.mszdld.com
@@ -334,6 +337,7 @@ payload:
   - +.qzone.com
   - +.readnovel.com
   - +.realcybertron.com
+  - +.report.qqweb.qq.com
   - +.rmwxgame.com
   - +.roblox.cn
   - +.robloxdev.cn
