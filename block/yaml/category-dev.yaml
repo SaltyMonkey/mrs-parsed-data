@@ -58,11 +58,13 @@ payload:
   - +.codeberg.page
   - +.codeforaliving.io
   - +.codethemicrobit.com
+  - +.collector.github.com
   - +.compass.is
   - +.componentkit.org
   - +.compose-spec.io
   - +.conda.io
   - +.consul.io
+  - +.copilot-telemetry.githubusercontent.com
   - +.cpan.org
   - +.crates.io
   - +.cups.org
