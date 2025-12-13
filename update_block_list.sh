@@ -21,11 +21,18 @@ main() {
     download https://community.antifilter.download/list/domains.lst "${FOLDER}"antifilter-community.txt
     download https://raw.githubusercontent.com/dartraiden/no-russia-hosts/refs/heads/master/hosts.txt "${FOLDER}"no-russia-hosts.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-gov-ru.yaml "${FOLDER}"category-gov-ru.yaml
-    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.yaml "${FOLDER}"category-ru.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-dev.yaml "${FOLDER}"category-dev.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-anticensorship.yaml "${FOLDER}"category-anticensorship.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-speedtest.yaml "${FOLDER}"category-speedtest.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-remote-control.yaml "${FOLDER}"category-remote-control.yaml
+
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mailru.list "${FOLDER}"mailru.txt
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/kaspersky.list "${FOLDER}"kaspersky.txt
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/drweb.list "${FOLDER}"drweb.txt
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.list "${FOLDER}"categ-ru.txt
+
+    cat "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt | sort | uniq > "${FOLDER}"category-ru.txt
+    rm -f "${FOLDER}"categ-ru.txt
 
     #cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt "${SERVICES_FOLDER}${All_SERVICES_FILENAME}" | sort | uniq > "${FOLDER}"just-domains.txt
     cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt | sort | uniq > "${FOLDER}"just-domains.txt
