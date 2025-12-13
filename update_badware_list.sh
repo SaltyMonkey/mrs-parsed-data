@@ -23,6 +23,9 @@ main() {
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/native.oppo-realme.txt "${FOLDER}"hagezi-spy-opporealme.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/native.vivo.txt "${FOLDER}"hagezi-spy-vivo.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/domains/native.samsung.txt "${FOLDER}"hagezi-spy-samsung.txt
+    download https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt "${FOLDER}"hagezi-dyndns.txt
+    download https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt "${FOLDER}"hagezi-threat-intelligence-feed-medium.txt
+    download https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txtt "${FOLDER}"hagezi-threat-intelligence-feed-mini.txt
 
     local file
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
