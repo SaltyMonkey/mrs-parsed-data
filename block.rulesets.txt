@@ -18,5 +18,3 @@ Hagezi spy samsung|hagezi-spy-samsung|domain|mrs|https://cdn.jsdelivr.net/gh/sal
 Hagezi spy vivo|hagezi-spy-vivo|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-vivo.mrs
 Hagezi spy winoffice|hagezi-spy-winoffice|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-winoffice.mrs
 Hagezi spy xiaomi|hagezi-spy-xiaomi|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-xiaomi.mrs
-Hagezi threat intelligence feed medium|hagezi-threat-intelligence-feed-medium|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-threat-intelligence-feed-medium.mrs
-Hagezi threat intelligence feed mini|hagezi-threat-intelligence-feed-mini|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-threat-intelligence-feed-mini.mrs
