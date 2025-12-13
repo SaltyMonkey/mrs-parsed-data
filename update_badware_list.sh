@@ -26,6 +26,7 @@ main() {
     download https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns-onlydomains.txt "${FOLDER}"hagezi-dyndns.txt
     download https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium-onlydomains.txt "${FOLDER}"hagezi-threat-intelligence-feed-medium.txt
     download https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txtt "${FOLDER}"hagezi-threat-intelligence-feed-mini.txt
+    download https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster-onlydomains.txt "${FOLDER}"hagezi-badware-hosters.txt
 
     local file
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
