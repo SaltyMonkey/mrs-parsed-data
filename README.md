@@ -202,6 +202,8 @@
 ## Badware
 
 ### MRS
+- [hagezi-badware-hosters.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-badware-hosters.mrs)
+- [hagezi-dyndns.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-dyndns.mrs)
 - [hagezi-spy-apple.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-apple.mrs)
 - [hagezi-spy-huawei.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-huawei.mrs)
 - [hagezi-spy-lgwebos.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-lgwebos.mrs)
@@ -210,7 +212,11 @@
 - [hagezi-spy-vivo.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-vivo.mrs)
 - [hagezi-spy-winoffice.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-winoffice.mrs)
 - [hagezi-spy-xiaomi.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-xiaomi.mrs)
+- [hagezi-threat-intelligence-feed-medium.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-threat-intelligence-feed-medium.mrs)
+- [hagezi-threat-intelligence-feed-mini.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-threat-intelligence-feed-mini.mrs)
 ### YAML
+- [hagezi-badware-hosters.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-badware-hosters.yaml)
+- [hagezi-dyndns.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-dyndns.yaml)
 - [hagezi-spy-apple.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-apple.yaml)
 - [hagezi-spy-huawei.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-huawei.yaml)
 - [hagezi-spy-lgwebos.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-lgwebos.yaml)
@@ -219,28 +225,40 @@
 - [hagezi-spy-vivo.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-vivo.yaml)
 - [hagezi-spy-winoffice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-winoffice.yaml)
 - [hagezi-spy-xiaomi.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-xiaomi.yaml)
+- [hagezi-threat-intelligence-feed-medium.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-threat-intelligence-feed-medium.yaml)
+- [hagezi-threat-intelligence-feed-mini.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-threat-intelligence-feed-mini.yaml)
 
 ## Bypass
 
 ### MRS
 - [antifilter-community.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/antifilter-community.mrs)
+- [category-ai.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-ai.mrs)
 - [category-anticensorship.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-anticensorship.mrs)
 - [category-dev.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-dev.mrs)
 - [category-gov-ru.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-gov-ru.mrs)
+- [category-remote-control.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-remote-control.mrs)
 - [category-ru.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-ru.mrs)
 - [category-speedtest.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-speedtest.mrs)
+- [drweb.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/drweb.mrs)
 - [itdog-russia-inside.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/itdog-russia-inside.mrs)
 - [just-domains.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/just-domains.mrs)
+- [kaspersky.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/kaspersky.mrs)
+- [mailru.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/mailru.mrs)
 - [no-russia-hosts.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/no-russia-hosts.mrs)
 ### YAML
 - [antifilter-community.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/antifilter-community.yaml)
+- [category-ai.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-ai.yaml)
 - [category-anticensorship.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-anticensorship.yaml)
 - [category-dev.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-dev.yaml)
 - [category-gov-ru.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-gov-ru.yaml)
+- [category-remote-control.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-remote-control.yaml)
 - [category-ru.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-ru.yaml)
 - [category-speedtest.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-speedtest.yaml)
+- [drweb.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/drweb.yaml)
 - [itdog-russia-inside.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/itdog-russia-inside.yaml)
 - [just-domains.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/just-domains.yaml)
+- [kaspersky.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/kaspersky.yaml)
+- [mailru.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/mailru.yaml)
 - [no-russia-hosts.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/no-russia-hosts.yaml)
 
 ## Subnets
