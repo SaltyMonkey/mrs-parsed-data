@@ -9,6 +9,7 @@ payload:
   - +.a-map.link
   - +.a-map.vip
   - +.a.alimama.cn
+  - +.aaid.umeng.com
   - +.acjs.aliyun.com
   - +.acloudrender.com
   - +.ad.api.3g.youku.com
@@ -22,6 +23,7 @@ payload:
   - +.adashbc.m.taobao.com
   - +.adashbc.ut.taobao.com
   - +.adashx.m.taobao.com
+  - +.adashx.ut.amap.com
   - +.adashx.ut.amap.com
   - +.adashx.ut.ele.me
   - +.adashx.ut.youku.com
@@ -161,6 +163,8 @@ payload:
   - +.dongting.com
   - +.doservice.com
   - +.dratio.com
+  - +.dualstack-logs.amap.com
+  - +.dualstack-logs.amap.com
   - +.e.stat.ykimg.com
   - +.ele.me
   - +.ele.to
@@ -233,6 +237,8 @@ payload:
   - +.liangxinyao.com
   - +.lingshoujia.com
   - +.log.umtrack.com
+  - +.logs.amap.com
+  - +.logs.amap.com
   - +.lstat.youku.com
   - +.lwurl.to
   - +.lydaas.cn
@@ -262,6 +268,8 @@ payload:
   - +.nbsdk-baichuan.taobao.com
   - +.nic.xin
   - +.npmmirror.com
+  - +.optimus-ads.amap.com
+  - +.optimus-ads.amap.com
   - +.oss-ap-northeast-1.aliyuncs.com
   - +.oss-ap-northeast-2.aliyuncs.com
   - +.oss-ap-south-1.aliyuncs.com
@@ -346,7 +354,9 @@ payload:
   - +.umengcloud.com
   - +.umsns.com
   - +.umtrack.com
+  - +.utoken.umeng.com
   - +.uyunad.com
+  - +.v6-adashx.ut.amap.com
   - +.v6-adashx.ut.amap.com
   - +.v6-adashx.ut.cainiao.com
   - +.v6-adashx.ut.ele.me

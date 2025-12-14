@@ -212,8 +212,6 @@
 - [hagezi-spy-vivo.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-vivo.mrs)
 - [hagezi-spy-winoffice.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-winoffice.mrs)
 - [hagezi-spy-xiaomi.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-xiaomi.mrs)
-- [hagezi-threat-intelligence-feed-medium.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-threat-intelligence-feed-medium.mrs)
-- [hagezi-threat-intelligence-feed-mini.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-threat-intelligence-feed-mini.mrs)
 ### YAML
 - [hagezi-badware-hosters.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-badware-hosters.yaml)
 - [hagezi-dyndns.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-dyndns.yaml)
@@ -225,8 +223,6 @@
 - [hagezi-spy-vivo.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-vivo.yaml)
 - [hagezi-spy-winoffice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-winoffice.yaml)
 - [hagezi-spy-xiaomi.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-xiaomi.yaml)
-- [hagezi-threat-intelligence-feed-medium.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-threat-intelligence-feed-medium.yaml)
-- [hagezi-threat-intelligence-feed-mini.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-threat-intelligence-feed-mini.yaml)
 
 ## Bypass
 
