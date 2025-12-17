@@ -117,6 +117,8 @@ payload:
   - +.alizhaopin.com
   - +.alog.umeng.com
   - +.alog.umengcloud.com
+  - +.alogs.umeng.com
+  - +.alogus.umeng.com
   - +.alyms.cn
   - +.amap.com
   - +.amapauto.com
@@ -125,13 +127,16 @@ payload:
   - +.antfortune.com
   - +.antgroup-inc.cn
   - +.antgroup.com
+  - +.ar.umeng.com
   - +.asczwa.com
   - +.asczxcefsv.com
   - +.asmlink.cn
+  - +.aspect-upush.umeng.com
   - +.atanx.alicdn.com
   - +.atanx2.alicdn.com
   - +.atatech.org
   - +.atm.youku.com
+  - +.audid.umeng.com
   - +.autonavi.com
   - +.b2byao.com
   - +.baichuan-sdk.alicdn.com
@@ -142,10 +147,13 @@ payload:
   - +.cainiao.com
   - +.cainiao.com.cn
   - +.cainiaoyizhan.com
+  - +.ccs.umeng.com
   - +.cdngslb.com
   - +.cheng.xin
   - +.cibntv.net
   - +.cloudeagle.cn
+  - +.cnlogs.umeng.com
+  - +.cnlogs.umengcloud.com
   - +.cnzz.com
   - +.cueme.cn
   - +.damai.cn
@@ -266,8 +274,11 @@ payload:
   - +.myquark.cn
   - +.nbsdk-baichuan.alicdn.com
   - +.nbsdk-baichuan.taobao.com
+  - +.new-aaid.umeng.com
+  - +.new-aaid.umeng.com.gds.alibabadns.com
   - +.nic.xin
   - +.npmmirror.com
+  - +.oc.umeng.com
   - +.optimus-ads.amap.com
   - +.optimus-ads.amap.com
   - +.oss-ap-northeast-1.aliyuncs.com
@@ -304,9 +315,11 @@ payload:
   - +.phpwind.com
   - +.phpwind.net
   - +.pl.youku.com
+  - +.plbslog.umeng.com
   - +.puata.info
   - +.qingtingtrip.com
   - +.quark.cn
+  - +.resolve.umeng.com
   - +.retcode.taobao.com
   - +.rexpos.cn
   - +.s-adashx.ut.youku.com
@@ -350,6 +363,8 @@ payload:
   - +.uc123.com
   - +.ucweb.com
   - +.uczzd.cn
+  - +.ulogs.umeng.com
+  - +.ulogs.umengcloud.com
   - +.umeng.com
   - +.umengcloud.com
   - +.umsns.com

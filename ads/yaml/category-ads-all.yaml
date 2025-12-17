@@ -147,6 +147,8 @@ payload:
   - +.alitui.weibo.com
   - +.alog.umeng.com
   - +.alog.umengcloud.com
+  - +.alogs.umeng.com
+  - +.alogus.umeng.com
   - +.amazon-adsystem.com
   - +.analytics-data.io
   - +.analytics.163.com
@@ -160,13 +162,16 @@ payload:
   - +.apple.www.letv.com
   - +.applovin.com
   - +.applvn.com
+  - +.ar.umeng.com
   - +.ark.letv.com
+  - +.aspect-upush.umeng.com
   - +.assets.growingio.com
   - +.assp.sohu.com
   - +.atanx.alicdn.com
   - +.atanx2.alicdn.com
   - +.atm.youku.com
   - +.atom-data.io
+  - +.audid.umeng.com
   - +.badjs.weixinbridge.com
   - +.baichuan-sdk.alicdn.com
   - +.baifen.music.baidu.com
@@ -191,6 +196,7 @@ payload:
   - +.casalemedia.com
   - +.cb.baidu.com
   - +.cbjs.baidu.com
+  - +.ccs.umeng.com
   - +.cdn.advertserve.com
   - +.cdn.banclip.com
   - +.cdn.pocoiq.cn
@@ -208,6 +214,8 @@ payload:
   - +.cloudpush.iqiyi.com
   - +.cm.baidu.com
   - +.cnaa123.com
+  - +.cnlogs.umeng.com
+  - +.cnlogs.umengcloud.com
   - +.collector.github.com
   - +.collector.xhamster.com
   - +.contentabc.com
@@ -416,9 +424,12 @@ payload:
   - +.nbsdk-baichuan.alicdn.com
   - +.nbsdk-baichuan.taobao.com
   - +.nelreports.net
+  - +.new-aaid.umeng.com
+  - +.new-aaid.umeng.com.gds.alibabadns.com
   - +.ns1p.net
   - +.nsclick.baidu.com
   - +.nsclickvideo.baidu.com
+  - +.oc.umeng.com
   - +.oct.pocoiq.cn
   - +.ogury.co
   - +.ogury.com
@@ -458,6 +469,7 @@ payload:
   - +.pingjs.qq.com
   - +.pixel.facebook.com
   - +.pl.youku.com
+  - +.plbslog.umeng.com
   - +.policy.video.iqiyi.com
   - +.pos.baidu.com
   - +.presage.io
@@ -474,6 +486,7 @@ payload:
   - +.reke.at.sohu.com
   - +.report.qqweb.qq.com
   - +.res.hunantv.com
+  - +.resolve.umeng.com
   - +.retcode.taobao.com
   - +.reyun.com
   - +.rs.sinajs.cn
@@ -547,6 +560,8 @@ payload:
   - +.uberads.com
   - +.ubmcvideo.baidustatic.com
   - +.ugdtimg.com
+  - +.ulogs.umeng.com
+  - +.ulogs.umengcloud.com
   - +.unimhk.com
   - +.union.baidu.com
   - +.unioncom.cc
@@ -588,6 +603,8 @@ payload:
   - +.zxid-api.mobileservice.cn
   - +.zxid-m.mobileservice.cn
   - +.zz.bdstatic.com
+  - ad-channel.diwodiwo.xyz
+  - ad-display.diwodiwo.xyz
   - adeventtracker.spotify.com
   - ads3-normal-hl.zijieapi.com
   - ads3-normal.zijieapi.com
@@ -597,7 +614,6 @@ payload:
   - analytics.google.com
   - apilog-web.acfun.cn
   - bloodhound.spotify.com
-  - fundingchoicesmessages.google.com
   - log-sdk.gifshow.com
   - log3-applog-hl.fqnovel.com
   - log3-applog.fqnovel.com
