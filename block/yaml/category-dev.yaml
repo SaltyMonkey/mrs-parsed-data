@@ -290,6 +290,7 @@ payload:
   - +.mysql.com
   - +.mystrikingly.com
   - +.neovim.io
+  - +.newpipe.net
   - +.nginx.com
   - +.nginx.org
   - +.nixos.org
@@ -476,8 +477,10 @@ payload:
   - +.vscode.dev
   - +.wapm.io
   - +.wasmer.io
+  - +.webflow.com
   - +.webkit.org
   - +.webkitgtk.org
+  - +.weblate.org
   - +.webobjects.com
   - +.wireshark.org
   - +.wpewebkit.org
