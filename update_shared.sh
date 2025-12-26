@@ -51,7 +51,7 @@ yaml_subdomains() {
     local input_file="$1"
     local output_file="$2"
     echo "payload:" > "${output_file}"
-    cat "$input_file" | sort -u | sed "s/^\*\.//; s/.*/    - '+.&'/" >> "$output_file"
+    cat "$input_file" | sort -u | sed "s/^\*\.//; s/^\+\.//; s/.*/    - '+.&'/" >> "$output_file"
 }
 
 yaml_sort_by_alphabet() {
