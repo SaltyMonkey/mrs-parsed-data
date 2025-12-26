@@ -1,5 +1,9 @@
 #!/bin/bash
 
+ensure_eof_nl() {
+  sed -i -e '$a\' -- "$@"
+}
+
 download() {
     local uri="$1"
     local output_path="$2"

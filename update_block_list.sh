@@ -31,10 +31,12 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/drweb.list "${FOLDER}"drweb.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.list "${FOLDER}"categ-ru.txt
 
+    ensure_eof_nl "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt
     cat "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt | sort | uniq > "${FOLDER}"category-ru.txt
     rm -f "${FOLDER}"categ-ru.txt
 
     #cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt "${SERVICES_FOLDER}${All_SERVICES_FILENAME}" | sort | uniq > "${FOLDER}"just-domains.txt
+    ensure_eof_nl "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt
     cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt | sort | uniq > "${FOLDER}"just-domains.txt
     rm -f "${FOLDER}"guberniev-include.txt
 

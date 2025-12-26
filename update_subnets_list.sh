@@ -54,9 +54,11 @@ main() {
     parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"dual/gcore.txt '(.addresses + .addresses_v6)[]'
 
     echo >> "${FOLDER}"ipv4/cloudflare.txt
+    ensure_eof_nl "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt
     cat "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt | sort | uniq > "${FOLDER}"dual/cloudflare.txt
 
     echo >> "${FOLDER}"ipv4/discord-voice.txt
+    ensure_eof_nl "${FOLDER}"ipv4/discord-voice.txt "${FOLDER}"ipv6/discord-voice.txt
     cat "${FOLDER}"ipv4/discord-voice.txt "${FOLDER}"ipv6/discord-voice.txt | sort | uniq > "${FOLDER}"dual/discord-voice.txt
 
     local file
