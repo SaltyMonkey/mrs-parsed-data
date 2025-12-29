@@ -7,8 +7,9 @@ payload:
   - +.msftncsi.com
   - +.network-test.debian.org
   - +.networkcheck.kde.org
-  - +.ping.archlinux.org
   - connect.rom.miui.com
   - connectivity-check.ubuntu.com
   - connectivitycheck.platform.hicloud.com
   - connectivitycheck.platform.hihonorcloud.com
+  - ping.archlinux.org
+  - redirect.archlinux.org

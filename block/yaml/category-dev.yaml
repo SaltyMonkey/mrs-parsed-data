@@ -25,6 +25,7 @@ payload:
   - +.appleswift.com
   - +.archlinux.org
   - +.archlinuxarm.org
+  - +.archlinuxcn.org
   - +.artixlinux.org
   - +.askubuntu.com
   - +.atom.io
@@ -187,6 +188,7 @@ payload:
   - +.go-lang.net
   - +.go-lang.org
   - +.go.dev
+  - +.godbolt.org
   - +.godoc.org
   - +.golang.com
   - +.golang.net
