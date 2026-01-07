@@ -1466,8 +1466,6 @@ payload:
   - +.sverigebeatsbydrdre.com
   - +.swift.org
   - +.swiftui.cn
-  - +.swiftui.cn
-  - +.swiftui.com.cn
   - +.swiftui.com.cn
   - +.szcheapmonsterheadphones.com
   - +.szwinnertechnology.com
@@ -1583,7 +1581,6 @@ payload:
   - cdsassets.apple.com
   - certs-lb.apple.com.akadns.net
   - certs.apple.com
-  - certs.apple.com
   - cl1-cdn.origin-apple.com.akadns.net
   - cl1.apple.com
   - cl2-cdn.origin-apple.com.akadns.net
@@ -1606,7 +1603,6 @@ payload:
   - configuration.apple.com
   - configuration.apple.com.akadns.net
   - crl-lb.apple.com.akadns.net
-  - crl.apple.com
   - crl.apple.com
   - cstat.apple.com
   - cstat.cdn-apple.com
@@ -1696,12 +1692,8 @@ payload:
   - np-edge.itunes.apple.com
   - np-edge.itunes.apple.com
   - ocsp-lb.apple.com.akadns.net
-  - ocsp-lb.apple.com.akadns.net
-  - ocsp.apple.com
   - ocsp.apple.com
   - ocsp2-lb.apple.com.akadns.net
-  - ocsp2-lb.apple.com.akadns.net
-  - ocsp2.apple.com
   - ocsp2.apple.com
   - oscdn.apple.com
   - oscdn.origin-apple.com.akadns.net
@@ -1771,7 +1763,6 @@ payload:
   - updates.cdn-apple.com
   - upp.itunes.apple.com
   - uts-api.itunes.apple.com
-  - valid.apple.com
   - valid.apple.com
   - valid.origin-apple.com.akadns.net
   - weather-data.apple.com
