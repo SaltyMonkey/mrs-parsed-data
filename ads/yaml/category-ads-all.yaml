@@ -173,6 +173,7 @@ payload:
   - +.atanx2.alicdn.com
   - +.atm.youku.com
   - +.atom-data.io
+  - +.atrace.chelaile.net.cn
   - +.audid.umeng.com
   - +.badjs.weixinbridge.com
   - +.baichuan-sdk.alicdn.com
@@ -383,6 +384,7 @@ payload:
   - +.log.v2.hunantv.com
   - +.log2.sina.cn
   - +.logs.amap.com
+  - +.logs.chelaile.net.cn
   - +.logupdate.avlyun.sec.miui.com
   - +.lqc006.com
   - +.lstat.youku.com
@@ -418,6 +420,7 @@ payload:
   - +.mobilemsg.youku.com
   - +.mobwithad.com
   - +.monitor.music.qq.com
+  - +.monitor.uu.qq.com
   - +.mopub.com
   - +.mountain.zhidao.baidu.com
   - +.mpush.qq.com
@@ -477,6 +480,7 @@ payload:
   - +.pixel.facebook.com
   - +.pl.youku.com
   - +.plbslog.umeng.com
+  - +.pmir.3g.qq.com
   - +.policy.video.iqiyi.com
   - +.pos.baidu.com
   - +.presage.io
@@ -496,6 +500,7 @@ payload:
   - +.resolve.umeng.com
   - +.retcode.taobao.com
   - +.reyun.com
+  - +.rmonitor.qq.com
   - +.rs.sinajs.cn
   - +.s-adashx.ut.youku.com
   - +.s.360.cn
@@ -538,6 +543,7 @@ payload:
   - +.static.javhd.com
   - +.static.sensorsdata.cn
   - +.statis.api.3g.youku.com
+  - +.stats.music.xiaomi.com
   - +.supersonic.com
   - +.supersonicads-a.akamaihd.net
   - +.supersonicads.com
@@ -561,6 +567,7 @@ payload:
   - +.track.lc.quark.cn
   - +.track.sohu.com
   - +.tracker.ai.xiaomi.com
+  - +.tracker.xiaomixiaoai.com
   - +.tracking.miui.com
   - +.trafficfactory.biz
   - +.tsyndicate.com
