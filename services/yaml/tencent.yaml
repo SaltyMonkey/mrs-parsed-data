@@ -331,6 +331,7 @@ payload:
   - +.qq.design
   - +.qq.wang
   - +.qq.xn--fiqs8s
+  - +.qqdata.ab.qq.com
   - +.qqgameapp.com
   - +.qqgamedesign.com
   - +.qqmail.com
@@ -513,6 +514,7 @@ payload:
   - +.tmeadcomm.y.qq.com
   - +.tourismshow.cn
   - +.tourismuser.cn
+  - +.tpstelemetry.tencent.com
   - +.trace.qq.com
   - +.tsparkling.com
   - +.tx-exhibition.com
