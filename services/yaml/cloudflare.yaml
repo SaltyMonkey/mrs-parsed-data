@@ -1,5 +1,6 @@
 payload:
   - +.argotunnel.com
+  - +.browser.run
   - +.cf-china.info
   - +.cf-ipfs.com
   - +.cf-ns.com
@@ -7,6 +8,7 @@ payload:
   - +.cf-ns.site
   - +.cf-ns.tech
   - +.cfargotunnel.com
+  - +.cfdata.org
   - +.cfl.re
   - +.cftest5.cn
   - +.cftest6.cn
@@ -19,16 +21,21 @@ payload:
   - +.cloudflare-gateway.com
   - +.cloudflare-ipfs.com
   - +.cloudflare-quic.com
+  - +.cloudflare-terms-of-service-abuse.com
   - +.cloudflare.com
+  - +.cloudflare.dev
   - +.cloudflare.net
   - +.cloudflare.tv
   - +.cloudflareaccess.com
   - +.cloudflareanycast.net
   - +.cloudflareapps.com
   - +.cloudflarebolt.com
+  - +.cloudflarebrowser.com
+  - +.cloudflarechallenge.com
   - +.cloudflarechina.cn
   - +.cloudflareclient.com
   - +.cloudflarecn.net
+  - +.cloudflarecp.com
   - +.cloudflareglobal.net
   - +.cloudflareinsights-cn.com
   - +.cloudflareinsights.com
@@ -39,6 +46,7 @@ payload:
   - +.cloudflarepreview.com
   - +.cloudflareprod.com
   - +.cloudflareregistrar.com
+  - +.cloudflareresearch.com
   - +.cloudflareresolve.com
   - +.cloudflaressl.com
   - +.cloudflarestaging.com
@@ -46,8 +54,11 @@ payload:
   - +.cloudflarestorage.com
   - +.cloudflarestoragegw.com
   - +.cloudflarestream.com
+  - +.cloudflaresupport.com
   - +.cloudflaretest.com
   - +.cloudflarewarp.com
+  - +.cloudflareworkers.com
+  - +.encryptedsni.com
   - +.every1dns.net
   - +.imagedelivery.net
   - +.isbgpsafeyet.com

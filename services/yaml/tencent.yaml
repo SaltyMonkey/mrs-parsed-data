@@ -6,6 +6,7 @@ payload:
   - +.ad.browser.qq.com
   - +.ad.qq.com
   - +.ad.qun.qq.com
+  - +.ad.tencentmusic.com
   - +.ad.weixin.qq.com
   - +.adfilter.imtt.qq.com
   - +.adnet.qq.com
@@ -342,6 +343,7 @@ payload:
   - +.readnovel.com
   - +.realcybertron.com
   - +.report.qqweb.qq.com
+  - +.report.tencentmusic.com
   - +.rmonitor.qq.com
   - +.rmwxgame.com
   - +.roblox.cn
@@ -403,6 +405,16 @@ payload:
   - +.tcloudscdn.com
   - +.tcloudscdn.net
   - +.tcss.qq.com
+  - +.tdnsdl1.cn
+  - +.tdnsdl1.com.cn
+  - +.tdnsdl2.cn
+  - +.tdnsdl2.com.cn
+  - +.tdnsdl3.cn
+  - +.tdnsdl3.com.cn
+  - +.tdnsdl4.cn
+  - +.tdnsdl4.com.cn
+  - +.tdnsdl5.cn
+  - +.tdnsdl5.com.cn
   - +.tdnsstic1.cn
   - +.tdnsv1.com
   - +.tdnsv1.net
