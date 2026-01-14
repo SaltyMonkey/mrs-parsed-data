@@ -16,6 +16,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y jq
+          sudo apt install -y bgpq4
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Pull Changes

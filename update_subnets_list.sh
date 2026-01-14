@@ -17,25 +17,53 @@ find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.json" -exec rm -f {} +
 
 main() {
-    download "https://www.cloudflare.com/ips-v4" "${FOLDER}"ipv4/cloudflare.txt
-    download "https://www.cloudflare.com/ips-v6" "${FOLDER}"ipv6/cloudflare.txt
     download "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg" "${FOLDER}"ipv4/discord-voice.txt
     download "https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg" "${FOLDER}"ipv6/discord-voice.txt
     download "https://community.antifilter.download/list/community.lst" "${FOLDER}"ipv4/antifilter-community.txt
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml" "${FOLDER}"ipv4/apple.yaml
 
-    download "https://bgp.tools/table.txt" "${FOLDER}"table.txt "SaltyMonkey - 1570693+SaltyMonkey@users.noreply.github.com"
-    get_cidrs_by_asn "24940" "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
-    get_cidrs_by_asn "16276" "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
-    get_cidrs_by_asn "14061" "${FOLDER}"table.txt "${FOLDER}"dual/digitalocean.txt
-    get_cidrs_by_asn "200325" "${FOLDER}"table.txt "${FOLDER}"dual/bunny.txt
-    get_cidrs_by_asn "32934" "${FOLDER}"table.txt "${FOLDER}"dual/meta.txt
-    split_subnets "${FOLDER}"dual/hetzner.txt "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
-    split_subnets "${FOLDER}"dual/ovh.txt "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
-    split_subnets "${FOLDER}"dual/digitalocean.txt "${FOLDER}"ipv4/digitalocean.txt "${FOLDER}"ipv6/digitalocean.txt
-    split_subnets "${FOLDER}"dual/bunny.txt "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt
-    split_subnets "${FOLDER}"dual/meta.txt "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt
-    rm -rf "${FOLDER}"table.txt
+    #download "https://bgp.tools/table.txt" "${FOLDER}"table.txt "SaltyMonkey - 1570693+SaltyMonkey@users.noreply.github.com"
+    #get_cidrs_by_asn "24940" "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
+    #get_cidrs_by_asn "16276" "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
+    #get_cidrs_by_asn "14061" "${FOLDER}"table.txt "${FOLDER}"dual/digitalocean.txt
+    #get_cidrs_by_asn "200325" "${FOLDER}"table.txt "${FOLDER}"dual/bunny.txt
+    #get_cidrs_by_asn "32934" "${FOLDER}"table.txt "${FOLDER}"dual/meta.txt
+    #split_subnets "${FOLDER}"dual/hetzner.txt "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
+    #split_subnets "${FOLDER}"dual/ovh.txt "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
+    #split_subnets "${FOLDER}"dual/digitalocean.txt "${FOLDER}"ipv4/digitalocean.txt "${FOLDER}"ipv6/digitalocean.txt
+    #split_subnets "${FOLDER}"dual/bunny.txt "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt
+    #split_subnets "${FOLDER}"dual/meta.txt "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt
+    #rm -rf "${FOLDER}"table.txt
+
+    bgpq4 -A -F "%n/%l\n" -4 as13335 | grep -Fvx '1.1.1.0/24' > "${FOLDER}"ipv4/cloudflare.txt
+    bgpq4 -A -F "%n/%l\n" -6 as13335 > "${FOLDER}"ipv6/cloudflare.txt
+    ensure_eof_nl "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt
+    cat "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt | sort | uniq > "${FOLDER}"dual/cloudflare.txt
+
+    bgpq4 -A -F "%n/%l\n" -4 as24940 > "${FOLDER}"ipv4/hetzner.txt
+    bgpq4 -A -F "%n/%l\n" -6 as24940 > "${FOLDER}"ipv6/hetzner.txt
+    ensure_eof_nl "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
+    cat "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt | sort | uniq > "${FOLDER}"dual/hetzner.txt
+
+    bgpq4 -A -F "%n/%l\n" -4 as16276 > "${FOLDER}"ipv4/ovh.txt
+    bgpq4 -A -F "%n/%l\n" -6 as16276 > "${FOLDER}"ipv6/ovh.txt
+    ensure_eof_nl "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
+    cat "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt | sort | uniq > "${FOLDER}"dual/ovh.txt
+
+    bgpq4 -A -F "%n/%l\n" -4 as14061 > "${FOLDER}"ipv4/digitalocean.txt
+    bgpq4 -A -F "%n/%l\n" -6 as14061 > "${FOLDER}"ipv6/digitalocean.txt
+    ensure_eof_nl "${FOLDER}"ipv4/digitalocean.txt "${FOLDER}"ipv6/digitalocean.txt
+    cat "${FOLDER}"ipv4/digitalocean.txt "${FOLDER}"ipv6/digitalocean.txt | sort | uniq > "${FOLDER}"dual/digitalocean.txt
+
+    bgpq4 -A -F "%n/%l\n" -4 as200325 > "${FOLDER}"ipv4/bunny.txt
+    bgpq4 -A -F "%n/%l\n" -6 as200325 > "${FOLDER}"ipv6/bunny.txt
+    ensure_eof_nl "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt
+    cat "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt | sort | uniq > "${FOLDER}"dual/bunny.txt
+
+    bgpq4 -A -F "%n/%l\n" -4 as32934 > "${FOLDER}"ipv4/meta.txt
+    bgpq4 -A -F "%n/%l\n" -6 as32934 > "${FOLDER}"ipv6/meta.txt
+    ensure_eof_nl "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt
+    cat "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt | sort | uniq > "${FOLDER}"dual/meta.txt
 
     download "https://core.telegram.org/resources/cidr.txt" "${FOLDER}"dual/telegram.txt
     split_subnets "${FOLDER}"dual/telegram.txt "${FOLDER}"ipv4/telegram.txt "${FOLDER}"ipv6/telegram.txt
