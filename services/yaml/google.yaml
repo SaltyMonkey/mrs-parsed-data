@@ -856,6 +856,10 @@ payload:
   - alt8-mtalk.google.com
   - analytics.google.com
   - android.googlesource.com
+  - antigravity-pa.googleapis.com
+  - antigravity-pa.googleapis.com
+  - antigravity.googleapis.com
+  - antigravity.googleapis.com
   - app-analytics-services.com
   - app-measurement-cn.com
   - app-measurement.com
@@ -876,6 +880,10 @@ payload:
   - clickserver.googleads.com
   - clients1.google.com
   - clientservices.googleapis.com
+  - cloudaicompanion.googleapis.com
+  - cloudaicompanion.googleapis.com
+  - cloudcode-pa.googleapis.com
+  - cloudcode-pa.googleapis.com
   - cn.widevine.com
   - cnappinstall.googleadapis.com
   - connectivitycheck.gstatic.com
@@ -884,6 +892,8 @@ payload:
   - crl.pki.goog
   - crls.pki.goog
   - csi.gstatic.com
+  - daily-cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.googleapis.com
   - dartsearch-cn.net
   - dg-meta.video.google.com
   - dl.google.com
@@ -951,6 +961,10 @@ payload:
   - mtalk-staging.google.com
   - mtalk.google.com
   - mtalk4.google.com
+  - notebooklm-pa.googleapis.com
+  - notebooklm-pa.googleapis.com
+  - notebooklm.googleapis.com
+  - notebooklm.googleapis.com
   - o.pki.goog
   - ocsp.pki.goog
   - pagead-googlehosted.l.google.com
