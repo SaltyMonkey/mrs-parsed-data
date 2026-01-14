@@ -110,7 +110,7 @@ main() {
 
     find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
     find "${FOLDER}" -type f -name "*.tmp" -exec rm -f {} +
-    find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
+    #find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
     find "${FOLDER}" -type f -name "*.json" -exec rm -f {} +
 }
 
