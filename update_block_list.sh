@@ -29,8 +29,9 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mailru.list "${FOLDER}"mailru.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/kaspersky.list "${FOLDER}"kaspersky.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/drweb.list "${FOLDER}"drweb.txt
-    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.list "${FOLDER}"categ-ru.txt
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-container.yaml "${FOLDER}"category-container.yaml
 
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.list "${FOLDER}"categ-ru.txt
     ensure_eof_nl "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt
     cat "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt | sort | uniq > "${FOLDER}"category-ru.txt
     rm -f "${FOLDER}"categ-ru.txt
