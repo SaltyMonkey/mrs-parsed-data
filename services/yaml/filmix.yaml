@@ -1,3 +1,8 @@
 payload:
-    - '+.filmix.biz'
-    - '+.filmix.fm'
+    - '+.</body>'
+    - '+.</html>'
+    - '+.<body>'
+    - '+.<center><h1>504 Gateway Time-out</h1></center>'
+    - '+.<head><title>504 Gateway Time-out</title></head>'
+    - '+.<hr><center>nginx/1.29.4</center>'
+    - '+.<html>'
