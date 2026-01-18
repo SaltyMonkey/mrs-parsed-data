@@ -35,6 +35,11 @@ main() {
     #split_subnets "${FOLDER}"dual/meta.txt "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt
     #rm -rf "${FOLDER}"table.txt
 
+    bgpq4 -A -F "%n/%l\n" -4 as60068 > "${FOLDER}"ipv4/datacamp.txt
+    bgpq4 -A -F "%n/%l\n" -6 as60068 > "${FOLDER}"ipv6/datacamp.txt
+    ensure_eof_nl "${FOLDER}"ipv4/datacamp.txt "${FOLDER}"ipv6/datacamp.txt
+    cat "${FOLDER}"ipv4/datacamp.txt "${FOLDER}"ipv6/datacamp.txt | sort | uniq > "${FOLDER}"dual/datacamp.txt
+
     bgpq4 -A -F "%n/%l\n" -4 as13335 | grep -Fvx '1.1.1.0/24' > "${FOLDER}"ipv4/cloudflare.txt
     bgpq4 -A -F "%n/%l\n" -6 as13335 > "${FOLDER}"ipv6/cloudflare.txt
     ensure_eof_nl "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt
