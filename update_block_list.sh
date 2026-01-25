@@ -25,7 +25,7 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-anticensorship.yaml "${FOLDER}"category-anticensorship.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-speedtest.yaml "${FOLDER}"category-speedtest.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-remote-control.yaml "${FOLDER}"category-remote-control.yaml
-    download "https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/category-ai-!cn.list" "${FOLDER}"category-ai.yaml
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-\!cn.list "${FOLDER}"category-ai.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mailru.list "${FOLDER}"mailru.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/kaspersky.list "${FOLDER}"kaspersky.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/drweb.list "${FOLDER}"drweb.txt
@@ -35,6 +35,9 @@ main() {
     ensure_eof_nl "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt
     cat "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt | sort | uniq > "${FOLDER}"category-ru.txt
     rm -f "${FOLDER}"categ-ru.txt
+    rm -f "${FOLDER}"mailru.txt
+    rm -f "${FOLDER}"kaspersky.txt
+    rm -f "${FOLDER}"drweb.txt
 
     #cat "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt "${SERVICES_FOLDER}${All_SERVICES_FILENAME}" | sort | uniq > "${FOLDER}"just-domains.txt
     ensure_eof_nl "${FOLDER}"guberniev-include.txt "${FOLDER}"itdog-russia-inside.txt

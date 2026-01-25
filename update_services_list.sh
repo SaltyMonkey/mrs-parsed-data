@@ -93,6 +93,9 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mega.yaml" "${FOLDER}"mega.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/docker.yaml" "${FOLDER}"docker.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nintendo.yaml" "${FOLDER}"nintendo.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mailru.list" "${FOLDER}"mailru.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/kaspersky.list" "${FOLDER}"kaspersky.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/drweb.list" "${FOLDER}"drweb.txt
 
     cat "${MANUAL_FOLDER}"manual-service-ovh >> "${FOLDER}"ovh.txt
     cat "${MANUAL_FOLDER}"manual-service-nix-distros >> "${FOLDER}"nix.txt
