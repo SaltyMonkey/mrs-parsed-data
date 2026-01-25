@@ -25,7 +25,7 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-anticensorship.yaml "${FOLDER}"category-anticensorship.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-speedtest.yaml "${FOLDER}"category-speedtest.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-remote-control.yaml "${FOLDER}"category-remote-control.yaml
-    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-\!cn.list "${FOLDER}"category-ai.yaml
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ai-\!cn.yaml "${FOLDER}"category-ai.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mailru.list "${FOLDER}"mailru.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/kaspersky.list "${FOLDER}"kaspersky.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/drweb.list "${FOLDER}"drweb.txt
