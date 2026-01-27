@@ -1,4 +1,5 @@
 payload:
+    - '+.auth0.com'
     - '+.chatgpt.com'
     - '+.gpt3-openai.com'
     - '+.live.net'
