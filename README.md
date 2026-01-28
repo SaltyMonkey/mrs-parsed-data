@@ -202,6 +202,10 @@
 - [hagezi-pro-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-pro-ads.yaml)
 - [hagezi-pro-mini-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-pro-mini-ads.yaml)
 - [hagezi-pro-plus-mini-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-pro-plus-mini-ads.yaml)
+- [oisd-big.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-big.yaml)
+- [oisd-nsfw-small.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-nsfw-small.yaml)
+- [oisd-nsfw.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-nsfw.yaml)
+- [oisd-small.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-small.yaml)
 
 ## Badware
 
