@@ -529,6 +529,7 @@ payload:
   - notary-submissions-prod.s3-accelerate.amazonaws.com
   - notary-submissions-prod.s3.us-west-2.amazonaws.com
   - p-events-delivery.akamaized.net
+  - packages.microsoft.com
   - poshtestgallery.cloudapp.net
   - psg-int-centralus.cloudapp.net
   - psg-int-eastus.cloudapp.net
