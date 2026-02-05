@@ -49,6 +49,7 @@ payload:
   - +.gemini.google.com
   - +.generativeai.google
   - +.generativelanguage.googleapis.com
+  - +.githubcopilot.com
   - +.grok.com
   - +.grok.x.com
   - +.groq.com
