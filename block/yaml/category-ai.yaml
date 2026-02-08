@@ -20,6 +20,8 @@ payload:
   - +.claudemcpclient.com
   - +.claudeusercontent.com
   - +.clipdrop.co
+  - +.codeium.com
+  - +.codeiumdata.com
   - +.coderabbit.ai
   - +.coderabbit.gallery.vsassets.io
   - +.cohere.ai
@@ -92,6 +94,8 @@ payload:
   - +.sora.com
   - +.trae.ai
   - +.turn.livekit.cloud
+  - +.windsurf.build
+  - +.windsurf.com
   - +.x.ai
   - +.youmind.ai
   - +.youmind.com

@@ -1,6 +1,8 @@
 payload:
     - '+.5post.market'
+    - '+.aviasales.com'
     - '+.avito.st'
+    - '+.avs.io'
     - '+.boosty.to'
     - '+.chizhik.club'
     - '+.dodois.com'
@@ -270,3 +272,4 @@ payload:
     - '+.s17.upd.kaspersky.com'
     - '+.s18.upd.kaspersky.com'
     - '+.s19.upd.kaspersky.com'
+    - '+.yandex-pogoda.static-storage.net'
