@@ -24,7 +24,6 @@ payload:
   - +.adashbc.ut.taobao.com
   - +.adashx.m.taobao.com
   - +.adashx.ut.amap.com
-  - +.adashx.ut.amap.com
   - +.adashx.ut.ele.me
   - +.adashx.ut.youku.com
   - +.adashx4ae.ut.taobao.com
@@ -172,7 +171,6 @@ payload:
   - +.doservice.com
   - +.dratio.com
   - +.dualstack-logs.amap.com
-  - +.dualstack-logs.amap.com
   - +.e.stat.ykimg.com
   - +.ele.me
   - +.ele.to
@@ -246,7 +244,6 @@ payload:
   - +.lingshoujia.com
   - +.log.umtrack.com
   - +.logs.amap.com
-  - +.logs.amap.com
   - +.lstat.youku.com
   - +.lwurl.to
   - +.lydaas.cn
@@ -279,7 +276,6 @@ payload:
   - +.nic.xin
   - +.npmmirror.com
   - +.oc.umeng.com
-  - +.optimus-ads.amap.com
   - +.optimus-ads.amap.com
   - +.oss-ap-northeast-1.aliyuncs.com
   - +.oss-ap-northeast-2.aliyuncs.com
@@ -371,7 +367,6 @@ payload:
   - +.umtrack.com
   - +.utoken.umeng.com
   - +.uyunad.com
-  - +.v6-adashx.ut.amap.com
   - +.v6-adashx.ut.amap.com
   - +.v6-adashx.ut.cainiao.com
   - +.v6-adashx.ut.ele.me

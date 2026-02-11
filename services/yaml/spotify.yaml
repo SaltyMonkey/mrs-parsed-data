@@ -14,8 +14,11 @@ payload:
   - +.spotifyforbrands.com
   - +.spotifyjobs.com
   - +.tospotify.com
+  - adeventtracker.spotify.com
+  - adstudio-assets.scdn.co
   - audio-ak-spotify-com.akamaized.net
   - audio4-ak-spotify-com.akamaized.net
+  - bloodhound.spotify.com
   - cdn-spotify-experiments.conductrics.com
   - heads-ak-spotify-com.akamaized.net
   - heads4-ak-spotify-com.akamaized.net
