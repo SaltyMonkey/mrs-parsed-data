@@ -16,6 +16,7 @@ rm -f "${FOLDER}"*.yaml 2>/dev/null
 rm -f "${YAMLFOLDER}"*.yaml 2>/dev/null
 
 main() {
+    download https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Categories/geoblock.lst "${FOLDER}"itdog-geoblock.txt
     download https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Russia/inside-raw.lst "${FOLDER}"itdog-russia-inside.txt
     download https://raw.githubusercontent.com/GubernievS/AntiZapret-VPN/refs/heads/main/setup/root/antizapret/download/include-hosts.txt "${FOLDER}"guberniev-include.txt
     download https://community.antifilter.download/list/domains.lst "${FOLDER}"antifilter-community.txt
