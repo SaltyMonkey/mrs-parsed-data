@@ -22,7 +22,7 @@ main() {
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.mini.txt "${FOLDER}"hagezi-pro-mini-ads.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.plus.mini.txt "${FOLDER}"hagezi-pro-plus-mini-ads.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/light.txt "${FOLDER}"hagezi-light-ads.txt
-    download "https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/google%40ads.yaml" "${FOLDER}"google-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google%40ads.yaml" "${FOLDER}"google-ads.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ads-all.yaml "${FOLDER}category-ads-all.yaml"
 
     local file
