@@ -7,11 +7,9 @@ Category gov RU|category-gov-ru|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonk
 Category remote control|category-remote-control|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-remote-control.mrs
 Category RU|category-ru|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-ru.mrs
 Category speedtest|category-speedtest|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-speedtest.mrs
-Drweb|drweb|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/drweb.mrs
+Itdog geoblock|itdog-geoblock|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/itdog-geoblock.mrs
 Itdog Russia inside|itdog-russia-inside|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/itdog-russia-inside.mrs
 Just domains|just-domains|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/just-domains.mrs
-Kaspersky|kaspersky|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/kaspersky.mrs
-Mailru|mailru|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/mailru.mrs
 No Russia hosts|no-russia-hosts|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/no-russia-hosts.mrs
 Akamai|akamai|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/services/akamai.mrs
 Alibaba|alibaba|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/services/alibaba.mrs

@@ -244,11 +244,9 @@
 - [category-remote-control.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-remote-control.mrs)
 - [category-ru.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-ru.mrs)
 - [category-speedtest.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-speedtest.mrs)
-- [drweb.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/drweb.mrs)
+- [itdog-geoblock.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/itdog-geoblock.mrs)
 - [itdog-russia-inside.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/itdog-russia-inside.mrs)
 - [just-domains.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/just-domains.mrs)
-- [kaspersky.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/kaspersky.mrs)
-- [mailru.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/mailru.mrs)
 - [no-russia-hosts.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/no-russia-hosts.mrs)
 ### YAML
 - [antifilter-community.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/antifilter-community.yaml)
@@ -260,6 +258,7 @@
 - [category-remote-control.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-remote-control.yaml)
 - [category-ru.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-ru.yaml)
 - [category-speedtest.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-speedtest.yaml)
+- [itdog-geoblock.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/itdog-geoblock.yaml)
 - [itdog-russia-inside.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/itdog-russia-inside.yaml)
 - [just-domains.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/just-domains.yaml)
 - [no-russia-hosts.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/no-russia-hosts.yaml)
@@ -278,6 +277,18 @@
 - [meta.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/meta.mrs)
 - [ovh.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/ovh.mrs)
 - [telegram.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/telegram.mrs)
+### Combined YAML
+- [bunny.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/bunny.yaml)
+- [cloudflare.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/cloudflare.yaml)
+- [datacamp.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/datacamp.yaml)
+- [digitalocean.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/digitalocean.yaml)
+- [discord-voice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/discord-voice.yaml)
+- [fastly.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/fastly.yaml)
+- [gcore.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/gcore.yaml)
+- [hetzner.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/hetzner.yaml)
+- [meta.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/meta.yaml)
+- [ovh.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/ovh.yaml)
+- [telegram.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/dual/telegram.yaml)
 
 ### IPv4 MRS
 - [antifilter-community.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/antifilter-community.mrs)
@@ -294,6 +305,21 @@
 - [meta.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/meta.mrs)
 - [ovh.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/ovh.mrs)
 - [telegram.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/telegram.mrs)
+### IPv4 YAML
+- [antifilter-community.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/antifilter-community.yaml)
+- [apple.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/apple.yaml)
+- [bunny.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/bunny.yaml)
+- [cloudflare.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/cloudflare.yaml)
+- [cloudfront.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/cloudfront.yaml)
+- [datacamp.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/datacamp.yaml)
+- [digitalocean.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/digitalocean.yaml)
+- [discord-voice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/discord-voice.yaml)
+- [fastly.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/fastly.yaml)
+- [gcore.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/gcore.yaml)
+- [hetzner.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/hetzner.yaml)
+- [meta.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/meta.yaml)
+- [ovh.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/ovh.yaml)
+- [telegram.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv4/telegram.yaml)
 
 ### IPv6 MRS
 - [bunny.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/bunny.mrs)
@@ -307,6 +333,18 @@
 - [meta.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/meta.mrs)
 - [ovh.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/ovh.mrs)
 - [telegram.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/telegram.mrs)
+### IPv6 YAML
+- [bunny.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/bunny.yaml)
+- [cloudflare.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/cloudflare.yaml)
+- [datacamp.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/datacamp.yaml)
+- [digitalocean.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/digitalocean.yaml)
+- [discord-voice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/discord-voice.yaml)
+- [fastly.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/fastly.yaml)
+- [gcore.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/gcore.yaml)
+- [hetzner.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/hetzner.yaml)
+- [meta.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/meta.yaml)
+- [ovh.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/ovh.yaml)
+- [telegram.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/subnets/ipv6/telegram.yaml)
 
 ## Credits:
 
