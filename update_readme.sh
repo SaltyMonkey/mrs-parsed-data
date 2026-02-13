@@ -49,10 +49,13 @@ $(generate_markdown_list "yaml" ./block "YAML")
 ## Subnets
 
 $(generate_markdown_list "mrs" ./subnets/dual "Combined MRS")
+$(generate_markdown_list "yaml" ./subnets/dual "Combined YAML")
 
 $(generate_markdown_list "mrs" ./subnets/ipv4 "IPv4 MRS")
+$(generate_markdown_list "yaml" ./subnets/ipv4 "IPv4 YAML")
 
 $(generate_markdown_list "mrs" ./subnets/ipv6 "IPv6 MRS")
+$(generate_markdown_list "yaml" ./subnets/ipv6 "IPv6 YAML")
 
 ## Credits:
 
