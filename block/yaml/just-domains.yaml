@@ -397,6 +397,8 @@ payload:
     - '+.discours.io'
     - '+.disctech.com'
     - '+.disneyplus.com'
+    - '+.disqus.com'
+    - '+.disquscdn.com'
     - '+.dl.teamviewer.com'
     - '+.dnb.com'
     - '+.docs.chaos.com'
