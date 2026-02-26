@@ -13,6 +13,7 @@ payload:
   - +.aboutamazon.it
   - +.aboutamazon.jp
   - +.aboutamazon.pl
+  - +.aboutamazon.sg
   - +.acmvalidations.com
   - +.acmvalidationsaws.com
   - +.aesworkshops.com
@@ -29,24 +30,35 @@ payload:
   - +.amazon-launchpad.com
   - +.amazon.ae
   - +.amazon.ca
+  - +.amazon.cl
   - +.amazon.cn
   - +.amazon.co.jp
   - +.amazon.co.uk
+  - +.amazon.co.za
   - +.amazon.com
   - +.amazon.com.au
+  - +.amazon.com.be
   - +.amazon.com.br
+  - +.amazon.com.co
   - +.amazon.com.mx
+  - +.amazon.com.ng
   - +.amazon.com.tr
   - +.amazon.de
   - +.amazon.dev
+  - +.amazon.eg
   - +.amazon.es
   - +.amazon.fr
+  - +.amazon.ie
   - +.amazon.in
   - +.amazon.it
   - +.amazon.jobs
   - +.amazon.jp
+  - +.amazon.lu
   - +.amazon.nl
+  - +.amazon.pl
   - +.amazon.red
+  - +.amazon.sa
+  - +.amazon.se
   - +.amazon.sg
   - +.amazonalexavoxcon.com
   - +.amazonauthorinsights.com
@@ -144,6 +156,7 @@ payload:
   - +.awsthinkbox.com
   - +.awstrack.me
   - +.awstrust.com
+  - +.awswaf.com
   - +.boxofficemojo.com
   - +.cdkworkshop.com
   - +.cloudfront-cn.net
@@ -197,6 +210,7 @@ payload:
   - +.primevideo.tv
   - +.route53.cn
   - +.sagemaker.com.cn
+  - +.seattlespheres.com
   - +.serving-sys.com
   - +.siege-amazon.com
   - +.ss2.us
