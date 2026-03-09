@@ -48,7 +48,6 @@ payload:
   - +.canonical.com
   - +.carekit.org
   - +.cdn.jetbrains.com
-  - +.cdnjs.com
   - +.centos.org
   - +.chocolatey.org
   - +.clearlinux.org
@@ -99,7 +98,6 @@ payload:
   - +.embed.ly
   - +.embedly.com
   - +.erlang.org
-  - +.esm.run
   - +.f8.com
   - +.facebookappcenter.info
   - +.facebookappcenter.net
@@ -229,8 +227,6 @@ payload:
   - +.jquerymobile.com
   - +.jqueryui.com
   - +.js.org
-  - +.jsdelivr.com
-  - +.jsdelivr.net
   - +.jupyter.org
   - +.jwt.ms
   - +.k8s.io
@@ -502,7 +498,6 @@ payload:
   - az764295.vo.msecnd.net
   - bingsettingssearch.trafficmanager.net
   - cdn.ampproject.org
-  - cdn.jsdelivr.net
   - d29vzk4ow07wi7.cloudfront.net
   - default.exp-tas.com
   - developer.microsoft.com
