@@ -41,6 +41,7 @@ payload:
   - '+.dc.di.atlas.samsung.com'
   - '+.dc.di.runestone.samsung.com'
   - '+.dc.dqa.samsung.com'
+  - '+.ddf.di.atlas.samsung.com'
   - '+.dev-apigw.samsungdmroute.com'
   - '+.devicelog.samsungcloudsolution.net'
   - '+.di.runestone.samsung.com'
