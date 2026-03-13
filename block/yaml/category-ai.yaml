@@ -15,10 +15,12 @@ payload:
   - +.cici.com
   - +.ciciai.com
   - +.ciciaicdn.com
+  - +.clau.de
   - +.claude.ai
   - +.claude.com
   - +.claudemcpclient.com
   - +.claudeusercontent.com
+  - +.clawhub.ai
   - +.clipdrop.co
   - +.codeium.com
   - +.codeiumdata.com
@@ -56,6 +58,7 @@ payload:
   - +.grok.com
   - +.grok.x.com
   - +.groq.com
+  - +.h2o.ai
   - +.hf.co
   - +.hf.space
   - +.host.livekit.cloud
@@ -84,6 +87,7 @@ payload:
   - +.openai.com
   - +.openai.com.cdn.cloudflare.net
   - +.openart.ai
+  - +.openclaw.ai
   - +.openrouter.ai
   - +.oystermercury.top
   - +.perplexity.ai
