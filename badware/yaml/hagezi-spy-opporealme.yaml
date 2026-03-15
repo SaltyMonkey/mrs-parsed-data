@@ -375,6 +375,8 @@ payload:
   - '+.opex-service-sg.allawnos.com'
   - '+.ostorage-ocloud-in.allawnos.com'
   - '+.ostorage-ocloud-sg.allawnos.com'
+  - '+.oversea-nebula-in.heytapmobi.com'
+  - '+.oversea-nebula-sg.heytapmobi.com'
   - '+.predragate.dc.oppomobile.com'
   - '+.push-dc-us.heytapmobile.com'
   - '+.push.heytapmobile.com'
