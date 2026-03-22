@@ -1,10 +1,27 @@
 #!/bin/bash
 
 FOLDER="subnets/"
-YAMLFOLDER="subnets/yaml/"
-MANUAL_FOLDER="manual/subnets/ipv4/"
 
 source ./update_shared.sh
+
+readonly BGPQ4_SOURCES="RPKI,AFRINIC,APNIC,ARIN,LACNIC,RIPE"
+
+CONTABO_ASNS=(51167 141995)
+AKAMAI_ASNS=(20940 63949)
+ROBLOX_ASNS=(22697)
+SCALEWAY_ASNS=(12876)
+SCALAXY_ASNS=(58061)
+CDN77_ASNS=(60068)
+DATACAMP_ASNS=(212238)
+CLOUDFLARE_ASNS=(13335)
+HETZNER_ASNS=(24940)
+OVH_ASNS=(16276)
+DIGITALOCEAN_ASNS=(14061)
+BUNNY_ASNS=(200325)
+META_ASNS=(32934)
+TELEGRAM_ASNS=(62041 62014 211157 44907 59930)
+GCORE_ASNS=(199524 202422)
+FASTLY_ASNS=(54113)
 
 mkdir -p "${FOLDER}"
 mkdir -p "${FOLDER}"ipv4/
@@ -16,75 +33,57 @@ find "${FOLDER}" -type f -name "*.tmp" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.json" -exec rm -f {} +
 
+run_bgpq4() {
+    local family="$1"
+    local output_file="$2"
+    local truncate_output="$3"
+    shift 3
+
+    if [ "${truncate_output}" = "true" ]; then
+        : > "${output_file}"
+    fi
+
+    local asn
+    for asn in "$@"; do
+        bgpq4 -S "${BGPQ4_SOURCES}" -A -F "%n/%l\n" "${family}" "as${asn}" >> "${output_file}"
+        ensure_eof_nl "${output_file}"
+    done
+}
+
+generate_asn_lists() {
+    local name="$1"
+    shift
+
+    run_bgpq4 -4 "${FOLDER}ipv4/${name}.txt" true "$@"
+    run_bgpq4 -6 "${FOLDER}ipv6/${name}.txt" true "$@"
+    cat "${FOLDER}ipv4/${name}.txt" "${FOLDER}ipv6/${name}.txt" | sort | uniq > "${FOLDER}dual/${name}.txt"
+}
+
 main() {
     download "https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg" "${FOLDER}"ipv4/discord-voice.txt
     download "https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg" "${FOLDER}"ipv6/discord-voice.txt
     download "https://community.antifilter.download/list/community.lst" "${FOLDER}"ipv4/antifilter-community.txt
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml" "${FOLDER}"ipv4/apple.yaml
 
-    #download "https://bgp.tools/table.txt" "${FOLDER}"table.txt "SaltyMonkey - 1570693+SaltyMonkey@users.noreply.github.com"
-    #get_cidrs_by_asn "24940" "${FOLDER}"table.txt "${FOLDER}"dual/hetzner.txt
-    #get_cidrs_by_asn "16276" "${FOLDER}"table.txt "${FOLDER}"dual/ovh.txt
-    #get_cidrs_by_asn "14061" "${FOLDER}"table.txt "${FOLDER}"dual/digitalocean.txt
-    #get_cidrs_by_asn "200325" "${FOLDER}"table.txt "${FOLDER}"dual/bunny.txt
-    #get_cidrs_by_asn "32934" "${FOLDER}"table.txt "${FOLDER}"dual/meta.txt
-    #split_subnets "${FOLDER}"dual/hetzner.txt "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
-    #split_subnets "${FOLDER}"dual/ovh.txt "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
-    #split_subnets "${FOLDER}"dual/digitalocean.txt "${FOLDER}"ipv4/digitalocean.txt "${FOLDER}"ipv6/digitalocean.txt
-    #split_subnets "${FOLDER}"dual/bunny.txt "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt
-    #split_subnets "${FOLDER}"dual/meta.txt "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt
-    #rm -rf "${FOLDER}"table.txt
-
-    bgpq4 -A -F "%n/%l\n" -4 as60068 > "${FOLDER}"ipv4/datacamp.txt
-    bgpq4 -A -F "%n/%l\n" -6 as60068 > "${FOLDER}"ipv6/datacamp.txt
-    ensure_eof_nl "${FOLDER}"ipv4/datacamp.txt "${FOLDER}"ipv6/datacamp.txt
-    cat "${FOLDER}"ipv4/datacamp.txt "${FOLDER}"ipv6/datacamp.txt | sort | uniq > "${FOLDER}"dual/datacamp.txt
-
-    bgpq4 -A -F "%n/%l\n" -4 as13335 | grep -Fvx '1.1.1.0/24' > "${FOLDER}"ipv4/cloudflare.txt
-    bgpq4 -A -F "%n/%l\n" -6 as13335 > "${FOLDER}"ipv6/cloudflare.txt
-    ensure_eof_nl "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt
-    cat "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt | sort | uniq > "${FOLDER}"dual/cloudflare.txt
-
-    bgpq4 -A -F "%n/%l\n" -4 as24940 > "${FOLDER}"ipv4/hetzner.txt
-    bgpq4 -A -F "%n/%l\n" -6 as24940 > "${FOLDER}"ipv6/hetzner.txt
-    ensure_eof_nl "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt
-    cat "${FOLDER}"ipv4/hetzner.txt "${FOLDER}"ipv6/hetzner.txt | sort | uniq > "${FOLDER}"dual/hetzner.txt
-
-    bgpq4 -A -F "%n/%l\n" -4 as16276 > "${FOLDER}"ipv4/ovh.txt
-    bgpq4 -A -F "%n/%l\n" -6 as16276 > "${FOLDER}"ipv6/ovh.txt
-    ensure_eof_nl "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt
-    cat "${FOLDER}"ipv4/ovh.txt "${FOLDER}"ipv6/ovh.txt | sort | uniq > "${FOLDER}"dual/ovh.txt
-
-    bgpq4 -A -F "%n/%l\n" -4 as14061 > "${FOLDER}"ipv4/digitalocean.txt
-    bgpq4 -A -F "%n/%l\n" -6 as14061 > "${FOLDER}"ipv6/digitalocean.txt
-    ensure_eof_nl "${FOLDER}"ipv4/digitalocean.txt "${FOLDER}"ipv6/digitalocean.txt
-    cat "${FOLDER}"ipv4/digitalocean.txt "${FOLDER}"ipv6/digitalocean.txt | sort | uniq > "${FOLDER}"dual/digitalocean.txt
-
-    bgpq4 -A -F "%n/%l\n" -4 as200325 > "${FOLDER}"ipv4/bunny.txt
-    bgpq4 -A -F "%n/%l\n" -6 as200325 > "${FOLDER}"ipv6/bunny.txt
-    ensure_eof_nl "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt
-    cat "${FOLDER}"ipv4/bunny.txt "${FOLDER}"ipv6/bunny.txt | sort | uniq > "${FOLDER}"dual/bunny.txt
-
-    bgpq4 -A -F "%n/%l\n" -4 as32934 > "${FOLDER}"ipv4/meta.txt
-    bgpq4 -A -F "%n/%l\n" -6 as32934 > "${FOLDER}"ipv6/meta.txt
-    ensure_eof_nl "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt
-    cat "${FOLDER}"ipv4/meta.txt "${FOLDER}"ipv6/meta.txt | sort | uniq > "${FOLDER}"dual/meta.txt
-
-    download "https://core.telegram.org/resources/cidr.txt" "${FOLDER}"dual/telegram.txt
-    split_subnets "${FOLDER}"dual/telegram.txt "${FOLDER}"ipv4/telegram.txt "${FOLDER}"ipv6/telegram.txt
+    generate_asn_lists "contabo" "${CONTABO_ASNS[@]}"
+    generate_asn_lists "akamai" "${AKAMAI_ASNS[@]}"
+    generate_asn_lists "roblox" "${ROBLOX_ASNS[@]}"
+    generate_asn_lists "scaleway" "${SCALEWAY_ASNS[@]}"
+    generate_asn_lists "scalaxy" "${SCALAXY_ASNS[@]}"
+    generate_asn_lists "cdn77" "${CDN77_ASNS[@]}"
+    generate_asn_lists "datacamp" "${DATACAMP_ASNS[@]}"
+    generate_asn_lists "cloudflare" "${CLOUDFLARE_ASNS[@]}"
+    generate_asn_lists "hetzner" "${HETZNER_ASNS[@]}"
+    generate_asn_lists "ovh" "${OVH_ASNS[@]}"
+    generate_asn_lists "digitalocean" "${DIGITALOCEAN_ASNS[@]}"
+    generate_asn_lists "bunny" "${BUNNY_ASNS[@]}"
+    generate_asn_lists "meta" "${META_ASNS[@]}"
+    generate_asn_lists "telegram" "${TELEGRAM_ASNS[@]}"
+    generate_asn_lists "fastly" "${FASTLY_ASNS[@]}"
+    generate_asn_lists "gcore" "${GCORE_ASNS[@]}"
 
     download "https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips" "${FOLDER}"ipv4/cloudfront.json
     parse_json "${FOLDER}"ipv4/cloudfront.json "${FOLDER}"ipv4/cloudfront.txt '(.CLOUDFRONT_GLOBAL_IP_LIST + .CLOUDFRONT_REGIONAL_EDGE_IP_LIST)[]'
-
-    download "https://api.fastly.com/public-ip-list" "${FOLDER}"dual/fastly.json
-    parse_json "${FOLDER}"dual/fastly.json "${FOLDER}"ipv4/fastly.txt '.addresses[]'
-    parse_json "${FOLDER}"dual/fastly.json "${FOLDER}"ipv6/fastly.txt '.ipv6_addresses[]'
-    parse_json "${FOLDER}"dual/fastly.json "${FOLDER}"dual/fastly.txt '(.addresses + .ipv6_addresses)[]'
-
-    download "https://api.gcore.com/cdn/public-net-list" "${FOLDER}"dual/gcore.json
-    parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"ipv4/gcore.txt '.addresses[]'
-    parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"ipv6/gcore.txt '.addresses_v6[]'
-    parse_json "${FOLDER}"dual/gcore.json "${FOLDER}"dual/gcore.txt '(.addresses + .addresses_v6)[]'
 
     echo >> "${FOLDER}"ipv4/cloudflare.txt
     ensure_eof_nl "${FOLDER}"ipv4/cloudflare.txt "${FOLDER}"ipv6/cloudflare.txt

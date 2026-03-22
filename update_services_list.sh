@@ -13,7 +13,6 @@ find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
 
 main() {
-    download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40google-gemini" "${FOLDER}"gemini.txt
     download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40notebooklm" "${FOLDER}"notebooklm.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=netflix.com&wildcard=1" "${FOLDER}"netflix.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=hdrezka.ag&wildcard=1" "${FOLDER}"hdrezka.txt
@@ -23,7 +22,6 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&site=medium.com&wildcard=1" "${FOLDER}"medium.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=linkedin.com&wildcard=1" "${FOLDER}"linkedin.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=chatgpt.com&wildcard=1" "${FOLDER}"chatgpt.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=copilot" "${FOLDER}"copilot.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=grok.com&wildcard=1" "${FOLDER}"grok.txt
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=claude.ai" "${FOLDER}"claudeai.txt
     download "https://iplist.opencck.org/?format=text&data=domains&site=x.com&wildcard=1" "${FOLDER}"x.txt
@@ -37,6 +35,9 @@ main() {
     download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=kino.pub" "${FOLDER}"kinopub.txt
     download "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=anydesk.com" "${FOLDER}"anydesk.txt
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geosite/telegram.yaml" "${FOLDER}"telegram.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/copilot.yaml" "${FOLDER}"copilot.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-play.yaml" "${FOLDER}"google-play.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-gemini.yaml" "${FOLDER}"gemini.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/xbox.yaml" "${FOLDER}"xbox.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/archive.yaml" "${FOLDER}"archive.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/alibaba.yaml" "${FOLDER}"alibaba.yaml
