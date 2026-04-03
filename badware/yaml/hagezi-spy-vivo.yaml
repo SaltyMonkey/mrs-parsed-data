@@ -1,4 +1,6 @@
 payload:
+  - '+.adlog.vivo.com'
+  - '+.adlog.vivo.com.cn'
   - '+.ads-api.vivo.com'
   - '+.adxlog-adnet.vivo.com.cn'
   - '+.appstore-trace-h5sdk.vivo.com.cn'
