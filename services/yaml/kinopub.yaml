@@ -1,4 +1,8 @@
 payload:
-    - '+.cdn32.lol'
-    - '+.cdntogo.net'
-    - '+.kino.pub'
+    - '+.</body>'
+    - '+.</html>'
+    - '+.<body>'
+    - '+.<center><h1>502 Bad Gateway</h1></center>'
+    - '+.<head><title>502 Bad Gateway</title></head>'
+    - '+.<hr><center>nginx/1.29.4</center>'
+    - '+.<html>'
