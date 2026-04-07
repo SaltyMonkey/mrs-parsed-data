@@ -1,8 +1,26 @@
 payload:
-    - '+.</body>'
-    - '+.</html>'
-    - '+.<body>'
-    - '+.<center><h1>504 Gateway Time-out</h1></center>'
-    - '+.<head><title>504 Gateway Time-out</title></head>'
-    - '+.<hr><center>nginx/1.29.4</center>'
-    - '+.<html>'
+    - '+.fast.com'
+    - '+.netflix.ca'
+    - '+.netflix.com'
+    - '+.netflix.com.au'
+    - '+.netflix.net'
+    - '+.netflixdnstest1.com'
+    - '+.netflixdnstest10.com'
+    - '+.netflixdnstest2.com'
+    - '+.netflixdnstest3.com'
+    - '+.netflixdnstest4.com'
+    - '+.netflixdnstest5.com'
+    - '+.netflixdnstest6.com'
+    - '+.netflixdnstest7.com'
+    - '+.netflixdnstest8.com'
+    - '+.netflixdnstest9.com'
+    - '+.netflixinvestor.com'
+    - '+.netflixstudios.com'
+    - '+.netflixtechblog.com'
+    - '+.nflxext.com'
+    - '+.nflximg.com'
+    - '+.nflximg.net'
+    - '+.nflxsearch.net'
+    - '+.nflxso.net'
+    - '+.nflxvideo.net'
+    - '+.onetrust.com'
