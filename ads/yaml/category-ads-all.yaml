@@ -61,6 +61,8 @@ payload:
   - +.adeng.hpplay.cn
   - +.adfilter.imtt.qq.com
   - +.adfox.ru
+  - +.adfox.yandex.ru
+  - +.adfstat.yandex.ru
   - +.adimg.mobile.sina.cn
   - +.adimg.uve.weibo.com
   - +.adinplay.com
@@ -103,9 +105,13 @@ payload:
   - +.ads.wteam.xyz
   - +.ads.yahoo.com
   - +.ads.yandex
+  - +.ads.yandex.com
+  - +.ads.yandex.ru
+  - +.ads.yango.com
   - +.ads.youtube.com
   - +.adscdn.baidu.com
   - +.adsclick.qq.com
+  - +.adsdk.yandex.ru
   - +.adse.wsa.ximalaya.com
   - +.adse.ximalaya.com
   - +.adsense.com
@@ -137,6 +143,8 @@ payload:
   - +.adv.app.qq.com
   - +.adv.sec.intl.miui.com
   - +.adv.sec.miui.com
+  - +.adv.yandex.com
+  - +.adv.yandex.ru
   - +.advapi.joyplus.tv
   - +.advapikj.joyplus.tv
   - +.adver.qq.com
@@ -162,10 +170,13 @@ payload:
   - +.alogs.umeng.com
   - +.alogus.umeng.com
   - +.amazon-adsystem.com
+  - +.amc.yandex.ru
+  - +.an.yandex.ru
   - +.analytics-alv.google.com
   - +.analytics-data.io
   - +.analytics.163.com
   - +.analytics.facebook.com
+  - +.analytics.mobile.yandex.net
   - +.analytics.tiktok.com
   - +.analytics.umetrip.com
   - +.analytics.vpc.duolingo.com
@@ -177,6 +188,10 @@ payload:
   - +.apple.www.letv.com
   - +.applovin.com
   - +.applvn.com
+  - +.appmetrica.yandex.com
+  - +.appmetrica.yandex.net
+  - +.appmetrica.yandex.ru
+  - +.appmetrica.yango.com
   - +.ar.umeng.com
   - +.ark.letv.com
   - +.aspect-upush.umeng.com
@@ -200,8 +215,10 @@ payload:
   - +.bingads.com
   - +.biz.weibo.com
   - +.bluekai.com
+  - +.browser-updater.yandex.net
   - +.browser.events.data.msn.cn
   - +.browser.events.data.msn.com
+  - +.bs.yandex.ru
   - +.btrace.qq.com
   - +.bugly.qq.com
   - +.byteadverts.com
@@ -221,6 +238,10 @@ payload:
   - +.china-caa.org
   - +.chinaciaf.org
   - +.clarity.ms
+  - +.clck.yandex.com
+  - +.clck.yandex.net
+  - +.clck.yandex.ru
+  - +.clck.yango.com
   - +.clearbit.com
   - +.clearbitjs.com
   - +.clearbitscripts.com
@@ -239,6 +260,8 @@ payload:
   - +.contentabc.com
   - +.contextual.media.net
   - +.copilot-telemetry.githubusercontent.com
+  - +.counter.yandex.net
+  - +.counter.yandex.ru
   - +.cpmstar.com
   - +.cpro.baidu.com
   - +.cpro.baidustatic.com
@@ -377,6 +400,7 @@ payload:
   - +.imgstat.baidu.com
   - +.imp.go.sohu.com
   - +.impact-ad.jp
+  - +.informer.yandex.ru
   - +.inner-active.mobi
   - +.innovid.com
   - +.inte.sogou.com
@@ -424,10 +448,15 @@ payload:
   - +.marketing.alibaba.com
   - +.marketingplatform.google.com
   - +.mbdlog.iqiyi.com
+  - +.mc.yandex.com
+  - +.mc.yandex.net
+  - +.mc.yandex.ru
+  - +.mc.yango.com
   - +.mcs.snssdk.com
   - +.mdt.qq.com
   - +.mediav.com
   - +.metrics.duolingo.com
+  - +.metrika.yandex.ru
   - +.mfadsrvr.com
   - +.mgid.com
   - +.miao.baidu.com
@@ -505,7 +534,9 @@ payload:
   - +.pglstatp-toutiao.com
   - +.pimlog.baidu.com
   - +.pingjs.qq.com
+  - +.pix.yandex.ru
   - +.pixel.facebook.com
+  - +.pixel.yandex.net
   - +.pl.youku.com
   - +.plbslog.umeng.com
   - +.pmir.3g.qq.com
@@ -525,6 +556,7 @@ payload:
   - +.reachmax.cn
   - +.realsrv.com
   - +.reke.at.sohu.com
+  - +.report.ap.yandex-net.ru
   - +.report.qqweb.qq.com
   - +.report.tencentmusic.com
   - +.res.hunantv.com
@@ -643,9 +675,11 @@ payload:
   - +.wuliao.epro.sogou.com
   - +.wwads.cn
   - +.xy-log.tagtic.cn
+  - +.yabs.yandex.ru
   - +.yads.tech
   - +.yandex-metrica.ru
   - +.yandexmetrica.com
+  - +.yango-ads.com
   - +.yektanet.com
   - +.yfanads.cn
   - +.yfanads.com
@@ -664,44 +698,23 @@ payload:
   - ad-channel.diwodiwo.xyz
   - ad-display.diwodiwo.xyz
   - adeventtracker.spotify.com
-  - adfox.yandex.ru
-  - adfstat.yandex.ru
-  - ads.yandex.com
-  - ads.yandex.ru
   - ads3-normal-hl.zijieapi.com
   - ads3-normal.zijieapi.com
   - ads5-normal-hl.zijieapi.com
   - ads5-normal.zijieapi.com
-  - adsdk.yandex.ru
   - adstudio-assets.scdn.co
-  - adv.yandex.com
-  - adv.yandex.ru
-  - amc.yandex.ru
-  - an.yandex.ru
   - analytics.google.com
-  - analytics.mobile.yandex.net
-  - api.appmetrica.yandex.ru
   - apilog-web.acfun.cn
   - bloodhound.spotify.com
   - browser-intake-datadoghq.com
-  - browser-updater.yandex.net
-  - bs.yandex.ru
-  - clck.yandex.net
-  - clck.yandex.ru
   - clickstream.sberbank.ru
-  - counter.yandex.net
-  - counter.yandex.ru
   - disney.my.sentry.io
   - error-tracking.megamarket.tech
-  - informer.yandex.ru
   - log-sdk.gifshow.com
   - log3-applog-hl.fqnovel.com
   - log3-applog.fqnovel.com
   - log5-applog-hl.fqnovel.com
   - log5-applog.fqnovel.com
-  - mc.yandex.com
-  - mc.yandex.ru
-  - metrika.yandex.ru
   - o33249.ingest.sentry.io
   - o4504926511693824.ingest.sentry.io
   - p3-ad-sign.byteimg.com
@@ -717,11 +730,6 @@ payload:
   - pinggai7.caixin.com
   - pinggai8.caixin.com
   - pinggai9.caixin.com
-  - pix.yandex.ru
-  - pixel.yandex.net
-  - report-partners.appmetrica.yandex.net
-  - report.ap.yandex-net.ru
-  - report.appmetrica.yandex.net
   - rtlog3-applog-hl.fqnovel.com
   - rtlog3-applog.fqnovel.com
   - rtlog5-applog-hl.fqnovel.com
@@ -731,4 +739,3 @@ payload:
   - tracing-http.megamarket.tech
   - visor.sberbank.ru
   - wlog.kuaishou.com
-  - yabs.yandex.ru

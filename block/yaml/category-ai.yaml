@@ -48,6 +48,9 @@ payload:
   - +.duck.ai
   - +.elevenlabs.com
   - +.elevenlabs.io
+  - +.envato-static.com
+  - +.envato.com
+  - +.envatousercontent.com
   - +.gateway.ai.cloudflare.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
@@ -99,6 +102,7 @@ payload:
   - +.robinfrontend-pa.googleapis.com
   - +.sora.com
   - +.spicywriter.com
+  - +.themeforest.net
   - +.trae.ai
   - +.turn.livekit.cloud
   - +.windsurf.build
