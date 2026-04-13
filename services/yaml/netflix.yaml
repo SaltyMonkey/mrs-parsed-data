@@ -1,7 +1,11 @@
 payload:
+  - +.cookielaw.org
   - +.fast.com
+  - +.flxvpn.net
   - +.netflix.ca
   - +.netflix.com
+  - +.netflix.com.au
+  - +.netflix.com.edgesuite.net
   - +.netflix.net
   - +.netflixdnstest0.com
   - +.netflixdnstest1.com
@@ -15,6 +19,7 @@ payload:
   - +.netflixdnstest8.com
   - +.netflixdnstest9.com
   - +.netflixinvestor.com
+  - +.netflixstudios.com
   - +.netflixtechblog.com
   - +.nflxext.com
   - +.nflximg.com
@@ -22,4 +27,7 @@ payload:
   - +.nflxsearch.net
   - +.nflxso.net
   - +.nflxvideo.net
-  - netflix.com.edgesuite.net
+  - +.onetrust.com
+  - +.us-west-2.amazonaws.com
+  - e13252.dscg.akamaiedge.net
+  - h-netflix.online-metrix.net
