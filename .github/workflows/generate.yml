@@ -3,6 +3,7 @@ name: Generate data
 on:
   schedule:
     - cron: "30 2 * * *"
+      timezone: "Europe/Moscow"
   workflow_dispatch:
 
 permissions:
