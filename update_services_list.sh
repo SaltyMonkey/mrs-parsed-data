@@ -13,27 +13,21 @@ find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
 
 main() {
-    download "https://beta.iplist.opencck.org/?format=text&data=domains&site=google%40notebooklm" "${FOLDER}"notebooklm.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=netflix.com&wildcard=1" "${FOLDER}"netflix.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=hdrezka.ag&wildcard=1" "${FOLDER}"hdrezka.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=filmix.fm" "${FOLDER}"filmix.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=lostfilm.tv&wildcard=1" "${FOLDER}"lostfilm.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=kinozal.tv&wildcard=1" "${FOLDER}"kinozal.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=medium.com&wildcard=1" "${FOLDER}"medium.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=linkedin.com&wildcard=1" "${FOLDER}"linkedin.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=chatgpt.com&wildcard=1" "${FOLDER}"chatgpt.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=grok.com&wildcard=1" "${FOLDER}"grok.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=claude.ai" "${FOLDER}"claudeai.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=x.com&wildcard=1" "${FOLDER}"x.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=instagram.com&wildcard=1" "${FOLDER}"instagram.txt
-    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.yaml" "${FOLDER}"spotify.yaml
-    download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=deepl.com" "${FOLDER}"deepl.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=discord.com&site=discord.gg&site=discord.media&wildcard=1" "${FOLDER}"discord.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&site=nnmclub.to&wildcard=1" "${FOLDER}"nnmclub.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=doramy.club" "${FOLDER}"doramyclub.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=daramalive.life" "${FOLDER}"daramalivelife.txt
-    download "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=kino.pub" "${FOLDER}"kinopub.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/openstreetmap.yaml" "${FOLDER}"openstreetmap.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/f-droid.yaml" "${FOLDER}"f-droid.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/tiktok.yaml" "${FOLDER}"tiktok.yaml
     download "https://beta.iplist.opencck.org/?format=text&data=domains&wildcard=1&site=anydesk.com" "${FOLDER}"anydesk.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/kinopub.yaml" "${FOLDER}"kinopub.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/microsoft.yaml" "${FOLDER}"microsoft.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/hdrezka.yaml" "${FOLDER}"hdrezka.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/anthropic.yaml" "${FOLDER}"anthropic.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/openai.yaml" "${FOLDER}"openai.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/instagram.yaml" "${FOLDER}"instagram.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.yaml" "${FOLDER}"spotify.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/linkedin.yaml" "${FOLDER}"linkedin.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/x.yaml" "${FOLDER}"x.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/discord.yaml" "${FOLDER}"discord.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/netflix.yaml" "${FOLDER}"netflix.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geosite/telegram.yaml" "${FOLDER}"telegram.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/github-copilot.yaml" "${FOLDER}"copilot.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google-play.yaml" "${FOLDER}"google-play.yaml
@@ -46,7 +40,6 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon.yaml" "${FOLDER}"amazon.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple.yaml" "${FOLDER}"apple.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mongodb.yaml" "${FOLDER}"mongodb.yaml
-    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/azure.yaml" "${FOLDER}"azure.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/azure.yaml" "${FOLDER}"azure.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bilibili.yaml" "${FOLDER}"bilibili.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/whatsapp.yaml" "${FOLDER}"whatsapp.yaml

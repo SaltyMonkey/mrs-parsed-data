@@ -23,9 +23,21 @@ main() {
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.plus.mini.txt "${FOLDER}"hagezi-pro-plus-mini-ads.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/light.txt "${FOLDER}"hagezi-light-ads.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/ultimate.mini.txt "${FOLDER}"hagezi-ultimate-mini-ads.txt
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple%40ads.yaml" "${FOLDER}"apple-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google%40ads.yaml" "${FOLDER}"google-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon%40ads.yaml" "${FOLDER}"amazon-ads.yaml
-    download "https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/spotify%40ads.list" "${FOLDER}"spotify-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/meta%40ads.yaml" "${FOLDER}"meta-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/x5%40ads.yaml" "${FOLDER}"x5-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/x%40ads.yaml" "${FOLDER}"x-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ozon%40ads.yaml" "${FOLDER}"ozon-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/wildberries%40ads.yaml" "${FOLDER}"wildberries-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/sber%40ads.yaml" "${FOLDER}"sber-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/yandex%40ads.yaml" "${FOLDER}"sber-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/microsoft%40ads.yaml" "${FOLDER}"microsoft-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru%40ads.yaml" "${FOLDER}"category-ru-ads.yaml
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-bank-ru%40ads.yaml "${FOLDER}category-bank-ru-ads.yaml"
+    download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ecommerce-ru%40ads.yaml "${FOLDER}category-ecommerce-ru-ads.yaml"
+    download "https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/spotify%40ads.yaml" "${FOLDER}"spotify-ads.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ads-all.yaml "${FOLDER}category-ads-all.yaml"
 
     local file
