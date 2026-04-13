@@ -183,6 +183,7 @@
 - [category-ru-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/category-ru-ads.mrs)
 - [google-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/google-ads.mrs)
 - [hagezi-light-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/hagezi-light-ads.mrs)
+- [hagezi-popups-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/hagezi-popups-ads.mrs)
 - [hagezi-pro-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/hagezi-pro-ads.mrs)
 - [hagezi-pro-mini-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/hagezi-pro-mini-ads.mrs)
 - [hagezi-pro-plus-mini-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/hagezi-pro-plus-mini-ads.mrs)
@@ -208,6 +209,7 @@
 - [category-ru-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/category-ru-ads.yaml)
 - [google-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/google-ads.yaml)
 - [hagezi-light-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-light-ads.yaml)
+- [hagezi-popups-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-popups-ads.yaml)
 - [hagezi-pro-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-pro-ads.yaml)
 - [hagezi-pro-mini-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-pro-mini-ads.yaml)
 - [hagezi-pro-plus-mini-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/hagezi-pro-plus-mini-ads.yaml)
@@ -228,8 +230,13 @@
 ## Badware
 
 ### MRS
+- [hagezi-antipiracy.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-antipiracy.mrs)
 - [hagezi-badware-hosters.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-badware-hosters.mrs)
 - [hagezi-dyndns.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-dyndns.mrs)
+- [hagezi-fakes-scam-trap.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-fakes-scam-trap.mrs)
+- [hagezi-gambling-medium.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-gambling-medium.mrs)
+- [hagezi-gambling-mini.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-gambling-mini.mrs)
+- [hagezi-social-network.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-social-network.mrs)
 - [hagezi-spy-amazon.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-amazon.mrs)
 - [hagezi-spy-apple.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-apple.mrs)
 - [hagezi-spy-huawei.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-huawei.mrs)
@@ -240,9 +247,16 @@
 - [hagezi-spy-vivo.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-vivo.mrs)
 - [hagezi-spy-winoffice.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-winoffice.mrs)
 - [hagezi-spy-xiaomi.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-xiaomi.mrs)
+- [hagezi-tif-mini.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-tif-mini.mrs)
+- [hagezi-url-shorteners.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-url-shorteners.mrs)
 ### YAML
+- [hagezi-antipiracy.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-antipiracy.yaml)
 - [hagezi-badware-hosters.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-badware-hosters.yaml)
 - [hagezi-dyndns.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-dyndns.yaml)
+- [hagezi-fakes-scam-trap.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-fakes-scam-trap.yaml)
+- [hagezi-gambling-medium.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-gambling-medium.yaml)
+- [hagezi-gambling-mini.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-gambling-mini.yaml)
+- [hagezi-social-network.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-social-network.yaml)
 - [hagezi-spy-amazon.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-amazon.yaml)
 - [hagezi-spy-apple.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-apple.yaml)
 - [hagezi-spy-huawei.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-huawei.yaml)
@@ -253,6 +267,8 @@
 - [hagezi-spy-vivo.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-vivo.yaml)
 - [hagezi-spy-winoffice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-winoffice.yaml)
 - [hagezi-spy-xiaomi.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-xiaomi.yaml)
+- [hagezi-tif-mini.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-tif-mini.yaml)
+- [hagezi-url-shorteners.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-url-shorteners.yaml)
 
 ## Bypass
 
