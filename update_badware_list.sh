@@ -27,6 +27,13 @@ main() {
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/native.tiktok.txt "${FOLDER}"hagezi-spy-tiktok.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/dyndns.txt "${FOLDER}"hagezi-dyndns.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/hoster.txt "${FOLDER}"hagezi-badware-hosters.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/social.txt "${FOLDER}"hagezi-social-network.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/fake.txt "${FOLDER}"hagezi-fakes-scam-trap.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/tif.mini.txt "${FOLDER}"hagezi-tif-mini.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/gambling.mini.txt "${FOLDER}"hagezi-gambling-mini.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/gambling.medium.txt "${FOLDER}"hagezi-gambling-medium.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/urlshortener.txt "${FOLDER}"hagezi-url-shorteners.txt
+    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/anti.piracy.txt "${FOLDER}"hagezi-antipiracy.txt
 
     local file
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
