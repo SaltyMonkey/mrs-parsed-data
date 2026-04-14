@@ -32,7 +32,7 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ozon%40ads.yaml" "${FOLDER}"ozon-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/wildberries%40ads.yaml" "${FOLDER}"wildberries-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/sber%40ads.yaml" "${FOLDER}"sber-ads.yaml
-    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/yandex%40ads.yaml" "${FOLDER}"sber-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/yandex%40ads.yaml" "${FOLDER}"yandex-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/microsoft%40ads.yaml" "${FOLDER}"microsoft-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru%40ads.yaml" "${FOLDER}"category-ru-ads.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-bank-ru%40ads.yaml "${FOLDER}category-bank-ru-ads.yaml"
