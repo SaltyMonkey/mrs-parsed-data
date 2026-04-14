@@ -200,6 +200,7 @@
 - [wildberries-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/wildberries-ads.mrs)
 - [x-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/x-ads.mrs)
 - [x5-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/x5-ads.mrs)
+- [yandex-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yandex-ads.mrs)
 ### YAML
 - [amazon-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/amazon-ads.yaml)
 - [apple-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/apple-ads.yaml)
@@ -226,6 +227,7 @@
 - [wildberries-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/wildberries-ads.yaml)
 - [x-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/x-ads.yaml)
 - [x5-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/x5-ads.yaml)
+- [yandex-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/yandex-ads.yaml)
 
 ## Badware
 
