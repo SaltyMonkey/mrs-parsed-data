@@ -1,20 +1,37 @@
 payload:
+  - +.1l-hit.mail.ru
+  - +.1l-hit.vkplay.ru
+  - +.ad.mail.ru
   - +.ad.ozone.ru
+  - +.ad4.mail.ru
+  - +.adblogger.vk.com
   - +.adfox.ru
   - +.adfox.yandex.ru
   - +.adfstat.yandex.ru
   - +.admetrica.ru
   - +.ads-gate.wildberries.ru
+  - +.ads-integration.rustore.ru
   - +.ads-media.wildberries.ru
+  - +.ads.dahlmessenger.com
+  - +.ads.icq.com
+  - +.ads.rustore.ru
   - +.ads.sber.ru
+  - +.ads.viqeo.tv
+  - +.ads.vk.com
+  - +.ads.vk.ru
   - +.ads.wildberries.ru
   - +.ads.x5media.ru
   - +.ads.yandex
   - +.ads.yandex.com
   - +.ads.yandex.ru
   - +.ads.yango.com
+  - +.adsadvisor.io
+  - +.adsapp.dahlmessenger.com
+  - +.adsapp.stage.telega.info
+  - +.adsapp.telega.info
   - +.adsdk.yandex.ru
   - +.adv.ozon.ru
+  - +.adv.rustore.ru
   - +.adv.yandex.com
   - +.adv.yandex.ru
   - +.advert-api-sandbox.wb.ru
@@ -24,11 +41,15 @@ payload:
   - +.advert-media-api.wb.ru
   - +.advert-media-api.wildberries.ru
   - +.agency-adv.ozon.ru
+  - +.alt-r.my.com
   - +.amc.yandex.ru
+  - +.an.mail.ru
   - +.an.yandex.ru
   - +.analytics-adv.ozon.ru
   - +.analytics-stage.wildberries.ru
   - +.analytics.mobile.yandex.net
+  - +.analytics.vk.com
+  - +.analytics.vk.ru
   - +.analytics.wildberries.ru
   - +.api-eu.carrotquest.app
   - +.api-eu.carrotquest.io
@@ -50,21 +71,27 @@ payload:
   - +.appmetrica.yandex.net
   - +.appmetrica.yandex.ru
   - +.appmetrica.yango.com
+  - +.apptracer.ru
+  - +.b2.mail.ru
   - +.beginners-adv.ozon.ru
   - +.browser-updater.yandex.net
+  - +.bs.mail.ru
   - +.bs.yandex.ru
   - +.clck.yandex.com
   - +.clck.yandex.net
   - +.clck.yandex.ru
   - +.clck.yango.com
+  - +.click.rustore.ru
   - +.clickstream.sberbank.ru
   - +.counter.yandex.net
   - +.counter.yandex.ru
+  - +.cxhub.ru
   - +.e.mindbox.ru
   - +.error-tracking.megamarket.tech
   - +.g.mindbox.ru
   - +.google-analytics-suite.ozon.ru
   - +.informer.yandex.ru
+  - +.log.dzen.ru
   - +.loyalnost-adv.ozon.ru
   - +.marketing-info.wildberries.ru
   - +.marketplace-sentry.wb.ru
@@ -73,31 +100,67 @@ payload:
   - +.mc.yandex.ru
   - +.mc.yango.com
   - +.metrics.21-school.ru
+  - +.metrics.viqeo.tv
   - +.metrika.yandex.ru
+  - +.ms.dzen.ru
+  - +.ms.vk.com
+  - +.ms.vk.ru
+  - +.myadx.net
   - +.neon.click
   - +.new-adv.ozon.ru
   - +.pix.yandex.ru
+  - +.pixel.rustore.ru
   - +.pixel.yandex.net
   - +.prodvizhenie-adv.ozon.ru
   - +.questions-adv.ozon.ru
+  - +.r.mail.ru
+  - +.r.my.com
+  - +.r0.mail.ru
+  - +.r0.mradx.net
+  - +.r1.mail.ru
+  - +.radar.imgsmail.ru
+  - +.reklama.mail.ru
+  - +.relap.mail.ru
   - +.report.ap.yandex-net.ru
   - +.roistat.com
+  - +.rs.mail.ru
   - +.s.mindbox.ru
   - +.sbermarketing.ru
+  - +.sentry-ng.g.smailru.net
+  - +.sentry.dev-my.com
+  - +.sentry.dev-my.games
   - +.sentry.mindbox.ru
   - +.sentry.ozon.ru
   - +.sentry.popmechanic.ru
+  - +.sentry.rustore.ru
   - +.sentry.sberauto.com
+  - +.sentry.viqeo.tv
   - +.sentry.wb.ru
   - +.sentry.x5.ru
+  - +.stacks.vk-portal.net
+  - +.stats.dahlmessenger.com
+  - +.stats.dev.telega.info
+  - +.stats.rustore.ru
+  - +.stats.telega.info
+  - +.stats.vk-portal.net
+  - +.t.mail.ru
+  - +.target.my.com
+  - +.target.vk.com
+  - +.target.vk.ru
+  - +.top-fwz1.mail.ru
+  - +.top-staging.mail.ru
   - +.tracing-http.megamarket.tech
+  - +.tracker-api.my.com
+  - +.tracker.my.com
   - +.tracking.ocourier.ru
   - +.tracking.ozon-dostavka.ru
   - +.tracking.ozon.ru
   - +.visor.sberbank.ru
+  - +.vk-analytics.ru
   - +.web-analytics.wildberries.ru
   - +.webvisor.com
   - +.webvisor.org
+  - +.whiteline.mail.ru
   - +.xapi.ozon.by
   - +.xapi.ozon.com
   - +.xapi.ozon.com.by
@@ -105,6 +168,7 @@ payload:
   - +.xapi.ozon.kz
   - +.xapi.ozon.ru
   - +.xapi.ozonru.me
+  - +.xray.mail.ru
   - +.yabs.yandex.ru
   - +.yads.tech
   - +.yandex-metrica.ru
