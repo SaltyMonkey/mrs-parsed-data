@@ -1,6 +1,4 @@
 payload:
-  - +.1l-hit.mail.ru
-  - +.1l-hit.vkplay.ru
   - +.1rx.io
   - +.2mdn-cn.net
   - +.2mdn.net
@@ -41,7 +39,6 @@ payload:
   - +.ad.weixin.qq.com
   - +.ad.xiaomi.com
   - +.ad1.xiaomi.com
-  - +.ad4.mail.ru
   - +.adash-c.m.taobao.com
   - +.adash-c.ut.taobao.com
   - +.adash-emas.cn-hangzhou.aliyuncs.com
@@ -58,7 +55,6 @@ payload:
   - +.adashxgc.ut.taobao.com
   - +.adbehavior.ximalaya.com
   - +.adbkwai.com
-  - +.adblogger.vk.com
   - +.adbox.sina.com.cn
   - +.adbutter.net
   - +.adc.hpplay.cn
@@ -92,7 +88,6 @@ payload:
   - +.adq.chinaso.com
   - +.ads-api.duolingo.com
   - +.ads-gate.wildberries.ru
-  - +.ads-integration.rustore.ru
   - +.ads-media.wildberries.ru
   - +.ads-pixiv.net
   - +.ads-twitter.com
@@ -100,12 +95,9 @@ payload:
   - +.ads-uo.api.leiniao.com
   - +.ads-ut.api.leiniao.com
   - +.ads.api.my7v.com
-  - +.ads.dahlmessenger.com
   - +.ads.huan.tv
   - +.ads.huantest.com
-  - +.ads.icq.com
   - +.ads.music.126.net
-  - +.ads.rustore.ru
   - +.ads.sber.ru
   - +.ads.service.kugou.com
   - +.ads.sina.com
@@ -116,8 +108,6 @@ payload:
   - +.ads.union.jd.com
   - +.ads.unitychina.cn
   - +.ads.viqeo.tv
-  - +.ads.vk.com
-  - +.ads.vk.ru
   - +.ads.wildberries.ru
   - +.ads.wteam.xyz
   - +.ads.x5media.ru
@@ -128,9 +118,6 @@ payload:
   - +.ads.yango.com
   - +.ads.youtube.com
   - +.adsadvisor.io
-  - +.adsapp.dahlmessenger.com
-  - +.adsapp.stage.telega.info
-  - +.adsapp.telega.info
   - +.adscdn.baidu.com
   - +.adsclick.qq.com
   - +.adsdk.yandex.ru
@@ -164,9 +151,9 @@ payload:
   - +.adv-sv-stat.focus.cn
   - +.adv.app.qq.com
   - +.adv.ozon.ru
-  - +.adv.rustore.ru
   - +.adv.sec.intl.miui.com
   - +.adv.sec.miui.com
+  - +.adv.vk.com
   - +.adv.yandex.com
   - +.adv.yandex.ru
   - +.advapi.joyplus.tv
@@ -200,10 +187,8 @@ payload:
   - +.alog.umengcloud.com
   - +.alogs.umeng.com
   - +.alogus.umeng.com
-  - +.alt-r.my.com
   - +.amazon-adsystem.com
   - +.amc.yandex.ru
-  - +.an.mail.ru
   - +.an.yandex.ru
   - +.analytics-adv.ozon.ru
   - +.analytics-alv.google.com
@@ -215,7 +200,6 @@ payload:
   - +.analytics.tiktok.com
   - +.analytics.umetrip.com
   - +.analytics.vk.com
-  - +.analytics.vk.ru
   - +.analytics.vpc.duolingo.com
   - +.analytics.wildberries.ru
   - +.api-adservices.apple.com
@@ -257,7 +241,6 @@ payload:
   - +.atom-data.io
   - +.atrace.chelaile.net.cn
   - +.audid.umeng.com
-  - +.b2.mail.ru
   - +.badjs.weixinbridge.com
   - +.baichuan-sdk.alicdn.com
   - +.baifen.music.baidu.com
@@ -275,7 +258,6 @@ payload:
   - +.browser-updater.yandex.net
   - +.browser.events.data.msn.cn
   - +.browser.events.data.msn.com
-  - +.bs.mail.ru
   - +.bs.yandex.ru
   - +.btrace.qq.com
   - +.bugly.qq.com
@@ -306,7 +288,6 @@ payload:
   - +.click.ali213.net
   - +.click.gamersky.com
   - +.click.hunantv.com
-  - +.click.rustore.ru
   - +.click.uve.mobile.sina.cn
   - +.click.uve.weibo.com
   - +.clickstream.sberbank.ru
@@ -614,7 +595,6 @@ payload:
   - +.pingjs.qq.com
   - +.pix.yandex.ru
   - +.pixel.facebook.com
-  - +.pixel.rustore.ru
   - +.pixel.yandex.net
   - +.pl.youku.com
   - +.plbslog.umeng.com
@@ -635,15 +615,10 @@ payload:
   - +.questions-adv.ozon.ru
   - +.qwapi.com
   - +.r.mail.ru
-  - +.r.my.com
-  - +.r0.mail.ru
-  - +.r0.mradx.net
-  - +.r1.mail.ru
   - +.radar.imgsmail.ru
   - +.reachmax.cn
   - +.realsrv.com
   - +.reke.at.sohu.com
-  - +.reklama.mail.ru
   - +.relap.mail.ru
   - +.report.ap.yandex-net.ru
   - +.report.qqweb.qq.com
@@ -653,7 +628,6 @@ payload:
   - +.retcode.taobao.com
   - +.reyun.com
   - +.rmonitor.qq.com
-  - +.rs.mail.ru
   - +.rs.sinajs.cn
   - +.s-adashx.ut.youku.com
   - +.s.360.cn
@@ -673,18 +647,13 @@ payload:
   - +.segmenthub.com
   - +.segmentify.com
   - +.sensors.umetrip.com.cn
-  - +.sentry-ng.g.smailru.net
   - +.sentry.d.mi.com
   - +.sentry.d.xiaomi.net
-  - +.sentry.dev-my.com
-  - +.sentry.dev-my.games
   - +.sentry.mindbox.ru
   - +.sentry.music.163.com
   - +.sentry.ozon.ru
   - +.sentry.popmechanic.ru
-  - +.sentry.rustore.ru
   - +.sentry.sberauto.com
-  - +.sentry.viqeo.tv
   - +.sentry.wb.ru
   - +.sentry.x5.ru
   - +.serving-sys.com
@@ -704,7 +673,6 @@ payload:
   - +.spotxchange.com
   - +.ssacdn.com
   - +.ssp.api.tappx.com
-  - +.stacks.vk-portal.net
   - +.stat.chinaso.com
   - +.stat.m.jd.com
   - +.stat.y.qq.com
@@ -713,22 +681,15 @@ payload:
   - +.static.javhd.com
   - +.static.sensorsdata.cn
   - +.statis.api.3g.youku.com
-  - +.stats.dahlmessenger.com
-  - +.stats.dev.telega.info
   - +.stats.music.xiaomi.com
-  - +.stats.rustore.ru
-  - +.stats.telega.info
-  - +.stats.vk-portal.net
   - +.supersonic.com
   - +.supersonicads-a.akamaihd.net
   - +.supersonicads.com
   - +.syh.zybang.com
-  - +.t.mail.ru
   - +.taboola.com
   - +.tajs.qq.com
   - +.tapsell.ir
   - +.target.my.com
-  - +.target.vk.com
   - +.target.vk.ru
   - +.tcbox.baidu.com
   - +.tce.alicdn.com
@@ -744,7 +705,6 @@ payload:
   - +.tns.simba.taobao.com
   - +.toboads.com
   - +.top-fwz1.mail.ru
-  - +.top-staging.mail.ru
   - +.tpstelemetry.tencent.com
   - +.trace.qq.com
   - +.tracing-http.megamarket.tech
@@ -755,9 +715,6 @@ payload:
   - +.tracker.my.com
   - +.tracker.xiaomixiaoai.com
   - +.tracking.miui.com
-  - +.tracking.ocourier.ru
-  - +.tracking.ozon-dostavka.ru
-  - +.tracking.ozon.ru
   - +.trafficfactory.biz
   - +.tsyndicate.com
   - +.tubemogul.com
@@ -791,7 +748,6 @@ payload:
   - +.web-analytics.wildberries.ru
   - +.webvisor.com
   - +.webvisor.org
-  - +.whiteline.mail.ru
   - +.wit.qq.com
   - +.wkctj.baidu.com
   - +.wm.baidu.com
@@ -805,7 +761,6 @@ payload:
   - +.xapi.ozon.kz
   - +.xapi.ozon.ru
   - +.xapi.ozonru.me
-  - +.xray.mail.ru
   - +.xy-log.tagtic.cn
   - +.yabs.yandex.ru
   - +.yads.tech
@@ -827,18 +782,41 @@ payload:
   - +.zxid-api.mobileservice.cn
   - +.zxid-m.mobileservice.cn
   - +.zz.bdstatic.com
+  - 1l-hit.mail.ru
+  - 1l-hit.vkplay.ru
   - ad-channel.diwodiwo.xyz
   - ad-display.diwodiwo.xyz
+  - ad4.mail.ru
+  - adblogger.vk.com
+  - adblogger.vk.ru
   - adeventtracker.spotify.com
+  - ads-integration.rustore.ru
+  - ads.dahlmessenger.com
+  - ads.icq.com
+  - ads.rustore.ru
+  - ads.vk.com
+  - ads.vk.ru
   - ads3-normal-hl.zijieapi.com
   - ads3-normal.zijieapi.com
   - ads5-normal-hl.zijieapi.com
   - ads5-normal.zijieapi.com
+  - adsapp.dahlmessenger.com
+  - adsapp.stage.telega.info
+  - adsapp.telega.info
   - adstudio-assets.scdn.co
+  - adv.rustore.ru
+  - adv.vk.ru
+  - advk.vk.ru
+  - alt-r.my.com
+  - an.mail.ru
   - analytics.google.com
+  - analytics.vk.ru
   - apilog-web.acfun.cn
+  - b2.mail.ru
   - bloodhound.spotify.com
   - browser-intake-datadoghq.com
+  - bs.mail.ru
+  - click.rustore.ru
   - disney.my.sentry.io
   - log-sdk.gifshow.com
   - log3-applog-hl.fqnovel.com
@@ -860,9 +838,32 @@ payload:
   - pinggai7.caixin.com
   - pinggai8.caixin.com
   - pinggai9.caixin.com
+  - pixel.rustore.ru
+  - r0.mail.ru
+  - r0.mradx.net
+  - r1.mail.ru
+  - reklama.mail.ru
+  - rs.mail.ru
   - rtlog3-applog-hl.fqnovel.com
   - rtlog3-applog.fqnovel.com
   - rtlog5-applog-hl.fqnovel.com
   - rtlog5-applog.fqnovel.com
+  - sentry-ng.g.smailru.net
+  - sentry.dev-my.com
+  - sentry.dev-my.games
   - sentry.hetzner.company
+  - sentry.rustore.ru
+  - sentry.viqeo.tv
+  - srch-telemeter10.g.smailru.net
+  - stacks.vk-portal.net
+  - stats.dahlmessenger.com
+  - stats.dev.telega.info
+  - stats.rustore.ru
+  - stats.telega.info
+  - stats.vk-portal.net
+  - t.mail.ru
+  - target.vk.com
+  - top-staging.mail.ru
+  - whiteline.mail.ru
   - wlog.kuaishou.com
+  - xray.mail.ru
