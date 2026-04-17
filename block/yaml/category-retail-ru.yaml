@@ -2,7 +2,7 @@ payload:
   - +.5ka.ru
   - +.5post.market
   - +.abonementx5.ru
-  - +.ads.x5media.ru
+  - +.acmvid.com
   - +.auchan.ru
   - +.av.ru
   - +.bristol.ru
@@ -24,20 +24,27 @@ payload:
   - +.idx5.ru
   - +.ilovesakura.ru
   - +.jx5.ru
+  - +.kazanexpress.ru
   - +.keyx5.ru
   - +.krasnoeibeloe.ru
   - +.lenta.com
   - +.lenta.tech
+  - +.magnit.com
   - +.magnit.ru
   - +.metro-cc.ru
+  - +.mm.ru
   - +.mnogolososya.ru
+  - +.mvideo.ru
   - +.myapelsin.ru
   - +.myspar.ru
   - +.okolo.app
+  - +.oskelly.co
+  - +.oskelly.ru
   - +.perekrestok.com
   - +.perekrestok.ru
   - +.rostics.ru
-  - +.sentry.x5.ru
+  - +.sokolov.io
+  - +.sokolov.ru
   - +.sushiwok.ru
   - +.uni.rest
   - +.unirest.tech
@@ -60,3 +67,7 @@ payload:
   - +.x5q.ru
   - +.x5static.net
   - +.x5w.ru
+  - ads.x5.ru
+  - ads.x5media.ru
+  - mvideo.edna.io
+  - sentry.x5.ru

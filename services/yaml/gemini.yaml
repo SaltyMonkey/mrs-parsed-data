@@ -24,6 +24,7 @@ payload:
   - +.opal.google.com
   - +.proactivebackend-pa.googleapis.com
   - +.robinfrontend-pa.googleapis.com
+  - +.stitch.withgoogle.com
   - ai.google.dev
   - alkalicore-pa.clients6.google.com
   - alkalimakersuite-pa.clients6.google.com

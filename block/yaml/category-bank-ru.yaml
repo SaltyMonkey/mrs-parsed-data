@@ -11,8 +11,8 @@ payload:
   - +.2gis.kg
   - +.2gis.kz
   - +.2gis.ru
+  - +.2gis.tech
   - +.2gis.tj
-  - +.2gis.ua
   - +.2gis.uz
   - +.2w.ru
   - +.4c.ru
@@ -56,13 +56,13 @@ payload:
   - +.electronicsignature.ru
   - +.enterly.ru
   - +.era-invest.ru
-  - +.error-tracking.megamarket.tech
   - +.etna.ai
   - +.gainstech.ru
   - +.gazprombank.com
   - +.gazprombank.investments
   - +.gazprombank.ru
   - +.getsynapse.io
+  - +.gid.ru
   - +.giga.chat
   - +.gitverse.ru
   - +.gosdolgi.ru
@@ -99,7 +99,6 @@ payload:
   - +.max-tcs.ru
   - +.megamarket.ru
   - +.megamarket.tech
-  - +.metrics.21-school.ru
   - +.mfk-t-finance.ru
   - +.mkb.ru
   - +.mtsdengi.ru
@@ -108,6 +107,7 @@ payload:
   - +.neon.click
   - +.okko.sport
   - +.okko.tv
+  - +.okkoapi.tv
   - +.otello.ru
   - +.payecom.ru
   - +.payment.ru
@@ -162,7 +162,6 @@ payload:
   - +.sbertech.ru
   - +.sbertroika.ru
   - +.sbrf.ru
-  - +.sentry.sberauto.com
   - +.sgcheck.ru
   - +.spasibo.digital
   - +.spasibo.market
@@ -214,10 +213,8 @@ payload:
   - +.tochka-tech.com
   - +.tochka.com
   - +.tpension.ru
-  - +.tracing-http.megamarket.tech
   - +.travel-tec.ru
   - +.unidraw.io
-  - +.visor.sberbank.ru
   - +.vtb.ru
   - +.xn----7sbhmncai5a0arm7c1e.xn--p1ai
   - +.xn----8sbkfzespdwig.xn--p1ai
@@ -231,4 +228,9 @@ payload:
   - +.zvuk.com
   - edu.tinkoff.ru
   - education.tbank.ru
+  - error-tracking.megamarket.tech
+  - metrics.21-school.ru
   - sberpro.vedomosti.ru
+  - sentry.sberauto.com
+  - tracing-http.megamarket.tech
+  - visor.sberbank.ru

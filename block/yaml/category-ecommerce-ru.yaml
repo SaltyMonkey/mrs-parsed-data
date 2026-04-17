@@ -1,33 +1,12 @@
 payload:
-  - +.ad.ozone.ru
-  - +.ads-gate.wildberries.ru
-  - +.ads-media.wildberries.ru
-  - +.ads.wildberries.ru
-  - +.adv.ozon.ru
-  - +.advert-api-sandbox.wb.ru
-  - +.advert-api-sandbox.wildberries.ru
-  - +.advert-api.wb.ru
-  - +.advert-api.wildberries.ru
-  - +.advert-media-api.wb.ru
-  - +.advert-media-api.wildberries.ru
-  - +.agency-adv.ozon.ru
-  - +.analytics-adv.ozon.ru
-  - +.analytics-stage.wildberries.ru
-  - +.analytics.wildberries.ru
   - +.avito.ru
   - +.avito.st
-  - +.beginners-adv.ozon.ru
   - +.digital-wb.ru
   - +.digitalwb.ru
   - +.etradebook.ru
   - +.ewisdom.us.kg
   - +.geobasket.ru
-  - +.google-analytics-suite.ozon.ru
-  - +.loyalnost-adv.ozon.ru
-  - +.marketing-info.wildberries.ru
-  - +.marketplace-sentry.wb.ru
   - +.mp.world
-  - +.new-adv.ozon.ru
   - +.o-courier.ru
   - +.o3.ru
   - +.o3t.ru
@@ -68,16 +47,12 @@ payload:
   - +.ozonusercontent.com
   - +.paywb.com
   - +.paywb.ru
-  - +.prodvizhenie-adv.ozon.ru
-  - +.questions-adv.ozon.ru
   - +.rocketozon.by
   - +.russoutdoor.ru
   - +.rwb.ru
   - +.rwbautomation.ru
   - +.rwbautomation.tech
   - +.rwbgeo.ru
-  - +.sentry.ozon.ru
-  - +.sentry.wb.ru
   - +.vamzakaz.ru
   - +.velberis.ru
   - +.vildberis.ru
@@ -111,7 +86,6 @@ payload:
   - +.wbtek.ru
   - +.wbwh.ru
   - +.wbwh.tech
-  - +.web-analytics.wildberries.ru
   - +.weildberries.ru
   - +.welberris.ru
   - +.weldberies.ru
@@ -161,16 +135,42 @@ payload:
   - +.willberis.ru
   - +.wldberris.ru
   - +.wolfberries.ru
-  - +.xapi.ozon.by
-  - +.xapi.ozon.com
-  - +.xapi.ozon.com.by
-  - +.xapi.ozon.com.kz
-  - +.xapi.ozon.kz
-  - +.xapi.ozon.ru
-  - +.xapi.ozonru.me
   - +.xn----8sbahiqzthbd0bn.xn--p1ai
   - +.xn--80aafgovrgbc7am.xn--p1ai
   - +.xn--80acbjgmges7ca.xn--p1ai
   - +.xn--80acbjgsdq2cl.xn--p1ai
   - +.xn--90ab.com
   - +.xn--e1adjldbbpv.xn--90ais
+  - ad.ozone.ru
+  - ads-gate.wildberries.ru
+  - ads-media.wildberries.ru
+  - ads.wildberries.ru
+  - adv.ozon.ru
+  - advert-api-sandbox.wb.ru
+  - advert-api-sandbox.wildberries.ru
+  - advert-api.wb.ru
+  - advert-api.wildberries.ru
+  - advert-media-api.wb.ru
+  - advert-media-api.wildberries.ru
+  - agency-adv.ozon.ru
+  - analytics-adv.ozon.ru
+  - analytics-stage.wildberries.ru
+  - analytics.wildberries.ru
+  - beginners-adv.ozon.ru
+  - google-analytics-suite.ozon.ru
+  - loyalnost-adv.ozon.ru
+  - marketing-info.wildberries.ru
+  - marketplace-sentry.wb.ru
+  - new-adv.ozon.ru
+  - prodvizhenie-adv.ozon.ru
+  - questions-adv.ozon.ru
+  - sentry.ozon.ru
+  - sentry.wb.ru
+  - web-analytics.wildberries.ru
+  - xapi.ozon.by
+  - xapi.ozon.com
+  - xapi.ozon.com.by
+  - xapi.ozon.com.kz
+  - xapi.ozon.kz
+  - xapi.ozon.ru
+  - xapi.ozonru.me

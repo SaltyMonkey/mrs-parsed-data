@@ -1,130 +1,61 @@
 payload:
   - +.ad.mail.ru
-  - +.ad.ozone.ru
   - +.adfox.ru
   - +.adfox.yandex.ru
-  - +.adfstat.yandex.ru
   - +.admetrica.ru
-  - +.ads-gate.wildberries.ru
-  - +.ads-media.wildberries.ru
   - +.ads.sber.ru
   - +.ads.viqeo.tv
-  - +.ads.wildberries.ru
-  - +.ads.x5media.ru
   - +.ads.yandex
-  - +.ads.yandex.com
   - +.ads.yandex.ru
-  - +.ads.yango.com
   - +.adsadvisor.io
-  - +.adsdk.yandex.ru
-  - +.adv.ozon.ru
   - +.adv.vk.com
   - +.adv.yandex.com
   - +.adv.yandex.ru
-  - +.advert-api-sandbox.wb.ru
-  - +.advert-api-sandbox.wildberries.ru
-  - +.advert-api.wb.ru
-  - +.advert-api.wildberries.ru
-  - +.advert-media-api.wb.ru
-  - +.advert-media-api.wildberries.ru
-  - +.agency-adv.ozon.ru
   - +.alt-ad.mail.ru
-  - +.amc.yandex.ru
   - +.an.yandex.ru
-  - +.analytics-adv.ozon.ru
-  - +.analytics-stage.wildberries.ru
-  - +.analytics.mobile.yandex.net
   - +.analytics.vk.com
-  - +.analytics.wildberries.ru
-  - +.api-eu.carrotquest.app
-  - +.api-eu.carrotquest.io
-  - +.api-js.mindbox.ru
-  - +.api-ru.carrotquest.app
-  - +.api-ru.carrotquest.io
-  - +.api-ru.mindbox.cloud
-  - +.api-secure.carrotquest.app
-  - +.api-secure.carrottrack.app
-  - +.api-staging.mindbox.ru
-  - +.api.carrotquest.app
-  - +.api.carrotquest.io
-  - +.api.carrottrack.app
-  - +.api.dashly.app
-  - +.api.dashlytrack.app
-  - +.api.mindbox.cloud
-  - +.api.mindbox.ru
   - +.appmetrica.yandex.com
   - +.appmetrica.yandex.net
   - +.appmetrica.yandex.ru
   - +.appmetrica.yango.com
   - +.apptracer.ru
-  - +.beginners-adv.ozon.ru
-  - +.browser-updater.yandex.net
   - +.bs.yandex.ru
-  - +.clck.yandex.com
-  - +.clck.yandex.net
   - +.clck.yandex.ru
-  - +.clck.yango.com
   - +.clickstream.sberbank.ru
-  - +.counter.yandex.net
   - +.counter.yandex.ru
   - +.cxhub.ru
   - +.e.mindbox.ru
-  - +.error-tracking.megamarket.tech
+  - +.envybox.io
+  - +.flocktory.com
   - +.g.mindbox.ru
-  - +.google-analytics-suite.ozon.ru
-  - +.informer.yandex.ru
   - +.log.dzen.ru
-  - +.loyalnost-adv.ozon.ru
-  - +.marketing-info.wildberries.ru
-  - +.marketplace-sentry.wb.ru
-  - +.mc.yandex.com
-  - +.mc.yandex.net
   - +.mc.yandex.ru
-  - +.mc.yango.com
-  - +.metrics.21-school.ru
   - +.metrics.viqeo.tv
+  - +.metrika.yandex.com
+  - +.metrika.yandex.net
   - +.metrika.yandex.ru
   - +.ms.dzen.ru
   - +.ms.vk.com
   - +.ms.vk.ru
   - +.myadx.net
   - +.neon.click
-  - +.new-adv.ozon.ru
-  - +.pix.yandex.ru
-  - +.pixel.yandex.net
-  - +.prodvizhenie-adv.ozon.ru
-  - +.questions-adv.ozon.ru
   - +.r.mail.ru
   - +.radar.imgsmail.ru
   - +.relap.mail.ru
-  - +.report.ap.yandex-net.ru
   - +.roistat.com
   - +.s.mindbox.ru
+  - +.saas-support.com
   - +.sbermarketing.ru
-  - +.sentry.mindbox.ru
-  - +.sentry.ozon.ru
-  - +.sentry.popmechanic.ru
-  - +.sentry.sberauto.com
-  - +.sentry.wb.ru
-  - +.sentry.x5.ru
   - +.target.my.com
   - +.target.vk.ru
+  - +.targetads.io
   - +.top-fwz1.mail.ru
-  - +.tracing-http.megamarket.tech
   - +.tracker-api.my.com
   - +.tracker.my.com
-  - +.visor.sberbank.ru
   - +.vk-analytics.ru
-  - +.web-analytics.wildberries.ru
   - +.webvisor.com
   - +.webvisor.org
-  - +.xapi.ozon.by
-  - +.xapi.ozon.com
-  - +.xapi.ozon.com.by
-  - +.xapi.ozon.com.kz
-  - +.xapi.ozon.kz
-  - +.xapi.ozon.ru
-  - +.xapi.ozonru.me
+  - +.whitesaas.com
   - +.yabs.yandex.ru
   - +.yads.tech
   - +.yandex-metrica.ru
@@ -132,38 +63,104 @@ payload:
   - +.yango-ads.com
   - 1l-hit.mail.ru
   - 1l-hit.vkplay.ru
+  - ad.ozone.ru
   - ad4.mail.ru
   - adblogger.vk.com
   - adblogger.vk.ru
+  - adfstat.yandex.ru
+  - ads-gate.wildberries.ru
   - ads-integration.rustore.ru
+  - ads-media.wildberries.ru
   - ads.dahlmessenger.com
   - ads.icq.com
   - ads.rustore.ru
   - ads.vk.com
   - ads.vk.ru
+  - ads.wildberries.ru
+  - ads.x5.ru
+  - ads.x5media.ru
+  - ads.yandex.com
+  - ads.yango.com
   - adsapp.dahlmessenger.com
   - adsapp.stage.telega.info
   - adsapp.telega.info
+  - adsdk.yandex.ru
+  - adv.ozon.ru
   - adv.rustore.ru
   - adv.vk.ru
+  - advert-api-sandbox.wb.ru
+  - advert-api-sandbox.wildberries.ru
+  - advert-api.wb.ru
+  - advert-api.wildberries.ru
+  - advert-media-api.wb.ru
+  - advert-media-api.wildberries.ru
   - advk.vk.ru
+  - agency-adv.ozon.ru
   - alt-r.my.com
+  - amc.yandex.ru
   - an.mail.ru
+  - analytics-adv.ozon.ru
+  - analytics-stage.wildberries.ru
+  - analytics.mobile.yandex.net
   - analytics.vk.ru
+  - analytics.wildberries.ru
+  - api-eu.carrotquest.app
+  - api-eu.carrotquest.io
+  - api-js.mindbox.ru
+  - api-ru.carrotquest.app
+  - api-ru.carrotquest.io
+  - api-ru.mindbox.cloud
+  - api-secure.carrotquest.app
+  - api-secure.carrottrack.app
+  - api-staging.mindbox.ru
+  - api.carrotquest.app
+  - api.carrotquest.io
+  - api.carrottrack.app
+  - api.dashly.app
+  - api.dashlytrack.app
+  - api.mindbox.cloud
+  - api.mindbox.ru
   - b2.mail.ru
+  - beginners-adv.ozon.ru
   - bs.mail.ru
+  - clck.yandex.com
+  - clck.yandex.net
+  - clck.yango.com
   - click.rustore.ru
+  - error-tracking.megamarket.tech
+  - google-analytics-suite.ozon.ru
+  - informer.yandex.ru
+  - loyalnost-adv.ozon.ru
+  - marketing-info.wildberries.ru
+  - marketplace-sentry.wb.ru
+  - mc.yandex.com
+  - mc.yandex.net
+  - mc.yango.com
+  - metrics.21-school.ru
+  - metrika.kontur.ru
+  - new-adv.ozon.ru
   - pixel.rustore.ru
+  - pixel.yandex.com
+  - prodvizhenie-adv.ozon.ru
+  - questions-adv.ozon.ru
   - r0.mail.ru
   - r0.mradx.net
   - r1.mail.ru
   - reklama.mail.ru
+  - report.ap.yandex-net.ru
   - rs.mail.ru
   - sentry-ng.g.smailru.net
   - sentry.dev-my.com
   - sentry.dev-my.games
+  - sentry.kontur.host
+  - sentry.mindbox.ru
+  - sentry.ozon.ru
+  - sentry.popmechanic.ru
   - sentry.rustore.ru
+  - sentry.sberauto.com
   - sentry.viqeo.tv
+  - sentry.wb.ru
+  - sentry.x5.ru
   - srch-telemeter10.g.smailru.net
   - stacks.vk-portal.net
   - stats.dahlmessenger.com
@@ -174,5 +171,15 @@ payload:
   - t.mail.ru
   - target.vk.com
   - top-staging.mail.ru
+  - tracing-http.megamarket.tech
+  - visor.sberbank.ru
+  - web-analytics.wildberries.ru
   - whiteline.mail.ru
+  - xapi.ozon.by
+  - xapi.ozon.com
+  - xapi.ozon.com.by
+  - xapi.ozon.com.kz
+  - xapi.ozon.kz
+  - xapi.ozon.ru
+  - xapi.ozonru.me
   - xray.mail.ru
