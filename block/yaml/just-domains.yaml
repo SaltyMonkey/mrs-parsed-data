@@ -746,6 +746,7 @@ payload:
     - '+.image.tmdb.org'
     - '+.imagekit.io'
     - '+.images-assets.nasa.gov'
+    - '+.images.salsify.com'
     - '+.imgbb.com'
     - '+.imgur.com'
     - '+.important-stories.com'
