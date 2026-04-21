@@ -4,6 +4,7 @@ FOLDER="block/"
 #SERVICES_FOLDER="services/"
 #All_SERVICES_FILENAME="all_services.lst";
 YAMLFOLDER="block/yaml/"
+NO_RUSSIA_HOSTS_EXCLUSION_FILE="manual/block/no-russia-hosts-exclusion"
 
 source ./update_shared.sh
 
@@ -14,6 +15,12 @@ rm -f "${FOLDER}"*.txt 2>/dev/null
 rm -f "${FOLDER}"*.tmp 2>/dev/null
 rm -f "${FOLDER}"*.yaml 2>/dev/null
 rm -f "${YAMLFOLDER}"*.yaml 2>/dev/null
+
+exclude_from_no_russia_hosts() {
+    local input_file="$1"
+    grep -Fvx -f "$NO_RUSSIA_HOSTS_EXCLUSION_FILE" "$input_file" > "${input_file}.filtered"
+    mv "${input_file}.filtered" "$input_file"
+}
 
 main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ecommerce-ru.yaml "${FOLDER}"category-ecommerce-ru.yaml
@@ -40,6 +47,9 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/yandex.list "${FOLDER}"yandex.txt
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-container.yaml "${FOLDER}"category-container.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.list "${FOLDER}"categ-ru.txt
+
+    exclude_from_no_russia_hosts "${FOLDER}"no-russia-hosts.txt
+
     ensure_eof_nl "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"yandex.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt
     cat "${FOLDER}"mailru.txt "${FOLDER}"kaspersky.txt "${FOLDER}"drweb.txt "${FOLDER}"categ-ru.txt | sort | uniq > "${FOLDER}"category-ru.txt
     rm -f "${FOLDER}"categ-ru.txt
