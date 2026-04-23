@@ -243,6 +243,7 @@ payload:
   - '+.s3-dub-ww.cf.videorolls.row.aiv-cdn.net'
   - '+.s3-iad-ww.cf.videorolls.row.aiv-cdn.net'
   - '+.sponsored-ads-fe.amazon-adsystem.com'
+  - '+.sponsored-ads-na.amazon-adsystem.com'
   - '+.sq-tungsten-ts-eu.amazon-adsystem.com'
   - '+.sq-tungsten-ts-fe.amazon-adsystem.com'
   - '+.sq-tungsten-ts.amazon-adsystem.com'
