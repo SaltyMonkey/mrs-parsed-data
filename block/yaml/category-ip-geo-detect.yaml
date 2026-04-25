@@ -49,6 +49,7 @@ payload:
   - +.ip.mail.ru
   - +.ip.me
   - +.ip.nic.ru
+  - +.ip.pe.kr
   - +.ip.sb
   - +.ip.tyk.nu
   - +.ip2c.org
@@ -150,3 +151,4 @@ payload:
   - ip.comss.net
   - ipv4-check-perf.radar.cloudflare.com
   - ipv6-check-perf.radar.cloudflare.com
+  - whatismyip.akamai.com
