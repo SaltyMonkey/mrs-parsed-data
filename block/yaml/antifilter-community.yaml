@@ -88,6 +88,7 @@ payload:
     - '+.claude.ai'
     - '+.cloud.mongodb.com'
     - '+.cloudflare-dns.com'
+    - '+.cloudflare-ech.com'
     - '+.codeium.com'
     - '+.colta.ru'
     - '+.community.cisco.com'
