@@ -20,6 +20,7 @@ DIGITALOCEAN_ASNS=(14061)
 BUNNY_ASNS=(200325)
 META_ASNS=(32934)
 TELEGRAM_ASNS=(62041 62014 211157 44907 59930)
+TELEGRAM_EXTRA_IPV4_SUBNETS=("5.28.192.0/18")
 GCORE_ASNS=(199524 202422)
 FASTLY_ASNS=(54113)
 
@@ -79,6 +80,10 @@ main() {
     generate_asn_lists "bunny" "${BUNNY_ASNS[@]}"
     generate_asn_lists "meta" "${META_ASNS[@]}"
     generate_asn_lists "telegram" "${TELEGRAM_ASNS[@]}"
+    # bgpq4 не оракул, просто очень уверенно делает вид.
+    printf '%s\n' "${TELEGRAM_EXTRA_IPV4_SUBNETS[@]}" >> "${FOLDER}"ipv4/telegram.txt
+    ensure_eof_nl "${FOLDER}"ipv4/telegram.txt
+    cat "${FOLDER}"ipv4/telegram.txt "${FOLDER}"ipv6/telegram.txt | sort | uniq > "${FOLDER}"dual/telegram.txt
     generate_asn_lists "fastly" "${FASTLY_ASNS[@]}"
     generate_asn_lists "gcore" "${GCORE_ASNS[@]}"
 
