@@ -1,4 +1,5 @@
 payload:
+  - +.a.mts.ru
   - +.ad.mail.ru
   - +.adfox.ru
   - +.adfox.yandex.ru
@@ -25,7 +26,6 @@ payload:
   - +.counter.yandex.ru
   - +.cxhub.ru
   - +.e.mindbox.ru
-  - +.envybox.io
   - +.flocktory.com
   - +.g.mindbox.ru
   - +.log.dzen.ru
@@ -39,12 +39,12 @@ payload:
   - +.ms.vk.ru
   - +.myadx.net
   - +.neon.click
+  - +.obs.mts.ru
   - +.r.mail.ru
   - +.radar.imgsmail.ru
   - +.relap.mail.ru
   - +.roistat.com
   - +.s.mindbox.ru
-  - +.saas-support.com
   - +.sbermarketing.ru
   - +.target.my.com
   - +.target.vk.ru
@@ -55,7 +55,6 @@ payload:
   - +.vk-analytics.ru
   - +.webvisor.com
   - +.webvisor.org
-  - +.whitesaas.com
   - +.yabs.yandex.ru
   - +.yads.tech
   - +.yandex-metrica.ru
@@ -152,6 +151,7 @@ payload:
   - sentry-ng.g.smailru.net
   - sentry.dev-my.com
   - sentry.dev-my.games
+  - sentry.iptv.rt.ru
   - sentry.kontur.host
   - sentry.mindbox.ru
   - sentry.ozon.ru
