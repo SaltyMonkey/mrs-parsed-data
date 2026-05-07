@@ -344,6 +344,7 @@ payload:
   - '+.telemetry.eastus.trafficmanager.net'
   - '+.telemetry.microsoft.com'
   - '+.telemetry.microsoft.us'
+  - '+.telemetry.officeapps.live.com'
   - '+.telemetry.urs.microsoft.com'
   - '+.telemetry.visualstudio.microsoft.com'
   - '+.telemetrycollector.microsoft.com'

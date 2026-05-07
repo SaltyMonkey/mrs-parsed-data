@@ -77,6 +77,7 @@ payload:
   - +.ipfinder.io
   - +.ipgeo.vercel.app
   - +.ipgeolocation.io
+  - +.ipify.cn
   - +.ipify.org
   - +.ipinfo.io
   - +.ipip.net
@@ -93,7 +94,9 @@ payload:
   - +.iproyal.com
   - +.ipstack.com
   - +.ipv4-internet.yandex.net
+  - +.ipv4.internet.yandex.net
   - +.ipv6-internet.yandex.net
+  - +.ipv6.internet.yandex.net
   - +.ipverify.com
   - +.ipw.cn
   - +.ipwho.is

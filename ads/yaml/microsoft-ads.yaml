@@ -4,7 +4,8 @@ payload:
   - +.browser.events.data.msn.com
   - +.clarity.ms
   - +.collector.github.com
-  - +.copilot-telemetry.githubusercontent.com
   - +.microsoftads.com
   - +.msads.net
   - +.nelreports.net
+  - copilot-telemetry-service.githubusercontent.com
+  - copilot-telemetry.githubusercontent.com

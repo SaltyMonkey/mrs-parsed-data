@@ -8,6 +8,7 @@ payload:
   - +.anthropic.com
   - +.antigravity-unleash.goog
   - +.antigravity.google
+  - +.anythingllm.com
   - +.bard.google.com
   - +.cerebras.ai
   - +.chat.com
@@ -99,6 +100,7 @@ payload:
   - +.openart.ai
   - +.openclaw.ai
   - +.openrouter.ai
+  - +.openspec.dev
   - +.oystermercury.top
   - +.perplexity.ai
   - +.perplexity.com
@@ -128,6 +130,11 @@ payload:
   - browser-intake-datadoghq.com
   - cloudaicompanion.googleapis.com
   - cloudcode-pa.googleapis.com
+  - copilot-proxy.githubusercontent.com
+  - copilot-telemetry-service.githubusercontent.com
+  - copilot-telemetry.githubusercontent.com
+  - copilot-workspace.githubnext.com
+  - copilotprodattachments.blob.core.windows.net
   - daily-cloudcode-pa.googleapis.com
   - notebooklm-pa.googleapis.com
   - notebooklm.googleapis.com
