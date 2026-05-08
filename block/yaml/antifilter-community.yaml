@@ -73,6 +73,7 @@ payload:
     - '+.builds.parsec.app'
     - '+.canva.com'
     - '+.cdn.id.supercell.com'
+    - '+.cdn.jsdelivr.net'
     - '+.cdn.oaistatic.com'
     - '+.cdn2site.com'
     - '+.cdninstagram.com'
