@@ -437,6 +437,7 @@ payload:
   - +.log.v2.hunantv.com
   - +.log.zijieapi.com
   - +.log2.sina.cn
+  - +.logger.qmai.cn
   - +.logs.amap.com
   - +.logs.chelaile.net.cn
   - +.logupdate.avlyun.sec.miui.com
@@ -651,7 +652,10 @@ payload:
   - +.tracker.ai.xiaomi.com
   - +.tracker.my.com
   - +.tracker.xiaomixiaoai.com
+  - +.tracking.mcdonalds.com.cn
   - +.tracking.miui.com
+  - +.trackingprd.hwwt8.com
+  - +.trackserver.shuxinyc.com
   - +.trafficfactory.biz
   - +.tsyndicate.com
   - +.tubemogul.com
