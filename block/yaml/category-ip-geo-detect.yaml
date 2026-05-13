@@ -69,6 +69,7 @@ payload:
   - +.ipapi.com
   - +.ipapi.is
   - +.ipbase.com
+  - +.ipbot.com
   - +.ipcalf.com
   - +.ipchicken.com
   - +.ipdata.co
@@ -88,6 +89,7 @@ payload:
   - +.iplocation.com
   - +.iplocation.io
   - +.iplocation.net
+  - +.iplookup.it
   - +.ipqualityscore.com
   - +.ipquery.io
   - +.ipregistry.co
