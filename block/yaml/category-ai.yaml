@@ -88,6 +88,7 @@ payload:
   - +.meta.ai
   - +.minimax.io
   - +.mistral.ai
+  - +.mozilla.ai
   - +.notebooklm.google
   - +.notebooklm.google.com
   - +.oaistatic.com
@@ -113,6 +114,7 @@ payload:
   - +.sora.com
   - +.spicywriter.com
   - +.stitch.withgoogle.com
+  - +.tapnow.ai
   - +.themeforest.net
   - +.trae.ai
   - +.turn.livekit.cloud
