@@ -50,6 +50,7 @@ payload:
   - '+.cname-in-bom01-nginxpool03.vivoglobal.com'
   - '+.cname-in-ctdbonrt-stsdk.vivoglobal.com'
   - '+.cname-sin01-stsdk09.vivoglobal.com'
+  - '+.co-domaincfg.vivoglobal.com'
   - '+.co-pnrt-stsdk.vivoglobal.com'
   - '+.co-romsp-unifyconfig.vivoglobal.com'
   - '+.co-st-sl.vivoglobal.com'
