@@ -169,6 +169,7 @@ payload:
   - '+.h4g3z1-native.winoffice.web.app'
   - '+.h6.msn.com'
   - '+.hk-tracker.trafficmanager.net'
+  - '+.hme-live-loganalytics-namespace.servicebus.windows.net'
   - '+.hme-uat-loganalytics-namespace.servicebus.windows.net'
   - '+.i1.services.social.microsoft.com'
   - '+.ieonline.microsoft.com'
