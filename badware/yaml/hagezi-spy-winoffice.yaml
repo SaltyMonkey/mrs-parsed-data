@@ -101,6 +101,7 @@ payload:
   - '+.cache.datamart.windows.com'
   - '+.ceuswatcab01.blob.core.windows.net'
   - '+.ceuswatcab02.blob.core.windows.net'
+  - '+.ch-asimov-leafs-events-data.trafficmanager.net'
   - '+.citrixanalyticseh-alias.servicebus.windows.net'
   - '+.citrixanalyticseh.servicebus.windows.net'
   - '+.citrixanalyticseh2-alias.servicebus.windows.net'
