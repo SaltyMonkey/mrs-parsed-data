@@ -232,6 +232,7 @@
 ## Badware
 
 ### MRS
+- [dns-bunker-cti.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/dns-bunker-cti.mrs)
 - [hagezi-antipiracy.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-antipiracy.mrs)
 - [hagezi-badware-hosters.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-badware-hosters.mrs)
 - [hagezi-dyndns.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-dyndns.mrs)
@@ -252,6 +253,7 @@
 - [hagezi-tif-mini.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-tif-mini.mrs)
 - [hagezi-url-shorteners.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-url-shorteners.mrs)
 ### YAML
+- [dns-bunker-cti.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/dns-bunker-cti.yaml)
 - [hagezi-antipiracy.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-antipiracy.yaml)
 - [hagezi-badware-hosters.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-badware-hosters.yaml)
 - [hagezi-dyndns.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-dyndns.yaml)
