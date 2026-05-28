@@ -31,6 +31,7 @@ generate_list() {
                 s/\bqt\b/QT/gi;
                 s/\bamd\b/AMD/gi;
                 s/\bgpt\b/GPT/gi;
+                s/\dns\b/DNS/gi;
             ')
             if [ -n "$readable_name_addon" ]; then
                 readable_name="$readable_name $readable_name_addon"
