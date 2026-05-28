@@ -37,7 +37,7 @@ main() {
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru%40ads.yaml" "${FOLDER}"category-ru-ads.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-bank-ru%40ads.yaml "${FOLDER}category-bank-ru-ads.yaml"
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ecommerce-ru%40ads.yaml "${FOLDER}category-ecommerce-ru-ads.yaml"
-    download "https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/spotify%40ads.yaml" "${FOLDER}"spotify-ads.yaml
+    download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify%40ads.yaml" "${FOLDER}"spotify-ads.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ads-all.yaml "${FOLDER}category-ads-all.yaml"
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/popupads.txt "${FOLDER}"hagezi-popups-ads.txt
 
