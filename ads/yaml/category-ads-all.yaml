@@ -727,10 +727,12 @@ payload:
   - adeventtracker.spotify.com
   - adfstat.yandex.ru
   - ads-gate.wildberries.ru
+  - ads-img.mozilla.org
   - ads-integration.rustore.ru
   - ads-media.wildberries.ru
   - ads.dahlmessenger.com
   - ads.icq.com
+  - ads.mozilla.org
   - ads.rustore.ru
   - ads.vk.com
   - ads.vk.ru
@@ -799,6 +801,8 @@ payload:
   - disney.my.sentry.io
   - error-tracking.megamarket.tech
   - google-analytics-suite.ozon.ru
+  - incoming-telemetry.thunderbird.net
+  - incoming.telemetry.mozilla.org
   - informer.yandex.ru
   - log-sdk.gifshow.com
   - log3-applog-hl.fqnovel.com
