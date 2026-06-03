@@ -1,10 +1,13 @@
 payload:
+  - +.11222.cn
   - +.1688.com
   - +.25pp.com
   - +.56che.com
+  - +.56xiniao.com
   - +.88cha.com
   - +.95095.com
   - +.9game.cn
+  - +.9xsecndns.cn
   - +.a-map.cn
   - +.a-map.co
   - +.a-map.link
@@ -72,6 +75,7 @@ payload:
   - +.alifanyi.com
   - +.aligames.com
   - +.aligfwaf.com
+  - +.alihealth.cn
   - +.alihealth.com.cn
   - +.alihealth.hk
   - +.aliimg.com
@@ -106,6 +110,8 @@ payload:
   - +.aliunicorn.com
   - +.aliway.com
   - +.aliwork.com
+  - +.aliwx.com.cn
+  - +.aliwx.net
   - +.alixiaomi.com
   - +.aliyun-inc.com
   - +.aliyun-iot-share.com
@@ -116,6 +122,7 @@ payload:
   - +.aliyundrive.com
   - +.aliyundrive.net
   - +.aliyunfile.com
+  - +.aliyunidaas.com
   - +.aliyunpds.com
   - +.alizhaopin.com
   - +.alog.umeng.com
@@ -159,9 +166,12 @@ payload:
   - +.cnzz.com
   - +.cueme.cn
   - +.damai.cn
+  - +.danniao.com
   - +.dayu.com
   - +.ddurl.to
   - +.dfkhgj.com
+  - +.dianwoda.cn
+  - +.dianwoda.com
   - +.dingding.xin
   - +.dingtalk.cn
   - +.dingtalk.com
@@ -213,8 +223,11 @@ payload:
   - +.iconfont.cn
   - +.ics.design
   - +.imgcook.com
+  - +.ishuqi.com
   - +.iuynfg.com
   - +.jhgtgb.com
+  - +.jiaoyimao.cn
+  - +.jiaoyimao.com
   - +.juhuasuan.com
   - +.kanbox.com
   - +.kaola.com
@@ -245,6 +258,7 @@ payload:
   - +.lazada.com
   - +.liangxinyao.com
   - +.lingshoujia.com
+  - +.lingxigames.com
   - +.log.umtrack.com
   - +.logs.amap.com
   - +.lstat.youku.com
@@ -259,6 +273,7 @@ payload:
   - +.m-adash.m.taobao.com
   - +.m-now.cn
   - +.maitix.com
+  - +.mappcloud.com
   - +.marketing.alibaba.com
   - +.mashort.cn
   - +.mdeer.com
@@ -315,6 +330,7 @@ payload:
   - +.phpwind.net
   - +.pl.youku.com
   - +.plbslog.umeng.com
+  - +.pp.cn
   - +.puata.info
   - +.qingtingtrip.com
   - +.quark.cn
@@ -326,11 +342,14 @@ payload:
   - +.shenjing.com
   - +.shujupie.com
   - +.shuqi.com
+  - +.shuqiapi.com
+  - +.shuqiread.com
   - +.shuqireader.com
   - +.shyhhema.com
   - +.sm.cn
   - +.soku.com
   - +.sparenode.com
+  - +.sqreader.com
   - +.stat.youku.com
   - +.statis.api.3g.youku.com
   - +.supet.com
@@ -358,6 +377,7 @@ payload:
   - +.tns.simba.taobao.com
   - +.track.lc.quark.cn
   - +.ttpod.com
+  - +.tudou.com
   - +.uc.cn
   - +.uc123.com
   - +.ucweb.com
@@ -394,5 +414,6 @@ payload:
   - +.yushanfang.com
   - +.z.gds.cnzz.com
   - +.zhisheng.com
+  - +.zimgs.cn
   - +.ztna-dingtalk.com
   - +.zuodao.com
