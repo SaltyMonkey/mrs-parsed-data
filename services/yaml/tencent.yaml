@@ -8,11 +8,17 @@ payload:
   - +.ad.qun.qq.com
   - +.ad.tencentmusic.com
   - +.ad.weixin.qq.com
+  - +.adbehavior.ximalaya.com
   - +.adfilter.imtt.qq.com
   - +.adnet.qq.com
   - +.adping.qq.com
   - +.adpm.app.qq.com
+  - +.ads.service.kugou.com
   - +.adsclick.qq.com
+  - +.adse.wsa.ximalaya.com
+  - +.adse.ximalaya.com
+  - +.adserviceretry.kglink.cn
+  - +.adserviceretry.kugou.com
   - +.adsfile.qq.com
   - +.adshmmsg.qq.com
   - +.adslvfile.qq.com
@@ -157,6 +163,7 @@ payload:
   - +.eu-moscow.tencentcos.com
   - +.eu-moscow.tencentcos.com.cn
   - +.exmailgz.com
+  - +.fanxingliveshow.com
   - +.ffbuddy.com
   - +.foxmail.com
   - +.foxmail.com.cn
@@ -236,6 +243,24 @@ payload:
   - +.itopsdk.com
   - +.ivweb.io
   - +.jrzk.net.cn
+  - +.kgimg.com
+  - +.kglink.cn
+  - +.koowo.cn
+  - +.koowo.com
+  - +.ktv.com
+  - +.kugoo.com
+  - +.kugou.com
+  - +.kugou.net
+  - +.kugouaudio.com
+  - +.kugouipv6.com
+  - +.kugoukid.com
+  - +.kugouliveshow.com
+  - +.kugouringtone.com
+  - +.kugousenior.com
+  - +.kugoustore.com
+  - +.kugouvoice.com
+  - +.kugouyouth.com
+  - +.kuwo.cn
   - +.labycore.cn
   - +.log.tbs.qq.com
   - +.lrts.me
@@ -567,6 +592,8 @@ payload:
   - +.wxcloudrun.com
   - +.wxgateway.com
   - +.wxlivecdn.com
+  - +.ximalaya.com
+  - +.xmcdn.com
   - +.xn--owtw8cc49ajfl.cn
   - +.xn--r70as2s.xn--fiqs8s
   - +.xqymuy.com

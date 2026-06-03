@@ -54,6 +54,7 @@ payload:
   - +.adashx4yt.m.taobao.com
   - +.adashxgc.ut.taobao.com
   - +.adbehavior.ximalaya.com
+  - +.adbehavior.ximalaya.com
   - +.adbkwai.com
   - +.adbox.sina.com.cn
   - +.adbutter.net
@@ -97,6 +98,7 @@ payload:
   - +.ads.music.126.net
   - +.ads.sber.ru
   - +.ads.service.kugou.com
+  - +.ads.service.kugou.com
   - +.ads.sina.com
   - +.ads.sohu.com
   - +.ads.trafficjunky.net
@@ -114,6 +116,8 @@ payload:
   - +.adscdn.baidu.com
   - +.adsclick.qq.com
   - +.adse.wsa.ximalaya.com
+  - +.adse.wsa.ximalaya.com
+  - +.adse.ximalaya.com
   - +.adse.ximalaya.com
   - +.adsense.com
   - +.adsensecustomsearchads.com
@@ -121,6 +125,8 @@ payload:
   - +.adservice.google.com
   - +.adservice.sigmob.cn
   - +.adserviceretry.kglink.cn
+  - +.adserviceretry.kglink.cn
+  - +.adserviceretry.kugou.com
   - +.adserviceretry.kugou.com
   - +.adsfile.qq.com
   - +.adsgram.ai
