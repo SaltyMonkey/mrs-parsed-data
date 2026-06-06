@@ -131,6 +131,7 @@ payload:
   - error-tracking.megamarket.tech
   - google-analytics-suite.ozon.ru
   - informer.yandex.ru
+  - log.strm.yandex.ru
   - loyalnost-adv.ozon.ru
   - marketing-info.wildberries.ru
   - marketplace-sentry.wb.ru
@@ -165,6 +166,7 @@ payload:
   - sentry.x5.ru
   - srch-telemeter10.g.smailru.net
   - stacks.vk-portal.net
+  - stats.avito.ru
   - stats.dahlmessenger.com
   - stats.dev.telega.info
   - stats.rustore.ru
