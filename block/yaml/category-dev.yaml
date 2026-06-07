@@ -45,6 +45,7 @@ payload:
   - +.brew.sh
   - +.buck.build
   - +.buckbuild.com
+  - +.bugsnag.com
   - +.calendarserver.org
   - +.canonical.com
   - +.carekit.org
@@ -122,6 +123,7 @@ payload:
   - +.fedoraproject.org
   - +.ffmpeg.org
   - +.fightforux.com
+  - +.filezilla-project.org
   - +.firebase.com
   - +.firebase.io
   - +.firebaseapp.com
@@ -164,6 +166,7 @@ payload:
   - +.git.io
   - +.gitbook.com
   - +.gitbook.io
+  - +.gitgud.io
   - +.github.ai
   - +.github.blog
   - +.github.com
@@ -293,6 +296,7 @@ payload:
   - +.msinnovationchallenge.com
   - +.mspairlift.com
   - +.msropendata.com
+  - +.msys2.org
   - +.myoctocat.com
   - +.mysql.com
   - +.mystrikingly.com
