@@ -11,6 +11,7 @@ payload:
   - '+.adx-dra-op-dbankcloud-com-dra.region.dbankedge.cn'
   - '+.adx-dra-op-hicloud-com-dra.appacc.dbankedge.cn'
   - '+.adx-dra-op-hicloud-com-dra.edge.dbankedge.cn'
+  - '+.adx-dra-op-hicloud-com-dra.region.dbankedge.cn'
   - '+.adx-dra.op.dbankcloud.com'
   - '+.adx-dra.op.hicloud.com'
   - '+.adx-drcn.op.dbankcloud.cn'

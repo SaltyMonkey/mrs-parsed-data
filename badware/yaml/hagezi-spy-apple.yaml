@@ -85,6 +85,7 @@ payload:
   - '+.searchads.apple.com'
   - '+.searchads.apple.com.edgesuite.net'
   - '+.searchads.lb-apple.com.akadns.net'
+  - '+.securemetrics-cn.v.aaplimg.com'
   - '+.securemetrics.apple.com'
   - '+.securemetrics.apple.com.cn'
   - '+.securemetrics.v.aaplimg.com'

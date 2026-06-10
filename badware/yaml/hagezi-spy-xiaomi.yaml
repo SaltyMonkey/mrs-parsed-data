@@ -52,7 +52,6 @@ payload:
   - '+.api.sec.miui.com'
   - '+.api.setting.intl.miui.com'
   - '+.api.sms.intl.miui.com'
-  - '+.api.vip.miui.com'
   - '+.api.xmpush.global.xiaomi.com'
   - '+.api.xmpush.xiaomi.com'
   - '+.apkrep.ff.avast.sec.miui.com'
