@@ -85,6 +85,9 @@ payload:
   - +.devimages-cdn.apple.com
   - +.devopsassessment.net
   - +.devstreaming-cdn.apple.com
+  - +.discourse-cdn.com
+  - +.discourse.group
+  - +.discourse.org
   - +.docker.com
   - +.docker.io
   - +.dockerstatic.com
@@ -95,6 +98,7 @@ payload:
   - +.draftjs.org
   - +.ecr.aws
   - +.electronjs.org
+  - +.elegantthemes.com
   - +.elementary.io
   - +.elixir-lang.org
   - +.elrepo.org
@@ -162,6 +166,7 @@ payload:
   - +.getzola.org
   - +.gh.io
   - +.ghcr.io
+  - +.ghe.com
   - +.git-scm.com
   - +.git.io
   - +.gitbook.com
@@ -208,6 +213,7 @@ payload:
   - +.hex.pm
   - +.hexdocs.pm
   - +.hhvm.com
+  - +.hivepress.io
   - +.hyperscan.io
   - +.iads.unity3d.com
   - +.imageglass.org
@@ -291,6 +297,7 @@ payload:
   - +.mongodb.com
   - +.mongodb.org
   - +.mono-project.com
+  - +.motopress.com
   - +.mpv.io
   - +.msdn.com
   - +.msinnovationchallenge.com
@@ -484,6 +491,7 @@ payload:
   - +.vfsforgit.org
   - +.videojs.com
   - +.videolan.org
+  - +.videopress.com
   - +.vim.org
   - +.visualstudio-staging.com
   - +.visualstudio.co
@@ -495,6 +503,7 @@ payload:
   - +.vscode-cdn.net
   - +.vscode-unpkg.net
   - +.vscode.dev
+  - +.w.org
   - +.wapm.io
   - +.wasmer.io
   - +.webflow.com
@@ -503,7 +512,16 @@ payload:
   - +.weblate.org
   - +.webobjects.com
   - +.wireshark.org
+  - +.wordcamp.org
+  - +.wordpress.com
+  - +.wordpress.net
+  - +.wordpress.org
+  - +.wordpress.tv
+  - +.wp-themes.com
+  - +.wp.com
   - +.wpewebkit.org
+  - +.wpmailsmtp.com
+  - +.wpvip.com
   - +.x.org
   - +.xamarin.com
   - +.xfce.org
