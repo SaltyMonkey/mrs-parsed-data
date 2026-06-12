@@ -178,12 +178,14 @@ payload:
   - +.analytics-alv.google.com
   - +.analytics-data.io
   - +.analytics.163.com
+  - +.analytics.cloud.unity3d.com
   - +.analytics.facebook.com
   - +.analytics.tiktok.com
   - +.analytics.umetrip.com
   - +.analytics.vk.com
   - +.analytics.vpc.duolingo.com
   - +.api-adservices.apple.com
+  - +.api2.amplitude.com
   - +.app-analytics-services-att.com
   - +.app-analytics-services.com
   - +.app-measurement-cn.com
@@ -238,6 +240,7 @@ payload:
   - +.cdn.advertserve.com
   - +.cdn.banclip.com
   - +.cdn.pocoiq.cn
+  - +.cdp.cloud.unity3d.com
   - +.cfts1tifqr.com
   - +.china-caa.org
   - +.chinaciaf.org
@@ -259,6 +262,7 @@ payload:
   - +.cnlogs.umengcloud.com
   - +.collector.github.com
   - +.collector.xhamster.com
+  - +.config.uca.cloud.unity3d.com
   - +.contentabc.com
   - +.contextual.media.net
   - +.counter.yandex.ru
@@ -538,6 +542,8 @@ payload:
   - +.passport-log.youku.com
   - +.pb.i.sogou.com
   - +.pbmp.ali213.net
+  - +.perf-events.cloud.unity3d.com
+  - +.perf.cloud.unity3d.com
   - +.pgdt.gtimg.cn
   - +.pglstatp-sdk-toutiao.com
   - +.pglstatp-snssdk-toutiao.com
@@ -551,6 +557,7 @@ payload:
   - +.pmir.3g.qq.com
   - +.policy.video.iqiyi.com
   - +.pos.baidu.com
+  - +.prd-lender.cdp.internal.unity3d.com
   - +.presage.io
   - +.pubmatic.co.jp
   - +.pubmatic.com
