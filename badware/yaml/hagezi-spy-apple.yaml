@@ -28,6 +28,7 @@ payload:
   - '+.experiments.apple.com.edgekey.net'
   - '+.fbs.smoot.apple.com'
   - '+.feedbackws.fe.apple-dns.cn'
+  - '+.feedbackws.fe.apple-dns.net'
   - '+.feedbackws.fe2.apple-dns.net'
   - '+.feedbackws.icloud.com'
   - '+.feedbackws.icloud.com.cn'
