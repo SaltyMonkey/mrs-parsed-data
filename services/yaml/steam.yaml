@@ -51,6 +51,7 @@ payload:
   - steampipe-partner.akamaized.net
   - steampipe.akamaized.net
   - steamstore-a.akamaihd.net
+  - steamugcquincy.blob.core.windows.net
   - steamusercontent-a.akamaihd.net
   - steamuserimages-a.akamaihd.net
   - steamvideo-a.akamaihd.net
