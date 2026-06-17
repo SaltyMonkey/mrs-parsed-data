@@ -74,6 +74,7 @@ payload:
   - +.beacon.cdn.qq.com
   - +.beacon.qq.com
   - +.beaconcdn.qq.com
+  - +.binglianhuajianzhan.com
   - +.bkapigw.com
   - +.bkapps.com
   - +.bkclouds.cc
@@ -204,8 +205,11 @@ payload:
   - +.gdt.qq.com
   - +.gdtimg.com
   - +.ger.file.myqcloud.com
+  - +.ggoplay.com
+  - +.ggowan.com
   - +.gitdrone.cn
   - +.gmedev.cn
+  - +.go2map.com
   - +.goto-game.com
   - +.goto-game.mobi
   - +.goto-game.net.cn
@@ -237,6 +241,8 @@ payload:
   - +.imqq.com
   - +.imweb.io
   - +.in.th
+  - +.inte.sogou.com
+  - +.inte.sogoucdn.com
   - +.intltencentcos.com
   - +.isd.com
   - +.isdspeed.qq.com
@@ -265,6 +271,8 @@ payload:
   - +.labycore.cn
   - +.log.tbs.qq.com
   - +.lrts.me
+  - +.lu.sogou.com
+  - +.lu.sogoucdn.com
   - +.ludosuperstar.cn
   - +.ludoworld.net
   - +.m1.run
@@ -284,6 +292,7 @@ payload:
   - +.mszdld.cn
   - +.mszdld.com
   - +.mszdld.net
+  - +.mting.info
   - +.mtrace.qq.com
   - +.my-qcloud.com
   - +.myapp.com
@@ -314,8 +323,10 @@ payload:
   - +.oracle-tencent.net.cn
   - +.ovscdns.com
   - +.ovscdns.net
+  - +.pb.i.sogou.com
   - +.pgdt.gtimg.cn
   - +.pingjs.qq.com
+  - +.pinyin.cn
   - +.pmir.3g.qq.com
   - +.pn1waq.com
   - +.proximabeta.com
@@ -345,6 +356,7 @@ payload:
   - +.qcloudtrip.com
   - +.qcloudtt.com
   - +.qcloudwaf.com
+  - +.qd.ink
   - +.qdmm.com
   - +.qdwebim.com
   - +.qeodns.com
@@ -392,11 +404,28 @@ payload:
   - +.scsentry.cn
   - +.serverlesscloud.cn
   - +.servicewechat.com
+  - +.sg.cn
   - +.sgp.file.myqcloud.com
+  - +.sgtmos.com
+  - +.sgyeyou.com
+  - +.sgyouxi.com
   - +.skydweller.cn
   - +.smtcdns.com
   - +.smtcdns.net
   - +.sngmta.qq.com
+  - +.sogo.com
+  - +.sogou-inc.com
+  - +.sogou-op.org
+  - +.sogou.cn
+  - +.sogou.com
+  - +.sogou.com.cn
+  - +.sogou.net
+  - +.sogoucdn.com
+  - +.sogoucdndl.com
+  - +.sogouimecdn.com
+  - +.soso.com
+  - +.soso.com.cn
+  - +.sososnap.com
   - +.spcdntip.com
   - +.spcdntipbak.com
   - +.spcloudhw.com
@@ -476,6 +505,7 @@ payload:
   - +.tdnsv9.net
   - +.tdnsx1.com
   - +.techo.chat
+  - +.teemo.cn
   - +.tefscloud.com
   - +.tefscloud.net
   - +.tenant-zone-dev.com
@@ -540,6 +570,7 @@ payload:
   - +.texasholdemcup.net
   - +.tfogc.com
   - +.tgovcloud.com
+  - +.theta.sogoucdn.com
   - +.tidaas.com
   - +.timatrix.com.cn
   - +.timibase.com
@@ -569,12 +600,14 @@ payload:
   - +.ultimatemusic.cn
   - +.um.run
   - +.uncnn.cn
+  - +.uranus.sogou.com
   - +.vcloudstc.com
   - +.vcloudstc.net
   - +.vcloudvod.com
   - +.videoxiaoyouxi.com
   - +.vodtcbk.com
   - +.vxo7tu.com
+  - +.wannianqingjianzhan.com
   - +.wcbygame.com
   - +.webnovel.com
   - +.wechat.com
@@ -593,11 +626,15 @@ payload:
   - +.wework-studio.com
   - +.wit.qq.com
   - +.wting.info
+  - +.wuliao.epro.sogou.com
   - +.wxaurl.cn
   - +.wxcloudrun.com
   - +.wxgateway.com
   - +.wxlivecdn.com
+  - +.xiangrikuijianzhan.com
+  - +.xiangrikuisite.com
   - +.ximalaya.com
+  - +.xinyan.cn
   - +.xmcdn.com
   - +.xn--owtw8cc49ajfl.cn
   - +.xn--r70as2s.xn--fiqs8s
@@ -605,12 +642,16 @@ payload:
   - +.xs.cn
   - +.xs8.cn
   - +.xxsy.net
+  - +.yeyousg.com
+  - +.yidianliulan.cn
+  - +.yidianliulan.com
   - +.ym.run
   - +.yuewen.com
   - +.yufuid.com
   - +.yufuid.com.cn
   - +.yufuid.net
   - +.yunjitele.com
+  - +.yuweikuijianzhan.com
   - +.yxdmgame.com
   - +.yximg.cn
   - +.yxwsgame.com
