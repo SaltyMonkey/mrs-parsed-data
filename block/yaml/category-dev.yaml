@@ -99,7 +99,6 @@ payload:
   - +.docs.rs
   - +.dot.net
   - +.dotdeb.org
-  - +.download-cdn.jetbrains.com.cn
   - +.draftjs.org
   - +.ecr.aws
   - +.electronjs.org
@@ -237,6 +236,7 @@ payload:
   - +.jetbrains.ai
   - +.jetbrains.cloud
   - +.jetbrains.com
+  - +.jetbrains.com.cn
   - +.jetbrains.net
   - +.jetbrains.space
   - +.jetbrains.team
