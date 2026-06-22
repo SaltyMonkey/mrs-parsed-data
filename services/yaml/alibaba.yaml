@@ -56,10 +56,12 @@ payload:
   - +.alibabacloud.com.sg
   - +.alibabacloud.com.tw
   - +.alibabacorp.com
+  - +.alibabadesign.com
   - +.alibabadns.com
   - +.alibabadoctor.com
   - +.alibabafuturehotel.com
   - +.alibabagroup.com
+  - +.alibabapictures.com
   - +.alibabaplanet.com
   - +.alibabaued.com
   - +.alibabausercontent.com
@@ -74,10 +76,12 @@ payload:
   - +.aliexpress.ru
   - +.alifanyi.com
   - +.aligames.com
+  - +.aligenie.com
   - +.aligfwaf.com
   - +.alihealth.cn
   - +.alihealth.com.cn
   - +.alihealth.hk
+  - +.alihive.com
   - +.aliimg.com
   - +.alikmd.com
   - +.alikunlun.com
@@ -184,6 +188,7 @@ payload:
   - +.doservice.com
   - +.dratio.com
   - +.dualstack-logs.amap.com
+  - +.duanqu.com
   - +.e.stat.ykimg.com
   - +.ele.me
   - +.ele.to
@@ -218,6 +223,7 @@ payload:
   - +.hemaos.com
   - +.hemashare.cn
   - +.hichina.com
+  - +.hupan.com
   - +.ialicdn.com
   - +.ica-alliance.org
   - +.iconfont.cn
@@ -228,6 +234,7 @@ payload:
   - +.jhgtgb.com
   - +.jiaoyimao.cn
   - +.jiaoyimao.com
+  - +.jiyoujia.com
   - +.juhuasuan.com
   - +.kanbox.com
   - +.kaola.com
@@ -279,6 +286,7 @@ payload:
   - +.mdeer.com
   - +.mei.com
   - +.miaostreet.com
+  - +.miaoya.cn
   - +.mmstat.com
   - +.mobilemsg.youku.com
   - +.mobmore.com
@@ -291,9 +299,11 @@ payload:
   - +.nbsdk-baichuan.taobao.com
   - +.new-aaid.umeng.com
   - +.new-aaid.umeng.com.gds.alibabadns.com
+  - +.newstjk.com
   - +.nic.xin
   - +.npmmirror.com
   - +.oc.umeng.com
+  - +.open-uc.cn
   - +.optimus-ads.amap.com
   - +.oss-ap-northeast-1.aliyuncs.com
   - +.oss-ap-northeast-2.aliyuncs.com
@@ -339,12 +349,14 @@ payload:
   - +.rexpos.cn
   - +.s-adashx.ut.youku.com
   - +.saee.org.cn
+  - +.shejijia.com
   - +.shenjing.com
   - +.shujupie.com
   - +.shuqi.com
   - +.shuqiapi.com
   - +.shuqiread.com
   - +.shuqireader.com
+  - +.shuqistat.com
   - +.shyhhema.com
   - +.sm.cn
   - +.soku.com
@@ -378,8 +390,10 @@ payload:
   - +.track.lc.quark.cn
   - +.ttpod.com
   - +.tudou.com
+  - +.uc-engine.cn
   - +.uc.cn
   - +.uc123.com
+  - +.ucfly.com
   - +.ucweb.com
   - +.uczzd.cn
   - +.ulogs.umeng.com

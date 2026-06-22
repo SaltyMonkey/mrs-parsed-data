@@ -56,6 +56,7 @@ payload:
   - +.azure-dns.info
   - +.azure-dns.net
   - +.azure-dns.org
+  - +.azure-mobile.cn
   - +.azure-mobile.net
   - +.azure-sphere.com
   - +.azure-test.net
@@ -133,11 +134,14 @@ payload:
   - +.playfab.com
   - +.playfabapi.com
   - +.serverlesslibrary.net
+  - +.sovcloud-mx.cn
+  - +.sovcloud-static.cn
+  - +.sovcloud-usercontent.cn
+  - +.sovcloud.cn
   - +.trafficmanager.cn
   - +.trafficmanager.net
   - +.trustcenter.cn
   - +.tryfunctions.com
-  - +.unity3dcloud.cn
   - +.windowsazure.cn
   - +.windowsazure.com
   - +.windowsazurestatus.cn
