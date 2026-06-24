@@ -4,6 +4,7 @@ payload:
   - +.acpica.com
   - +.adaptivecards.io
   - +.adventofcode.com
+  - +.almalinux.org
   - +.alpinelinux.org
   - +.amp.dev
   - +.ampproject.com
@@ -48,6 +49,7 @@ payload:
   - +.buck.build
   - +.buckbuild.com
   - +.bugsnag.com
+  - +.busybox.net
   - +.calendarserver.org
   - +.canonical.com
   - +.carekit.org
@@ -178,6 +180,7 @@ payload:
   - +.gitgud.io
   - +.github.ai
   - +.github.blog
+  - +.github.career
   - +.github.com
   - +.github.community
   - +.github.dev
@@ -273,6 +276,7 @@ payload:
   - +.macruby.net
   - +.macruby.org
   - +.makeitopen.com
+  - +.manjaro.org
   - +.mariadb.org
   - +.mate-desktop.org
   - +.mathoverflow.net
@@ -412,6 +416,7 @@ payload:
   - +.rocksdb.com
   - +.rocksdb.net
   - +.rocksdb.org
+  - +.rockylinux.org
   - +.rpmfusion.org
   - +.ruby-lang.org
   - +.rubygems.org
@@ -510,7 +515,10 @@ payload:
   - +.vsassets.io
   - +.vscode-cdn.net
   - +.vscode-unpkg.net
+  - +.vscode-webview.net
   - +.vscode.dev
+  - +.vscodeedu.app
+  - +.vscodeedu.com
   - +.w.org
   - +.wapm.io
   - +.wasmer.io
