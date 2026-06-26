@@ -141,6 +141,7 @@ payload:
   - +.antfortune.com
   - +.antgroup-inc.cn
   - +.antgroup.com
+  - +.ap-southeast-1.aliyuncs.com
   - +.ar.umeng.com
   - +.asczwa.com
   - +.asczxcefsv.com
@@ -165,6 +166,8 @@ payload:
   - +.cdngslb.com
   - +.cheng.xin
   - +.cloudeagle.cn
+  - +.cn-hangzhou.aliyuncs.com
+  - +.cn-shanghai.aliyuncs.com
   - +.cnlogs.umeng.com
   - +.cnlogs.umengcloud.com
   - +.cnzz.com
@@ -434,3 +437,7 @@ payload:
   - +.zimgs.cn
   - +.ztna-dingtalk.com
   - +.zuodao.com
+  - account-cn.alibabacloud.com
+  - api.alibabacloud.com
+  - cn.alibabacloud.com
+  - status.alibabacloud.com
