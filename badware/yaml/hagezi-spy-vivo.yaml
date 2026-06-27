@@ -136,6 +136,7 @@ payload:
   - '+.kz-vcode-od.vivoglobal.com'
   - '+.kz-vcode-or.vivoglobal.com'
   - '+.monitor-stsdk.vivoglobal.com'
+  - '+.mx-album-api.vivoglobal.com'
   - '+.mx-cota.vivoglobal.com'
   - '+.mx-domaincfg.vivoglobal.com'
   - '+.mx-err-up.vivoglobal.com'
