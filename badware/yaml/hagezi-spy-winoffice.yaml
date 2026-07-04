@@ -202,6 +202,7 @@ payload:
   - '+.js2.tst.applicationinsights.io'
   - '+.k-ring-fallback.msedge.net'
   - '+.k-ring.msedge.net'
+  - '+.kg-legacy-analytics.servicebus.windows.net'
   - '+.legacywatson.trafficmanager.net'
   - '+.licensingtelemetry-prod.servicebus.windows.net'
   - '+.ln-ring-fallback.msedge.net'
