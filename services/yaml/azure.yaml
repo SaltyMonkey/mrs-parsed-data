@@ -33,6 +33,7 @@ payload:
   - +.aztask.cn
   - +.azure
   - +.azure-api.cn
+  - +.azure-api.net
   - +.azure-apihub.cn
   - +.azure-automation.cn
   - +.azure-connectedvehicles-stage.cn
@@ -96,6 +97,7 @@ payload:
   - +.azureserviceprofiler.com
   - +.azuresmartspaces.net
   - +.azurestackvalidation.com
+  - +.azurestaticapps.net
   - +.azurewebsites.net
   - +.b2clogin.cn
   - +.b3itech.cn
