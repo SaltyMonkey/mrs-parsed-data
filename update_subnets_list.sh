@@ -33,6 +33,7 @@ find "${FOLDER}" -type f -name "*.txt" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.tmp" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.yaml" -exec rm -f {} +
 find "${FOLDER}" -type f -name "*.json" -exec rm -f {} +
+find "${FOLDER}" -type f -name "*.list" -exec rm -f {} +
 
 run_bgpq4() {
     local family="$1"
@@ -101,18 +102,21 @@ main() {
     local file
     find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
         echo "Processing YAML: $file"
-        local mrs_file=${file%.*}.mrs
+        local list_file="${file%.*}.list"
+        local mrs_file="${file%.*}.mrs"
         yaml_sort_by_alphabet "$file" "$file" "payload"
+        ./yq e '.payload[]' "$file" | grep -v -E '^\s*#|^\s*$' | sort -u > "$list_file"
         mrs_ipcidr "${file}" "${mrs_file}"
     done
 
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
         echo "Processing: $file"
-        local tmp_file="${file%.*}.tmp"
+        local list_file="${file%.*}.list"
         local yaml_file="${file%.*}.yaml"
         local mrs_file="${file%.*}.mrs"
-        cleanup "${file}" "${tmp_file}"
-        yaml "${tmp_file}" "${yaml_file}"
+        cleanup "${file}" "${list_file}"
+        sort -u "${list_file}" -o "${list_file}"
+        yaml "${list_file}" "${yaml_file}"
         yaml_sort_by_alphabet "$yaml_file" "$yaml_file" "payload"
         mrs_ipcidr "${yaml_file}" "${mrs_file}"
     done

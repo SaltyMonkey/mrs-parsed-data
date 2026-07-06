@@ -47,7 +47,7 @@ generate_list() {
 cat <<EOF >> "$RULESETS_FILEPATH"
 $(generate_list "mrs" ./block "domain")
 $(generate_list "mrs" ./services "domain")
-$(generate_list "mrs" ./subnets/ipv4 "ipcidr" "CIDR" "ipcidr")
+$(generate_list "list" ./subnets/ipv4 "ipcidr" "CIDR" "ipcidr")
 
 EOF
 
