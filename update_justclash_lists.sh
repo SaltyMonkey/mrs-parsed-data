@@ -12,6 +12,10 @@ generate_list() {
     local ruletype="$3"
     local readable_name_addon="$4"
     local filename_addon="$5"
+    local format="$6"
+    if [ -z "$format" ]; then
+        format="$ext"
+    fi
     if find "$dir" -type f -name "*.$ext" | grep -q .; then
         find "$dir" -type f -name "*.$ext" | sort | while read -r file; do
             local file_name
@@ -39,7 +43,7 @@ generate_list() {
             if [ -n "$filename_addon" ]; then
                 file_name="$file_name-$filename_addon"
             fi
-            echo "$readable_name|$file_name|$ruletype|$ext|$github_path"
+            echo "$readable_name|$file_name|$ruletype|$format|$github_path"
         done
     fi
 }
@@ -47,7 +51,7 @@ generate_list() {
 cat <<EOF >> "$RULESETS_FILEPATH"
 $(generate_list "mrs" ./block "domain")
 $(generate_list "mrs" ./services "domain")
-$(generate_list "list" ./subnets/ipv4 "ipcidr" "CIDR" "ipcidr")
+$(generate_list "list" ./subnets/ipv4 "ipcidr" "CIDR" "ipcidr" "text")
 
 EOF
 
