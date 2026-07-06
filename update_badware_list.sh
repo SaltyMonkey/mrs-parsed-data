@@ -34,7 +34,7 @@ main() {
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/gambling.medium.txt "${FOLDER}"hagezi-gambling-medium.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/urlshortener.txt "${FOLDER}"hagezi-url-shorteners.txt
     download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/anti.piracy.txt "${FOLDER}"hagezi-antipiracy.txt
-    download "https://codeberg.org/xRuffKez/tif/raw/branch/main/domains.txt" "${FOLDER}"dns-bunker-cti.txt
+    download "https://raw.githubusercontent.com/DNSBunker/CTI/refs/heads/main/domains.txt" "${FOLDER}"dns-bunker-cti.txt
 
     local file
     find "${FOLDER}" -type f -name "*.txt" | while IFS= read -r file; do
