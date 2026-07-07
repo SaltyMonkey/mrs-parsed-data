@@ -45,11 +45,16 @@ run_bgpq4() {
         : > "${output_file}"
     fi
 
+    local asns=()
     local asn
     for asn in "$@"; do
-        bgpq4 -S "${BGPQ4_SOURCES}" -A -F "%n/%l\n" "${family}" "as${asn}" >> "${output_file}"
-        ensure_eof_nl "${output_file}"
+        asns+=("as${asn}")
     done
+
+    if [ ${#asns[@]} -gt 0 ]; then
+        bgpq4 -S "${BGPQ4_SOURCES}" -A -F "%n/%l\n" "${family}" "${asns[@]}" >> "${output_file}"
+        ensure_eof_nl "${output_file}"
+    fi
 }
 
 generate_asn_lists() {
