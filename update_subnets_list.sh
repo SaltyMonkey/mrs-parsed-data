@@ -104,6 +104,13 @@ main() {
     ensure_eof_nl "${FOLDER}"ipv4/discord-voice.txt "${FOLDER}"ipv6/discord-voice.txt
     cat "${FOLDER}"ipv4/discord-voice.txt "${FOLDER}"ipv6/discord-voice.txt | sort | uniq > "${FOLDER}"dual/discord-voice.txt
 
+    # Collapse/aggregate generated .txt lists using the external Python script
+    local py_cmd="python3"
+    if ! command -v python3 &> /dev/null; then
+        py_cmd="python"
+    fi
+    $py_cmd ./collapse_subnets_list.py
+
     local file
     find "${FOLDER}" -type f -name "*.yaml" | while IFS= read -r file; do
         echo "Processing YAML: $file"
