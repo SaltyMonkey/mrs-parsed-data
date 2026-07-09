@@ -103,6 +103,7 @@ payload:
   - '+.ceuswatcab01.blob.core.windows.net'
   - '+.ceuswatcab02.blob.core.windows.net'
   - '+.ch-asimov-leafs-events-data.trafficmanager.net'
+  - '+.chc-visio-telemetry.officeapps.live.com'
   - '+.citrixanalyticseh-alias.servicebus.windows.net'
   - '+.citrixanalyticseh.servicebus.windows.net'
   - '+.citrixanalyticseh2-alias.servicebus.windows.net'
