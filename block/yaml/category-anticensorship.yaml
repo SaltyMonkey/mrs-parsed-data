@@ -11,6 +11,7 @@ payload:
   - +.cf-ipfs.com
   - +.citizenlab.ca
   - +.citizenlab.org
+  - +.clashyun.com
   - +.cloudflare-ipfs.com
   - +.crustwebsites.net
   - +.dat.foundation
@@ -77,7 +78,6 @@ payload:
   - +.telex.cc
   - +.torproject.org
   - +.tribler.org
-  - +.trojan-gfw.github.io
   - +.tunsafe.com
   - +.turkeyblocks.org
   - +.twister.net.co
@@ -94,5 +94,6 @@ payload:
   - +.wikileaks.org
   - +.wikiunblocked.org
   - +.wireguard.com
-  - +.xtls.github.io
   - +.zeronet.io
+  - trojan-gfw.github.io
+  - xtls.github.io

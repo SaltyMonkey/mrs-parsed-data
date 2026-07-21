@@ -45,6 +45,7 @@ payload:
   - +.bbr.ru
   - +.bcs-bank.ru
   - +.bcs.ru
+  - +.best2pay.net
   - +.bfa.ru
   - +.blanc.ru
   - +.bm-bank.ru
@@ -94,6 +95,7 @@ payload:
   - +.gosdolgi.ru
   - +.gpb.ru
   - +.homecredit.ru
+  - +.hva.im
   - +.ibamoscow.ru
   - +.id.ru
   - +.it-katok.ru
@@ -167,6 +169,8 @@ payload:
   - +.raiffeisen.ru
   - +.rbcollect.ru
   - +.rbcredit.ru
+  - +.rbsgate.com
+  - +.rbsuat.com
   - +.rencapbank.ru
   - +.rencredit.ru
   - +.restnproducts.ru
