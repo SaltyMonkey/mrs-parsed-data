@@ -1,5 +1,6 @@
 payload:
   - '+.abtest-ch.snssdk.com'
+  - '+.ad-format-sg.tiktokv.com'
   - '+.ad-instantpage-ru.tiktokv.com'
   - '+.ad-instantpage-sg.tiktokv.com'
   - '+.ad-instantpage-sg.tiktokv.com.edgekey.net'
@@ -167,6 +168,7 @@ payload:
   - '+.log19-normal-alisg.tiktokv.com'
   - '+.log19-normal-useast1a.tiktokv.com'
   - '+.log19-normal-useast2a.tiktokv.com'
+  - '+.log19-normal-useast8.tiktokv.us'
   - '+.log19-normal.tiktokv.com'
   - '+.log22-applog-useast1a.tiktokv.com'
   - '+.log22-applog-useast2a.tiktokv.com'
@@ -280,7 +282,6 @@ payload:
   - '+.pc-mon16-normal-us-ttp.capcutapi.us'
   - '+.rtc-logger-i18n.tiktokv.com'
   - '+.rtc-logger-ie.tiktokv.eu'
-  - '+.rtc-logger-ttp2.tiktokv.us'
   - '+.rtc-logger-ttp2.us.tiktokv.com'
   - '+.rtc-logger-va.tiktokv.com'
   - '+.rtc-logger.tiktokv.com'

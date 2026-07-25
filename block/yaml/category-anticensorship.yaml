@@ -16,6 +16,7 @@ payload:
   - +.crustwebsites.net
   - +.dat.foundation
   - +.democracy.earth
+  - +.docs.rw
   - +.dweb.link
   - +.eff.org
   - +.epicbrowser.com
@@ -53,6 +54,7 @@ payload:
   - +.jitsi.org
   - +.jorropo.net
   - +.lantern.io
+  - +.log.rw
   - +.lokinet.org
   - +.metacubex.one
   - +.nftstorage.link
@@ -78,6 +80,7 @@ payload:
   - +.telex.cc
   - +.torproject.org
   - +.tribler.org
+  - +.try.rw
   - +.tunsafe.com
   - +.turkeyblocks.org
   - +.twister.net.co
