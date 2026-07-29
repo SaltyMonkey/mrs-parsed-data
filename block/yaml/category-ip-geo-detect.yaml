@@ -95,6 +95,7 @@ payload:
   - +.ipquery.io
   - +.ipregistry.co
   - +.iproyal.com
+  - +.ipsimple.org
   - +.ipstack.com
   - +.ipv4-internet.yandex.net
   - +.ipv4.internet.yandex.net
@@ -123,6 +124,7 @@ payload:
   - +.myiplookup.com
   - +.mylocation.org
   - +.nodedata.io
+  - +.nossl.sh
   - +.osint.sh
   - +.proxycheck.io
   - +.realip.cc
@@ -159,4 +161,5 @@ payload:
   - ip.comss.net
   - ipv4-check-perf.radar.cloudflare.com
   - ipv6-check-perf.radar.cloudflare.com
+  - myip.dnsomatic.com
   - whatismyip.akamai.com
