@@ -48,6 +48,7 @@ payload:
   - +.alibaba.com
   - +.alibabacapital.com
   - +.alibabachengdun.com
+  - +.alibabachengdun.net
   - +.alibabacloud.co.in
   - +.alibabacloud.com
   - +.alibabacloud.com.au
@@ -59,6 +60,8 @@ payload:
   - +.alibabadesign.com
   - +.alibabadns.com
   - +.alibabadoctor.com
+  - +.alibabafonts.com
+  - +.alibabafoundation.com
   - +.alibabafuturehotel.com
   - +.alibabagroup.com
   - +.alibabapictures.com
@@ -134,6 +137,7 @@ payload:
   - +.alogs.umeng.com
   - +.alogus.umeng.com
   - +.alyms.cn
+  - +.alysm.cn
   - +.amap.com
   - +.amap.net
   - +.amapauto.com
@@ -208,6 +212,7 @@ payload:
   - +.fcapp.run
   - +.feizhu.cn
   - +.feizhu.com
+  - +.fengniaojipei.net
   - +.fliggy.com
   - +.fliggy.hk
   - +.fourier.taobao.com
@@ -229,6 +234,8 @@ payload:
   - +.hemashare.cn
   - +.hichina.com
   - +.hupan.com
+  - +.hzchengdun.com
+  - +.hzchengdun.net
   - +.ialicdn.com
   - +.ica-alliance.org
   - +.iconfont.cn
@@ -379,6 +386,7 @@ payload:
   - +.taobaocdn.com
   - +.taobizhong.com
   - +.taopiaopiao.com
+  - +.taotian.com
   - +.tb.cn
   - +.tbcache.com
   - +.tbcdn.cn
@@ -389,6 +397,7 @@ payload:
   - +.teambitionapis.com
   - +.tmall
   - +.tmall.com
+  - +.tmall.hk
   - +.tmall.ru
   - +.tmalltv.com
   - +.tmjl.ai
@@ -424,6 +433,8 @@ payload:
   - +.xiami.net
   - +.xin.xin
   - +.xinlingshou.cn
+  - +.xixikf.cn
+  - +.yisou.com
   - +.yk-ssp.ad.youku.com
   - +.ykad-data.youku.com
   - +.ykimg.com
@@ -444,3 +455,4 @@ payload:
   - api.alibabacloud.com
   - cn.alibabacloud.com
   - status.alibabacloud.com
+  - ykimg.alicdn.com

@@ -275,6 +275,7 @@ payload:
   - +.crash2.zhihu.com
   - +.crashlytics.163.com
   - +.cretgate.com
+  - +.csjplatform.com
   - +.cstm.baidu.com
   - +.ctobsnssdk.com
   - +.cupid.iqiyi.com
@@ -528,6 +529,7 @@ payload:
   - +.p.aty.sohu.com
   - +.p4p.sina.com.cn
   - +.pagead.l.google.com
+  - +.pangle.cn
   - +.pangolin-dsp-toutiao-b.com
   - +.pangolin-dsp-toutiao.com
   - +.pangolin-hl.snssdk.com

@@ -9,6 +9,7 @@ payload:
   - +.bir.ru
   - +.bryansk.ru
   - +.buryatia.ru
+  - +.cap.ru
   - +.cbg.ru
   - +.cbr.ru
   - +.chel.ru
@@ -19,8 +20,11 @@ payload:
   - +.cikrf.ru
   - +.crimea.ru
   - +.dagestan.ru
+  - +.e-yakutia.ru
   - +.ebs.ru
+  - +.edu-74.ru
   - +.edu.ru
+  - +.edu22.info
   - +.ekburg.ru
   - +.emias.info
   - +.goskey.ru
@@ -43,6 +47,7 @@ payload:
   - +.kamchatka.ru
   - +.karelia.ru
   - +.kazan.ru
+  - +.kchgov.ru
   - +.kchr.ru
   - +.kemerovo.ru
   - +.khabarovsk.ru
@@ -70,20 +75,24 @@ payload:
   - +.murmansk.ru
   - +.nalchik.ru
   - +.nalog.ru
+  - +.netschool.website
   - +.nn.ru
   - +.nov.ru
   - +.novosibirsk.ru
   - +.nsk.ru
   - +.omsk.ru
+  - +.ooc-school.ru
   - +.orb.ru
   - +.oryol.ru
   - +.penza.ru
   - +.perm.ru
+  - +.prim-edu.ru
   - +.psk.ru
   - +.pskov.ru
   - +.ptz.ru
   - +.rkomi.ru
   - +.rnd.ru
+  - +.ro-edu.ru
   - +.ryazan.ru
   - +.sakhalin.ru
   - +.samara.ru
@@ -98,6 +107,7 @@ payload:
   - +.tambov.ru
   - +.tatarstan.ru
   - +.tom.ru
+  - +.tomedu.ru
   - +.tomsk.ru
   - +.tsaritsyn.ru
   - +.tsk.ru
@@ -113,6 +123,7 @@ payload:
   - +.vladimir.ru
   - +.vladivostok.ru
   - +.vlg.ru
+  - +.volganet.net
   - +.volgograd.ru
   - +.vologda.ru
   - +.voronezh.ru
@@ -120,9 +131,13 @@ payload:
   - +.vyatka.ru
   - +.xn--80acgfbsl1azdqr.xn--p1ai
   - +.xn--80ajghhoc2aj1c8b.xn--p1ai
+  - +.xn--90aivcdt6dxbc.xn--p1ai
   - +.xn--b1afabzvcegckfhg.xn--p1ai
+  - +.xn--d1acchc3adyj9k.xn--p1ai
   - +.yakutia.ru
   - +.yamal.ru
+  - +.yanao.ru
   - +.yaroslavl.ru
   - +.yuzhno-sakhalinsk.ru
+  - +.zabedu.ru
   - +.zdrav10.ru
