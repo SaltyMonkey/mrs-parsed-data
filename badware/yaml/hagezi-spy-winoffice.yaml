@@ -233,6 +233,7 @@ payload:
   - '+.o365diagtelemetry.trafficmanager.net'
   - '+.oca.microsoft.com'
   - '+.office-events-data.trafficmanager.net'
+  - '+.officehub.nel.measure.office.net.cardano.com'
   - '+.oms-analytics.trafficmanager.net'
   - '+.outlookads.live.com'
   - '+.pgtbr1-excel-telemetry-vip.officeapps.live.com'
