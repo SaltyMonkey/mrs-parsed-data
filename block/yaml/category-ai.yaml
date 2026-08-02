@@ -70,6 +70,8 @@ payload:
   - +.generativeai.google
   - +.generativelanguage.googleapis.com
   - +.githubcopilot.com
+  - +.grazie.ai
+  - +.grazie.aws.intellij.net
   - +.grok.com
   - +.grok.x.com
   - +.grokipedia.com
@@ -80,6 +82,7 @@ payload:
   - +.host.livekit.cloud
   - +.huggingface.co
   - +.jasper.ai
+  - +.jetbrains.ai
   - +.jules.google
   - +.jules.google.com
   - +.kiro.dev
@@ -99,6 +102,7 @@ payload:
   - +.minimax.io
   - +.mistral.ai
   - +.mozilla.ai
+  - +.notebook.google.com
   - +.notebooklm.google
   - +.notebooklm.google.com
   - +.oaistatic.com

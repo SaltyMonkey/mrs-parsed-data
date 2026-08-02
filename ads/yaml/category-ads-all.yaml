@@ -186,6 +186,7 @@ payload:
   - +.analytics.vpc.duolingo.com
   - +.api-adservices.apple.com
   - +.api2.amplitude.com
+  - +.app-ads-services.com
   - +.app-analytics-services-att.com
   - +.app-analytics-services.com
   - +.app-measurement-cn.com
