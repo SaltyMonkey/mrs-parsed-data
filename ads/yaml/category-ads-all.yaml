@@ -33,7 +33,6 @@ payload:
   - +.ad.sina.com.cn
   - +.ad.tencentmusic.com
   - +.ad.toutiao.com
-  - +.ad.unimhk.com
   - +.ad.us.sinaimg.cn
   - +.ad.wang502.com
   - +.ad.weixin.qq.com
@@ -59,6 +58,8 @@ payload:
   - +.adbutter.net
   - +.adc.hpplay.cn
   - +.adcolony.com
+  - +.addthis.com
+  - +.addthiscdn.com
   - +.addthisedge.com
   - +.adeng.hpplay.cn
   - +.adfilter.imtt.qq.com
@@ -84,7 +85,6 @@ payload:
   - +.adnxs.com
   - +.adping.qq.com
   - +.adpm.app.qq.com
-  - +.adq.chinaso.com
   - +.ads-api.duolingo.com
   - +.ads-pixiv.net
   - +.ads-twitter.com
@@ -99,7 +99,6 @@ payload:
   - +.ads.service.kugou.com
   - +.ads.sina.com
   - +.ads.sohu.com
-  - +.ads.trafficjunky.net
   - +.ads.trafficjunky.net
   - +.ads.uc.cn
   - +.ads.union.jd.com
@@ -238,9 +237,7 @@ payload:
   - +.cb.baidu.com
   - +.cbjs.baidu.com
   - +.ccs.umeng.com
-  - +.cdn.advertserve.com
   - +.cdn.banclip.com
-  - +.cdn.pocoiq.cn
   - +.cdp.cloud.unity3d.com
   - +.cfts1tifqr.com
   - +.china-caa.org
@@ -283,7 +280,6 @@ payload:
   - +.cxhub.ru
   - +.da.hunantv.com
   - +.da.mgtv.com
-  - +.das-rpt-log.ucloud.cn
   - +.data.flurry.com
   - +.data.mistat.india.xiaomi.com
   - +.data.mistat.intl.xiaomi.com
@@ -294,7 +290,6 @@ payload:
   - +.decide.mixpanel.com
   - +.demdex.net
   - +.dig.bdurl.net
-  - +.dn-growing.qbox.me
   - +.doubleclick-cn.net
   - +.doubleclick.cn
   - +.doubleclick.com
@@ -515,7 +510,6 @@ payload:
   - +.nsclickvideo.baidu.com
   - +.obs.mts.ru
   - +.oc.umeng.com
-  - +.oct.pocoiq.cn
   - +.ogury.co
   - +.ogury.com
   - +.onesignal.com
@@ -630,7 +624,6 @@ payload:
   - +.spotxchange.com
   - +.ssacdn.com
   - +.ssp.api.tappx.com
-  - +.stat.chinaso.com
   - +.stat.m.jd.com
   - +.stat.y.qq.com
   - +.stat.youku.com
@@ -844,16 +837,6 @@ payload:
   - p3-ad-sign.byteimg.com
   - p6-ad-sign.byteimg.com
   - p9-ad-sign.byteimg.com
-  - pinggai0.caixin.com
-  - pinggai1.caixin.com
-  - pinggai2.caixin.com
-  - pinggai3.caixin.com
-  - pinggai4.caixin.com
-  - pinggai5.caixin.com
-  - pinggai6.caixin.com
-  - pinggai7.caixin.com
-  - pinggai8.caixin.com
-  - pinggai9.caixin.com
   - pixel.rustore.ru
   - pixel.yandex.com
   - prodvizhenie-adv.ozon.ru

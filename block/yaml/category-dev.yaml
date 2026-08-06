@@ -568,7 +568,17 @@ payload:
   - appleworldwidedeveloper.sc.omtrdc.net
   - az764295.vo.msecnd.net
   - bingsettingssearch.trafficmanager.net
+  - cdn-cn.apple-mapkit.com
+  - cdn-cn1.apple-mapkit.com
+  - cdn-cn2.apple-mapkit.com
+  - cdn-cn3.apple-mapkit.com
+  - cdn-cn4.apple-mapkit.com
   - cdn.ampproject.org
+  - cdn.apple-mapkit.com
+  - cdn1.apple-mapkit.com
+  - cdn2.apple-mapkit.com
+  - cdn3.apple-mapkit.com
+  - cdn4.apple-mapkit.com
   - copilot-proxy.githubusercontent.com
   - copilot-telemetry-service.githubusercontent.com
   - copilot-telemetry.githubusercontent.com
