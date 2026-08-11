@@ -232,7 +232,6 @@
 ## Badware
 
 ### MRS
-- [dns-bunker-cti.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/dns-bunker-cti.mrs)
 - [hagezi-antipiracy.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-antipiracy.mrs)
 - [hagezi-badware-hosters.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-badware-hosters.mrs)
 - [hagezi-dyndns.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-dyndns.mrs)
@@ -250,10 +249,10 @@
 - [hagezi-spy-vivo.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-vivo.mrs)
 - [hagezi-spy-winoffice.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-winoffice.mrs)
 - [hagezi-spy-xiaomi.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-xiaomi.mrs)
+- [hagezi-tif.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-tif.mrs)
 - [hagezi-tif-mini.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-tif-mini.mrs)
 - [hagezi-url-shorteners.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-url-shorteners.mrs)
 ### YAML
-- [dns-bunker-cti.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/dns-bunker-cti.yaml)
 - [hagezi-antipiracy.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-antipiracy.yaml)
 - [hagezi-badware-hosters.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-badware-hosters.yaml)
 - [hagezi-dyndns.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-dyndns.yaml)
@@ -271,6 +270,7 @@
 - [hagezi-spy-vivo.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-vivo.yaml)
 - [hagezi-spy-winoffice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-winoffice.yaml)
 - [hagezi-spy-xiaomi.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-xiaomi.yaml)
+- [hagezi-tif.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-tif.yaml)
 - [hagezi-tif-mini.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-tif-mini.yaml)
 - [hagezi-url-shorteners.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-url-shorteners.yaml)
 
@@ -506,4 +506,3 @@
 - [Hagezi](https://github.com/hagezi/dns-blocklists) for ADS/BAdware lists
 - [OISD.nl Team](https://oisd.nl/) For ADS/NSFW lists
 - [Antifilter Community](https://community.antifilter.download/) for IP/Domain lists
-

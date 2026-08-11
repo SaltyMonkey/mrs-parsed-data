@@ -18,11 +18,11 @@ main() {
     download https://small.oisd.nl/domainswild "${FOLDER}"oisd-small.txt
     download https://nsfw.oisd.nl/domainswild "${FOLDER}"oisd-nsfw.txt
     download https://big.oisd.nl/domainswild "${FOLDER}"oisd-big.txt
-    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.txt "${FOLDER}"hagezi-pro-ads.txt
-    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.mini.txt "${FOLDER}"hagezi-pro-mini-ads.txt
-    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/pro.plus.mini.txt "${FOLDER}"hagezi-pro-plus-mini-ads.txt
-    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/light.txt "${FOLDER}"hagezi-light-ads.txt
-    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/ultimate.mini.txt "${FOLDER}"hagezi-ultimate-mini-ads.txt
+    download https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.txt "${FOLDER}"hagezi-pro-ads.txt
+    download https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.mini.txt "${FOLDER}"hagezi-pro-mini-ads.txt
+    download https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.plus.mini.txt "${FOLDER}"hagezi-pro-plus-mini-ads.txt
+    download https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/light.txt "${FOLDER}"hagezi-light-ads.txt
+    download https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/ultimate.mini.txt "${FOLDER}"hagezi-ultimate-mini-ads.txt
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple%40ads.yaml" "${FOLDER}"apple-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/google%40ads.yaml" "${FOLDER}"google-ads.yaml
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon%40ads.yaml" "${FOLDER}"amazon-ads.yaml
@@ -39,7 +39,7 @@ main() {
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ecommerce-ru%40ads.yaml "${FOLDER}category-ecommerce-ru-ads.yaml"
     download "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify%40ads.yaml" "${FOLDER}"spotify-ads.yaml
     download https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ads-all.yaml "${FOLDER}category-ads-all.yaml"
-    download https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/wildcard/popupads.txt "${FOLDER}"hagezi-popups-ads.txt
+    download https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/popupads.txt "${FOLDER}"hagezi-popups-ads.txt
 
     local file
 

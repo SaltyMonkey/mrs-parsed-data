@@ -7,17 +7,32 @@ ensure_eof_nl() {
 download() {
     local uri="$1"
     local output_path="$2"
-    local user_agent="$3"
+    local user_agent="${3:-}"
     local code
+    local tmp_file
+
+    tmp_file=$(mktemp "${output_path}.download.XXXXXX") || {
+        echo "Failed to create a temporary download file for ${output_path}" >&2
+        exit 1
+    }
+
     if [ -z "$user_agent" ]; then
-        curl -sL "${uri}" -o "${output_path}"
+        curl --fail --silent --show-error --location "${uri}" -o "${tmp_file}"
     else
-        curl --user-agent "$user_agent" -sL "${uri}" -o "${output_path}"
+        curl --user-agent "$user_agent" --fail --silent --show-error --location "${uri}" -o "${tmp_file}"
     fi
     code=$?
     if [ "$code" -ne 0 ]; then
-        echo "Curl failed with exit code $code"
+        rm -f "${tmp_file}"
+        echo "Curl failed with exit code $code" >&2
+        exit "$code"
     fi
+
+    mv "${tmp_file}" "${output_path}" || {
+        rm -f "${tmp_file}"
+        echo "Failed to move the downloaded file to ${output_path}" >&2
+        exit 1
+    }
 }
 
 cleanup() {

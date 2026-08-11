@@ -1,5 +1,5 @@
 #!/bin/bash
-JSDELIVR="https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data"
+JSDELIVR="https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main"
 
 RULESETS_FILEPATH="./rulesets.txt"
 BLOCKRULESETS_FILEPATH="./block.rulesets.txt"
