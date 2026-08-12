@@ -249,8 +249,8 @@
 - [hagezi-spy-vivo.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-vivo.mrs)
 - [hagezi-spy-winoffice.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-winoffice.mrs)
 - [hagezi-spy-xiaomi.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-spy-xiaomi.mrs)
-- [hagezi-tif.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-tif.mrs)
 - [hagezi-tif-mini.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-tif-mini.mrs)
+- [hagezi-tif.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-tif.mrs)
 - [hagezi-url-shorteners.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/hagezi-url-shorteners.mrs)
 ### YAML
 - [hagezi-antipiracy.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-antipiracy.yaml)
@@ -270,8 +270,8 @@
 - [hagezi-spy-vivo.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-vivo.yaml)
 - [hagezi-spy-winoffice.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-winoffice.yaml)
 - [hagezi-spy-xiaomi.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-spy-xiaomi.yaml)
-- [hagezi-tif.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-tif.yaml)
 - [hagezi-tif-mini.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-tif-mini.yaml)
+- [hagezi-tif.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-tif.yaml)
 - [hagezi-url-shorteners.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/badware/yaml/hagezi-url-shorteners.yaml)
 
 ## Bypass
@@ -506,3 +506,4 @@
 - [Hagezi](https://github.com/hagezi/dns-blocklists) for ADS/BAdware lists
 - [OISD.nl Team](https://oisd.nl/) For ADS/NSFW lists
 - [Antifilter Community](https://community.antifilter.download/) for IP/Domain lists
+
