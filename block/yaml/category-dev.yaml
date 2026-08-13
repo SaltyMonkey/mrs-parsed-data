@@ -49,6 +49,7 @@ payload:
   - +.buck.build
   - +.buckbuild.com
   - +.bugsnag.com
+  - +.builtwithnix.org
   - +.busybox.net
   - +.calendarserver.org
   - +.canonical.com
@@ -324,6 +325,7 @@ payload:
   - +.msropendata.com
   - +.msys2.org
   - +.myjetbrains.com
+  - +.mynixos.com
   - +.myoctocat.com
   - +.mysql.com
   - +.mystrikingly.com
@@ -333,7 +335,15 @@ payload:
   - +.nftables.org
   - +.nginx.com
   - +.nginx.org
+  - +.nix-community.org
+  - +.nix.dev
+  - +.nix.store
+  - +.nixcon.org
+  - +.nixcon2017.org
+  - +.nixlang.com
   - +.nixos.org
+  - +.nixos.wiki
+  - +.nixpkgs.org
   - +.nodejs.org
   - +.nodesource.com
   - +.nomadproject.io
@@ -615,6 +625,7 @@ payload:
   - github-production-user-asset-6210df.s3.amazonaws.com
   - gitlab-assets.oss-cn-hongkong.aliyuncs.com
   - homebrew.bintray.com
+  - nix-community.github.io
   - notary-submissions-prod.s3-accelerate.amazonaws.com
   - notary-submissions-prod.s3.us-west-2.amazonaws.com
   - p-events-delivery.akamaized.net
