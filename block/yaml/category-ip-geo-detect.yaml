@@ -158,6 +158,7 @@ payload:
   - checkip.amazonaws.com
   - checkip.dyn.com
   - checkip.dyndns.org
+  - checkip.global.api.aws
   - ip-check-perf.radar.cloudflare.com
   - ip.comss.net
   - ipv4-check-perf.radar.cloudflare.com
