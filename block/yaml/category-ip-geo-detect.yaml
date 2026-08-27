@@ -29,6 +29,8 @@ payload:
   - +.geolocation-db.com
   - +.geoplugin.com
   - +.geoplugin.net
+  - +.get-ipv4.com
+  - +.get-ipv6.com
   - +.getipintel.net
   - +.greip.io
   - +.hackertarget.com
@@ -81,6 +83,7 @@ payload:
   - +.ipgeolocation.io
   - +.ipify.cn
   - +.ipify.org
+  - +.ipinfo.app
   - +.ipinfo.io
   - +.ipip.net
   - +.iplark.com
@@ -91,6 +94,8 @@ payload:
   - +.iplocation.io
   - +.iplocation.net
   - +.iplookup.it
+  - +.ipme.co
+  - +.ipme.in
   - +.ipqualityscore.com
   - +.ipquery.io
   - +.ipregistry.co
@@ -111,14 +116,43 @@ payload:
   - +.mon-ip.com
   - +.monip.org
   - +.my-ip.io
-  - +.my.ipinfo.app
   - +.myexternalip.com
+  - +.myip.ae
+  - +.myip.at
+  - +.myip.by
+  - +.myip.ch
   - +.myip.com
+  - +.myip.cx
+  - +.myip.dk
+  - +.myip.eu
   - +.myip.expert
+  - +.myip.fi
+  - +.myip.ge
+  - +.myip.hk
+  - +.myip.id
+  - +.myip.is
+  - +.myip.kz
   - +.myip.la
   - +.myip.link
+  - +.myip.lt
+  - +.myip.lv
+  - +.myip.ma
+  - +.myip.md
+  - +.myip.mk
+  - +.myip.mn
   - +.myip.ms
+  - +.myip.mx
+  - +.myip.my
+  - +.myip.ng
+  - +.myip.nl
+  - +.myip.pw
+  - +.myip.qa
+  - +.myip.ro
+  - +.myip.rs
   - +.myip.ru
+  - +.myip.sg
+  - +.myip.sh
+  - +.myip.sk
   - +.myip.wtf
   - +.myipaddress.com
   - +.myiplookup.com
@@ -135,6 +169,7 @@ payload:
   - +.spur.us
   - +.sxgeo.city
   - +.sypexgeo.net
+  - +.thatsmyip.com
   - +.tnx.nl
   - +.tracemyip.org
   - +.trustmyip.com
