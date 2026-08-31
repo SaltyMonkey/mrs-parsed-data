@@ -184,6 +184,12 @@ payload:
   - +.analytics.vk.com
   - +.analytics.vpc.duolingo.com
   - +.api-adservices.apple.com
+  - +.api-secure.amplitude.com
+  - +.api-secure.eu.amplitude.com
+  - +.api-sr.amplitude.com
+  - +.api-sr.eu.amplitude.com
+  - +.api.amplitude.com
+  - +.api.eu.amplitude.com
   - +.api2.amplitude.com
   - +.app-ads-services.com
   - +.app-analytics-services-att.com
@@ -202,6 +208,8 @@ payload:
   - +.ar.umeng.com
   - +.ark.letv.com
   - +.aspect-upush.umeng.com
+  - +.assistant-api.amplitude.com
+  - +.assistant-api.eu.amplitude.com
   - +.assp.sohu.com
   - +.atanx.alicdn.com
   - +.atanx2.alicdn.com
@@ -237,7 +245,9 @@ payload:
   - +.cb.baidu.com
   - +.cbjs.baidu.com
   - +.ccs.umeng.com
+  - +.cdn.amplitude.com
   - +.cdn.banclip.com
+  - +.cdn.eu.amplitude.com
   - +.cdp.cloud.unity3d.com
   - +.cfts1tifqr.com
   - +.china-caa.org
@@ -312,6 +322,8 @@ payload:
   - +.eiv.baidu.com
   - +.emogi.com
   - +.ems.youku.com
+  - +.engagement-static.amplitude.com
+  - +.engagement-static.eu.amplitude.com
   - +.ero-advertising.com
   - +.eroadvertising.com
   - +.euads-o.api.leiniao.com
@@ -370,6 +382,8 @@ payload:
   - +.growin.cn
   - +.growingio.cn
   - +.growingio.com
+  - +.gs.amplitude.com
+  - +.gs.eu.amplitude.com
   - +.guanggaoad.youku.com
   - +.gz-data.com
   - +.gzads.com
@@ -427,6 +441,8 @@ payload:
   - +.kepler-37b.com
   - +.kurogames-ads.com
   - +.kuyun.com
+  - +.lab.amplitude.com
+  - +.lab.eu.amplitude.com
   - +.ladsp.com
   - +.leanplum.com
   - +.lianmeng.360.cn
@@ -572,6 +588,8 @@ payload:
   - +.radar.imgsmail.ru
   - +.reachmax.cn
   - +.realsrv.com
+  - +.regionconfig.amplitude.com
+  - +.regionconfig.eu.amplitude.com
   - +.reke.at.sohu.com
   - +.relap.mail.ru
   - +.report.qqweb.qq.com
@@ -622,6 +640,8 @@ payload:
   - +.splash-ads.cdn.unity.cn
   - +.splash-ads.unitychina.cn
   - +.spotxchange.com
+  - +.sr-client-cfg.amplitude.com
+  - +.sr-client-cfg.eu.amplitude.com
   - +.ssacdn.com
   - +.ssp.api.tappx.com
   - +.stat.m.jd.com
