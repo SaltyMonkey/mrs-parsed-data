@@ -191,8 +191,6 @@
 - [meta-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/meta-ads.mrs)
 - [microsoft-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/microsoft-ads.mrs)
 - [oisd-big.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/oisd-big.mrs)
-- [oisd-nsfw-small.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/oisd-nsfw-small.mrs)
-- [oisd-nsfw.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/oisd-nsfw.mrs)
 - [oisd-small.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/oisd-small.mrs)
 - [ozon-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/ozon-ads.mrs)
 - [sber-ads.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/sber-ads.mrs)
@@ -218,8 +216,6 @@
 - [meta-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/meta-ads.yaml)
 - [microsoft-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/microsoft-ads.yaml)
 - [oisd-big.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-big.yaml)
-- [oisd-nsfw-small.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-nsfw-small.yaml)
-- [oisd-nsfw.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-nsfw.yaml)
 - [oisd-small.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/oisd-small.yaml)
 - [ozon-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/ozon-ads.yaml)
 - [sber-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/sber-ads.yaml)
@@ -228,6 +224,15 @@
 - [x-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/x-ads.yaml)
 - [x5-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/x5-ads.yaml)
 - [yandex-ads.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/ads/yaml/yandex-ads.yaml)
+
+## NSFW
+
+### MRS
+- [oisd-nsfw-small.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/oisd-nsfw-small.mrs)
+- [oisd-nsfw.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/oisd-nsfw.mrs)
+### YAML
+- [oisd-nsfw-small.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/yaml/oisd-nsfw-small.yaml)
+- [oisd-nsfw.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/yaml/oisd-nsfw.yaml)
 
 ## Badware
 

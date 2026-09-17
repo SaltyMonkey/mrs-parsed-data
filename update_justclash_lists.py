@@ -23,6 +23,7 @@ RULESET_GROUPS = (
 
 BLOCK_RULESET_GROUPS = (
     ("mrs", "ads", "domain", "", "", "mrs"),
+    ("mrs", "nsfw", "domain", "", "", "mrs"),
     ("mrs", "badware", "domain", "", "", "mrs"),
 )
 

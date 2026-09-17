@@ -49,6 +49,10 @@ jobs:
         env:
           NO_SKIP: true
         run: python update_ads_list.py
+      - name: Generate NSFW lists
+        env:
+          NO_SKIP: true
+        run: python update_nsfw_list.py
       - name: Generate subnet lists
         env:
           NO_SKIP: true

@@ -15,6 +15,7 @@ README_FILE = ROOT / "README.md"
 SECTIONS = (
     ("Services", (("mrs", "services", "MRS"), ("yaml", "services", "YAML")), ()),
     ("ADS", (("mrs", "ads", "MRS"), ("yaml", "ads", "YAML")), ()),
+    ("NSFW", (("mrs", "nsfw", "MRS"), ("yaml", "nsfw", "YAML")), ()),
     ("Badware", (("mrs", "badware", "MRS"), ("yaml", "badware", "YAML")), ()),
     ("Bypass", (("mrs", "block", "MRS"), ("yaml", "block", "YAML")), ()),
     (

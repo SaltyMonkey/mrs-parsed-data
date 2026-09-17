@@ -15,9 +15,7 @@ FOLDER = ROOT / "ads"
 YAML_FOLDER = FOLDER / "yaml"
 
 SOURCES = (
-    ("https://nsfw-small.oisd.nl/domainswild", "oisd-nsfw-small.txt"),
     ("https://small.oisd.nl/domainswild", "oisd-small.txt"),
-    ("https://nsfw.oisd.nl/domainswild", "oisd-nsfw.txt"),
     ("https://big.oisd.nl/domainswild", "oisd-big.txt"),
     ("https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.txt", "hagezi-pro-ads.txt"),
     ("https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/wildcard/pro.mini.txt", "hagezi-pro-mini-ads.txt"),
