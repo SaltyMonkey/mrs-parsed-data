@@ -1,1 +1,3 @@
 mihomo
+__pycache__/
+*.py[cod]
