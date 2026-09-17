@@ -66,7 +66,6 @@ def main() -> None:
     for family in ("ipv4", "ipv6", "dual"):
         family_folder = FOLDER / family
         family_folder.mkdir(parents=True, exist_ok=True)
-        (family_folder / "yaml").mkdir(parents=True, exist_ok=True)
     remove_files(FOLDER, ("*.txt", "*.tmp", "*.yaml", "*.json", "*.list"), recursive=True)
 
     for url, filename in SOURCES:
@@ -110,12 +109,6 @@ def main() -> None:
         lines_to_yaml(temporary_file, yaml_file)
         sort_yaml_section(yaml_file, yaml_file)
         run_mihomo("ipcidr", yaml_file, text_file.with_suffix(".mrs"))
-
-    for family in ("ipv4", "ipv6", "dual"):
-        family_folder = FOLDER / family
-        yaml_folder = family_folder / "yaml"
-        for yaml_file in family_folder.glob("*.yaml"):
-            yaml_file.replace(yaml_folder / yaml_file.name)
 
     remove_files(FOLDER, ("*.txt", "*.tmp", "*.json", "*.list"), recursive=True)
 
