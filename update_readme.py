@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+from datetime import datetime
 
 from scripts.file_operations import write_text
 
@@ -43,10 +44,13 @@ CREDITS = """## Credits:
 - [Antifilter Community](https://community.antifilter.download/) for IP/Domain lists
 """
 
-HEADER = """# MRS Parsed Data
+def get_header() -> str:
+    update_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    badge_time = update_time.replace("-", "--").replace(" ", "_")
+    return f"""# MRS Parsed Data
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saltymonkey/mrs-parsed-data/generate.yml?style=flat-square&label=updates)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/saltymonkey/mrs-parsed-data?style=flat-square)
+![Last Updated](https://img.shields.io/badge/last%20updated-{badge_time}-blue?style=flat-square)
 
 A collection of automatically parsed and converted routing rules (`.mrs` and `.yaml` formats). These rulesets are automatically updated daily.
 
@@ -98,7 +102,7 @@ def render_section(
 
 
 def render_readme() -> str:
-    parts: list[str] = [HEADER]
+    parts: list[str] = [get_header()]
     
     toc_lines = ["## Table of Contents\n"]
     for title, _, _ in SECTIONS:
