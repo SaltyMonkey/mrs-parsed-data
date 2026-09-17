@@ -43,6 +43,34 @@ CREDITS = """## Credits:
 - [Antifilter Community](https://community.antifilter.download/) for IP/Domain lists
 """
 
+HEADER = """# MRS Parsed Data
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saltymonkey/mrs-parsed-data/generate.yml?style=flat-square&label=updates)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/saltymonkey/mrs-parsed-data?style=flat-square)
+
+A collection of automatically parsed and converted routing rules (`.mrs` and `.yaml` formats). These rulesets are automatically updated daily.
+
+## Usage Example
+
+You can use these rulesets directly in your client's configuration via the provided jsDelivr CDN links.
+
+**Mihomo `rule-providers` example:**
+
+```yaml
+rule-providers:
+  youtube:
+    type: http
+    behavior: domain
+    format: mrs
+    path: ./rules/youtube.mrs
+    url: "https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/services/youtube.mrs"
+    interval: 86400
+
+rules:
+  - RULE-SET,youtube,PROXY
+```
+"""
+
 
 def generate_markdown_list(extension: str, directory: str, heading: str) -> str:
     lines = [f"### {heading}"]
@@ -70,7 +98,15 @@ def render_section(
 
 
 def render_readme() -> str:
-    parts: list[str] = []
+    parts: list[str] = [HEADER]
+    
+    toc_lines = ["## Table of Contents\n"]
+    for title, _, _ in SECTIONS:
+        anchor = title.lower().replace(" ", "-")
+        toc_lines.append(f"- [{title}](#{anchor})")
+    toc_lines.append("- [Credits](#credits)")
+    parts.append("\n".join(toc_lines))
+    
     for title, groups, blank_after in SECTIONS:
         parts.append(render_section(title, groups, blank_after))
     parts.append(CREDITS.rstrip())
