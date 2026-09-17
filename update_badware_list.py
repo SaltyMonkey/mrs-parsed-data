@@ -53,7 +53,6 @@ def main() -> None:
         yaml_file = text_file.with_suffix(".yaml")
         clean_lines(text_file, temporary_file)
         lines_to_yaml(temporary_file, yaml_file, subdomains=True)
-        sort_yaml_section(yaml_file, yaml_file)
         run_mihomo("domain", yaml_file, text_file.with_suffix(".mrs"))
 
     for yaml_file in FOLDER.glob("*.yaml"):

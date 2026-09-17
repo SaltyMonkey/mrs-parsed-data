@@ -107,7 +107,6 @@ def main() -> None:
         clean_lines(text_file, temporary_file)
         sort_unique_lines(temporary_file, temporary_file)
         lines_to_yaml(temporary_file, yaml_file)
-        sort_yaml_section(yaml_file, yaml_file)
         run_mihomo("ipcidr", yaml_file, text_file.with_suffix(".mrs"))
 
     remove_files(FOLDER, ("*.txt", "*.tmp", "*.json", "*.list"), recursive=True)

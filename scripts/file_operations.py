@@ -57,19 +57,19 @@ def ensure_eof_newline(paths: Iterable[str | Path]) -> None:
 
 def clean_lines(input_path: str | Path, output_path: str | Path) -> None:
     lines = Path(input_path).read_text(encoding="utf-8").splitlines()
-    kept = [line for line in lines if line.strip() and not line.lstrip().startswith("#")]
+    kept = [line.strip() for line in lines if line.strip() and not line.lstrip().startswith("#")]
     _write_text(output_path, "".join(f"{line}\n" for line in kept))
 
 
 def sort_unique_lines(input_path: str | Path, output_path: str | Path) -> None:
     lines = Path(input_path).read_text(encoding="utf-8").splitlines()
-    _write_text(output_path, "".join(f"{line}\n" for line in sorted(set(lines))))
+    _write_text(output_path, "".join(f"{line}\n" for line in sorted(set(line.strip() for line in lines if line.strip()))))
 
 
 def merge_unique(input_paths: Iterable[str | Path], output_path: str | Path) -> None:
     lines: set[str] = set()
     for input_path in input_paths:
-        lines.update(Path(input_path).read_text(encoding="utf-8").splitlines())
+        lines.update(line.strip() for line in Path(input_path).read_text(encoding="utf-8").splitlines() if line.strip())
     _write_text(output_path, "".join(f"{line}\n" for line in sorted(lines)))
 
 
@@ -86,7 +86,9 @@ def append_lines(output_path: str | Path, lines: Iterable[str]) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
     with destination.open("a", encoding="utf-8", newline="\n") as output:
         for line in lines:
-            output.write(f"{line}\n")
+            stripped = line.strip()
+            if stripped:
+                output.write(f"{stripped}\n")
 
 
 def remove_files(directory: str | Path, patterns: Iterable[str], recursive: bool = False) -> None:
@@ -126,11 +128,21 @@ def lines_to_yaml(
     output_path: str | Path,
     subdomains: bool = False,
 ) -> None:
-    values = sorted(set(Path(input_path).read_text(encoding="utf-8").splitlines()))
-    if subdomains:
-        # Mihomo expects one canonical "+." prefix, regardless of the source notation.
-        values = [f"+.{_remove_prefix(_remove_prefix(value, '*.'), '+.')}" for value in values]
-    _dump_yaml(output_path, {"payload": values})
+    raw_lines = Path(input_path).read_text(encoding="utf-8").splitlines()
+    values: set[str] = set()
+    for line in raw_lines:
+        val = line.strip()
+        if not val or val.startswith("#"):
+            continue
+        if subdomains:
+            cleaned = val.lstrip("*+.")
+            if cleaned:
+                values.add(f"+.{cleaned}")
+        else:
+            values.add(val)
+
+    sorted_values = sorted(values)
+    _dump_yaml(output_path, {"payload": sorted_values})
 
 
 def sort_yaml_section(
