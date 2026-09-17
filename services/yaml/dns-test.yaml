@@ -1,5 +1,5 @@
 payload:
-    - '+.browserleaks.com'
-    - '+.browserleaks.net'
-    - '+.browserleaks.org'
-    - '+.dnsleaktest.com'
+  - +.browserleaks.com
+  - +.browserleaks.net
+  - +.browserleaks.org
+  - +.dnsleaktest.com
