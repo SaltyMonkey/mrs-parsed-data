@@ -228,9 +228,11 @@
 ## NSFW
 
 ### MRS
+- [hagezi-nsfw.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/hagezi-nsfw.mrs)
 - [oisd-nsfw-small.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/oisd-nsfw-small.mrs)
 - [oisd-nsfw.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/oisd-nsfw.mrs)
 ### YAML
+- [hagezi-nsfw.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/yaml/hagezi-nsfw.yaml)
 - [oisd-nsfw-small.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/yaml/oisd-nsfw-small.yaml)
 - [oisd-nsfw.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/nsfw/yaml/oisd-nsfw.yaml)
 

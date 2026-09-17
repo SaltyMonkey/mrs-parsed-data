@@ -1,6 +1,6 @@
 payload:
-    - '+.gcdn.services'
-    - '+.gcore.com'
-    - '+.gcore.lu'
-    - '+.gcorelabs.com'
-    - '+.gcorelabs.net'
+  - +.gcdn.services
+  - +.gcore.com
+  - +.gcore.lu
+  - +.gcorelabs.com
+  - +.gcorelabs.net

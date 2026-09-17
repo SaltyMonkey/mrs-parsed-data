@@ -1,13 +1,13 @@
 payload:
-    - '+.android.clients.google.com'
-    - '+.beacons.gvt2.com'
-    - '+.connectivitycheck.gstatic.com'
-    - '+.googleplay.com'
-    - '+.gvt1.com'
-    - '+.lh3.googleusercontent.com'
-    - '+.play-fe.googleapis.com'
-    - '+.play-games.googleusercontent.com'
-    - '+.play-lh.googleusercontent.com'
-    - '+.play.google.com'
-    - '+.play.googleapis.com'
-    - '+.prod-lt-playstoregatewayadapter-pa.googleapis.com'
+  - +.android.clients.google.com
+  - +.beacons.gvt2.com
+  - +.connectivitycheck.gstatic.com
+  - +.googleplay.com
+  - +.gvt1.com
+  - +.lh3.googleusercontent.com
+  - +.play-fe.googleapis.com
+  - +.play-games.googleusercontent.com
+  - +.play-lh.googleusercontent.com
+  - +.play.google.com
+  - +.play.googleapis.com
+  - +.prod-lt-playstoregatewayadapter-pa.googleapis.com

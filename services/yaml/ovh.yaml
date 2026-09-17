@@ -1,5 +1,5 @@
 payload:
-    - '+.ovh.ca'
-    - '+.ovh.net'
-    - '+.ovh.us'
-    - '+.ovhcloud.com'
+  - +.ovh.ca
+  - +.ovh.net
+  - +.ovh.us
+  - +.ovhcloud.com
