@@ -18,6 +18,7 @@ from scripts.file_operations import (
     remove_files,
     sort_unique_lines,
     sort_yaml_section,
+    yaml_payload,
 )
 
 
@@ -49,7 +50,7 @@ SOURCES = (
     ("https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg", "ipv4/discord-voice.txt"),
     ("https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg", "ipv6/discord-voice.txt"),
     ("https://community.antifilter.download/list/community.lst", "ipv4/antifilter-community.txt"),
-    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml", "ipv4/apple.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml", "ipv4/yaml/apple.yaml"),
     ("https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips", "ipv4/cloudfront.json"),
 )
 
@@ -66,6 +67,7 @@ def main() -> None:
     for family in ("ipv4", "ipv6", "dual"):
         family_folder = FOLDER / family
         family_folder.mkdir(parents=True, exist_ok=True)
+        (family_folder / "yaml").mkdir(parents=True, exist_ok=True)
     remove_files(FOLDER, ("*.txt", "*.tmp", "*.yaml", "*.json", "*.list"), recursive=True)
 
     for url, filename in SOURCES:
@@ -97,19 +99,21 @@ def main() -> None:
 
     for yaml_file in sorted(FOLDER.rglob("*.yaml")):
         print(f"Processing YAML: {yaml_file}")
+        output_folder = yaml_file.parent.parent
         sort_yaml_section(yaml_file, yaml_file)
-        run_mihomo("ipcidr", yaml_file, yaml_file.with_suffix(".mrs"))
+        yaml_payload(yaml_file, output_folder / f"{yaml_file.stem}.list")
+        run_mihomo("ipcidr", yaml_file, output_folder / f"{yaml_file.stem}.mrs")
 
     for text_file in sorted(FOLDER.rglob("*.txt")):
         print(f"Processing: {text_file}")
-        temporary_file = text_file.with_suffix(".tmp")
-        yaml_file = text_file.with_suffix(".yaml")
-        clean_lines(text_file, temporary_file)
-        sort_unique_lines(temporary_file, temporary_file)
-        lines_to_yaml(temporary_file, yaml_file)
+        list_file = text_file.with_suffix(".list")
+        yaml_file = text_file.parent / "yaml" / f"{text_file.stem}.yaml"
+        clean_lines(text_file, list_file)
+        sort_unique_lines(list_file, list_file)
+        lines_to_yaml(list_file, yaml_file)
         run_mihomo("ipcidr", yaml_file, text_file.with_suffix(".mrs"))
 
-    remove_files(FOLDER, ("*.txt", "*.tmp", "*.json", "*.list"), recursive=True)
+    remove_files(FOLDER, ("*.txt", "*.tmp", "*.json"), recursive=True)
 
 
 if __name__ == "__main__":
