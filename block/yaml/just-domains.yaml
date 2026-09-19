@@ -1347,6 +1347,7 @@ payload:
   - +.postfix.org
   - +.posthog.com
   - +.postimees.ee
+  - +.powersurf.eu
   - +.pravda.com
   - +.pravda.com.ua
   - +.premierleague.com
@@ -1719,6 +1720,7 @@ payload:
   - +.t.co
   - +.t3.chat
   - +.tableau.com
+  - +.tailscale.com
   - +.talosintelligence.com
   - +.tampermonkey.net
   - +.target.com
@@ -2053,6 +2055,7 @@ payload:
   - +.xnxx.net
   - +.xnxx.tv
   - +.xnxx3.com
+  - +.xpenology.tech
   - +.xrite.com
   - +.xsts.auth.xboxlive.com
   - +.xteink.com
