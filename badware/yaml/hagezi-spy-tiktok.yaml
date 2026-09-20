@@ -268,7 +268,6 @@ payload:
   - +.mssdk-i18n.tiktokv.com
   - +.mssdk-phx.tiktokv.com
   - +.mssdk-ru.tiktokv.com
-  - +.mssdk-ru.tiktokv.com.www.digmawifi.com
   - +.mssdk-sg-bu.byteoversea.com
   - +.mssdk-sg.byteoversea.com
   - +.mssdk-sg.tiktokv.com
@@ -292,7 +291,6 @@ payload:
   - +.pc-mon16-normal-us-ttp.capcutapi.us
   - +.rtc-logger-i18n.tiktokv.com
   - +.rtc-logger-ie.tiktokv.eu
-  - +.rtc-logger-ttp2.tiktokv.us
   - +.rtc-logger-ttp2.us.tiktokv.com
   - +.rtc-logger-va.tiktokv.com
   - +.rtc-logger.tiktokv.com
