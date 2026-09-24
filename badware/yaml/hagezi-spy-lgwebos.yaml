@@ -1,4 +1,6 @@
 payload:
+  - +.ads.lgtvcommon.com
+  - +.adts.lgtvcommon.com
   - +.ae-ad-lgsmartad-com.aws-prd.net
   - +.ae-rdx2-lgtvsdp-com.aws-prd.net
   - +.af-ad-lgsmartad-com.aws-prd.net
@@ -43,6 +45,8 @@ payload:
   - +.ca-info-lgsmartad-com.aws-prd.net
   - +.ca-rdx2-lgtvsdp-com.aws-prd.net
   - +.cd-ad-lgsmartad-com.aws-prd.net
+  - +.cdpbeacon.lgtvcommon.com
+  - +.cdpbeacon2.lgtvcommon.com
   - +.cg-ad-lgsmartad-com.aws-prd.net
   - +.ch-ad-lgsmartad-com.aws-prd.net
   - +.ch-info-lgsmartad-com.aws-prd.net
@@ -124,7 +128,6 @@ payload:
   - +.lb-ad-lgsmartad-com.aws-prd.net
   - +.lgads.tv
   - +.lgsmartad.com
-  - +.lgtvcommon.com
   - +.li-ad-lgsmartad-com.aws-prd.net
   - +.lk-ad-lgsmartad-com.aws-prd.net
   - +.ls-ad-lgsmartad-com.aws-prd.net
@@ -172,9 +175,11 @@ payload:
   - +.pt-ad-lgsmartad-com.aws-prd.net
   - +.py-ad-lgsmartad-com.aws-prd.net
   - +.qa-ad-lgsmartad-com.aws-prd.net
+  - +.rdl.lgtvcommon.com
   - +.rdx2.lgtvsdp.com
   - +.rdx2.nextlgsdp.com
   - +.re-ad-lgsmartad-com.aws-prd.net
+  - +.recommend.lgtvcommon.com
   - +.ro-ad-lgsmartad-com.aws-prd.net
   - +.ro-info-lgsmartad-com.aws-prd.net
   - +.rs-ad-lgsmartad-com.aws-prd.net
@@ -198,6 +203,7 @@ payload:
   - +.sz-ad-lgsmartad-com.aws-prd.net
   - +.tg-ad-lgsmartad-com.aws-prd.net
   - +.th-ad-lgsmartad-com.aws-prd.net
+  - +.thinqrecommend.lgtvcommon.com
   - +.tm-ad-lgsmartad-com.aws-prd.net
   - +.tn-ad-lgsmartad-com.aws-prd.net
   - +.tr-ad-lgsmartad-com.aws-prd.net
@@ -214,8 +220,10 @@ payload:
   - +.uz-ad-lgsmartad-com.aws-prd.net
   - +.vc-ad-lgsmartad-com.aws-prd.net
   - +.ve-ad-lgsmartad-com.aws-prd.net
+  - +.videoads.lgtvcommon.com
   - +.vn-ad-lgsmartad-com.aws-prd.net
   - +.vu-ad-lgsmartad-com.aws-prd.net
+  - +.wiseconfig.lgtvcommon.com
   - +.ye-ad-lgsmartad-com.aws-prd.net
   - +.za-ad-lgsmartad-com.aws-prd.net
   - +.zm-ad-lgsmartad-com.aws-prd.net
