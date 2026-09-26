@@ -329,6 +329,7 @@ payload:
   - +.cloudfront.net
   - +.cloudmatchbeta.nvidiagrid.net
   - +.cloudns.net
+  - +.cloudsmith.io
   - +.cloudtorrents.com
   - +.cms-twdigitalassets.com
   - +.cnd2exp.online
@@ -2052,7 +2053,6 @@ payload:
   - +.xhcdn.com
   - +.xiaomi.eu
   - +.xmcsrv.net
-  - +.xmeye.net
   - +.xmg.gg
   - +.xnxx-cdn.com
   - +.xnxx-ru.com

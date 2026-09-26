@@ -2,7 +2,7 @@
 # MRS Parsed Data
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saltymonkey/mrs-parsed-data/generate.yml?style=flat-square&label=updates)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--09--25_01:43_UTC-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--09--26_01:48_UTC-blue?style=flat-square)
 
 A collection of automatically parsed and converted routing rules (`.mrs` and `.yaml` formats). These rulesets are automatically updated daily.
 
