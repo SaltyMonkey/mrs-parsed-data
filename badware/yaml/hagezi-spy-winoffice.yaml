@@ -32,7 +32,6 @@ payload:
   - +.analytics.trafficmanager.net
   - +.analyticsehnwe.servicebus.windows.net
   - +.analyticspixel.microsoft.com
-  - +.api.applicationinsights.azure.cn
   - +.api.edgeoffer.microsoft.com
   - +.applicationinsights.azure.com
   - +.applicationinsights.microsoft.com
@@ -41,7 +40,6 @@ payload:
   - +.arc1.msn.com
   - +.arc2.msn.com
   - +.arc3.msn.com
-  - +.arc5.msn.com
   - +.arc9.msn.com
   - +.auc-visio-telemetry.officeapps.live.com
   - +.az667904.vo.msecnd.net
