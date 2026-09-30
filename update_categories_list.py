@@ -47,7 +47,7 @@ SOURCES = (
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/yandex.list", "yandex.txt"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-container.yaml", "category-container.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-ru.list", "categ-ru.txt"),
-    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-games-!cn.yaml", "category-games-!cn.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-games-!cn.yaml", "category-games.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-game-platforms-download.yaml", "category-game-platforms-download.yaml"),
     ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=flibusta.is&site=yummyanime.tv&site=anidub.pro&site=amedia.site&site=anilibria.tv&site=animego.org&site=animevost.org&site=shikimori.one&site=myanimelist.net&site=mangapark.net", "category-anime.txt"),
 )
