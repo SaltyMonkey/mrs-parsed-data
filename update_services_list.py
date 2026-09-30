@@ -5,9 +5,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from scripts.download_file import download_file
+from scripts.download_file import download_source
 from scripts.external_tools import run_mihomo
-from scripts.file_operations import append_file, lines_to_yaml, remove_files, sort_yaml_section
+from scripts.file_operations import append_file, lines_to_yaml, merge_unique, remove_files, sort_yaml_section
 
 
 ROOT = Path(__file__).resolve().parent
@@ -77,6 +77,8 @@ SOURCES = (
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cloudflare.yaml", "cloudflare.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/meta.yaml", "meta.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/artstation.yaml", "artstation.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/wallhaven.yaml", "wallhaven.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/deviantart.yaml", "deviantart.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/npmjs.yaml", "npmjs.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/paypal.yaml", "paypal.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/pixiv.yaml", "pixiv.yaml"),
@@ -86,14 +88,34 @@ SOURCES = (
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/flibusta.yaml", "flibusta.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nvidia.yaml", "nvidia.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/cdn77.yaml", "cdn77.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/roblox.yaml", "roblox.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/riot.yaml", "riot.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/wargaming.yaml", "wargaming.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/steam.yaml", "steam.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/rockstar.yaml", "rockstar.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ea.yaml", "ea.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ubisoft.yaml", "ubisoft.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/activision.yaml", "activision.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/blizzard.yaml", "blizzard.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/sony.yaml", "sony.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mega.yaml", "mega.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/docker.yaml", "docker.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/nintendo.yaml", "nintendo.yaml"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/mailru-group.list", "mailru.txt"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/kaspersky.list", "kaspersky.txt"),
     ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/drweb.list", "drweb.txt"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/reddit.yaml", "reddit.yaml"),
+    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/habr.yaml", "habr.yaml"),
+    ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=lostfilm.tv", "lostfilm.txt"),
+    ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=seasonvar.ru", "seasonvar.txt"),
+    ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=doramy.club", "doramy.txt"),
+    ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=daramalive.life", "daramalive.txt"),
+    ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=nnmclub.to", "nnmclub.txt"),
+)
+
+KINOZAL_SOURCES = (
+    ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=kinozal.tv", "kinozal-tv.txt"),
+    ("https://iplist.opencck.org/?format=text&data=domains&wildcard=1&site=kinozal.me", "kinozal-me.txt"),
 )
 
 MANUAL_FILES = {
@@ -110,26 +132,52 @@ MANUAL_FILES = {
 def main() -> None:
     FOLDER.mkdir(parents=True, exist_ok=True)
     YAML_FOLDER.mkdir(parents=True, exist_ok=True)
-    remove_files(FOLDER, ("*.txt", "*.yaml"), recursive=True)
-
+    remove_files(FOLDER, ("*.txt",))
+    ready: set[str] = set()
     for url, filename in SOURCES:
-        download_file(url, FOLDER / filename)
+        if download_source(url, FOLDER / filename):
+            ready.add(filename)
+        else:
+            print(f"Keeping previous ruleset for {filename}")
+
+    kinozal_parts = tuple(FOLDER / filename for _, filename in KINOZAL_SOURCES)
+    try:
+        downloaded = [
+            download_source(url, path)
+            for (url, _), path in zip(KINOZAL_SOURCES, kinozal_parts)
+        ]
+        if all(downloaded):
+            merge_unique(kinozal_parts, FOLDER / "kinozal.txt")
+            ready.add("kinozal.txt")
+        else:
+            print("Keeping previous ruleset for kinozal.txt")
+    finally:
+        for path in kinozal_parts:
+            path.unlink(missing_ok=True)
 
     for manual_name, output_name in MANUAL_FILES.items():
         append_file(MANUAL_FOLDER / manual_name, FOLDER / output_name)
+        ready.add(output_name)
 
+    processed_yaml: set[Path] = set()
     for yaml_file in sorted(FOLDER.glob("*.yaml")):
+        if yaml_file.name not in ready:
+            continue
         print(f"Processing YAML: {yaml_file}")
         sort_yaml_section(yaml_file, yaml_file)
         run_mihomo("domain", yaml_file, yaml_file.with_suffix(".mrs"))
+        processed_yaml.add(yaml_file)
 
     for text_file in sorted(FOLDER.glob("*.txt")):
+        if text_file.name not in ready:
+            continue
         print(f"Processing: {text_file}")
         yaml_file = text_file.with_suffix(".yaml")
         lines_to_yaml(text_file, yaml_file, subdomains=True)
         run_mihomo("domain", yaml_file, text_file.with_suffix(".mrs"))
+        processed_yaml.add(yaml_file)
 
-    for yaml_file in FOLDER.glob("*.yaml"):
+    for yaml_file in processed_yaml:
         yaml_file.replace(YAML_FOLDER / yaml_file.name)
     remove_files(FOLDER, ("*.txt",))
 

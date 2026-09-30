@@ -18,7 +18,7 @@ SECTIONS = (
     ("ADS", (("mrs", "ads", "MRS"), ("yaml", "ads", "YAML")), ()),
     ("NSFW", (("mrs", "nsfw", "MRS"), ("yaml", "nsfw", "YAML")), ()),
     ("Badware", (("mrs", "badware", "MRS"), ("yaml", "badware", "YAML")), ()),
-    ("Bypass", (("mrs", "block", "MRS"), ("yaml", "block", "YAML")), ()),
+    ("Categories", (("mrs", "block", "MRS"), ("yaml", "block", "YAML")), ()),
     (
         "Subnets",
         (
@@ -103,14 +103,14 @@ def render_section(
 
 def render_readme() -> str:
     parts: list[str] = [get_header()]
-    
+
     toc_lines = ["## Table of Contents\n"]
     for title, _, _ in SECTIONS:
         anchor = title.lower().replace(" ", "-")
         toc_lines.append(f"- [{title}](#{anchor})")
     toc_lines.append("- [Credits](#credits)")
     parts.append("\n".join(toc_lines))
-    
+
     for title, groups, blank_after in SECTIONS:
         parts.append(render_section(title, groups, blank_after))
     parts.append(CREDITS.rstrip())

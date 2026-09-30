@@ -8,7 +8,13 @@ import os
 from pathlib import Path
 import shutil
 import tempfile
+from urllib.error import URLError
+from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
+
+
+class UnexpectedHTTPStatus(RuntimeError):
+    pass
 
 
 def download_file(
@@ -32,6 +38,8 @@ def download_file(
         ) as temporary_file:
             temporary_path = Path(temporary_file.name)
             with urlopen(request, timeout=timeout) as response:
+                if urlsplit(url).scheme in {"http", "https"} and response.status != 200:
+                    raise UnexpectedHTTPStatus(f"Unexpected HTTP status: {response.status}")
                 shutil.copyfileobj(response, temporary_file)
 
         # A failed transfer never replaces the last known-good file.
@@ -40,6 +48,16 @@ def download_file(
         # On success the path is already moved; on failure this removes the debris.
         if temporary_path is not None:
             temporary_path.unlink(missing_ok=True)
+
+
+def download_source(url: str, destination: str | Path) -> bool:
+    try:
+        download_file(url, destination)
+    except (URLError, UnexpectedHTTPStatus, TimeoutError):
+        if urlsplit(url).scheme in {"http", "https"}:
+            return False
+        raise
+    return True
 
 
 def parse_args() -> argparse.Namespace:

@@ -37,10 +37,10 @@ jobs:
         env:
           NO_SKIP: true
         run: python update_services_list.py
-      - name: Generate bypass lists
+      - name: Generate category lists
         env:
           NO_SKIP: true
-        run: python update_block_list.py
+        run: python update_categories_list.py
       - name: Generate spyware lists
         env:
           NO_SKIP: true
@@ -64,7 +64,7 @@ jobs:
       - name: Update JustClash lists
         env:
           NO_SKIP: true
-        run: python update_justclash_lists.py
+        run: python update_justclash_list.py
       - name: Cleanup
         env:
           NO_SKIP: true

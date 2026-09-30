@@ -6,7 +6,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from scripts.collapse_subnets import collapse_file
-from scripts.download_file import download_file
+from scripts.download_file import download_source
 from scripts.external_tools import run_bgpq4, run_mihomo
 from scripts.file_operations import (
     append_lines,
@@ -68,13 +68,17 @@ def main() -> None:
         family_folder = FOLDER / family
         family_folder.mkdir(parents=True, exist_ok=True)
         (family_folder / "yaml").mkdir(parents=True, exist_ok=True)
-    remove_files(FOLDER, ("*.txt", "*.tmp", "*.yaml", "*.json", "*.list"), recursive=True)
-
+    ready: set[Path] = set()
     for url, filename in SOURCES:
-        download_file(url, FOLDER / filename)
+        destination = FOLDER / filename
+        if download_source(url, destination):
+            ready.add(destination)
+        else:
+            print(f"Keeping previous ruleset for {filename}")
 
     for name, asns in ASN_GROUPS.items():
         generate_asn_lists(name, asns)
+        ready.update(FOLDER / family / f"{name}.txt" for family in ("ipv4", "ipv6", "dual"))
 
     telegram_ipv4 = FOLDER / "ipv4/telegram.txt"
     telegram_ipv6 = FOLDER / "ipv6/telegram.txt"
@@ -82,29 +86,36 @@ def main() -> None:
     ensure_eof_newline((telegram_ipv4, telegram_ipv6))
     merge_unique((telegram_ipv4, telegram_ipv6), FOLDER / "dual/telegram.txt")
 
-    json_arrays(
-        FOLDER / "ipv4/cloudfront.json",
-        FOLDER / "ipv4/cloudfront.txt",
-        ("CLOUDFRONT_GLOBAL_IP_LIST", "CLOUDFRONT_REGIONAL_EDGE_IP_LIST"),
-    )
+    if FOLDER / "ipv4/cloudfront.json" in ready:
+        json_arrays(
+            FOLDER / "ipv4/cloudfront.json",
+            FOLDER / "ipv4/cloudfront.txt",
+            ("CLOUDFRONT_GLOBAL_IP_LIST", "CLOUDFRONT_REGIONAL_EDGE_IP_LIST"),
+        )
+        ready.add(FOLDER / "ipv4/cloudfront.txt")
 
     for name in ("cloudflare", "discord-voice"):
         ipv4_file = FOLDER / "ipv4" / f"{name}.txt"
         ipv6_file = FOLDER / "ipv6" / f"{name}.txt"
+        if name == "discord-voice" and not (ipv4_file in ready and ipv6_file in ready):
+            print("Keeping previous ruleset for dual/discord-voice.txt")
+            continue
         ensure_eof_newline((ipv4_file, ipv6_file))
-        merge_unique((ipv4_file, ipv6_file), FOLDER / "dual" / f"{name}.txt")
+        dual_file = FOLDER / "dual" / f"{name}.txt"
+        merge_unique((ipv4_file, ipv6_file), dual_file)
+        ready.add(dual_file)
 
-    for text_file in FOLDER.rglob("*.txt"):
+    for text_file in sorted(path for path in ready if path.suffix == ".txt"):
         collapse_file(text_file)
 
-    for yaml_file in sorted(FOLDER.rglob("*.yaml")):
+    for yaml_file in sorted(path for path in ready if path.suffix == ".yaml"):
         print(f"Processing YAML: {yaml_file}")
         output_folder = yaml_file.parent.parent
         sort_yaml_section(yaml_file, yaml_file)
         yaml_payload(yaml_file, output_folder / f"{yaml_file.stem}.list")
         run_mihomo("ipcidr", yaml_file, output_folder / f"{yaml_file.stem}.mrs")
 
-    for text_file in sorted(FOLDER.rglob("*.txt")):
+    for text_file in sorted(path for path in ready if path.suffix == ".txt"):
         print(f"Processing: {text_file}")
         list_file = text_file.with_suffix(".list")
         yaml_file = text_file.parent / "yaml" / f"{text_file.stem}.yaml"
