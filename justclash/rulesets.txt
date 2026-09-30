@@ -8,7 +8,7 @@ Category container|category-container|domain|mrs|https://cdn.jsdelivr.net/gh/sal
 Category dev|category-dev|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-dev.mrs
 Category eCommerce RU|category-ecommerce-ru|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-ecommerce-ru.mrs
 Category game platforms download|category-game-platforms-download|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-game-platforms-download.mrs
-Category games !cn|category-games-!cn|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-games-!cn.mrs
+Category games|category-games|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-games.mrs
 Category gov RU|category-gov-ru|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-gov-ru.mrs
 Category IP geo detect|category-ip-geo-detect|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-ip-geo-detect.mrs
 Category password management|category-password-management|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/block/category-password-management.mrs

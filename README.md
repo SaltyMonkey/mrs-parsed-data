@@ -2,7 +2,7 @@
 # MRS Parsed Data
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/saltymonkey/mrs-parsed-data/generate.yml?style=flat-square&label=updates)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--09--30_13:08_UTC-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--09--30_13:18_UTC-blue?style=flat-square)
 
 A collection of automatically parsed and converted routing rules (`.mrs` and `.yaml` formats). These rulesets are automatically updated daily.
 
@@ -368,7 +368,7 @@ rules:
 - [category-dev.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-dev.mrs)
 - [category-ecommerce-ru.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-ecommerce-ru.mrs)
 - [category-game-platforms-download.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-game-platforms-download.mrs)
-- [category-games-!cn.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-games-!cn.mrs)
+- [category-games.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-games.mrs)
 - [category-gov-ru.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-gov-ru.mrs)
 - [category-ip-geo-detect.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-ip-geo-detect.mrs)
 - [category-password-management.mrs](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/category-password-management.mrs)
@@ -392,7 +392,7 @@ rules:
 - [category-dev.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-dev.yaml)
 - [category-ecommerce-ru.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-ecommerce-ru.yaml)
 - [category-game-platforms-download.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-game-platforms-download.yaml)
-- [category-games-!cn.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-games-!cn.yaml)
+- [category-games.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-games.yaml)
 - [category-gov-ru.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-gov-ru.yaml)
 - [category-ip-geo-detect.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-ip-geo-detect.yaml)
 - [category-password-management.yaml](https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data/block/yaml/category-password-management.yaml)
