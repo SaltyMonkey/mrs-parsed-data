@@ -21,6 +21,7 @@ payload:
   - +.jules.google.com
   - +.labs.google
   - +.labs.google.com
+  - +.labstailwind.pa.googleapis.com
   - +.makersuite.google.com
   - +.notebook.google
   - +.notebook.google.com
@@ -39,6 +40,8 @@ payload:
   - cloudaicompanion.googleapis.com
   - cloudcode-pa.googleapis.com
   - daily-cloudcode-pa.googleapis.com
+  - geminiweb-pa.clients.google.com
+  - geminiweb-pa.clients6.google.com
   - notebooklm-pa.googleapis.com
   - notebooklm.googleapis.com
   - webchannel-alkalimakersuite-pa.clients6.google.com
