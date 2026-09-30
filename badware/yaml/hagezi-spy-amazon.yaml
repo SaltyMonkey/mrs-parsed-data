@@ -40,6 +40,7 @@ payload:
   - +.aax-fe.amazon-adsystem.com
   - +.aax-gamma-us-east.axp.amazon-adsystem.com
   - +.aax-ott-c2s.amazon-adsystem.com
+  - +.aax-ott-sdk.amazon-adsystem.amazon.com
   - +.aax-ott-sdk.amazon-adsystem.com
   - +.aax-ott.amazon-adsystem.amazon.com
   - +.aax-ott.amazon-adsystem.com
@@ -182,7 +183,7 @@ payload:
   - +.fls-na.amazon.com.br
   - +.fls-na.amazon.com.mx
   - +.forester.a2z.com
-  - +.h4g3z1-native.amazon.web.app
+  - +.h4g3z1-native-amazon.web.app
   - +.identity.browserapps.amazon.de
   - +.imdb.amazon-adsystem.com
   - +.insights.video.a2z.com
@@ -278,6 +279,7 @@ payload:
   - +.sponsored-ads.amazon.ca
   - +.sponsored-ads.amazon.co.jp
   - +.sponsored-ads.amazon.co.uk
+  - +.sponsored-ads.amazon.co.za
   - +.sponsored-ads.amazon.com
   - +.sponsored-ads.amazon.com.au
   - +.sponsored-ads.amazon.com.br
@@ -290,6 +292,7 @@ payload:
   - +.sponsored-ads.amazon.in.alphionsee.in
   - +.sponsored-ads.amazon.it
   - +.sponsored-ads.amazon.sa
+  - +.sponsored-ads.amazon.sg
   - +.sq-tungsten-ts-eu.amazon-adsystem.com
   - +.sq-tungsten-ts-fe.amazon-adsystem.com
   - +.sq-tungsten-ts.amazon-adsystem.com

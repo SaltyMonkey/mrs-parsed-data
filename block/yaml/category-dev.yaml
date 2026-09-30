@@ -62,6 +62,7 @@ payload:
   - +.cnpmjs.org
   - +.codeberg.org
   - +.codeberg.page
+  - +.codebuff.com
   - +.codeforaliving.io
   - +.codethemicrobit.com
   - +.collector.github.com
@@ -136,6 +137,8 @@ payload:
   - +.fightforux.com
   - +.filezilla-project.org
   - +.firebase.com
+  - +.firebase.dev
+  - +.firebase.google.com
   - +.firebase.io
   - +.firebaseapp.com
   - +.firebaseio.com
@@ -156,6 +159,7 @@ payload:
   - +.framerstatic.com
   - +.framerusercontent.com
   - +.freebsd.org
+  - +.freebuff.com
   - +.frescolib.org
   - +.fury.blog
   - +.fury.co
@@ -603,9 +607,10 @@ payload:
   - download.visualstudio.microsoft.com
   - dtlgalleryint.cloudapp.net
   - firebase-settings.crashlytics.com
-  - firebase.google.com
   - firebase.googleapis.com
   - firebaseappcheck.googleapis.com
+  - firebaseappdistribution.googleapis.com
+  - firebaseapptesters.googleapis.com
   - firebasedynamiclinks-ipv4.googleapis.com
   - firebasedynamiclinks-ipv6.googleapis.com
   - firebasedynamiclinks.googleapis.com

@@ -65,6 +65,7 @@ payload:
   - +.envato.com
   - +.envatousercontent.com
   - +.flow.google
+  - +.flow.google.com
   - +.gateway.ai.cloudflare.com
   - +.geller-pa.googleapis.com
   - +.gemini.google
@@ -92,6 +93,7 @@ payload:
   - +.kiro.dev
   - +.labs.google
   - +.labs.google.com
+  - +.labstailwind.pa.googleapis.com
   - +.langchain.com
   - +.liveperson.net
   - +.lmstudio.ai
@@ -102,11 +104,14 @@ payload:
   - +.manuscdn.com
   - +.marscode.com
   - +.meta.ai
+  - +.metaaivm.com
   - +.midjourney.com
   - +.minimax.io
   - +.mistral.ai
   - +.moonshot.ai
   - +.mozilla.ai
+  - +.muse.ai
+  - +.notebook.google
   - +.notebook.google.com
   - +.notebooklm.google
   - +.notebooklm.google.com
@@ -122,6 +127,7 @@ payload:
   - +.openai.com.cdn.cloudflare.net
   - +.openart.ai
   - +.openclaw.ai
+  - +.opencode.ai
   - +.openrouter.ai
   - +.openspec.dev
   - +.oystermercury.top
@@ -164,6 +170,8 @@ payload:
   - copilot-workspace.githubnext.com
   - copilotprodattachments.blob.core.windows.net
   - daily-cloudcode-pa.googleapis.com
+  - geminiweb-pa.clients.google.com
+  - geminiweb-pa.clients6.google.com
   - notebooklm-pa.googleapis.com
   - notebooklm.googleapis.com
   - o33249.ingest.sentry.io

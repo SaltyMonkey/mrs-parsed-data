@@ -4,6 +4,7 @@ payload:
   - +.ads.apple.com
   - +.advertising.apple.com
   - +.advp.apple.com
+  - +.aios-otel-collector.g.apple.com
   - +.analytics-events.apple.com
   - +.api-adservices.apple.com
   - +.applemediaservices.com
@@ -35,10 +36,9 @@ payload:
   - +.feedbackws.icloud.com.cn
   - +.flirfvysba2opz0zmzqs5iuiad.apple.com
   - +.graffiti-tags.apple.com
-  - +.h4g3z1-native.apple.web.app
+  - +.h4g3z1-native-apple.web.app
   - +.iad-apple.com.akadns.net
   - +.iad.apple.com
-  - +.iadcontent-lb.apple.com.akadns.net
   - +.iadcontent.apple.com
   - +.iadmoo.apple.com
   - +.iadsdk.apple.com

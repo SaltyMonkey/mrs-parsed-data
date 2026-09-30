@@ -27,6 +27,7 @@ payload:
   - +.academy.terrasoft.ua
   - +.account.live.com
   - +.account.templatemonster.com
+  - +.accounts.chaos.com
   - +.acf.international
   - +.activatica.org
   - +.acurapartswarehouse.com
@@ -227,6 +228,7 @@ payload:
   - +.boschautoparts.com
   - +.botnadzor.org
   - +.box.com
+  - +.boxofficemojo.com
   - +.bradyid.com
   - +.brawlstars.com
   - +.brawlstarsgame.com
@@ -316,6 +318,7 @@ payload:
   - +.clashroyaleapp.com
   - +.claude.ai
   - +.claude.com
+  - +.claudeusercontent.com
   - +.clawhub.ai
   - +.cleanbrowsing.org
   - +.clevelandclinic.org
@@ -327,6 +330,7 @@ payload:
   - +.cloudfront.net
   - +.cloudmatchbeta.nvidiagrid.net
   - +.cloudns.net
+  - +.cloudsmith.io
   - +.cloudtorrents.com
   - +.cms-twdigitalassets.com
   - +.cnd2exp.online
@@ -569,6 +573,7 @@ payload:
   - +.fb.com
   - +.fbcdn.net
   - +.fbsbx.com
+  - +.fextralife.com
   - +.ficbook.net
   - +.fie.futurecdn.net
   - +.filebin.net
@@ -938,7 +943,6 @@ payload:
   - +.ldoceonline.com
   - +.le-production.tv
   - +.leafletjs.com
-  - +.leatherman.com
   - +.legalshield.com
   - +.lemonde.fr
   - +.lencr.org
@@ -1347,6 +1351,7 @@ payload:
   - +.postfix.org
   - +.posthog.com
   - +.postimees.ee
+  - +.powersurf.eu
   - +.pravda.com
   - +.pravda.com.ua
   - +.premierleague.com
@@ -1704,6 +1709,7 @@ payload:
   - +.svt.se
   - +.svtv.org
   - +.swagger.io
+  - +.swaggerhub.com
   - +.swapd.co
   - +.swarovski.com
   - +.swiftapps.org
@@ -1719,6 +1725,7 @@ payload:
   - +.t.co
   - +.t3.chat
   - +.tableau.com
+  - +.tailscale.com
   - +.talosintelligence.com
   - +.tampermonkey.net
   - +.target.com
@@ -1811,7 +1818,6 @@ payload:
   - +.trueblackmetalradio.com
   - +.trustpilot.com
   - +.truthsocial.com
-  - +.try.chaos.com
   - +.tsheets.com
   - +.tsmc.com
   - +.ttwstatic.com
@@ -2015,6 +2021,7 @@ payload:
   - +.wonderclub.com
   - +.wonderzine.com
   - +.woolyss.com
+  - +.wooting.io
   - +.worldofballpythons.com
   - +.worldpay.com
   - +.wpengine.com
@@ -2045,7 +2052,6 @@ payload:
   - +.xhcdn.com
   - +.xiaomi.eu
   - +.xmcsrv.net
-  - +.xmeye.net
   - +.xmg.gg
   - +.xnxx-cdn.com
   - +.xnxx-ru.com
@@ -2053,6 +2059,7 @@ payload:
   - +.xnxx.net
   - +.xnxx.tv
   - +.xnxx3.com
+  - +.xpenology.tech
   - +.xrite.com
   - +.xsts.auth.xboxlive.com
   - +.xteink.com

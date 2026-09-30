@@ -44,6 +44,7 @@ payload:
   - +.asia-vpushonrt-stsdk.vivoglobal.com
   - +.asia-vpushort-stsdk.vivoglobal.com
   - +.az.appstore.vivo.com.cn
+  - +.br-cota.vivoglobal.com
   - +.br-p.vivoglobal.com
   - +.cn-zh-ort-stsdk.vivoglobal.com
   - +.cn-zh-prt-stsdk.vivoglobal.com
@@ -58,7 +59,10 @@ payload:
   - +.cname-in-bom01-nginxpool03.vivoglobal.com
   - +.cname-in-ctdbonrt-stsdk.vivoglobal.com
   - +.cname-sin01-stsdk09.vivoglobal.com
+  - +.co-cota.vivoglobal.com
   - +.co-domaincfg.vivoglobal.com
+  - +.co-onrt-stsdk.vivoglobal.com
+  - +.co-ort-stsdk.vivoglobal.com
   - +.co-pnrt-stsdk.vivoglobal.com
   - +.co-romsp-unifyconfig.vivoglobal.com
   - +.co-st-sl.vivoglobal.com
@@ -66,7 +70,9 @@ payload:
   - +.co-timesync.vivoglobal.com
   - +.co-vcode-api.vivoglobal.com
   - +.co-vcode-od.vivoglobal.com
+  - +.co-vcode-or.vivoglobal.com
   - +.de-gdpr-err-up.vivoglobal.com
+  - +.de-gdpr-vcode-api.vivoglobal.com
   - +.dsplog-adnet.vivo.com.cn
   - +.err-up.vivoglobal.com
   - +.err.up.vivoglobal.com
@@ -89,7 +95,7 @@ payload:
   - +.ex-adreq-asia.vivoglobal.com
   - +.ex-adreq-in.vivoglobal.com
   - +.ex-romsp-unifyconfig.vivoglobal.com
-  - +.h4g3z1-native.vivo.web.app
+  - +.h4g3z1-native-vivo.web.app
   - +.id-analyzer-appstore.vivoglobal.com
   - +.id-third-appstore.vivoglobal.com
   - +.in-ad-mkt-vivofs.vivoglobal.com
@@ -101,6 +107,7 @@ payload:
   - +.in-apport-stsdk.vivoglobal.com
   - +.in-apppnrt-stsdk.vivoglobal.com
   - +.in-appprt-stsdk.vivoglobal.com
+  - +.in-cfg-stsdk.vivoglobal.com
   - +.in-cota.vivoglobal.com
   - +.in-ctdbonrt-stsdk.vivoglobal.com
   - +.in-ctdbort-stsdk.vivoglobal.com
@@ -125,6 +132,7 @@ payload:
   - +.in-vpushort-stsdk.vivoglobal.com
   - +.kz-album-api.vivoglobal.com
   - +.kz-cname-sin01-bigdata.vivoglobal.com
+  - +.kz-cota.vivoglobal.com
   - +.kz-err-up.vivoglobal.com
   - +.kz-monitor-stsdk.vivoglobal.com
   - +.kz-onrt-stsdk.vivoglobal.com

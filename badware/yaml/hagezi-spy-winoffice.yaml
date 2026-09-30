@@ -32,7 +32,6 @@ payload:
   - +.analytics.trafficmanager.net
   - +.analyticsehnwe.servicebus.windows.net
   - +.analyticspixel.microsoft.com
-  - +.api.applicationinsights.azure.cn
   - +.api.edgeoffer.microsoft.com
   - +.applicationinsights.azure.com
   - +.applicationinsights.microsoft.com
@@ -41,7 +40,6 @@ payload:
   - +.arc1.msn.com
   - +.arc2.msn.com
   - +.arc3.msn.com
-  - +.arc5.msn.com
   - +.arc9.msn.com
   - +.auc-visio-telemetry.officeapps.live.com
   - +.az667904.vo.msecnd.net
@@ -174,7 +172,7 @@ payload:
   - +.glance-analytics.trafficmanager.net
   - +.h1.msn.com
   - +.h2.msn.com
-  - +.h4g3z1-native.winoffice.web.app
+  - +.h4g3z1-native-winoffice.web.app
   - +.h6.msn.com
   - +.hk-tracker.trafficmanager.net
   - +.hme-live-loganalytics-namespace.servicebus.windows.net
@@ -346,7 +344,6 @@ payload:
   - +.telemetry.eastus.trafficmanager.net
   - +.telemetry.microsoft.com
   - +.telemetry.microsoft.us
-  - +.telemetry.officeapps.live.com
   - +.telemetry.urs.microsoft.com
   - +.telemetry.visualstudio.microsoft.com
   - +.telemetrycollector.microsoft.com

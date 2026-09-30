@@ -2,10 +2,12 @@ payload:
   - +.ad-growth-in.heytapmobile.com
   - +.ad-growth-ru.heytapmobile.com
   - +.ad-growth-sg.heytapmobile.com
+  - +.adm-smc-cn.heytapmobi.com
   - +.ads-bdapi-my.heytapmobile.com
   - +.ads-bdapi-ph.heytapmobile.com
   - +.ads-bdapi-th.heytapmobile.com
   - +.ads-bdapi-vn.heytapmobile.com
+  - +.ads-cps-in.heytapmobile.com
   - +.ads.heytapmobi.com
   - +.ads.heytapmobile.com
   - +.ads.oppomobile.com
@@ -13,10 +15,12 @@ payload:
   - +.adsfs.oppomobile.com
   - +.adx-ads-fr.heytapmobile.com
   - +.adx-ads-ru.heytapmobile.com
+  - +.adx-op-fr-heytapmobilea-a7bbf.fr-w01.cngw.heytapmobile.com
   - +.adx-op-fr.heytapmobile.com
   - +.adx-op-in.heytapmobile.com
   - +.adx-op-ru.heytapmobile.com
   - +.adx-op-sg.heytapmobile.com
+  - +.adx-u-ru.heytapmobile.com
   - +.adx-u-sg.heytapmobile.com
   - +.adxu-bigo-sg.heytapmobile.com
   - +.album-cn01a.ocloud.heytapmobi.com
@@ -243,7 +247,7 @@ payload:
   - +.gui-server-us.allawnos.com
   - +.guif-eu.coloros.com
   - +.guif.coloros.com
-  - +.h4g3z1-native.oppo-realme.web.app
+  - +.h4g3z1-native-oppo-realme.web.app
   - +.hizonetech.com
   - +.i-cn01a.ocloud.heytapmobi.com
   - +.i-in.browser.heytapmobile.com

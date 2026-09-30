@@ -118,7 +118,6 @@ payload:
   - +.adsensecustomsearchads.com
   - +.adsenseformobileapps.com
   - +.adservice.google.com
-  - +.adservice.sigmob.cn
   - +.adserviceretry.kglink.cn
   - +.adserviceretry.kugou.com
   - +.adsfile.qq.com
@@ -630,6 +629,7 @@ payload:
   - +.shhs-ydd8x2.yjrmss.cn
   - +.shoppingads.cn
   - +.shuzilm.cn
+  - +.sigmob.cn
   - +.sigmob.com
   - +.slog.sina.cn
   - +.slog.sina.com.cn
