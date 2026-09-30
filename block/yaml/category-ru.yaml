@@ -138,6 +138,7 @@ payload:
   - +.beeline.tv
   - +.beget.com
   - +.beginners-adv.ozon.ru
+  - +.berizaryad.ru
   - +.best2pay.net
   - +.bilet.nspk.ru
   - +.bizmrg.com
@@ -168,6 +169,7 @@ payload:
   - +.chizhik.club
   - +.cian.site
   - +.ciciq.net
+  - +.clck.ru
   - +.clck.yandex.com
   - +.clck.yandex.net
   - +.clck.yandex.ru
@@ -270,6 +272,7 @@ payload:
   - +.edu.tinkoff.ru
   - +.edu22.info
   - +.education.tbank.ru
+  - +.elama.ru
   - +.eligens.cl
   - +.eligens.com.br
   - +.eligens.io
@@ -470,6 +473,7 @@ payload:
   - +.keyboardmen.com
   - +.khangar.net
   - +.kinescopecdn.net
+  - +.kinopoisk.ru
   - +.kinorium.com
   - +.knightspeak.com
   - +.koddobra.ru
@@ -691,6 +695,7 @@ payload:
   - +.rbsgate.com
   - +.rbsuat.com
   - +.rbth.com
+  - +.realtyverif.ru
   - +.reaviz.com
   - +.refresh-bkg.activation-v2.kaspersky.com
   - +.reg.cloud
@@ -1101,6 +1106,7 @@ payload:
   - +.xn--c1avg
   - +.xn--d1abkf4ap.fun
   - +.xn--d1acj3b
+  - +.xn--d1acpjx3f.xn--p1ai
   - +.xn--e1adjldbbpv.xn--90ais
   - +.xn--e1aigb.xn--p1ai
   - +.xn--h1ao.site
@@ -1108,12 +1114,14 @@ payload:
   - +.xn--p1ai
   - +.xray.mail.ru
   - +.ya.cc
+  - +.ya.ru
   - +.yabs.yandex.ru
   - +.yads.tech
   - +.yaklass.ru
   - +.yandex
   - +.yandex-bank.net
   - +.yandex-metrica.ru
+  - +.yandex-team.ru
   - +.yandex.aero
   - +.yandex.asia
   - +.yandex.az
@@ -1123,6 +1131,7 @@ payload:
   - +.yandex.com
   - +.yandex.com.am
   - +.yandex.com.ge
+  - +.yandex.com.ru
   - +.yandex.com.tr
   - +.yandex.com.ua
   - +.yandex.de
@@ -1141,6 +1150,7 @@ payload:
   - +.yandex.net
   - +.yandex.org
   - +.yandex.pl
+  - +.yandex.ru
   - +.yandex.st
   - +.yandex.sx
   - +.yandex.tj
@@ -1152,6 +1162,7 @@ payload:
   - +.yandexcloud.net
   - +.yandexcom.net
   - +.yandexgo.com
+  - +.yandexlyceum.ru
   - +.yandexmetrica.com
   - +.yandexwebcache.net
   - +.yandexwebcache.org
@@ -1171,7 +1182,9 @@ payload:
   - +.yangofellowship.com
   - +.yaplakal.com
   - +.yastat.net
+  - +.yastatic-net.ru
   - +.yastatic.net
+  - +.yccdn.ru
   - +.yclients.com
   - +.yndx.net
   - +.youla.io

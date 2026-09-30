@@ -1104,6 +1104,7 @@ payload:
   - +.msftauth.net
   - +.msn.com
   - +.mssg.me
+  - +.mtgcardbuilder.com
   - +.mui.com
   - +.mullvad.net
   - +.multisim.com
@@ -2100,6 +2101,7 @@ payload:
   - +.zendesk.com
   - +.zerkalo.io
   - +.zerossl.com
+  - +.zerro.app
   - +.zillowstatic.com
   - +.zimbra.org
   - +.zona.media

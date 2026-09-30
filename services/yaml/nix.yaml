@@ -4,6 +4,11 @@ payload:
   - +.alpinelinux.org
   - +.altlinux.org
   - +.amazonlinux.com
+  - +.amp.akamaized.net
+  - +.amp.dev
+  - +.ampproject.com
+  - +.ampproject.net
+  - +.ampproject.org
   - +.anduinos.com
   - +.antixlinux.com
   - +.appimage.org
@@ -24,6 +29,7 @@ payload:
   - +.cachix.org
   - +.cachyos.org
   - +.calculate-linux.org
+  - +.cdn.ampproject.org
   - +.centos.org
   - +.chaotic.cx
   - +.chromeos.google
@@ -41,6 +47,7 @@ payload:
   - +.dragonos.com
   - +.drbl.org
   - +.easyos.org
+  - +.electronjs.org
   - +.elementary.io
   - +.elrepo.org
   - +.endeavouros.com
@@ -72,6 +79,9 @@ payload:
   - +.hardenedbsd.org
   - +.ibiblio.org
   - +.ipfire.org
+  - +.jquery.com
+  - +.jquerymobile.com
+  - +.jqueryui.com
   - +.kali.org
   - +.kaosx.us
   - +.kde.org
@@ -79,7 +89,10 @@ payload:
   - +.kicksecure.com
   - +.kubuntu.org
   - +.launchpad.net
+  - +.lfai.foundation
+  - +.linux.org
   - +.linuxcontainers.org
+  - +.linuxfoundation.org
   - +.linuxfx.org
   - +.linuxliteos.com
   - +.linuxmint.com
@@ -92,6 +105,7 @@ payload:
   - +.minios.dev
   - +.mirrorservice.org
   - +.mocaccino.org
+  - +.mochajs.org
   - +.modicia.com
   - +.modiciaos.cloud
   - +.mxlinux.org
@@ -101,12 +115,14 @@ payload:
   - +.nix-community.org
   - +.nixos.org
   - +.nobaraproject.org
+  - +.nodejs.org
   - +.nxos.org
   - +.omarchy.org
   - +.openbsd.org
   - +.openeuler.org
   - +.openh264.org
   - +.openindiana.org
+  - +.openjsf.org
   - +.openkylin.top
   - +.openmandriva.org
   - +.opensuse.org
