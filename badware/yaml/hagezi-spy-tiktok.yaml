@@ -97,9 +97,11 @@ payload:
   - +.bds.snssdk.com
   - +.business-api.tiktok.com
   - +.extlog.snssdk.com
+  - +.frontier-us-ttp2.capcutw.us
   - +.frontier.byteoversea.com
   - +.frontier.capcutw.us
   - +.frontier.capcutw.us.edgesuite.net
+  - +.frontier.us.capcut.com
   - +.gplog-sg.byteoversea.com
   - +.gplog-va-useast2a.byteoversea.com
   - +.gplog-va.byteoversea.com
@@ -383,6 +385,7 @@ payload:
   - +.tnc16-normal-ie.tiktokv.eu
   - +.tnc16-normal-no1a.tiktokv.eu
   - +.tnc16-normal-us-ttp.capcutapi.us
+  - +.tnc16-normal-us-ttp2.capcutapi.us
   - +.tnc16-normal-useast5.tiktokv.us
   - +.tnc16-normal-useast8.tiktokv.us
   - +.tnc16-normal-useast8.us.tiktokv.com
