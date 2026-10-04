@@ -1,5 +1,4 @@
 payload:
-  - +.ab.apple.com.akadns.net
   - +.acfeedbackws.icloud.com
   - +.ads.apple.com
   - +.advertising.apple.com
@@ -20,7 +19,6 @@ payload:
   - +.cstat.g.aaplimg.com
   - +.databeacon.apple.com
   - +.datacollection.apple.com
-  - +.diagassets-lb.apple.com.akadns.net
   - +.diagassets.apple.com
   - +.diagassets.g.aaplimg.com
   - +.diagnostics.apple.com

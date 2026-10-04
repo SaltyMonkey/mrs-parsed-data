@@ -40,7 +40,6 @@ payload:
   - +.aax-fe.amazon-adsystem.com
   - +.aax-gamma-us-east.axp.amazon-adsystem.com
   - +.aax-ott-c2s.amazon-adsystem.com
-  - +.aax-ott-sdk.amazon-adsystem.amazon.com
   - +.aax-ott-sdk.amazon-adsystem.com
   - +.aax-ott.amazon-adsystem.amazon.com
   - +.aax-ott.amazon-adsystem.com
@@ -127,8 +126,6 @@ payload:
   - +.assoc-msdk-cn.amazon-adsystem.com
   - +.assoc-msdk-eu.amazon-adsystem.com
   - +.assoc-msdk-us.amazon-adsystem.com
-  - +.at-beta.amazon-adsystem.com
-  - +.at-gamma-us-east.amazon-adsystem.com
   - +.at-us-east.amazon-adsystem.com
   - +.atfe.amazon-adsystem.com
   - +.atue.amazon-adsystem.com
@@ -226,7 +223,6 @@ payload:
   - +.metrics.us-east-1.iris.apx.amazon.dev
   - +.minerva.devices.a2z.com
   - +.mobileanalytics.us-east-1.amazonaws.com
-  - +.mshopbugsnag.irm.amazon.dev
   - +.origin-s.amazon-adsystem.com
   - +.origin-sq-tungsten-ts.amazon-adsystem.com
   - +.paa-reporting-advertising.amazon
