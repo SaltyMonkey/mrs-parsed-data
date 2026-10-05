@@ -273,15 +273,23 @@ payload:
   - +.mssdk-ru.tiktokv.com
   - +.mssdk-sg-bu.byteoversea.com
   - +.mssdk-sg.byteoversea.com
+  - +.mssdk-sg.capcutapi.com
   - +.mssdk-sg.tiktokv.com
   - +.mssdk-va-useast2a.byteoversea.com
   - +.mssdk-va-useast2a.tiktokv.com
   - +.mssdk-va.byteoversea.com
+  - +.mssdk.capcutapi.us
   - +.mssdk.snssdk.com
   - +.mssdk.tiktokw.eu
   - +.mssdk.tiktokw.us
   - +.mssdk.us.tiktok.com
   - +.mssdk.us.tiktokv.com
+  - +.mssdk16-normal-sg.capcutapi.com
+  - +.mssdk16-normal-us-ttp.capcutapi.us
+  - +.mssdk16-normal-us-ttp2.capcutapi.us
+  - +.mssdk16-normal.capcutapi.com
+  - +.mssdk32-normal-sg.capcutapi.com
+  - +.mssdk32-normal.capcutapi.com
   - +.open.snssdk.com
   - +.os-mon.snssdk.com
   - +.p16-ad.byteoversea.com
