@@ -18,7 +18,7 @@ BLOCK_RULESETS_FILE = JUSTCLASH_FOLDER / "block.rulesets.txt"
 RULESET_GROUPS = (
     ("mrs", "block", "domain", "", "", "mrs"),
     ("mrs", "services", "domain", "", "", "mrs"),
-    ("mrs", "subnets/ipv4", "ipcidr", "CIDR", "ipcidr", "mrs"),
+    ("list", "subnets/dual", "ipcidr", "CIDR", "ipcidr", "text"),
 )
 
 BLOCK_RULESET_GROUPS = (
