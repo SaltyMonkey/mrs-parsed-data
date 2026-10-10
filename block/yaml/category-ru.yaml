@@ -3,24 +3,10 @@ payload:
   - +.1l-hit.mail.ru
   - +.1l-hit.vkplay.ru
   - +.24h.tv
-  - +.2gis.ae
-  - +.2gis.am
-  - +.2gis.az
-  - +.2gis.by
-  - +.2gis.com
-  - +.2gis.com.cy
-  - +.2gis.cz
-  - +.2gis.ge
-  - +.2gis.kg
-  - +.2gis.kz
-  - +.2gis.tech
-  - +.2gis.tj
-  - +.2gis.uz
   - +.3ebra.net
   - +.4epenaxa.com
   - +.5post.market
   - +.a.mts.ru
-  - +.accesspoint.uz
   - +.acmvid.com
   - +.activate.activation-v2.kaspersky.com
   - +.activation-v2.geo.kaspersky.com
@@ -139,12 +125,14 @@ payload:
   - +.beget.com
   - +.beginners-adv.ozon.ru
   - +.berizaryad.ru
+  - +.beru.ru
   - +.best2pay.net
   - +.bilet.nspk.ru
   - +.bizmrg.com
   - +.bk.ru
   - +.bk6bba-resources.com
   - +.book1917.live
+  - +.bookmate.ru
   - +.boom.ru
   - +.boosty.to
   - +.botmechanic.io
@@ -176,7 +164,6 @@ payload:
   - +.clck.yango.com
   - +.click.rustore.ru
   - +.clickstream.sberbank.ru
-  - +.cloudru.cn
   - +.clstorage.net
   - +.cm.expert
   - +.code-class.ru
@@ -215,6 +202,7 @@ payload:
   - +.de-rt.org
   - +.de-rtnews.com
   - +.de-rtnews.net
+  - +.delivery-club.ru
   - +.dert.online
   - +.dert.site
   - +.dert.tech
@@ -267,7 +255,7 @@ payload:
   - +.eadaily.info
   - +.eadaily.net
   - +.eadaily.org
-  - +.eaptechka.online
+  - +.edadeal.ru
   - +.edge.geo.kaspersky.com
   - +.edu.tinkoff.ru
   - +.edu22.info
@@ -277,6 +265,7 @@ payload:
   - +.eligens.com.br
   - +.eligens.io
   - +.emias.info
+  - +.energotransbank.com
   - +.envybox.company
   - +.envybox.family
   - +.envybox.io
@@ -284,7 +273,6 @@ payload:
   - +.envycdp.com
   - +.envycrm.com
   - +.epicevents.gg
-  - +.error-tracking.megamarket.tech
   - +.es-rt.com
   - +.esforce.com
   - +.esforce.ru
@@ -308,6 +296,7 @@ payload:
   - +.flowwow.com
   - +.fon.bet
   - +.fon.promo
+  - +.foodfox.ru
   - +.foto-planeta.com
   - +.freeassange.tech
   - +.freede.tech
@@ -328,7 +317,6 @@ payload:
   - +.genotek.eu
   - +.genotek.health
   - +.gerwin.io
-  - +.getsynapse.io
   - +.gib-global.com
   - +.gib.sg
   - +.gibdev.net
@@ -360,6 +348,7 @@ payload:
   - +.hayya.ae
   - +.hh.by
   - +.hh.kz
+  - +.home.bank
   - +.hrtek.ru
   - +.hva.im
   - +.icq-download.com
@@ -420,18 +409,6 @@ payload:
   - +.ixbt.site
   - +.ixbt.video
   - +.jinrieluosi.cn
-  - +.jivo.chat
-  - +.jivochat.co.in
-  - +.jivochat.co.za
-  - +.jivochat.com
-  - +.jivochat.com.br
-  - +.jivochat.com.co
-  - +.jivochat.com.pe
-  - +.jivochat.com.tr
-  - +.jivochat.de
-  - +.jivochat.es
-  - +.jivochat.ng
-  - +.jivosite.com
   - +.jump.taxi
   - +.justveryok.com
   - +.kaspersky-labs.com
@@ -479,7 +456,7 @@ payload:
   - +.koddobra.ru
   - +.kontur-inc.com
   - +.kontur.host
-  - +.korona.com
+  - +.koronapay.com
   - +.koshelek.app
   - +.ksn-cinfo-geo.kaspersky-labs.com
   - +.ksn-cinfo.geoksn.kaspersky.com
@@ -518,6 +495,8 @@ payload:
   - +.mail-carrotquest.io
   - +.mail.ru
   - +.mailicq.org
+  - +.maritimebank.com
+  - +.market.ru
   - +.marketing-info.wildberries.ru
   - +.marketplace-sentry.wb.ru
   - +.max.ru
@@ -532,13 +511,11 @@ payload:
   - +.medsi.com
   - +.medsi.pro
   - +.megafon.com
-  - +.megamarket.tech
   - +.mel.fm
   - +.memealerts.com
   - +.meteofor.com
   - +.meteofor.st
   - +.meteum.ai
-  - +.metrics.21-school.ru
   - +.metrics.viqeo.tv
   - +.metrika.kontur.ru
   - +.metrika.yandex.com
@@ -581,7 +558,6 @@ payload:
   - +.mytopf.com
   - +.mytrk.link
   - +.naydex.net
-  - +.neon.click
   - +.netcraze.club
   - +.netcraze.link
   - +.netcraze.pro
@@ -674,10 +650,12 @@ payload:
   - +.poudobnee.com
   - +.premier.one
   - +.premiumlive.site
+  - +.priovtb.com
   - +.prod-my.games
   - +.prodcontest.com
   - +.prodvizhenie-adv.ozon.ru
   - +.promodj.com
+  - +.pskb.com
   - +.ptsecurity.com
   - +.public.express
   - +.pushgrow.io
@@ -780,6 +758,7 @@ payload:
   - +.rustore.ru
   - +.rustore.team
   - +.rustore.tv
+  - +.rutaxi.ru
   - +.rutube.sport
   - +.rwbautomation.tech
   - +.s.mindbox.ru
@@ -808,13 +787,7 @@ payload:
   - +.sage-observability.tech
   - +.sayeasy.eu
   - +.sber-bank.by
-  - +.sber.pro
-  - +.sberauto.com
-  - +.sberbank-tele.com
   - +.sberbank.com
-  - +.sbercloud.tech
-  - +.sbermarketing.ru
-  - +.sberpro.vedomosti.ru
   - +.seclab.lat
   - +.selcdn.net
   - +.selectel.academy
@@ -833,7 +806,6 @@ payload:
   - +.sentry.ozon.ru
   - +.sentry.popmechanic.ru
   - +.sentry.rustore.ru
-  - +.sentry.sberauto.com
   - +.sentry.viqeo.tv
   - +.sentry.wb.ru
   - +.sentry.x5.ru
@@ -844,6 +816,8 @@ payload:
   - +.sferum.ru
   - +.sfunpay.com
   - +.shedevrum.ai
+  - +.shedevrum.com
+  - +.shedevrum.ru
   - +.shop-rt.com
   - +.sistema-capital.com
   - +.skbx.pro
@@ -913,6 +887,7 @@ payload:
   - +.telega.info
   - +.telega.me
   - +.tetrika-school.ru
+  - +.thequestion.ru
   - +.tilda.cc
   - +.tilda.ws
   - +.tildaapi.com
@@ -931,7 +906,6 @@ payload:
   - +.top-fwz1.mail.ru
   - +.top-staging.mail.ru
   - +.trace-flow.ru
-  - +.tracing-http.megamarket.tech
   - +.tracker-api.my.com
   - +.tracker.my.com
   - +.transport.mos.ru
@@ -977,6 +951,7 @@ payload:
   - +.userapi.com
   - +.userapi.ru
   - +.usocial.pro
+  - +.vezet.ru
   - +.vimu.tv
   - +.viqeo.tv
   - +.viqeotv.com
@@ -1038,6 +1013,7 @@ payload:
   - +.vscale.blog
   - +.vscale.io
   - +.vtb-direct.com
+  - +.vtb.com
   - +.vtbglobalperspectives.com
   - +.warehouse.domains
   - +.watchingthehawks.com
@@ -1115,12 +1091,14 @@ payload:
   - +.xray.mail.ru
   - +.ya.cc
   - +.ya.ru
-  - +.yabs.yandex.ru
+  - +.yadi.sk
   - +.yads.tech
   - +.yaklass.ru
   - +.yandex
+  - +.yandex-ad.cn
   - +.yandex-bank.net
   - +.yandex-metrica.ru
+  - +.yandex-team.com
   - +.yandex-team.ru
   - +.yandex.aero
   - +.yandex.asia
@@ -1145,22 +1123,29 @@ payload:
   - +.yandex.kz
   - +.yandex.lt
   - +.yandex.lv
+  - +.yandex.market
   - +.yandex.md
   - +.yandex.mobi
   - +.yandex.net
+  - +.yandex.net.ru
   - +.yandex.org
   - +.yandex.pl
+  - +.yandex.pro
   - +.yandex.ru
   - +.yandex.st
   - +.yandex.sx
+  - +.yandex.taxi
   - +.yandex.tj
   - +.yandex.tm
   - +.yandex.tr
+  - +.yandex.travel
   - +.yandex.ua
   - +.yandex.uz
   - +.yandexadexchange.net
   - +.yandexcloud.net
   - +.yandexcom.net
+  - +.yandexdataschool.com
+  - +.yandexdataschool.ru
   - +.yandexgo.com
   - +.yandexlyceum.ru
   - +.yandexmetrica.com
@@ -1186,9 +1171,8 @@ payload:
   - +.yastatic.net
   - +.yccdn.ru
   - +.yclients.com
+  - +.ydb.tech
   - +.yndx.net
   - +.youla.io
   - +.youla.ru
   - +.yourgood.app
-  - +.zvuk-b2b.com
-  - +.zvuk.com
