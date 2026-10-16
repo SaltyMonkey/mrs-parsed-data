@@ -6,6 +6,7 @@ payload:
   - +.admetrica.ru
   - +.adriver.ru
   - +.ads.sber.ru
+  - +.ads.sber.ru
   - +.ads.viqeo.tv
   - +.ads.yandex
   - +.ads.yandex.ru
@@ -24,6 +25,7 @@ payload:
   - +.bs.yandex.ru
   - +.clck.yandex.ru
   - +.clickstream.sberbank.ru
+  - +.clickstream.sberbank.ru
   - +.counter.yandex.ru
   - +.cxhub.ru
   - +.e.mindbox.ru
@@ -39,12 +41,14 @@ payload:
   - +.ms.vk.com
   - +.ms.vk.ru
   - +.myadx.net
+  - +.neon.click
   - +.obs.mts.ru
   - +.r.mail.ru
   - +.radar.imgsmail.ru
   - +.relap.mail.ru
   - +.roistat.com
   - +.s.mindbox.ru
+  - +.sbermarketing.ru
   - +.target.my.com
   - +.target.vk.ru
   - +.targetads.io
@@ -125,6 +129,7 @@ payload:
   - clck.yandex.net
   - clck.yango.com
   - click.rustore.ru
+  - error-tracking.megamarket.tech
   - google-analytics-suite.ozon.ru
   - informer.yandex.ru
   - log.strm.yandex.ru
@@ -134,6 +139,7 @@ payload:
   - mc.yandex.com
   - mc.yandex.net
   - mc.yango.com
+  - metrics.21-school.ru
   - metrika.kontur.ru
   - new-adv.ozon.ru
   - pixel.rustore.ru
@@ -155,6 +161,7 @@ payload:
   - sentry.ozon.ru
   - sentry.popmechanic.ru
   - sentry.rustore.ru
+  - sentry.sberauto.com
   - sentry.viqeo.tv
   - sentry.wb.ru
   - sentry.x5.ru
@@ -169,6 +176,8 @@ payload:
   - t.mail.ru
   - target.vk.com
   - top-staging.mail.ru
+  - tracing-http.megamarket.tech
+  - visor.sberbank.ru
   - visor.sberbank.ru
   - web-analytics.wildberries.ru
   - whiteline.mail.ru

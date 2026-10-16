@@ -3,10 +3,24 @@ payload:
   - +.1l-hit.mail.ru
   - +.1l-hit.vkplay.ru
   - +.24h.tv
+  - +.2gis.ae
+  - +.2gis.am
+  - +.2gis.az
+  - +.2gis.by
+  - +.2gis.com
+  - +.2gis.com.cy
+  - +.2gis.cz
+  - +.2gis.ge
+  - +.2gis.kg
+  - +.2gis.kz
+  - +.2gis.tech
+  - +.2gis.tj
+  - +.2gis.uz
   - +.3ebra.net
   - +.4epenaxa.com
   - +.5post.market
   - +.a.mts.ru
+  - +.accesspoint.uz
   - +.acmvid.com
   - +.activate.activation-v2.kaspersky.com
   - +.activation-v2.geo.kaspersky.com
@@ -164,6 +178,7 @@ payload:
   - +.clck.yango.com
   - +.click.rustore.ru
   - +.clickstream.sberbank.ru
+  - +.cloudru.cn
   - +.clstorage.net
   - +.cm.expert
   - +.code-class.ru
@@ -255,6 +270,7 @@ payload:
   - +.eadaily.info
   - +.eadaily.net
   - +.eadaily.org
+  - +.eaptechka.online
   - +.edadeal.ru
   - +.edge.geo.kaspersky.com
   - +.edu.tinkoff.ru
@@ -273,6 +289,7 @@ payload:
   - +.envycdp.com
   - +.envycrm.com
   - +.epicevents.gg
+  - +.error-tracking.megamarket.tech
   - +.es-rt.com
   - +.esforce.com
   - +.esforce.ru
@@ -317,6 +334,7 @@ payload:
   - +.genotek.eu
   - +.genotek.health
   - +.gerwin.io
+  - +.getsynapse.io
   - +.gib-global.com
   - +.gib.sg
   - +.gibdev.net
@@ -409,6 +427,18 @@ payload:
   - +.ixbt.site
   - +.ixbt.video
   - +.jinrieluosi.cn
+  - +.jivo.chat
+  - +.jivochat.co.in
+  - +.jivochat.co.za
+  - +.jivochat.com
+  - +.jivochat.com.br
+  - +.jivochat.com.co
+  - +.jivochat.com.pe
+  - +.jivochat.com.tr
+  - +.jivochat.de
+  - +.jivochat.es
+  - +.jivochat.ng
+  - +.jivosite.com
   - +.jump.taxi
   - +.justveryok.com
   - +.kaspersky-labs.com
@@ -511,11 +541,13 @@ payload:
   - +.medsi.com
   - +.medsi.pro
   - +.megafon.com
+  - +.megamarket.tech
   - +.mel.fm
   - +.memealerts.com
   - +.meteofor.com
   - +.meteofor.st
   - +.meteum.ai
+  - +.metrics.21-school.ru
   - +.metrics.viqeo.tv
   - +.metrika.kontur.ru
   - +.metrika.yandex.com
@@ -558,6 +590,7 @@ payload:
   - +.mytopf.com
   - +.mytrk.link
   - +.naydex.net
+  - +.neon.click
   - +.netcraze.club
   - +.netcraze.link
   - +.netcraze.pro
@@ -787,7 +820,13 @@ payload:
   - +.sage-observability.tech
   - +.sayeasy.eu
   - +.sber-bank.by
+  - +.sber.pro
+  - +.sberauto.com
+  - +.sberbank-tele.com
   - +.sberbank.com
+  - +.sbercloud.tech
+  - +.sbermarketing.ru
+  - +.sberpro.vedomosti.ru
   - +.seclab.lat
   - +.selcdn.net
   - +.selectel.academy
@@ -806,6 +845,7 @@ payload:
   - +.sentry.ozon.ru
   - +.sentry.popmechanic.ru
   - +.sentry.rustore.ru
+  - +.sentry.sberauto.com
   - +.sentry.viqeo.tv
   - +.sentry.wb.ru
   - +.sentry.x5.ru
@@ -906,6 +946,7 @@ payload:
   - +.top-fwz1.mail.ru
   - +.top-staging.mail.ru
   - +.trace-flow.ru
+  - +.tracing-http.megamarket.tech
   - +.tracker-api.my.com
   - +.tracker.my.com
   - +.transport.mos.ru
@@ -1176,3 +1217,5 @@ payload:
   - +.youla.io
   - +.youla.ru
   - +.yourgood.app
+  - +.zvuk-b2b.com
+  - +.zvuk.com
