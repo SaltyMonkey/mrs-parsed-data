@@ -28,7 +28,6 @@ payload:
   - +.39sounds.net
   - +.3dp.chat
   - +.3rdwall.net
-  - +.3zi.ru
   - +.41020.social
   - +.42.101010.cloud
   - +.433.world
@@ -129,7 +128,6 @@ payload:
   - +.ak.angelstrapped.com
   - +.ak.auriga.dev
   - +.ak.pandastr.eu
-  - +.ak.pastura.pw
   - +.akabeko.xsns.jp
   - +.akademienl.social
   - +.akamdon.com
@@ -155,7 +153,7 @@ payload:
   - +.algebra.chat
   - +.algufr.com
   - +.alico.nexus
-  - +.alien.insurrection.tech
+  - +.alicorn.space
   - +.alien.top
   - +.alive.bar
   - +.allav.me
@@ -187,7 +185,6 @@ payload:
   - +.anarchism.space
   - +.anarchist.nexus
   - +.anarchy.tube
-  - +.anarkey.xennippon.net
   - +.anarres.family
   - +.anarshy.social
   - +.and.farewell.my
@@ -260,6 +257,7 @@ payload:
   - +.askfacebook.net
   - +.askfacebook.org
   - +.asozialesnetzwerk.social
+  - +.asphodel.rip
   - +.asso.lgbt
   - +.assortedflotsam.com
   - +.asstodon.social
@@ -333,6 +331,7 @@ payload:
   - +.bahn.social
   - +.baikalsuki.fd-sns.com
   - +.bakedbean.xyz
+  - +.balkan.fedive.rs
   - +.ballhaus.community
   - +.baltic.social
   - +.banderkat.social
@@ -366,6 +365,7 @@ payload:
   - +.bbs.kawa-kun.com
   - +.bcom.moe
   - +.bdurl.com
+  - +.bdx.town
   - +.be-lieve.hostdon.ne.jp
   - +.beach.city
   - +.bear-den.org
@@ -449,12 +449,14 @@ payload:
   - +.blimps.xyz
   - +.bliry.fr
   - +.blob.cat
+  - +.blobfox.es
   - +.bloc.in4matics.cat
   - +.blockchained.world
   - +.blog.1296000.xyz
   - +.blog.adieuinternet.com
   - +.blog.adjoly.fr
   - +.blog.allpurposem.at
+  - +.blog.am-networks.fr
   - +.blog.anartist.org
   - +.blog.andreabont.it
   - +.blog.anghenfil.de
@@ -481,7 +483,6 @@ payload:
   - +.blog.foxylo.xyz
   - +.blog.future-machines.org
   - +.blog.fyrfli.social
-  - +.blog.gaza.onl
   - +.blog.gemnoc.ca
   - +.blog.heartade.dev
   - +.blog.hilltown.studio
@@ -607,6 +608,7 @@ payload:
   - +.brainport.social
   - +.brandenburg.social
   - +.brands.town
+  - +.breadandnet.social
   - +.breakfast.haus
   - +.breaking-lands.com
   - +.breakpoint.cafe
@@ -625,6 +627,7 @@ payload:
   - +.brontosin.space
   - +.brotkru.me
   - +.bskey.social
+  - +.bsky-relay.c.theo.io
   - +.bsky.app
   - +.bsky.social
   - +.buck.build
@@ -709,6 +712,7 @@ payload:
   - +.catharsis.cafe
   - +.catharsis.emancipe.org
   - +.cathode.church
+  - +.catsocial.fyi
   - +.catswords.social
   - +.catwithaclari.net
   - +.caw.corbode.com
@@ -771,7 +775,6 @@ payload:
   - +.circus.town
   - +.cirno9.mynetgear.com
   - +.citydweller.social
-  - +.civilloquy.com
   - +.clacks.link
   - +.clar.ke
   - +.claristdon.link
@@ -877,6 +880,7 @@ payload:
   - +.crafty.social
   - +.crank.recoil.org
   - +.crashloop.social
+  - +.crazylab.online
   - +.crazypeople.online
   - +.creative.ai
   - +.creators.social
@@ -919,6 +923,7 @@ payload:
   - +.cwb.social
   - +.cyberfurz.social
   - +.cyberplace.social
+  - +.cyberpunk.gay
   - +.cyberpunk.lol
   - +.cybersecurity.theater
   - +.cybervillains.com
@@ -937,7 +942,6 @@ payload:
   - +.daedal.io
   - +.daepi.so
   - +.dair-community.social
-  - +.dalek.zone
   - +.dangly.parts
   - +.dannythe.site
   - +.dansu.org
@@ -969,8 +973,6 @@ payload:
   - +.deacon.social
   - +.deadinsi.de
   - +.deadlymilehigh.club
-  - +.deaf.social
-  - +.dec.fix.wien
   - +.decco.net
   - +.decentralis.social
   - +.deds.social
@@ -1023,9 +1025,9 @@ payload:
   - +.dimebagofknowledge.org
   - +.dimension.host
   - +.dimspace.com
+  - +.dindon.one
   - +.dingdong.fishking.studio
   - +.dirt.social
-  - +.dis-le.de
   - +.dis.gd
   - +.dis.sociat.ing
   - +.disabled.social
@@ -1071,6 +1073,7 @@ payload:
   - +.divas.joburg
   - +.dizl.de
   - +.djs.social
+  - +.djtv.es
   - +.dju.social
   - +.dkm.cloud
   - +.dlfacebook.com
@@ -1144,10 +1147,12 @@ payload:
   - +.drobny.blog
   - +.drosophila.social
   - +.drupal.community
+  - +.ds9.lemmy.ml
   - +.dtf.ru
   - +.dtp-mstdn.jp
   - +.du.capricom.info
   - +.duck.haus
+  - +.dudelike.wtf
   - +.dudo.social
   - +.duebelwein.de
   - +.duisburg.social
@@ -1775,13 +1780,16 @@ payload:
   - +.file-explorers.club
   - +.fillskey.com
   - +.film.k-prod.fr
+  - +.film.node9.org
   - +.filmly.co.ua
   - +.findout.media
   - +.findumon.de
   - +.finndom.space
   - +.fire.asta.lgbt
+  - +.firehose3d.theo.io
   - +.firekitten.social
   - +.fireplace.cafe
+  - +.firesky.tv
   - +.firetribe.org
   - +.fischmarkt.social
   - +.fish.otagao.net
@@ -1801,7 +1809,6 @@ payload:
   - +.flokinet.social
   - +.flooftube.net
   - +.floofy.tech
-  - +.florp.social
   - +.floss.social
   - +.flow.dev
   - +.flow.org
@@ -1869,10 +1876,8 @@ payload:
   - +.fra.kt.al
   - +.fracebook.com
   - +.fractalego.social
-  - +.framapiaf.org
   - +.framatube.org
   - +.frameperfect.space
-  - +.francetube.infojournal.fr
   - +.franken.social
   - +.frankfurt.social
   - +.frawas.de
@@ -1924,11 +1929,11 @@ payload:
   - +.friendica.opensocial.space
   - +.friendica.philipp.info
   - +.friendica.rollenspiel.monster
+  - +.friendica.world
   - +.friends-g1.reins-no-misskey.com
   - +.friends.cafe
   - +.friends.librescrum.org
   - +.friends.m5rcel.work
-  - +.friends.polli.social
   - +.friends.ravergram.club
   - +.friendskey.pirated.zip
   - +.friendsofdesoto.social
@@ -2340,7 +2345,6 @@ payload:
   - +.ibbtown.com
   - +.ibbwstream.schule-bw.de
   - +.ibe.social
-  - +.ibenot.com
   - +.ibh.social
   - +.ibite.lol
   - +.icanteventoot.help
@@ -2363,6 +2367,7 @@ payload:
   - +.idukitchen.xsns.jp
   - +.idw-online.social
   - +.ieji.de
+  - +.ifrit.gaia.ff14-mstdn.xyz
   - +.ifwo.eu
   - +.ig.ferencak.net
   - +.ig.me
@@ -2490,7 +2495,6 @@ payload:
   - +.intelligentia.tv
   - +.interlace.space
   - +.interledger.social
-  - +.interlink.comptime.run
   - +.internet.org
   - +.intersex.social
   - +.interskri.be
@@ -2513,6 +2517,7 @@ payload:
   - +.is.horse
   - +.is.nota.live
   - +.is.this.photography
+  - +.isarosc.de
   - +.isawthat.fyi
   - +.ischool.social
   - +.iscute.moe
@@ -2707,7 +2712,6 @@ payload:
   - +.krefeld.life
   - +.krems.social
   - +.kristaps.lv
-  - +.ktnfm.com
   - +.kub-rus.ru
   - +.kudaizuna.top
   - +.kufeldt.net
@@ -2740,7 +2744,6 @@ payload:
   - +.l.roofo.cc
   - +.l.sw0.com
   - +.l.tta.wtf
-  - +.l.wyatt.world
   - +.l3ib.org
   - +.lab-01.arewesecureyet.org
   - +.lab.liteyuki.org
@@ -2782,6 +2785,7 @@ payload:
   - +.lectura.social
   - +.leds.social
   - +.lef.li
+  - +.left-bank.net
   - +.leftist.network
   - +.legal.social
   - +.legaltech.social
@@ -2816,6 +2820,7 @@ payload:
   - +.lemmy.ahall.se
   - +.lemmy.almostadatacenter.social
   - +.lemmy.amxl.com
+  - +.lemmy.ananace.dev
   - +.lemmy.anhanga.com.br
   - +.lemmy.ansico.dk
   - +.lemmy.asc6.org
@@ -2862,7 +2867,6 @@ payload:
   - +.lemmy.deadca.de
   - +.lemmy.decronym.xyz
   - +.lemmy.deedium.nl
-  - +.lemmy.devr.cc
   - +.lemmy.digitalcharon.in
   - +.lemmy.dorfrollenspiel.de
   - +.lemmy.dougiepeart.co.uk
@@ -2873,7 +2877,6 @@ payload:
   - +.lemmy.durstig.online
   - +.lemmy.eirides.net
   - +.lemmy.eknz.org
-  - +.lemmy.electricmonk.io
   - +.lemmy.encryptionin.space
   - +.lemmy.entroversal.com
   - +.lemmy.eus
@@ -2891,6 +2894,7 @@ payload:
   - +.lemmy.funami.tech
   - +.lemmy.glue.io
   - +.lemmy.grey.fail
+  - +.lemmy.grey.ooo
   - +.lemmy.grys.it
   - +.lemmy.halis.io
   - +.lemmy.halstead.host
@@ -2932,6 +2936,7 @@ payload:
   - +.lemmy.lundgrensjostrom.com
   - +.lemmy.lynas.ca
   - +.lemmy.mair.io
+  - +.lemmy.maquis196.io
   - +.lemmy.mariusdavid.fr
   - +.lemmy.masto.community
   - +.lemmy.mats.ooo
@@ -2957,7 +2962,6 @@ payload:
   - +.lemmy.net.au
   - +.lemmy.nexus
   - +.lemmy.nocturnal.garden
-  - +.lemmy.nope.ly
   - +.lemmy.norbipeti.eu
   - +.lemmy.nothavingthis.co.uk
   - +.lemmy.nrdblg.de
@@ -3012,7 +3016,6 @@ payload:
   - +.lemmy.tgxn.net
   - +.lemmy.theknopps.com
   - +.lemmy.thewooskeys.com
-  - +.lemmy.tobyvin.dev
   - +.lemmy.today
   - +.lemmy.transrights.fyi
   - +.lemmy.trippy.pizza
@@ -3053,8 +3056,9 @@ payload:
   - +.lesbian.school
   - +.leselog.de
   - +.lethallava.land
-  - +.letschatnow.me
   - +.level-up.zone
+  - +.lewacki.space
+  - +.lez.ovh
   - +.lgbt.earth
   - +.lgbtqia.space
   - +.libera.site
@@ -3189,17 +3193,16 @@ payload:
   - +.lotuseffect.social
   - +.lou.lt
   - +.loud.computer
-  - +.louiseweb.fr
   - +.loutre.info
   - +.loveinfocus.photos
   - +.lovelive-misskey.t1nyb0x.cloud
   - +.lowtech.li
   - +.lsbt.me
   - +.lsngl.us
-  - +.lt.harding.dev
   - +.lubbock.social
   - +.lucha.nyc
   - +.ludosphere.fr
+  - +.lulebay.com
   - +.lust4love.eu.org
   - +.lustigetiernamenbubble.de
   - +.lutaines.eu
@@ -3245,6 +3248,7 @@ payload:
   - +.m.lanciano.it
   - +.m.lonet.org
   - +.m.me
+  - +.m.moec.top
   - +.m.monika.im
   - +.m.n7m.xyz
   - +.m.nekohub.uk
@@ -3265,7 +3269,6 @@ payload:
   - +.m.stcat.com
   - +.m.sv209.com
   - +.m.t-8.me
-  - +.m.telecom.moe
   - +.m.tgl.eu
   - +.m.thibau.lt
   - +.m.toad.host
@@ -3380,12 +3383,10 @@ payload:
   - +.masto.bimbiribase.xyz
   - +.masto.binaryworks.ca
   - +.masto.canadiancivil.com
-  - +.masto.casually.cat
   - +.masto.cazzo.lol
   - +.masto.colonelkrud.com
   - +.masto.comversive.com
   - +.masto.craftcms.com
-  - +.masto.deluma.biz
   - +.masto.deoan.org
   - +.masto.destructatron.net
   - +.masto.donte.com.br
@@ -3518,6 +3519,7 @@ payload:
   - +.mastodon.cesko.digital
   - +.mastodon.chanchotec.com
   - +.mastodon.chaosfield.at
+  - +.mastodon.chasalin.nl
   - +.mastodon.chateaude.luxe
   - +.mastodon.chrisclark.net
   - +.mastodon.chrisduffley.com
@@ -3558,7 +3560,6 @@ payload:
   - +.mastodon.cyperpunk.de
   - +.mastodon.d14n.club
   - +.mastodon.dankim.com
-  - +.mastodon.datamancy.net
   - +.mastodon.davinkevin.fr
   - +.mastodon.de
   - +.mastodon.degroenecup.nl
@@ -3598,6 +3599,7 @@ payload:
   - +.mastodon.ellipsis.fi
   - +.mastodon.energy
   - +.mastodon.erasethis.net
+  - +.mastodon.eskimo.com
   - +.mastodon.esmevane.com
   - +.mastodon.eternalaugust.com
   - +.mastodon.ethibox.fr
@@ -3635,6 +3637,7 @@ payload:
   - +.mastodon.fsu-snuipp.fr
   - +.mastodon.ftp.rip
   - +.mastodon.furrycon.social
+  - +.mastodon.futaba.social
   - +.mastodon.futurelab.social
   - +.mastodon.gal
   - +.mastodon.galileivr.org
@@ -3810,6 +3813,7 @@ payload:
   - +.mastodon.nervesocket.com
   - +.mastodon.net0project.fi
   - +.mastodon.nether.net
+  - +.mastodon.newsmast.org
   - +.mastodon.nicochristmann.net
   - +.mastodon.niu.ne.jp
   - +.mastodon.nl
@@ -3920,8 +3924,8 @@ payload:
   - +.mastodon.stack.black
   - +.mastodon.starnet.cz
   - +.mastodon.staropa.net
+  - +.mastodon.stevex.online
   - +.mastodon.stickbear.me
-  - +.mastodon.studiocms.io
   - +.mastodon.stuttgart.international
   - +.mastodon.suderman.dev
   - +.mastodon.svc.iri-research.org
@@ -3964,6 +3968,7 @@ payload:
   - +.mastodon.unpluggedrva.com
   - +.mastodon.unsuspicious.website
   - +.mastodon.unwi.re
+  - +.mastodon.usal.es
   - +.mastodon.uy
   - +.mastodon.vaporghost.at
   - +.mastodon.varjonvalo.fi
@@ -4049,6 +4054,7 @@ payload:
   - +.mdn.hinaloe.net
   - +.mdx.ggtea.org
   - +.me.dm
+  - +.me.illis.ddns.net
   - +.me.memories.am
   - +.me.ns.ci
   - +.meadowlark.social
@@ -4112,7 +4118,6 @@ payload:
   - +.metapixl.com
   - +.metaskey.net
   - +.metasocial.com
-  - +.meteo.social
   - +.meto-niwa.xsns.jp
   - +.metreee.com
   - +.metroholografix.ca
@@ -4125,7 +4130,6 @@ payload:
   - +.mi-2503.0sakana.xyz
   - +.mi-k.cloud
   - +.mi.1588.red
-  - +.mi.7193.jp
   - +.mi.7mi.site
   - +.mi.amari-noa.com
   - +.mi.aono.space
@@ -4169,7 +4173,6 @@ payload:
   - +.mi.msjp.pro
   - +.mi.mtomo.uk
   - +.mi.mushus.net
-  - +.mi.nakkaa.net
   - +.mi.nanako-net.info
   - +.mi.neko3.dev
   - +.mi.nekonet.cyou
@@ -4201,9 +4204,11 @@ payload:
   - +.mi.tsukuba.dev
   - +.mi.ul0829.net
   - +.mi.upa4.com
+  - +.mi.usounds.work
   - +.mi.v-shirasu.com
   - +.mi.w477.dev
   - +.mi.wataboh.com
+  - +.mi.xiexianemoxix.com
   - +.mi.yukioke.com
   - +.mi.yumechi.jp
   - +.mi0.robotician.jp
@@ -4307,7 +4312,6 @@ payload:
   - +.misskey.chn.moe
   - +.misskey.claustra01.net
   - +.misskey.cloud
-  - +.misskey.codingneko.com
   - +.misskey.day
   - +.misskey.de
   - +.misskey.delmulin.com
@@ -4378,7 +4382,6 @@ payload:
   - +.misskey.mochi33.com
   - +.misskey.moe
   - +.misskey.moeskey.com
-  - +.misskey.mofumofu.me
   - +.misskey.momizi06.com
   - +.misskey.mugiko.moe
   - +.misskey.n1l.dev
@@ -4399,6 +4402,7 @@ payload:
   - +.misskey.ogamen.cc
   - +.misskey.ogamen.net
   - +.misskey.omhnc.net
+  - +.misskey.oshiire.cc
   - +.misskey.osyakasyama.me
   - +.misskey.otnc.dev
   - +.misskey.palmie.jp
@@ -4416,6 +4420,7 @@ payload:
   - +.misskey.sangeunahna.com
   - +.misskey.seitendan.com
   - +.misskey.semikoron.work
+  - +.misskey.sharkbot.xyz
   - +.misskey.shinamonlifelog.uk
   - +.misskey.shinanoji.xyz
   - +.misskey.shinanomai.xyz
@@ -4461,7 +4466,6 @@ payload:
   - +.misskey.wotsulabo.net
   - +.misskey.xeiu.top
   - +.misskey.xstal.net
-  - +.misskey.xuan25.com
   - +.misskey.y2e.org
   - +.misskey.yancya.club
   - +.misskey.yeonji.net
@@ -4483,9 +4487,9 @@ payload:
   - +.mk-cyberspace.xsns.jp
   - +.mk-juice.dev
   - +.mk.absturztau.be
+  - +.mk.agmz.net
   - +.mk.c30.life
   - +.mk.catgirlsfor.science
-  - +.mk.codingneko.com
   - +.mk.commojun.com
   - +.mk.cpluspatch.com
   - +.mk.donotclickthis.link
@@ -4521,6 +4525,7 @@ payload:
   - +.mk.takejohn.jp
   - +.mk.tebukuro.xyz
   - +.mk.tenpest-moon.uk
+  - +.mk.therwi.net
   - +.mk.yopo.work
   - +.mk.yurax2.dev
   - +.mk.zvz.be
@@ -4578,7 +4583,6 @@ payload:
   - +.mountaintown.video
   - +.mouse.chitanda.moe
   - +.mouth.semperpax.com
-  - +.movimientos.social
   - +.moyu.social
   - +.mrsjumbo.ucc.asn.au
   - +.ms.maritime.social
@@ -4602,8 +4606,6 @@ payload:
   - +.msky.halfdos.net
   - +.msky.haruyjsn.net
   - +.msky.misononoa.cc
-  - +.msky.ospn.jp
-  - +.msky.toma09to.com
   - +.msky.work
   - +.mslink.com
   - +.mst-staging.collocall.de
@@ -4684,7 +4686,6 @@ payload:
   - +.mstdn.otyakai.xyz
   - +.mstdn.owu.one
   - +.mstdn.party
-  - +.mstdn.pepepper.net
   - +.mstdn.plus
   - +.mstdn.res.ac
   - +.mstdn.rinsuki.net
@@ -4707,6 +4708,7 @@ payload:
   - +.mstdn.twst.me
   - +.mstdn.uec.tokyo
   - +.mstdn.vodka
+  - +.mstdn.wildtree.jp
   - +.mstdn.wopr.systems
   - +.mstdn.world
   - +.mstdn.xicon.eu
@@ -4878,6 +4880,10 @@ payload:
   - +.ningen.ahoaho.jp
   - +.nithecs.africa
   - +.nitiasa.com
+  - +.nitter.kareem.one
+  - +.nitter.meowing.monster
+  - +.nitter.pp.ua
+  - +.nitter.tiekoetter.com
   - +.nixie.name
   - +.nixnet.social
   - +.nixos.paris
@@ -4893,7 +4899,6 @@ payload:
   - +.noc.social
   - +.nochudsnomasters.com
   - +.nocterne.xsns.jp
-  - +.node9.org
   - +.nodespace.social
   - +.nodesphere.site
   - +.nodo.alterum.info
@@ -4941,6 +4946,7 @@ payload:
   - +.nukers-misskey.hpc-densi.f5.si
   - +.nuklear.family
   - +.nunosaki.net
+  - +.nusara.org
   - +.nutmeg.social
   - +.nuxy.social
   - +.nw.hnpse.com
@@ -5085,9 +5091,9 @@ payload:
   - +.otomad.site
   - +.otome.xyz
   - +.otoya.space
+  - +.ottawa.place
   - +.otter.garden
   - +.ouin.land
-  - +.oulipo.social
   - +.our.devchatter.com
   - +.oursky.social
   - +.oursocial.club
@@ -5096,6 +5102,7 @@ payload:
   - +.outdoorenthusiasts.space
   - +.outergod.art
   - +.outlande.rs
+  - +.outmo.de
   - +.outre.social
   - +.outside.ofa.dog
   - +.ovaltube.codinglab.ch
@@ -5196,8 +5203,10 @@ payload:
   - +.peertube.boc47.org
   - +.peertube.boger.dev
   - +.peertube.casually.cat
+  - +.peertube.ch
   - +.peertube.cif.su
   - +.peertube.cirkau.art
+  - +.peertube.cocamserverguild.com
   - +.peertube.cpy.re
   - +.peertube.dair-institute.org
   - +.peertube.deadpilots.net
@@ -5218,11 +5227,9 @@ payload:
   - +.peertube.gaialabs.ch
   - +.peertube.gegeweb.eu
   - +.peertube.get-racing.de
-  - +.peertube.gravitywell.xyz
   - +.peertube.heise.de
   - +.peertube.helvetet.eu
   - +.peertube.hlpnet.dk
-  - +.peertube.in.ua
   - +.peertube.interhop.org
   - +.peertube.intrapology.com
   - +.peertube.iridescent.nz
@@ -5268,7 +5275,6 @@ payload:
   - +.peertube.qtg.fr
   - +.peertube.r2.enst.fr
   - +.peertube.ra.no
-  - +.peertube.radres.xyz
   - +.peertube.redgate.tv
   - +.peertube.researchinstitute.at
   - +.peertube.rezel.net
@@ -5279,14 +5285,11 @@ payload:
   - +.peertube.securelab.eu
   - +.peertube.semweb.pro
   - +.peertube.sensin.eu
-  - +.peertube.serveur.slv-valbonne.fr
   - +.peertube.sinistraverso.org
   - +.peertube.sjml.de
-  - +.peertube.slat.org
   - +.peertube.snarkytechlab.com
   - +.peertube.solidev.net
   - +.peertube.staudt.bayern
-  - +.peertube.stream
   - +.peertube.tata.casa
   - +.peertube.tech
   - +.peertube.tiennot.net
@@ -5369,7 +5372,6 @@ payload:
   - +.pics.regenpfeifer.net
   - +.pics.safegrow.eu
   - +.picto.anartist.org
-  - +.pie.dasneuland.de
   - +.pie.gravitywell.xyz
   - +.piefed.ca
   - +.piefed.diffrint.org
@@ -5494,7 +5496,6 @@ payload:
   - +.pixelfed.brainstormes.org
   - +.pixelfed.ca
   - +.pixelfed.cafe
-  - +.pixelfed.cats-home.net
   - +.pixelfed.ch
   - +.pixelfed.cl
   - +.pixelfed.clymer.net
@@ -5508,9 +5509,9 @@ payload:
   - +.pixelfed.debian.social
   - +.pixelfed.dev.br
   - +.pixelfed.dk
+  - +.pixelfed.dypres.eu
   - +.pixelfed.es
   - +.pixelfed.eskimo.com
-  - +.pixelfed.eu
   - +.pixelfed.eus
   - +.pixelfed.familiar.media
   - +.pixelfed.familie-berner.de
@@ -5536,7 +5537,6 @@ payload:
   - +.pixelfed.lovetux.net
   - +.pixelfed.lt
   - +.pixelfed.mayer.rocks
-  - +.pixelfed.mixeme.ru
   - +.pixelfed.moe
   - +.pixelfed.mrak.at
   - +.pixelfed.mrpetovan.com
@@ -5571,12 +5571,14 @@ payload:
   - +.pixelfed.vpx.moe
   - +.pixelfed.waima.nu
   - +.pixelfed.whiled.net
+  - +.pixelfed.wivodaim.ch
   - +.pixelfed.wizrey.com
   - +.pixelfed.wmcan.net
   - +.pixelfedsweden.se
   - +.pixelfedup.social
   - +.pixelfeed.chaos-gp.social
   - +.pixelfur.maw.best
+  - +.pixelfyn.social
   - +.pixelig.social
   - +.pixelis.luisa.is
   - +.pixelix.social
@@ -5611,6 +5613,7 @@ payload:
   - +.play.dotlan.net
   - +.play.foromedios.com
   - +.play.mittdata.se
+  - +.player.ojamajo.moe
   - +.please-dominate.me
   - +.pleroma.catgirls.asia
   - +.pleroma.comix.gr
@@ -5681,7 +5684,6 @@ payload:
   - +.portal.digilab.nfa.cz
   - +.portside.social
   - +.posskey.com
-  - +.possum.city
   - +.post.naskya.net
   - +.post.sup39.dev
   - +.post.syobon.net
@@ -5858,7 +5860,6 @@ payload:
   - +.rear.train.cab
   - +.reax.work
   - +.rebel-lion.uk
-  - +.rebel.ar
   - +.rebelbase.site
   - +.recht.social
   - +.reclaim.rocks
@@ -6033,6 +6034,7 @@ payload:
   - +.schach.social
   - +.schaumburg.social
   - +.schleicher.social
+  - +.schmaker.eu
   - +.schnauzer.social
   - +.schnee.fd-sns.com
   - +.schoolahead.social
@@ -6047,6 +6049,7 @@ payload:
   - +.scientificnetwork.de
   - +.scientists.today
   - +.scipost.social
+  - +.scoutodon.blog
   - +.scr-ty.xsns.jp
   - +.scream.today
   - +.screaming.com
@@ -6061,7 +6064,7 @@ payload:
   - +.sdasocial.org
   - +.sdf.land
   - +.seacow.social
-  - +.seal.garden
+  - +.seafoam.space
   - +.seaofog.com
   - +.seattle.pink
   - +.sechtor.social
@@ -6114,7 +6117,6 @@ payload:
   - +.sharkey.hopium.club
   - +.sharkey.peaceful.social
   - +.sharkey.ranranhome.info
-  - +.sharkey.skydevs.me
   - +.sharkey.slugcat.systems
   - +.sharkey.sopelj.ca
   - +.sharkey.stikyt.com
@@ -6131,6 +6133,7 @@ payload:
   - +.shitpost.cloud
   - +.shitpost.trade
   - +.shitposter.world
+  - +.shitter.thepixora.com
   - +.shizuku.hawawa.io
   - +.shkey.cakestwix.com
   - +.shmg.online
@@ -6138,9 +6141,9 @@ payload:
   - +.shogi.pkkis.com
   - +.shopfacebook.com
   - +.shork.nerdmusic.net
+  - +.shork.social
   - +.shouldagoneoffroad.com
   - +.shout.3xd.eu
-  - +.shpposter.club
   - +.shredderfood.com
   - +.shredderfood.net
   - +.shrike.club
@@ -6192,7 +6195,6 @@ payload:
   - +.skvip.lol
   - +.sky-wave.fedicity.net
   - +.sky.drago.moe
-  - +.skyhaven.social
   - +.slangenettet.pyjam.as
   - +.slashine.onl
   - +.slayers.online
@@ -6257,14 +6259,12 @@ payload:
   - +.soc.bosio.info
   - +.soc.bosionet.it
   - +.soc.citizen4.eu
-  - +.soc.eli173.com
   - +.soc.jra.sh
   - +.soc.kvet.ch
   - +.soc.mldkyt.com
   - +.soc.runx.zip
   - +.soc.saiyajin.space
   - +.soc.schuerz.at
-  - +.soc.spla.cat
   - +.soc.webair.xyz
   - +.soc.zom.bi
   - +.soccer.forum
@@ -6289,12 +6289,12 @@ payload:
   - +.social.afront.org
   - +.social.ahlroos.me
   - +.social.akk.moe
+  - +.social.alteria.xyz
   - +.social.amateurwire.org
   - +.social.amichan.de
   - +.social.amsterdam.nl
   - +.social.anaproy.nl
   - +.social.anartist.org
-  - +.social.ancow.name
   - +.social.anjara.eu
   - +.social.annacon.be
   - +.social.anoxinon.de
@@ -6375,6 +6375,7 @@ payload:
   - +.social.computerfox.xyz
   - +.social.computertruhe.de
   - +.social.consoledated.com
+  - +.social.controlnet.space
   - +.social.coolmathgames.tech
   - +.social.coop
   - +.social.cotto.dev
@@ -6388,14 +6389,13 @@ payload:
   - +.social.cute.engineering
   - +.social.cwts.nl
   - +.social.cyber-pi.org
+  - +.social.cybre.town
   - +.social.dairydemon.net
   - +.social.dalostdog.com
   - +.social.darc.de
   - +.social.data.coop
   - +.social.datarek.nl
   - +.social.datasolace.com
-  - +.social.dcomms.colnodo.apc.org
-  - +.social.dednet.co
   - +.social.del-c.net
   - +.social.delightfulapps.co
   - +.social.deltayeet.net
@@ -6431,6 +6431,7 @@ payload:
   - +.social.ei8fdb.org
   - +.social.eike.in
   - +.social.elbespace.de
+  - +.social.electrafish.tech
   - +.social.emikzam.fr
   - +.social.energieincomune.com
   - +.social.epfl.ch
@@ -6456,6 +6457,7 @@ payload:
   - +.social.ffmuc.net
   - +.social.finkhaeuser.de
   - +.social.firehawk-systems.com
+  - +.social.firestrike.de
   - +.social.fischbyte.de
   - +.social.flipboard.com
   - +.social.flipdot.org
@@ -6483,7 +6485,6 @@ payload:
   - +.social.gamefan.net
   - +.social.gamepowerx.com
   - +.social.gamingecke.space
-  - +.social.garudalinux.org
   - +.social.gerotintin.com
   - +.social.ggbox.fr
   - +.social.gitea.io
@@ -6608,7 +6609,6 @@ payload:
   - +.social.mindplex.ai
   - +.social.mjohnson.tech
   - +.social.mkg20001.io
-  - +.social.mobile-adenum.fr
   - +.social.mochi.academy
   - +.social.moment.at
   - +.social.mootech.eu
@@ -6622,6 +6622,7 @@ payload:
   - +.social.naguski.pl
   - +.social.nah.re
   - +.social.narsol.org
+  - +.social.nashchat.org
   - +.social.naun.stream
   - +.social.ndlug.org
   - +.social.ndn.digital
@@ -6678,7 +6679,6 @@ payload:
   - +.social.perspective-daily.de
   - +.social.phantanews.de
   - +.social.phoenixradio1208.com
-  - +.social.pincade.com.au
   - +.social.pixelqueer.it
   - +.social.platformcoop.de
   - +.social.pmj.rocks
@@ -6716,6 +6716,7 @@ payload:
   - +.social.ridetrans.it
   - +.social.rights.ninja
   - +.social.riversouldiers.dk
+  - +.social.riverwood.town
   - +.social.rivne.dcomm.net.ua
   - +.social.rjp.is
   - +.social.rkowl.com
@@ -6747,6 +6748,7 @@ payload:
   - +.social.sitedethib.com
   - +.social.skewed.de
   - +.social.skyshaper.org
+  - +.social.slat.org
   - +.social.smekal.at
   - +.social.snamellit.com
   - +.social.sndevs.com
@@ -6806,7 +6808,6 @@ payload:
   - +.social.tsueri.cloud
   - +.social.tulsa.ok.us
   - +.social.tupo.space
-  - +.social.tvculturaviva.org.br
   - +.social.typica.us
   - +.social.ucc.au
   - +.social.ugoday.co
@@ -6827,7 +6828,6 @@ payload:
   - +.social.vdna.be
   - +.social.vgiamp.moe
   - +.social.viss.us
-  - +.social.vissfamily.com
   - +.social.vivaldi.net
   - +.social.vixenlabs.info
   - +.social.vlhl.dev
@@ -6861,6 +6861,7 @@ payload:
   - +.social.zell-mbc.com
   - +.social.zendit.digital
   - +.social.zentonic.org
+  - +.social.zeroplex.tw
   - +.social.zkd.id
   - +.social.zlendy.com
   - +.social.zocradio.info
@@ -6873,6 +6874,7 @@ payload:
   - +.sociall.se
   - +.sociallydental.org
   - +.socialnet.turnsys.com
+  - +.socialnetworks.rodeo
   - +.socialontario.ca
   - +.society.oftrolls.com
   - +.socorro.social
@@ -6880,6 +6882,7 @@ payload:
   - +.softglow.blue
   - +.softnoise.space
   - +.softwaremill.social
+  - +.solarcene.community
   - +.solarpunk.moe
   - +.solarsystem.social
   - +.solarsystem.video
@@ -6911,7 +6914,6 @@ payload:
   - +.soundhunte.rs
   - +.soykaf.org
   - +.soziale.cloud
-  - +.sp.kub2091.ru
   - +.space.lilygl.net
   - +.space.starnest.app
   - +.spacerslike.us
@@ -7146,6 +7148,7 @@ payload:
   - +.teqpot.info
   - +.teramr.jp
   - +.terapeldigitaal.nl
+  - +.terere.social
   - +.terra.incognita.net
   - +.terragraph.com
   - +.terreta.org
@@ -7166,6 +7169,7 @@ payload:
   - +.the-box.work
   - +.the.goofs.space
   - +.the.kenphused.cafe
+  - +.the.voiceover.bar
   - +.the.webm.ink
   - +.the.zymocosm.com
   - +.the9thcircle.club
@@ -7220,6 +7224,7 @@ payload:
   - +.tibus.social
   - +.tickler.cc
   - +.ticos.social
+  - +.tiddyhonkers.com
   - +.tiflo.social
   - +.tiggi.es
   - +.tiksi.net
@@ -7348,7 +7353,6 @@ payload:
   - +.toot.works
   - +.tootbot.org
   - +.tooter.sftn.eu
-  - +.tooter.social
   - +.tooting.ch
   - +.tootr.co
   - +.toots.ch
@@ -7411,7 +7415,6 @@ payload:
   - +.truthandfreedom.social
   - +.truthsocial.co.in
   - +.truthsocial.com
-  - +.trystero.social
   - +.tschopp.net
   - +.tsukihi.me
   - +.tt.vvxq.ca
@@ -7474,8 +7477,8 @@ payload:
   - +.tube.grap.coop
   - +.tube.grin.hu
   - +.tube.helpsolve.org
+  - +.tube.hoga.fr
   - +.tube.inlinestyle.it
-  - +.tube.interhacker.space
   - +.tube.interior.edu.uy
   - +.tube.jeena.net
   - +.tube.kansanvalta.org
@@ -7496,9 +7499,9 @@ payload:
   - +.tube.nogafa.org
   - +.tube.numerique.gouv.fr
   - +.tube.ofloo.io
-  - +.tube.oisux.org
   - +.tube.opentech-auc.org
   - +.tube.org.il
+  - +.tube.p2p.legal
   - +.tube.penzberg.me
   - +.tube.picasoft.net
   - +.tube.portes-imaginaire.org
@@ -7508,6 +7511,7 @@ payload:
   - +.tube.rdan.net
   - +.tube.rebellion.global
   - +.tube.reseau-canope.fr
+  - +.tube.reszka.org
   - +.tube.rhythms-of-resistance.org
   - +.tube.rsi.cnr.it
   - +.tube.safegrow.eu
@@ -7545,6 +7549,7 @@ payload:
   - +.tuit.fr
   - +.tuiter.rocks
   - +.tukika.com
+  - +.tum.social
   - +.tumblr.com
   - +.turath.tn
   - +.turbotime.turboteam.xyz
@@ -7571,6 +7576,7 @@ payload:
   - +.tv.terrapreta.org.br
   - +.tv.undersco.re
   - +.tv.ursal.nl
+  - +.tvculturaviva.org.br
   - +.tvitero.com
   - +.tvn7flix.fr
   - +.tvwatch.party
@@ -7618,7 +7624,6 @@ payload:
   - +.tyrol.social
   - +.u-stella.net
   - +.u2.social
-  - +.u2be.ovh
   - +.u3a.social
   - +.ublog.kimapr.net
   - +.ublog.tech
@@ -7675,6 +7680,7 @@ payload:
   - +.urbanmind.net
   - +.uri.life
   - +.urnoet.xsns.jp
+  - +.ursal.zone
   - +.urusai.social
   - +.userapi.com
   - +.usr.cloud
@@ -7683,6 +7689,7 @@ payload:
   - +.utopia.pm
   - +.utsukta.org
   - +.uttaeruyo.com
+  - +.utveckla.re
   - +.uwu.social
   - +.uwyn.net
   - +.v.basspistol.org
@@ -7696,14 +7703,12 @@ payload:
   - +.vandrare.page
   - +.vapers.jp
   - +.varese.social
-  - +.vargar.org
   - +.varis.tv
   - +.varishangout.net
   - +.vault76.pikaser.net
   - +.vedimak.ru
   - +.vee.seedy.cc
   - +.veedeo.org
-  - +.veenus.art
   - +.veganism.social
   - +.vellap.social
   - +.venner.network
@@ -7729,9 +7734,11 @@ payload:
   - +.vid.samtripoli.com
   - +.vid.ttwsyfree.org
   - +.video.383.su
+  - +.video.abraum.de
   - +.video.ados.accoord.fr
   - +.video.adullact.org
   - +.video.anartist.org
+  - +.video.antopie.org
   - +.video.arghacademy.org
   - +.video.asonix.dog
   - +.video.audiovisuel-participatif.org
@@ -7741,7 +7748,6 @@ payload:
   - +.video.canadiancivil.com
   - +.video.cartoon-aa.xyz
   - +.video.cat-jump.xyz
-  - +.video.cats-home.net
   - +.video.chasmcity.net
   - +.video.chbmeyer.de
   - +.video.cnnumerique.fr
@@ -7765,19 +7771,17 @@ payload:
   - +.video.folkdata.se
   - +.video.fosshq.org
   - +.video.fuss.bz.it
-  - +.video.ggalenko.ru
+  - +.video.genky.duckdns.org
   - +.video.greenmycity.eu
   - +.video.gresille.org
   - +.video.hacklab.fi
   - +.video.hardlimit.com
   - +.video.hikamers.net
   - +.video.hoou.de
-  - +.video.ibiala.ch
   - +.video.igem.org
   - +.video.imtexed.fr
   - +.video.infiniteloop.tv
   - +.video.infinito.nexus
-  - +.video.infojournal.fr
   - +.video.ipng.ch
   - +.video.k2pk.com
   - +.video.kinkyboyspodcast.com
@@ -7793,7 +7797,6 @@ payload:
   - +.video.marcorennmaus.de
   - +.video.medienzentrum-harburg.de
   - +.video.megaphone.news
-  - +.video.mobile-adenum.fr
   - +.video.mttv.it
   - +.video.mundodesconocido.com
   - +.video.mxsrv.de
@@ -7837,7 +7840,6 @@ payload:
   - +.video.tsundere.love
   - +.video.violoncello.ch
   - +.video.wakkeren.nl
-  - +.video.windfluechter.org
   - +.video2.jigmedatse.com
   - +.videohaven.com
   - +.videos-libr.es
@@ -7933,6 +7935,7 @@ payload:
   - +.vnecke.social
   - +.vocalodon.net
   - +.vocalounge.cafe
+  - +.vods.juni.tube
   - +.vods.moonbunny.cafe
   - +.void.lgbt
   - +.voidposter.club
@@ -7993,7 +7996,6 @@ payload:
   - +.welt.all.de
   - +.wendland.elbe.social
   - +.were.party
-  - +.were.social
   - +.weremember.social
   - +.weserbergland.social
   - +.westen.social
@@ -8137,6 +8139,7 @@ payload:
   - +.xantronix.social
   - +.xarxa.cloud
   - +.xcloud.zone
+  - +.xcopy.uk
   - +.xelebre.com
   - +.xemele.social
   - +.xeno.chat
@@ -8147,10 +8150,8 @@ payload:
   - +.xissmie.xfolio.jp
   - +.xn--69a.xn--99axc.xn--y9a3aq
   - +.xn--69aa8bzb.xn--y9a3aq
-  - +.xn--80aaid7au.su
   - +.xn--baw-joa.social
   - +.xn--ior.tw
-  - +.xn--j5r817a.com
   - +.xn--les-pluchures-de-claude-ecc.bernigaud.eu
   - +.xn--pnibles-bya.xn--transposes-i7a.eu
   - +.xn--ratatskr-r4a.de
@@ -8193,7 +8194,6 @@ payload:
   - +.your-face.social
   - +.youth.social
   - +.ysd3chi.xsns.jp
-  - +.yt.orokoro.ru
   - +.yuitobe.wikiwiki.li
   - +.yukari.cafe
   - +.yumema.link
