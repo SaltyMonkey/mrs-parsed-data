@@ -136,7 +136,14 @@ payload:
   - +.baranky.com
   - +.bargipsy.com
   - +.beeline.tv
+  - +.beget.app
+  - +.beget.cloud
   - +.beget.com
+  - +.beget.de
+  - +.beget.hosting
+  - +.beget.pro
+  - +.beget.tech
+  - +.begetcdn.cloud
   - +.beginners-adv.ozon.ru
   - +.berizaryad.ru
   - +.beru.ru
@@ -877,6 +884,7 @@ payload:
   - +.spasibo.digital
   - +.spasibo.market
   - +.sportmail.ru
+  - +.sprut.io
   - +.sputnikglobe.com
   - +.sputnikimages.com
   - +.sputnikmediabank.com
@@ -935,6 +943,8 @@ payload:
   - +.tildacdn.net
   - +.timeweb.cloud
   - +.timeweb.com
+  - +.timeweb.tech
+  - +.timewebcloud.kz
   - +.tinkoff-group.com
   - +.tinkoff.ai
   - +.tinkoffmobile.com
