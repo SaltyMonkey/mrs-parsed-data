@@ -376,6 +376,7 @@ payload:
   - +.crl.microsoft.com
   - +.crowdstrike.com
   - +.croxyproxy.com
+  - +.crucial.com
   - +.crunchbase.com
   - +.crunchyroll.com
   - +.csskor.ill.in.ua
@@ -1316,6 +1317,7 @@ payload:
   - +.phishtank.com
   - +.phncdn.com
   - +.phncdn.com.sds.rncdn7.com
+  - +.picks.my
   - +.picovr.com
   - +.picoxr.com
   - +.pikpok.com
