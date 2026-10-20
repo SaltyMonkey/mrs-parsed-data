@@ -81,6 +81,7 @@ payload:
   - +.alt-ad.mail.ru
   - +.alt-r.my.com
   - +.amc.yandex.ru
+  - +.amt-insurance.com
   - +.an.mail.ru
   - +.an.yandex.ru
   - +.analytics-adv.ozon.ru
@@ -149,6 +150,13 @@ payload:
   - +.beru.ru
   - +.best2pay.net
   - +.bilet.nspk.ru
+  - +.bitrix.info
+  - +.bitrix24.com
+  - +.bitrix24.net
+  - +.bitrix24.tech
+  - +.bitrix24public.com
+  - +.bitrixphone.com
+  - +.bitrixsoft.com
   - +.bizmrg.com
   - +.bk.ru
   - +.bk6bba-resources.com
@@ -174,6 +182,7 @@ payload:
   - +.cdnmail.ru
   - +.cdnvideohub.com
   - +.cert-gib.com
+  - +.chat2desk.com
   - +.chipcore.com
   - +.chizhik.club
   - +.cian.site
@@ -446,6 +455,7 @@ payload:
   - +.jivochat.es
   - +.jivochat.ng
   - +.jivosite.com
+  - +.joyreactor.cc
   - +.jump.taxi
   - +.justveryok.com
   - +.kaspersky-labs.com
@@ -495,6 +505,8 @@ payload:
   - +.kontur.host
   - +.koronapay.com
   - +.koshelek.app
+  - +.kp-config-smart-tv.akamaized.net
+  - +.kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
   - +.ksn-cinfo-geo.kaspersky-labs.com
   - +.ksn-cinfo.geoksn.kaspersky.com
   - +.ksn-crypto-info-geo.kaspersky-labs.com
@@ -519,10 +531,12 @@ payload:
   - +.ksn-url.geoksn.kaspersky.com
   - +.ksn-verdict-geo.kaspersky-labs.com
   - +.ksn-verdict.geoksn.kaspersky.com
+  - +.ktalk.host
   - +.ktech.team
   - +.lenta.com
   - +.lenta.tech
   - +.lerna.ru
+  - +.lexgarant.com
   - +.list.ru
   - +.log.dzen.ru
   - +.log.strm.yandex.ru
@@ -688,6 +702,7 @@ payload:
   - +.polza.ai
   - +.popmechanic.io
   - +.poudobnee.com
+  - +.pravmir.com
   - +.premier.one
   - +.premiumlive.site
   - +.priovtb.com
@@ -720,9 +735,11 @@ payload:
   - +.reg.com
   - +.reklama.mail.ru
   - +.relap.mail.ru
+  - +.renins.com
   - +.report.ap.yandex-net.ru
   - +.reso-med.com
   - +.restream-media.net
+  - +.robohall.tech
   - +.robotext.io
   - +.rocketozon.by
   - +.roistat.com
