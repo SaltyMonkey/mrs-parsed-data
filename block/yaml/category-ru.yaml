@@ -128,7 +128,9 @@ payload:
   - +.attachmy.com
   - +.autoru.me
   - +.aviasales.com
+  - +.avito.com
   - +.avito.st
+  - +.avito.tech
   - +.avs.io
   - +.b2.mail.ru
   - +.baltnews.com
@@ -380,6 +382,7 @@ payload:
   - +.gw2ru.com
   - +.haicomdc.com
   - +.hayya.ae
+  - +.hellodoc.app
   - +.hh.by
   - +.hh.kz
   - +.home.bank
@@ -559,6 +562,7 @@ payload:
   - +.mcs.st
   - +.mdr.ksn.kaspersky-labs.com
   - +.mediumquality.ru
+  - +.medrocket.me
   - +.medsi.com
   - +.medsi.pro
   - +.megafon.com
@@ -951,6 +955,8 @@ payload:
   - +.tehnodom.com
   - +.telega.info
   - +.telega.me
+  - +.terratraf.com
+  - +.terratraf.io
   - +.tetrika-school.ru
   - +.thequestion.ru
   - +.tilda.cc
