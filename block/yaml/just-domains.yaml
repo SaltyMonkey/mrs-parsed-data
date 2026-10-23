@@ -48,6 +48,7 @@ payload:
   - +.aftermarket.zf.com
   - +.aftonbladet.se
   - +.agents.media
+  - +.agentskills.io
   - +.ahcdn.com
   - +.ahrefs.com
   - +.ai-chat.bsg.brave.com
@@ -358,6 +359,7 @@ payload:
   - +.connect.ubisoft.com
   - +.console.groq.com
   - +.contabo.com
+  - +.context7.com
   - +.conversations.im
   - +.coolstuffgames.com
   - +.coomer.st
@@ -965,6 +967,7 @@ payload:
   - +.libgen.li
   - +.library.io
   - +.licdn.com
+  - +.lichtbild.com
   - +.lidarr.audio
   - +.lifehacker.com
   - +.liga.net
@@ -1205,6 +1208,7 @@ payload:
   - +.notion.new
   - +.notion.site
   - +.notion.so
+  - +.nousresearch.com
   - +.novaline.fm
   - +.novaya.no
   - +.novayagazeta.eu

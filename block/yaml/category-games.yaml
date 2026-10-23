@@ -198,6 +198,7 @@ payload:
   - +.gaijin.net
   - +.gaijinent.com
   - +.game-repack.site
+  - +.gamebanana.com
   - +.gamepass.com
   - +.gamesfirsthelsinki.com
   - +.gamesplanet.com
@@ -487,6 +488,7 @@ payload:
   - +.quiltmc.org
   - +.quixel.com
   - +.quixel.se
+  - +.r2modman.com
   - +.radgametools.com
   - +.ravensoftware.com
   - +.rayark.download
@@ -620,6 +622,7 @@ payload:
   - +.steamdeck.com
   - +.steamgames.com
   - +.steaminventoryhelper.com
+  - +.steamos.cloud
   - +.steampowered.com
   - +.steampowered.com.8686c.com
   - +.steamserver.net
@@ -661,6 +664,8 @@ payload:
   - +.thesims4.com
   - +.thesimssocial.com
   - +.thewonderful101.com
+  - +.thunderstore.io
+  - +.thunderstore.org
   - +.tiberiumalliances.com
   - +.tiburon.com
   - +.titanfall.com
@@ -717,10 +722,12 @@ payload:
   - +.worldoftanks.eu
   - +.worldofwarcraft.com
   - +.worldofwarplanes.com
+  - +.worldofwarships.asia
   - +.worldofwarships.com
   - +.worldseriesofwarzone.com
   - +.wotblitz.com
   - +.wowsblitz.com
+  - +.wplace.live
   - +.wtmobile.com
   - +.xbox
   - +.xbox.co
