@@ -373,6 +373,7 @@ payload:
   - +.dimsolo.com
   - +.diowebhost.com
   - +.domain.lc
+  - +.domain.name
   - +.dot.tk
   - +.dothome.co.kr
   - +.douploads.net
@@ -671,7 +672,6 @@ payload:
   - +.lu.kg
   - +.luzzati.com
   - +.lyli.fi
-  - +.m-pages.com
   - +.m.vu
   - +.ma.gp
   - +.macao.net
@@ -988,7 +988,6 @@ payload:
   - +.usafreespace.com
   - +.usclargo.com
   - +.user.lc
-  - +.usrfiles.com
   - +.uz.gp
   - +.v.gp
   - +.v0r.org

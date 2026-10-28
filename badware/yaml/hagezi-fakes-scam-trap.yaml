@@ -3,7 +3,6 @@ payload:
   - +.0dgwn.bemobtrcks.com
   - +.0el-preiswert-kaufen.de
   - +.0hyzxx-rc.myshopify.com
-  - +.1-rx-shop.com
   - +.101vectorcenter.sbs
   - +.10xdealership.com
   - +.11trikots.com
@@ -715,6 +714,7 @@ payload:
   - +.ankerkrautde.shop
   - +.ankotec.de
   - +.anlage-kauf.de
+  - +.anlagenmontage-knubbe.com
   - +.anlassgeschenke.com
   - +.anna-atelier.com
   - +.anna-oslo.com
@@ -1484,6 +1484,7 @@ payload:
   - +.beaccustomed.com
   - +.beachitem.com
   - +.beachsissi.com
+  - +.beachwalkbali.com
   - +.beambead.com
   - +.beaniieathub.shop
   - +.beatricesavoy.de
@@ -1636,6 +1637,7 @@ payload:
   - +.berklan.myshopify.com
   - +.berkler-maschinen.de
   - +.berkshirede.myshopify.com
+  - +.berlin-brennstoffe.de
   - +.berlin-moda.de
   - +.berlinbeardeal.de
   - +.berlincrown.com
@@ -2025,6 +2027,7 @@ payload:
   - +.bl-group.net
   - +.black-shepp-gastroservice.com
   - +.blackcatstore.de
+  - +.blackfridaymegastore.com
   - +.blackgurlzsmagickloset.com
   - +.blacktridentpop.shop
   - +.blacktridents.shop
@@ -2299,14 +2302,17 @@ payload:
   - +.brennholzbredemeier.com
   - +.brennholzdirekt.com
   - +.brennholzgarten.de
+  - +.brennholzhandelmartens.com
   - +.brennholzhaus.com
   - +.brennholzhaus.de
   - +.brennholzhochwald-de.com
   - +.brennholzkamin.de
   - +.brennholzkaufen.shop
+  - +.brennholzkontorscharf.de
   - +.brennholzkraft.com
   - +.brennholzmarkt.com
   - +.brennholzmichalhoff.com
+  - +.brennholzmuscheid.com
   - +.brennholzorgler.at
   - +.brennholzruhl.de
   - +.brennholzrupp.de
@@ -3276,7 +3282,6 @@ payload:
   - +.cryptobullbear.com
   - +.cryptocase.online
   - +.cryptocash24.com
-  - +.cryptoeasily.com
   - +.cryptofast.net
   - +.cryptofundfx.com
   - +.cryptomoney888.com
@@ -4863,6 +4868,7 @@ payload:
   - +.europaischeapotheke.com
   - +.europalettenmoebel.de
   - +.europe-pack.eu
+  - +.europe-pharm.com
   - +.europe-pimco.com
   - +.european-pharmacy.online
   - +.europeangeneric.com
@@ -4919,7 +4925,6 @@ payload:
   - +.evosgaming-15l.site
   - +.evutal.com
   - +.ewige-seide.de
-  - +.ewigerbund.org
   - +.ewuyvw.shop
   - +.ewzmvasz.shop
   - +.exakubusinessclub.com
@@ -5135,6 +5140,7 @@ payload:
   - +.farmacija-hrvatska.com
   - +.farmacijahr.com
   - +.farmacijahrvatska24.com
+  - +.farmaed.com
   - +.farmakeioellada.com
   - +.farmakeioellada24.com
   - +.farmakeioellinika.com
@@ -5263,7 +5269,6 @@ payload:
   - +.festgeldsicher.at
   - +.festivaldefrente.com
   - +.festoolz.shop
-  - +.fetishmegastore.com
   - +.fettabsaugung-in-koeln.de
   - +.fettverbrenneronline.com
   - +.feuchtigkeits.de
@@ -6780,6 +6785,7 @@ payload:
   - +.halooffers.com
   - +.halseband-technik.de
   - +.halsten.net
+  - +.hamburg-hotel.net
   - +.hamburg-modehaus.de
   - +.hamburg-treuhand.com
   - +.hamburger-versand.de
@@ -7372,6 +7378,7 @@ payload:
   - +.holzbaubillig.com
   - +.holzbrenn-stoffe.com
   - +.holzbrenn.de
+  - +.holzbrennstoffeug.de
   - +.holzbriketts-kaufen.com
   - +.holzbriketts-profi.de
   - +.holzd24.com
@@ -7521,6 +7528,7 @@ payload:
   - +.hotelladen.com
   - +.hotels-colombo.com
   - +.hotelsinperm.ru
+  - +.hotelsinvienna.org
   - +.hotelsofmenorca.com
   - +.hotelwareus.com
   - +.hotelwhales.com
@@ -9047,6 +9055,7 @@ payload:
   - +.laneiges.at
   - +.lanetech.de
   - +.lanetjanst.com
+  - +.lankeleisi.de
   - +.lankis-welt.com
   - +.lanno.co
   - +.lanternfestivalitalia.com
@@ -10496,6 +10505,7 @@ payload:
   - +.mobelimfreien.com
   - +.mobelmagie.com
   - +.mobelmomente.com
+  - +.mobeloutletneheim.shop
   - +.mobelsverkauf.com
   - +.mobelwohnen.com
   - +.mobelzauber.com
@@ -10947,6 +10957,7 @@ payload:
   - +.myspirituosen.com
   - +.mysportfisch.de
   - +.mysticdecorllc.com
+  - +.mytelhandys.de
   - +.mytester.org
   - +.mytierhimmel.de
   - +.mytoysde.com
@@ -11062,6 +11073,7 @@ payload:
   - +.neodore.net
   - +.neofonds.com
   - +.neolevii.com
+  - +.neology-stripe.de
   - +.neopass.de
   - +.neoplacement.com
   - +.neotechix.com
@@ -11279,8 +11291,10 @@ payload:
   - +.nordseefrisch.de
   - +.nordstolz.com
   - +.nordvian.com
+  - +.nordza.de
   - +.norenze.com
   - +.norevialife.com
+  - +.norfolkhotels24.com
   - +.norge-apt.com
   - +.norge-ed.com
   - +.norgeapotek24.com
@@ -12375,6 +12389,7 @@ payload:
   - +.platform.ap-capital-lim.com
   - +.platform.invesco-trading.com
   - +.platform.softwarecrownex.com
+  - +.platincoin.com
   - +.platinwerk.de
   - +.platten24.com
   - +.platzimgarten.com
@@ -13396,6 +13411,7 @@ payload:
   - +.rosewoo.com
   - +.rossignol.com.de
   - +.rostikuche.com
+  - +.rostock-scooter.de
   - +.rostock24.com
   - +.rostockhaf.de
   - +.rot91.com
@@ -14048,6 +14064,7 @@ payload:
   - +.shopbagwallet.com
   - +.shopbikeclothes.com
   - +.shopboostx.com
+  - +.shopbrennholz.com
   - +.shopbuyzone.com
   - +.shopcampinghiking.com
   - +.shopcaravangas.com
@@ -14671,6 +14688,7 @@ payload:
   - +.spuelerparts.com
   - +.spybulbcamera.de
   - +.spydersale.de
+  - +.spydiscount24.com
   - +.spyshop.at
   - +.spyxe.com
   - +.squarexchange.com
@@ -14788,6 +14806,7 @@ payload:
   - +.sternestd.de
   - +.sternglas.shop
   - +.sternstimme.de
+  - +.steroide-medikamente.com
   - +.steroide360.com
   - +.sterreich.at
   - +.sterydy-anaboliczne.net
@@ -15079,6 +15098,7 @@ payload:
   - +.sverigewind.com
   - +.svitla-vip.co
   - +.svojaljekarna.hr
+  - +.swabytec24.com
   - +.swagpflege.de
   - +.swapmaxair.com
   - +.swarovskiclub.myshoplaza.com
@@ -15269,6 +15289,7 @@ payload:
   - +.teilradln.de
   - +.teilwerkstatt.com
   - +.teknohaus.de
+  - +.tektronix-gmbh.com
   - +.tele-mag.de
   - +.telecarsten-shop.de
   - +.telekom-dresden.de
@@ -15935,7 +15956,6 @@ payload:
   - +.trusteryai.com
   - +.trustgarganoelectric.com
   - +.trustinvestment-gmbh.com
-  - +.trustmeds24.com
   - +.trustmedz.com
   - +.trustmycart.com
   - +.trustonlinepharmacy.com
@@ -16600,6 +16620,7 @@ payload:
   - +.vogany.com
   - +.vogel-lifestyle.com
   - +.vogelbachgarten.de
+  - +.vogeler-technik.de
   - +.vogelfutterde.com
   - +.vogelfutterhausde.com
   - +.vogelpflege.com
@@ -16968,6 +16989,7 @@ payload:
   - +.werkzeugeholz.de
   - +.werkzeugemaschinen.com
   - +.werkzeugeprofi.com
+  - +.werkzeugepros.com
   - +.werkzeugerasenmaher.de
   - +.werkzeugheld24.de
   - +.werkzeugland.com
