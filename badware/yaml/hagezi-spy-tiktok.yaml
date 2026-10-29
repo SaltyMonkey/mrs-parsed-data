@@ -1,9 +1,18 @@
 payload:
   - +.abtest-ch.snssdk.com
+  - +.ad-format-i18n.tiktokv.com
+  - +.ad-format-ie.tiktokv.eu
+  - +.ad-format-ru.tiktokv.com
   - +.ad-format-sg.tiktokv.com
   - +.ad-format-ttp2.tiktokv.eu
+  - +.ad-format-ttp2.tiktokv.us
+  - +.ad-format-ttp2.us.tiktokv.com
+  - +.ad-format.tiktokv.eu
   - +.ad-format.tiktokv.us
+  - +.ad-format.us.tiktokv.com
   - +.ad-format16-normal-useastred.tiktokv.eu
+  - +.ad-instantpage-i18n.tiktokv.com
+  - +.ad-instantpage-ie.tiktokv.eu
   - +.ad-instantpage-ru.tiktokv.com
   - +.ad-instantpage-sg.tiktokv.com
   - +.ad-instantpage-sg.tiktokv.com.edgekey.net
@@ -12,12 +21,16 @@ payload:
   - +.ad-instantpage-ttp2.tiktokv.eu.ttdns3.com
   - +.ad-instantpage-ttp2.tiktokv.us
   - +.ad-instantpage-ttp2.tiktokv.us.edgesuite.net
+  - +.ad-instantpage-ttp2.us.tiktokv.com
   - +.ad-instantpage-va.tiktokv.com
+  - +.ad-instantpage.tiktokv.eu
   - +.ad-instantpage.tiktokv.us
   - +.ad-instantpage.tiktokv.us.edgesuite.net
   - +.ad-instantpage.tiktokv.us.ttdns4.com
+  - +.ad-instantpage.us.tiktokv.com
   - +.ad.tiktok.tv
   - +.ad.tiktokv.com
+  - +.ad.tiktokv.eu
   - +.ad.tiktokv.us
   - +.adinstantpage16-normal-useastred.tiktokv.eu
   - +.adinstantpage16-normal-useastred.tiktokv.eu.edgesuite.net
@@ -28,8 +41,12 @@ payload:
   - +.ads-sg.business-tiktok.com
   - +.ads-sg.tiktok.com
   - +.ads-ttp2.tiktokw.eu
+  - +.ads-ttp2.tiktokw.us
   - +.ads-ttp2.us.tiktok.com
+  - +.ads-useast2a.tiktok.com
   - +.ads-va.business-tiktok.com
+  - +.ads-va.tiktok.com
+  - +.ads.in.tiktok.com
   - +.ads.tiktok.com
   - +.ads.tiktok.in
   - +.ads.tiktok.tv
@@ -40,6 +57,7 @@ payload:
   - +.analytics-attribution.tiktok.com
   - +.analytics-exp-i18n.tiktok.com
   - +.analytics-exp-i18n.tiktok.com.edgekey.net
+  - +.analytics-exp-ie.tiktokw.eu
   - +.analytics-exp-ru.tiktok.com
   - +.analytics-exp-ru.tiktok.com.edgesuite.net
   - +.analytics-exp-ru.tiktok.com.ttdns2.com
@@ -103,8 +121,10 @@ payload:
   - +.frontier.capcutw.us.edgesuite.net
   - +.frontier.us.capcut.com
   - +.gplog-sg.byteoversea.com
+  - +.gplog-sg.capcutapi.com
   - +.gplog-va-useast2a.byteoversea.com
   - +.gplog-va.byteoversea.com
+  - +.gplog-va.capcutapi.com
   - +.gpm-mon-sg.byteoversea.com
   - +.gpm-mon-va-useast1a.byteoversea.com
   - +.gpm-mon-va-useast2a.byteoversea.com
@@ -113,10 +133,19 @@ payload:
   - +.haohuo.snssdk.com
   - +.i.snssdk.com
   - +.live-video-log16-normal-alisg.tiktokv.com
+  - +.live-video-log16-normal-useast1a.tiktokv.com
+  - +.live-video-log16-normal-useast2a.tiktokv.com
+  - +.live-video-log16-normal-useast2a.tiktokv.eu
+  - +.live-video-log16-normal-useast5.tiktokv.us
+  - +.live-video-log16-normal-useastred.tiktokv.eu
   - +.location-i18n.tiktokv.com
+  - +.location-ie.tiktokv.eu
   - +.location-ru.tiktokv.com
   - +.location-sg.tiktokv.com
   - +.location-ttp2.tiktokv.eu
+  - +.location-ttp2.tiktokv.us
+  - +.location-ttp2.tiktokw.eu
+  - +.location-ttp2.tiktokw.us
   - +.location-ttp2.us.tiktokv.com
   - +.location-v6-i18n.tiktokv.com
   - +.location-v6-ru.tiktokv.com
@@ -125,18 +154,24 @@ payload:
   - +.location-v6-ttp2.tiktokv.us
   - +.location-v6-va.tiktokv.com
   - +.location-v6.tiktokv.com
+  - +.location-v6.tiktokv.eu
   - +.location-v6.tiktokv.us
   - +.location-va.tiktokv.com
+  - +.location.capcutapi.us
   - +.location.tiktok.com
   - +.location.tiktokv.com
   - +.location.tiktokv.eu
   - +.location.tiktokv.us
+  - +.location.tiktokw.eu
   - +.location.tiktokw.us
   - +.location.us.tiktokv.com
   - +.location16-normal-useastred.tiktokv.eu
+  - +.location16-normal-useastred.tiktokw.eu
   - +.locationv16-normal-useastred.tiktokv.eu
   - +.log-boot.capcutapi.com
   - +.log-dr.tiktokv.com
+  - +.log-dr.tiktokv.eu
+  - +.log-dr.tiktokv.us
   - +.log-dr16-normal-no1a.tiktokv.eu
   - +.log-dr16-normal-useast1a.tiktokv.com
   - +.log-dr16-normal-useast5.tiktokv.us
@@ -153,10 +188,13 @@ payload:
   - +.log-tiktok.byteoversea.net
   - +.log-v2-boot.capcutapi.com
   - +.log-va-useast2a.tiktokv.com
+  - +.log-va.capcutapi.com
   - +.log-va.tiktokv.com
   - +.log.byteoversea.com
+  - +.log.capcutapi.us
   - +.log.snssdk.com
   - +.log.tiktokv.com
+  - +.log.tiktokv.eu
   - +.log.tiktokv.us
   - +.log.us.tiktokv.com
   - +.log15-normal-alisg.tiktokv.com
@@ -165,8 +203,11 @@ payload:
   - +.log15-normal.tiktokv.com
   - +.log15.byteoversea.com
   - +.log16-applog-useast5.us.tiktokv.com
+  - +.log16-normal-ie.tiktokv.eu
   - +.log16-normal-sg.capcutapi.com
   - +.log16-normal-us-ttp.capcutapi.us
+  - +.log16-normal-zr-alisg.tiktokv.com
+  - +.log16-normal-zr.tiktokv.com
   - +.log16-normal.capcutapi.com
   - +.log16-normal.tiktokv.com
   - +.log16-platform-ycru.tiktokv.com
@@ -180,22 +221,37 @@ payload:
   - +.log19-applog-useast2a.tiktokv.com
   - +.log19-applog-useast5.us.tiktokv.com
   - +.log19-normal-alisg.tiktokv.com
+  - +.log19-normal-no1a.tiktokv.eu
   - +.log19-normal-useast1a.tiktokv.com
   - +.log19-normal-useast2a.tiktokv.com
+  - +.log19-normal-useast5.tiktokv.us
+  - +.log19-normal-useast8.tiktokv.us
+  - +.log19-normal-zr-alisg.tiktokv.com
+  - +.log19-normal-zr-useast1a.tiktokv.com
+  - +.log19-normal-zr.tiktokv.com
   - +.log19-normal.tiktokv.com
   - +.log22-applog-useast1a.tiktokv.com
   - +.log22-applog-useast2a.tiktokv.com
   - +.log22-normal-alisg.tiktokv.com
   - +.log22-normal-useast1a.tiktokv.com
   - +.log22-normal-useast2a.tiktokv.com
+  - +.log22-normal-zr-alisg.tiktokv.com
+  - +.log22-normal-zr-useast1a.tiktokv.com
+  - +.log22-normal-zr.tiktokv.com
+  - +.log22-normal.capcutapi.com
   - +.log22-normal.tiktokv.com
   - +.log3-normal-c-alisg.tiktokv.com
   - +.log3-normal-c-useast1a.tiktokv.com
   - +.log31-normal-alisg.tiktokv.com
   - +.log31-normal-no1a.tiktokv.eu
+  - +.log31-normal-sg.capcutapi.com
   - +.log31-normal-useast1a.tiktokv.com
   - +.log31-normal-useast2a.tiktokv.com
   - +.log31-normal-useastred.tiktokv.eu
+  - +.log31-normal-zr-alisg.tiktokv.com
+  - +.log31-normal-zr-useast1a.tiktokv.com
+  - +.log31-normal-zr.tiktokv.com
+  - +.log31-normal.capcutapi.com
   - +.log31-normal.tiktokv.com
   - +.log32-normal-alisg.tiktokv.com
   - +.log32-normal-no1a.tiktokv.eu
@@ -203,6 +259,8 @@ payload:
   - +.log32-normal-useast1a.tiktokv.com
   - +.log32-normal-useast2a.tiktokv.com
   - +.log32-normal-useastred.tiktokv.eu
+  - +.log32-normal-zr-alisg.tiktokv.com
+  - +.log32-normal-zr-useast1a.tiktokv.com
   - +.log32-normal-zr.tiktokv.com
   - +.log32-normal.capcutapi.com
   - +.log32-normal.tiktokv.com
@@ -220,6 +278,7 @@ payload:
   - +.logtrace.snssdk.com
   - +.maliva-mcs-useast2a.byteoversea.com
   - +.maliva-mcs.byteoversea.com
+  - +.maliva-mcs.capcutapi.com
   - +.mcs-i18n.tiktok.com
   - +.mcs-ie.tiktokw.eu
   - +.mcs-ie2.tiktokw.eu
@@ -260,9 +319,23 @@ payload:
   - +.mon.tiktokv.com
   - +.mon.tiktokv.eu
   - +.mon.us.tiktokv.com
+  - +.mon16-normal-ie.tiktokv.eu
   - +.mon16-normal-sg.capcutapi.com
   - +.mon16-normal-us-ttp.capcutapi.us
+  - +.mon16-normal-zr-alisg.tiktokv.com
+  - +.mon16-normal.capcutapi.com
+  - +.mon19-normal-zr-alisg.tiktokv.com
+  - +.mon19-normal-zr-useast1a.tiktokv.com
+  - +.mon22-normal-zr-alisg.tiktokv.com
+  - +.mon22-normal-zr-useast1a.tiktokv.com
+  - +.mon31-normal-sg.capcutapi.com
+  - +.mon31-normal-zr-alisg.tiktokv.com
+  - +.mon31-normal-zr-useast1a.tiktokv.com
+  - +.mon31-normal.capcutapi.com
   - +.mon32-normal-sg.capcutapi.com
+  - +.mon32-normal-zr-alisg.tiktokv.com
+  - +.mon32-normal-zr-useast1a.tiktokv.com
+  - +.mon32-normal.capcutapi.com
   - +.monbk.tiktokv.com
   - +.mssdk-bu.snssdk.com
   - +.mssdk-sg-bu.byteoversea.com
@@ -281,21 +354,26 @@ payload:
   - +.open.snssdk.com
   - +.os-mon.snssdk.com
   - +.p16-ad.byteoversea.com
+  - +.p19-tiktok-ads-sg.tiktokcdn.com
   - +.pangolin.snssdk.com
   - +.pc-mon-boot.capcutapi.com
   - +.pc-mon-normal-sg.capcutapi.com
   - +.pc-mon-v2-boot.capcutapi.com
   - +.pc-mon-va.byteoversea.com
+  - +.pc-mon-va.capcutapi.com
   - +.pc-mon.snssdk.com
   - +.pc-mon16-normal-us-ttp.capcutapi.us
   - +.rtc-logger-i18n.tiktokv.com
   - +.rtc-logger-ie.tiktokv.eu
+  - +.rtc-logger-ttp2.tiktokv.eu
   - +.rtc-logger-ttp2.tiktokv.us
   - +.rtc-logger-ttp2.us.tiktokv.com
   - +.rtc-logger-va.tiktokv.com
   - +.rtc-logger.tiktokv.com
+  - +.rtc-logger.tiktokv.eu
   - +.rtc-logger.tiktokv.us
   - +.rtc-logger.us.tiktokv.com
+  - +.rtc-logger16-normal-alisg.tiktokv.com
   - +.rtc-logger16-normal-useastred.tiktokv.eu
   - +.rtlog-i18n.tiktokv.com
   - +.rtlog-phx.tiktokv.com
@@ -304,6 +382,7 @@ payload:
   - +.rtlog-va.tiktokv.com
   - +.rtlog.byteoversea.com
   - +.rtlog.tiktokv.com
+  - +.rtlog.tiktokv.eu
   - +.rtlog.us.tiktokv.com
   - +.rtlog15-normal-alisg.tiktokv.com
   - +.rtlog15-normal-useast1a.tiktokv.com
@@ -313,6 +392,7 @@ payload:
   - +.rtlog16-applog-useast2a.tiktokv.com
   - +.rtlog16-applog-useast5.us.tiktokv.com
   - +.rtlog16-normal-alisg.tiktokv.com
+  - +.rtlog16-normal-ie.tiktokv.eu
   - +.rtlog16-normal-ind.tiktokv.com
   - +.rtlog16-normal-no1a.tiktokv.eu
   - +.rtlog16-normal-useast1a.tiktokv.com
@@ -321,6 +401,9 @@ payload:
   - +.rtlog16-normal-useast8.tiktokv.us
   - +.rtlog16-normal-useast8.us.tiktokv.com
   - +.rtlog16-normal-useastred.tiktokv.eu
+  - +.rtlog16-normal-zr-alisg.tiktokv.com
+  - +.rtlog16-normal-zr-useast1a.tiktokv.com
+  - +.rtlog16-normal-zr.tiktokv.com
   - +.rtlog16-normal.tiktokv.com
   - +.rtlog16-platform-useast5.us.tiktokv.com
   - +.rtlog16-tmp-normal-useast1a.tiktokv.com
@@ -332,9 +415,14 @@ payload:
   - +.rtlog19-applog-useast2a.tiktokv.com
   - +.rtlog19-applog-useast5.us.tiktokv.com
   - +.rtlog19-normal-alisg.tiktokv.com
+  - +.rtlog19-normal-no1a.tiktokv.eu
   - +.rtlog19-normal-useast1a.tiktokv.com
   - +.rtlog19-normal-useast2a.tiktokv.com
+  - +.rtlog19-normal-useast5.tiktokv.us
+  - +.rtlog19-normal-useast8.tiktokv.us
+  - +.rtlog19-normal-zr-alisg.tiktokv.com
   - +.rtlog19-normal-zr-useast1a.tiktokv.com
+  - +.rtlog19-normal-zr.tiktokv.com
   - +.rtlog19-normal.tiktokv.com
   - +.rtlog19-platform-useast5.us.tiktokv.com
   - +.rtlog22-applog-useast1a.tiktokv.com
@@ -342,13 +430,27 @@ payload:
   - +.rtlog22-normal-alisg.tiktokv.com
   - +.rtlog22-normal-useast1a.tiktokv.com
   - +.rtlog22-normal-useast2a.tiktokv.com
+  - +.rtlog22-normal-zr-alisg.tiktokv.com
+  - +.rtlog22-normal-zr-useast1a.tiktokv.com
+  - +.rtlog22-normal-zr.tiktokv.com
   - +.rtlog22-normal.tiktokv.com
   - +.rtlog31-normal-alisg.tiktokv.com
+  - +.rtlog31-normal-no1a.tiktokv.eu
   - +.rtlog31-normal-useast1a.tiktokv.com
   - +.rtlog31-normal-useast2a.tiktokv.com
+  - +.rtlog31-normal-useastred.tiktokv.eu
+  - +.rtlog31-normal-zr-alisg.tiktokv.com
+  - +.rtlog31-normal-zr-useast1a.tiktokv.com
+  - +.rtlog31-normal-zr.tiktokv.com
   - +.rtlog31-normal.tiktokv.com
   - +.rtlog32-normal-alisg.tiktokv.com
+  - +.rtlog32-normal-no1a.tiktokv.eu
+  - +.rtlog32-normal-useast2a.tiktokv.eu
+  - +.rtlog32-normal-useastred.tiktokv.eu
+  - +.rtlog32-normal-zr-alisg.tiktokv.com
+  - +.rtlog32-normal-zr-useast1a.tiktokv.com
   - +.rtlog32-normal-zr.tiktokv.com
+  - +.rtlog32-normal.tiktokv.com
   - +.rtlog58-normal-alisg.tiktokv.com
   - +.rtlog58-normal-useast1a.tiktokv.com
   - +.rtlog58-normal-useast2a.tiktokv.com
@@ -412,8 +514,11 @@ payload:
   - +.toblog.snssdk.com
   - +.tsearch.snssdk.com
   - +.ug-sg.byteoversea.com
+  - +.ug-sg.capcutapi.com
+  - +.ug-va.capcutapi.com
   - +.ug.snssdk.com
   - +.url4077.ads-service.tiktok.com
+  - +.url7108.ads-service.tiktok.com
   - +.v16-ad.byteoversea.com
   - +.vaali-mcs-useast1a.byteoversea.com
   - +.vaali-mcs-useast2a.byteoversea.com
@@ -426,13 +531,21 @@ payload:
   - +.xlog-va-useast2a.byteoversea.com
   - +.xlog-va-useast2a.tiktokv.com
   - +.xlog-va.byteoversea.com
+  - +.xlog-va.capcutapi.com
   - +.xlog-va.tiktokv.com
   - +.xlog.byteoversea.com
+  - +.xlog.capcutapi.us
   - +.xlog.snssdk.com
   - +.xlog.tiktokv.com
+  - +.xlog.tiktokv.eu
   - +.xlog16-normal-c-useast1a.tiktokv.com
   - +.xlog16-normal-c-useast2a.tiktokv.com
+  - +.xlog16-normal-ie.tiktokv.eu
+  - +.xlog16-normal-no1a.tiktokv.eu
+  - +.xlog16-normal-useast5.tiktokv.us
+  - +.xlog16-normal-useast8.tiktokv.us
   - +.xlog16-normal-useast8.us.tiktokv.com
+  - +.xlog16-normal-useastred.tiktokv.eu
   - +.xlog16-platform-useast5.us.tiktokv.com
   - +.xlog16-platform-ycru.tiktokv.com
   - +.xlog16-tmp-normal-useast1a.tiktokv.com
