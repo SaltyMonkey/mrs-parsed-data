@@ -209,6 +209,7 @@ payload:
   - +.adl.jjkrn.shop
   - +.adl.lreubk.shop
   - +.adl.okhxm.shop
+  - +.adl.oylvfe.shop
   - +.adl.raodd.shop
   - +.adl.rqgbos.shop
   - +.adl.tlhqca.shop
@@ -602,6 +603,7 @@ payload:
   - +.ameybike.site
   - +.amffrance.com
   - +.amffrance.org
+  - +.amiliah.schlafhalt.com
   - +.amkleidung.com
   - +.ammostoreonline.com
   - +.amoora.de
@@ -1319,6 +1321,7 @@ payload:
   - +.balotracity.com
   - +.balservital.de
   - +.balvionex.com
+  - +.bamboogohaus.com
   - +.bamboolikes.com
   - +.bancmarkets.com
   - +.bandar.shop
@@ -1426,6 +1429,7 @@ payload:
   - +.bayer-heizen.at
   - +.bayer-stephan.de
   - +.bayerischegeschenke.com
+  - +.bayernherrenmode.de
   - +.bayowns.com
   - +.baywovenco.com
   - +.bazaarskedeals.shop
@@ -1842,6 +1846,7 @@ payload:
   - +.bikerimtapede.com
   - +.bikesattel.at
   - +.bikescompetitive.com
+  - +.bikesexpert.shop
   - +.bikeshockabsorberde.com
   - +.bikeskraft.de
   - +.bikesporthauf.de
@@ -2080,7 +2085,6 @@ payload:
   - +.boggbags.de
   - +.bogsschuhe.de
   - +.bohnenfreude.de
-  - +.bohnengold.com
   - +.boho-and-chic.de
   - +.boho-lust.de
   - +.bohobike.shop
@@ -2119,11 +2123,9 @@ payload:
   - +.bootsde.com
   - +.bootsoutlet.shop
   - +.bootsprofi.com
-  - +.borde-brennholz.com
   - +.borde-brennholzpaulusgmbh.com
   - +.boridashop.de
   - +.borneprodukter.com
-  - +.boroconcept.com
   - +.borofund.com
   - +.borpillshop.com
   - +.borrelioseweb.de
@@ -2233,7 +2235,6 @@ payload:
   - +.brennholzanhanger.de
   - +.brennholzauswahl.at
   - +.brennholzauswahl.de
-  - +.brennholzboersch.com
   - +.brennholzbredemeier.com
   - +.brennholzdirekt.com
   - +.brennholzgarten.de
@@ -2250,9 +2251,9 @@ payload:
   - +.brennholzmuscheid.com
   - +.brennholzorgler.at
   - +.brennholzruhl.de
-  - +.brennholzrupp.de
   - +.brennholzs.com
   - +.brennholzschneble.de
+  - +.brennholzschommer.de
   - +.brennholzullrich.com
   - +.brennholzvidos.at
   - +.brennholzweber.de
@@ -2262,7 +2263,6 @@ payload:
   - +.brennstoffe-kappus.com
   - +.brennstoffemokstat.shop
   - +.brennstoffhandel-behnke.de
-  - +.brenstoffe-versand.de
   - +.brenuingerde.com
   - +.brettspielmeister.shop
   - +.breuer-boutique.de
@@ -2290,7 +2290,6 @@ payload:
   - +.brinkmann-mode.de
   - +.brinkmannkanzlei.de
   - +.brinylagge.shop
-  - +.briospielzeugrabatt.com
   - +.briscofinance.com
   - +.british-columbia-hotels.com
   - +.britishnewstoday.com
@@ -2321,9 +2320,7 @@ payload:
   - +.brownsona.com
   - +.brownspecialadvice.com
   - +.brueck-tax-legal.com
-  - +.brumatedeutschland.com
   - +.brunateschuhewerksverkauf.de
-  - +.brunboisdechauffage.at
   - +.brunnercampen.com
   - +.brunnerluzern.com
   - +.brunnerversand.at
@@ -2354,7 +2351,6 @@ payload:
   - +.buchnergmbh.com
   - +.buchsonderangebote.de
   - +.buchverlag-scholz.de
-  - +.bucinator.shop
   - +.buckbasil.com
   - +.buckbirch.com
   - +.buckleybelts.de
@@ -2376,7 +2372,6 @@ payload:
   - +.bullbittrade.com
   - +.bullplay.de
   - +.bullsfahrradangebote.com
-  - +.bulltrade24.com
   - +.bundestagssauna.de
   - +.bunniesrabatt.de
   - +.bunnykachu.com
@@ -2384,7 +2379,6 @@ payload:
   - +.buntnaturfamilie.com
   - +.burberryoutlet.at
   - +.burgmoebel.de
-  - +.buristo.de
   - +.burn-plus.de
   - +.burritos-hermanos.de
   - +.burton.co.at
@@ -2416,7 +2410,6 @@ payload:
   - +.buynaturium.shop
   - +.buypillsonlinenorx.com
   - +.buypresents.store
-  - +.buyshapewell.com
   - +.buyster.xyz
   - +.buystime.com
   - +.buytableware.com
@@ -2500,7 +2493,6 @@ payload:
   - +.campingneu.com
   - +.campingoutdoorstore.com
   - +.campingpas.de
-  - +.campingplatze-de.com
   - +.campingplatzede.com
   - +.campingspezialisten.com
   - +.campingstuhleshop.com
@@ -2572,7 +2564,6 @@ payload:
   - +.cargolooplogistics.com
   - +.carhartthungary.com
   - +.carharttoutletdeutschland.de
-  - +.carharttsuisse.com
   - +.carierdese.com
   - +.carinfos.net
   - +.caringforcats.co
@@ -2605,7 +2596,7 @@ payload:
   - +.carvina.com
   - +.casaamarela.store
   - +.casaclothing.de
-  - +.casaeternaluz.com
+  - +.casagetyard.com
   - +.casagomart.com
   - +.casaideal-es.com
   - +.casaivora.com
@@ -2614,8 +2605,6 @@ payload:
   - +.casamo.shop
   - +.casanovera.com
   - +.caseetepen.com
-  - +.cashandel.shop
-  - +.cashmerancing.com
   - +.casinacho-online.de
   - +.casino-dragonia-online.de
   - +.casino-infinity-online-de.xyz
@@ -2649,10 +2638,8 @@ payload:
   - +.catwebshop.com
   - +.cavedor.com
   - +.cavissimo.com
-  - +.cavory.de
   - +.cavrontelyx.com
   - +.cbdhanf.at
-  - +.cbeoeql.shop
   - +.cbsstyles.com
   - +.cbtec4you.de
   - +.cbvdshj.com
@@ -2670,7 +2657,6 @@ payload:
   - +.cecilliab.com
   - +.cedarfinance.com
   - +.celebratestogether.com
-  - +.celebrityfrenchie.com
   - +.celerypets.com
   - +.celeste-botanicals.com
   - +.celinemichaud.com
@@ -2684,7 +2670,6 @@ payload:
   - +.cenatrix.com
   - +.cendura.de
   - +.center-bikes.de
-  - +.centerviewpnllc.com
   - +.centralparkebikerentals.com
   - +.centralpharma.de
   - +.centralsport.nl
@@ -2702,7 +2687,6 @@ payload:
   - +.ces-lekarna.com
   - +.cescory.com
   - +.ceska-lekarna.com
-  - +.cf-bags.com
   - +.cf-handelsshop.com
   - +.cfbl-premiumholz.de
   - +.cfd.diamond-tradeltd.com
@@ -2728,7 +2712,6 @@ payload:
   - +.chaps-herrenmode.de
   - +.chapterrest.store
   - +.characterh.com
-  - +.charentesalliance.com
   - +.charj7.myshopify.com
   - +.charlesashford.shop
   - +.charlottetilbury-de.com
@@ -2765,14 +2748,12 @@ payload:
   - +.chempirate.com
   - +.chenjunting01.com
   - +.cherishmax.com
-  - +.cheshep.com
   - +.cheska-lekarna.com
   - +.chic-bay.com
   - +.chic-collection.com
   - +.chicandgo.com
   - +.chicattireus.com
   - +.chicboho.com
-  - +.chicco.com.de
   - +.chickiddos.com
   - +.chicladdy.com
   - +.chiclolo.com
@@ -2813,7 +2794,6 @@ payload:
   - +.cielie.com
   - +.cigarettescigs.com
   - +.cilera.de
-  - +.cimga.ltd
   - +.cimnelatlas.click
   - +.cine-flix.co
   - +.cineluxdeutschland.com
@@ -2838,13 +2818,12 @@ payload:
   - +.civey.at
   - +.civiliank.com
   - +.ciyuanshijie.com
-  - +.cizmesorel.com
+  - +.cjuuri.shop
   - +.ckbeautylife.de
   - +.ckluna.net
   - +.cknwtmxn.studio
   - +.clair-montfils.com
   - +.clairyskin.com
-  - +.clara-zurich.com
   - +.claraberlin.com
   - +.claracasperjuwelen.de
   - +.clarachristine-wien.at
@@ -2920,7 +2899,6 @@ payload:
   - +.cloudsiv.com
   - +.cloudtritt.de
   - +.cloudy-with-containers.ch
-  - +.clubeboss.de
   - +.cmchbhopal.com
   - +.cmctradingeu.com
   - +.cmdt-sales.com
@@ -3001,7 +2979,6 @@ payload:
   - +.comfortableoutdoorsports.com
   - +.comfydog.de
   - +.comfytravel.de
-  - +.comfyure.com
   - +.comicpickshop.com
   - +.comicsbyhaemi.com
   - +.comme-des-garcons.at
@@ -3031,7 +3008,6 @@ payload:
   - +.conforim.com
   - +.connecting-trade.com
   - +.conolly.de
-  - +.conrad-brennstoffe.de
   - +.conrads-elektro.de
   - +.conseil-ltd.com
   - +.conseilcrypto.com
@@ -3068,10 +3044,8 @@ payload:
   - +.convita-apotheke.de
   - +.cooffee.de
   - +.cook-on-the-bright-side.com
-  - +.cookanddinesales.com
   - +.cookskitchen.club
   - +.coolcare.mx
-  - +.cooleschuhe.com
   - +.coolgifts.shop
   - +.coolgin.com
   - +.coolizi.com
@@ -3097,7 +3071,6 @@ payload:
   - +.coreglp.at
   - +.corestationsystems.sbs
   - +.corevitalnutraceuticals.com
-  - +.corkandopop.shop
   - +.corpagenesis-fr.net
   - +.corporationw.com
   - +.corralwestboot.com
@@ -3172,7 +3145,6 @@ payload:
   - +.createwithbuy.com
   - +.creatinmarkt.com
   - +.creativegameplay.com
-  - +.creativetoyssales.com
   - +.credoya.com
   - +.cremant.at
   - +.crestviewlamps.com
@@ -3677,6 +3649,7 @@ payload:
   - +.depierone.com
   - +.depixeli-k-losolarum-tapixela.club
   - +.deplacer.com
+  - +.depot-sale.top
   - +.depoz.company
   - +.der-einblick.de
   - +.der-reiseexperte.de
@@ -3735,6 +3708,7 @@ payload:
   - +.detapetenonline.com
   - +.detoolsshop.com
   - +.detroit313shop.com
+  - +.detrollkids.com
   - +.detson.de
   - +.detsound.com
   - +.detty.co
@@ -3893,6 +3867,7 @@ payload:
   - +.discount-megastore.com
   - +.discount-on-car-parts.com
   - +.discount-pool-park.com
+  - +.discountbeverageshop.com
   - +.discountbloc.com
   - +.discountbloc.ru
   - +.discountdrugsfromcanada.com
@@ -5651,6 +5626,7 @@ payload:
   - +.friluftswear.com
   - +.frisch-versand.de
   - +.frischehaut.com
+  - +.frischmarktpro.de
   - +.frischundklar.de
   - +.fritz-container-gmbh.de
   - +.fritzboxtech.shop
@@ -5895,6 +5871,7 @@ payload:
   - +.gartenfuhrer.de
   - +.gartenfurdu.de
   - +.gartengenussde.com
+  - +.gartengeraete-shop.de
   - +.gartengluecklich.de
   - +.gartengreifer.de
   - +.gartenguenter.de
@@ -5987,6 +5964,7 @@ payload:
   - +.gbr-office.de
   - +.gbuynix.com
   - +.gcash-casino-ph.com
+  - +.gdbois.com
   - +.gdprice.co.uk
   - +.ge.thebloomcar.com
   - +.geappliances-shop.com
@@ -6043,6 +6021,7 @@ payload:
   - +.genussfein.com
   - +.genussfrei.com
   - +.genusskeller.com
+  - +.genusstropf.com
   - +.geo.marketinvesco.com
   - +.geofind-at.com
   - +.geographz.com
@@ -6153,6 +6132,7 @@ payload:
   - +.getalliny.com
   - +.getanswers.net
   - +.getclairu.nomshopper.com
+  - +.getcloudone.de
   - +.geteasygroup.com
   - +.getebikeshop.shop
   - +.getecodriver.com
@@ -6802,6 +6782,7 @@ payload:
   - +.happykidtoys.ru
   - +.har6lowr7idge6.com
   - +.harderex.com
+  - +.hardlinegoods.com
   - +.hardmeierversand.ch
   - +.hardwarecables.com
   - +.hardwarenational.com
@@ -6868,6 +6849,7 @@ payload:
   - +.haushaltswarendiscount.shop
   - +.haushaltwelt.com
   - +.hausmobel-de.com
+  - +.hausofmode.co
   - +.hausofvedashop.com
   - +.hausonline24.com
   - +.hauspellets.de
@@ -7180,6 +7162,7 @@ payload:
   - +.heydudeschuheschweiz.com
   - +.heyewall.de
   - +.heyi-handel.de
+  - +.heywoolo.shop
   - +.hezoposo.com
   - +.hi-goeedoo.com
   - +.hibote.de
@@ -7328,6 +7311,7 @@ payload:
   - +.holzhandelhensel.com
   - +.holzhausenug.de
   - +.holzheiz.com
+  - +.holzhofaigner.at
   - +.holzjosh.de
   - +.holzkerngear.com
   - +.holzkerssenbrock.de
@@ -7430,6 +7414,7 @@ payload:
   - +.hopestoree1.com
   - +.hopfenpur.com
   - +.hoppylu.com
+  - +.horbach-legal.de
   - +.horencia.com
   - +.horizon-patrimoine.com
   - +.horizoninvestment.ch
@@ -7460,6 +7445,7 @@ payload:
   - +.hotelladen.com
   - +.hotels-colombo.com
   - +.hotelsinperm.ru
+  - +.hotelsinvienna.org
   - +.hotelsofmenorca.com
   - +.hotelwareus.com
   - +.hotelwhales.com
@@ -7618,6 +7604,7 @@ payload:
   - +.id-austria.at-bmf-gv-uberprufung.com
   - +.id-austria.at.gv-oesterreich.com
   - +.id-proof.de
+  - +.id.austria-gv-uberprufung.com
   - +.idaalma.com
   - +.ideagalaxyteacher.com
   - +.ideal-elektro.de
@@ -7963,6 +7950,7 @@ payload:
   - +.iswanan.de
   - +.it-con.org
   - +.it-marktblick.de
+  - +.it-recht-ffm.de
   - +.it2-use.de
   - +.itagprotracker.com
   - +.italiannewstoday.com
@@ -8082,6 +8070,7 @@ payload:
   - +.jjctrans.com
   - +.jjmalibumen.com
   - +.jjmorganonline.com
+  - +.jjosigjf.shop
   - +.jk-treuhand.de
   - +.jlxdiffusion.com
   - +.jmautopecas.com
@@ -8815,6 +8804,7 @@ payload:
   - +.kremmling-moebel.com
   - +.krf-mbh.com
   - +.kriddoshop.com
+  - +.kriqs.de
   - +.kristenjewelry.com
   - +.krittimes.com
   - +.kronberg-partner.de
@@ -8843,6 +8833,7 @@ payload:
   - +.kshmzyey.shop
   - +.kstellar.io
   - +.kstil.de
+  - +.kswfcrwc.shop
   - +.ktl-consulting.de
   - +.ktmfahrrad.com
   - +.ktmoutlet.at
@@ -9002,7 +8993,6 @@ payload:
   - +.laplaceo.myshopify.com
   - +.laptop-akkus.de
   - +.laptop-netzteil.de
-  - +.laptopbatterie.ch
   - +.laptopdiscount.net
   - +.lapupoo.com
   - +.larahegedal.de
@@ -9078,6 +9068,7 @@ payload:
   - +.leadbrass.com
   - +.leagpellts.de
   - +.leahideas.com
+  - +.lean-official.com
   - +.learn.atdaslelabor.com
   - +.learn.physio
   - +.learnshopifydevelopment.com
@@ -9418,6 +9409,7 @@ payload:
   - +.login.groupsecuritiesdublin.com
   - +.login.parsev.com
   - +.logitechoutlet-eu.shop
+  - +.lohmann-mode.de
   - +.lohr-treuhand.com
   - +.lojaarantes.com.br
   - +.lojaeconoshop.com
@@ -10005,6 +9997,7 @@ payload:
   - +.media-markt.plumberstore.in
   - +.media-voigt.de
   - +.media-weber.com
+  - +.mediaeffect-ug.de
   - +.mediafritz.com
   - +.mediamarkt-berlin.com
   - +.mediamarkt-gg.com
@@ -10045,6 +10038,7 @@ payload:
   - +.medymarkt.live
   - +.medzrezeptfrei.com
   - +.meertickets.de
+  - +.meetcurve.de
   - +.meetfigure.com
   - +.mega-meigaomei-online.com
   - +.megacix.com
@@ -10120,6 +10114,7 @@ payload:
   - +.meingartenhimmel.de
   - +.meingartenwelt.com
   - +.meinhuggies.com
+  - +.meinindustriebedarf24.com
   - +.meinkleinerhuhnerstall-at.com
   - +.meinkofferde.com
   - +.meinkrimskrams.de
@@ -10272,6 +10267,7 @@ payload:
   - +.michaelkorsosterreich.com
   - +.michelinsuisse.com
   - +.micro-spiele.de
+  - +.microduck.homes
   - +.microduck.shop
   - +.microption.com
   - +.microsotfsstore.com
@@ -10382,6 +10378,7 @@ payload:
   - +.mivrex.com
   - +.mixenruhren.de
   - +.mixerie.de
+  - +.mixerwerk.com
   - +.mixfinancing.com
   - +.mixmedia.store
   - +.mixnex.com
@@ -10543,6 +10540,7 @@ payload:
   - +.moebelonline24.com
   - +.moebelpacker-wien.at
   - +.moebelpfad.com
+  - +.moebelquartie.com
   - +.moebelquelle.com
   - +.moebelstil.com
   - +.moebeltrumpf.de
@@ -10679,6 +10677,7 @@ payload:
   - +.motelamiiosales.shop
   - +.motelamiiostores.shop
   - +.motelmio.shop
+  - +.motexamxd.shop
   - +.motherbabydoulaservices.com
   - +.moto-discounts-germany.com
   - +.moto-teile24.com
@@ -10867,6 +10866,7 @@ payload:
   - +.myproteinoutleteur.com
   - +.myquoteswiss.com
   - +.myrrhrituals.shop
+  - +.myschmidts.shop
   - +.myshania.de
   - +.myskins.co
   - +.mysolis.shop
@@ -11713,6 +11713,7 @@ payload:
   - +.orchidblazebeauty.com
   - +.orchidnailpooler.com
   - +.orcliacare.com
+  - +.ordelvain.com
   - +.order-cs.eu
   - +.orderbuycheap.com
   - +.orderrxstore.com
@@ -12294,7 +12295,6 @@ payload:
   - +.planetbrace.com
   - +.planetebike24.de
   - +.planetoption.net
-  - +.planetvideo.com.br
   - +.plants-stores.com
   - +.plantshopp.de
   - +.planttshop.com
@@ -12303,7 +12303,6 @@ payload:
   - +.platform-ai-trade.com
   - +.platform.ap-capital-lim.com
   - +.platform.softwarecrownex.com
-  - +.platincoin.com
   - +.platinwerk.de
   - +.platten24.com
   - +.platzimgarten.com
@@ -12368,7 +12367,6 @@ payload:
   - +.pokepoint.shop
   - +.pokerstars-online.com
   - +.pokestores.com
-  - +.polaroid.com.de
   - +.polaroids.at
   - +.polarsupply.de
   - +.polenboeller-deutschland.com
@@ -12521,6 +12519,7 @@ payload:
   - +.primalekarna.com
   - +.primary-markets.com
   - +.primatop.de
+  - +.primavo24.de
   - +.prime-analytics.de
   - +.prime-deutschland.com
   - +.prime-e-bike.eu
@@ -13050,6 +13049,7 @@ payload:
   - +.rene-verlag.com
   - +.renemoney444.m.ec21.com
   - +.renier-box.com
+  - +.renleigh.schlafhalt.com
   - +.rennkurbelde.com
   - +.rennraderprada.com
   - +.rennraderverkauf.com
@@ -13302,6 +13302,7 @@ payload:
   - +.rony-services.com
   - +.roof-tube.com
   - +.roomivora.com
+  - +.roomlyx.eu.cc
   - +.roommyhut.com
   - +.root-shop.at
   - +.rootedandshore.com
@@ -13316,7 +13317,6 @@ payload:
   - +.rosenbergbasel.com
   - +.rosenfeldgoldschmied.com
   - +.rosewoo.com
-  - +.rossignol.com.de
   - +.rostikuche.com
   - +.rostock-scooter.de
   - +.rostock24.com
@@ -13443,6 +13443,7 @@ payload:
   - +.safir.com
   - +.safiraarabia.com
   - +.sagaenterprizes.com
+  - +.sageartatelier.com
   - +.sahibimnden.com
   - +.saia-maschinen.com
   - +.saint-blanc.com
@@ -13588,6 +13589,7 @@ payload:
   - +.saveoffer.de
   - +.savetheduckde.com
   - +.savingstsunami.com
+  - +.saviorheat.de
   - +.sawbehind.com
   - +.sawfashionnew.com
   - +.saycom.net
@@ -13625,7 +13627,9 @@ payload:
   - +.schirmlieb.store
   - +.schlafglanz.com
   - +.schlafhimmel.com
+  - +.schlafsackhaus.shop
   - +.schlaftabletten-rezeptfrei.org
+  - +.schlagfit.com
   - +.schlagschrauberfive.com
   - +.schlauchegeschaft.com
   - +.schleichsite.com
@@ -13878,6 +13882,7 @@ payload:
   - +.shapingnewtomorrow.shop
   - +.sharkbitesale.com
   - +.sharkca.com
+  - +.sharkflexstyle.at
   - +.sharkmotorrad.com
   - +.sharkos.de
   - +.sharp-case.com
@@ -13886,6 +13891,7 @@ payload:
   - +.shauntapparel.com
   - +.shaxu.top
   - +.sheenplace.com
+  - +.shein88.my
   - +.shellandsproutshop.com
   - +.shelterene.com
   - +.sheremart.com
@@ -14446,6 +14452,7 @@ payload:
   - +.spanenewstoday.com
   - +.spar-allianz.de
   - +.spar-markt.de
+  - +.sparfuchs-vergleich.base44.app
   - +.sparhaustechnik.de
   - +.sparkamerad.de
   - +.sparkauf.eu
@@ -14897,6 +14904,7 @@ payload:
   - +.suedpfalzshop.de
   - +.suedwest-motorgeraete.com
   - +.suekoppel.com
+  - +.suessebaby.com
   - +.suessegenuss.com
   - +.sufficientw.com
   - +.sufira-boutique.de
@@ -15601,6 +15609,7 @@ payload:
   - +.topfahrradzubehor.com
   - +.topfastorder.com
   - +.topgartenservice.de
+  - +.topgastronomie.com
   - +.topgood.xyz
   - +.topheizlosungen.com
   - +.tophomeonlineshop.com
@@ -16242,6 +16251,7 @@ payload:
   - +.velamostore.com
   - +.velanoshop.com
   - +.velarendectoai.com
+  - +.veldra.de
   - +.velencia.de
   - +.velenza.de
   - +.velinaboutiquewien.com
@@ -16334,6 +16344,7 @@ payload:
   - +.vessisdeutschland.com
   - +.vessishoesireland.com
   - +.vestigejewelry.com
+  - +.vetains.shop
   - +.vetapotheke-shop.de
   - +.vetntilate.com
   - +.vetretto.myshopify.com
@@ -16575,6 +16586,7 @@ payload:
   - +.voroda.de
   - +.voroly.de
   - +.vorratshaus.com
+  - +.vorratswerk.shop
   - +.vorsorge-karte.com
   - +.vortexashop.net
   - +.vorwerk-de.com
@@ -16625,6 +16637,7 @@ payload:
   - +.vytor.de
   - +.vyxenor.com
   - +.vzbuch.shop
+  - +.waagepur.com
   - +.wachautoteile.com
   - +.wachstumsworkshop.de
   - +.waco-logistics.com
@@ -16639,6 +16652,7 @@ payload:
   - +.wagemannmode.de
   - +.wagenfreude.de
   - +.wagner-baumaschinen.com
+  - +.wagner-familie-graz.at
   - +.wagner-mode.com
   - +.wagnerzurich.ch
   - +.wahlalltagkueche.com
