@@ -251,7 +251,6 @@ payload:
   - +.ihappystudio.com
   - +.imqq.com
   - +.imweb.io
-  - +.in.th
   - +.inte.sogou.com
   - +.inte.sogoucdn.com
   - +.intltencentcos.com
@@ -281,6 +280,7 @@ payload:
   - +.kugouyouth.com
   - +.kuwo.cn
   - +.labycore.cn
+  - +.levelinfinite.com
   - +.log.tbs.qq.com
   - +.lrts.me
   - +.lu.sogou.com
@@ -327,6 +327,7 @@ payload:
   - +.nagcloudcs.com
   - +.nextstudios.com
   - +.nextworkshop.net
+  - +.nikke-en.com
   - +.onexmail.com
   - +.openapp.run
   - +.openmidas.com
@@ -565,6 +566,7 @@ payload:
   - +.tencentdms.com
   - +.tencenteiam.com
   - +.tencentelasticsearch.com
+  - +.tencentgames.com
   - +.tencentid.com
   - +.tencentidentity.com
   - +.tencentmiying.com
