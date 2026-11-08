@@ -262,7 +262,6 @@ payload:
   - +.digitalgroupe.com
   - +.dip.jp
   - +.diskstation.eu
-  - +.diskstation.me
   - +.diskstation.org
   - +.ditchyourip.com
   - +.dive2.net
@@ -333,12 +332,7 @@ payload:
   - +.drayddns.com
   - +.dropfiles.net
   - +.drunkensailor.org
-  - +.dscloud.me
-  - +.dscloud.mobi
   - +.dsmtp.com
-  - +.dsmynas.com
-  - +.dsmynas.net
-  - +.dsmynas.org
   - +.dtdns.com
   - +.dtdns.net
   - +.dtdns.org
@@ -493,9 +487,6 @@ payload:
   - +.f3322.org
   - +.fairuse.org
   - +.falcongreen.com
-  - +.familyds.com
-  - +.familyds.net
-  - +.familyds.org
   - +.fantasyleague.cc
   - +.faqserv.com
   - +.farted.net
@@ -711,7 +702,6 @@ payload:
   - +.hulichicken.com
   - +.humorvisite.eu
   - +.hunnur.com
-  - +.i234.me
   - +.iamallama.com
   - +.ics.tw
   - +.ideasciviles.com
@@ -868,9 +858,6 @@ payload:
   - +.kanda.ru
   - +.kaohsiung.tv
   - +.kck-saratov.ru
-  - +.keenetic.link
-  - +.keenetic.name
-  - +.keenetic.pro
   - +.keine-panik.net
   - +.kellserve.com
   - +.kicks-ass.net
@@ -1001,7 +988,6 @@ payload:
   - +.mydissent.net
   - +.mydns.bz
   - +.mydns.jp
-  - +.myds.me
   - +.myeffect.net
   - +.myftp.biz
   - +.myftp.info
@@ -1037,7 +1023,6 @@ payload:
   - +.mysecuritycamera.net
   - +.mysecuritycamera.org
   - +.myserver.org
-  - +.mysynology.net
   - +.myvnc.com
   - +.mywebworld.info
   - +.mywire.org
@@ -1068,6 +1053,7 @@ payload:
   - +.nflfan.org
   - +.nhlfan.net
   - +.ninth.biz
+  - +.nip.io
   - +.no-domain.name
   - +.no-ip.biz
   - +.no-ip.ca
