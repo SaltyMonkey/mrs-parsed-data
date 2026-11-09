@@ -720,6 +720,7 @@ payload:
   - +.groq.com
   - +.groupon.com
   - +.grouponcdn.com
+  - +.gssv-play-prod.xboxlive.com
   - +.gstatic.com
   - +.guilded.gg
   - +.gulagu.net
@@ -2070,7 +2071,6 @@ payload:
   - +.xerox.fr
   - +.xerox.it
   - +.xerox.nl
-  - +.xgpuweb.gssv-play-prod.xboxlive.com
   - +.xhamster.com
   - +.xhamsterlive.com
   - +.xhcdn.com
