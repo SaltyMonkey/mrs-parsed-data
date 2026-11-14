@@ -36,6 +36,7 @@ payload:
   - +.ads-frontier.tiktok.com
   - +.ads-ie.tiktokw.eu
   - +.ads-ru.tiktok.com
+  - +.ads-service.tiktok.com
   - +.ads-sg.business-tiktok.com
   - +.ads-sg.tiktok.com
   - +.ads-ttp2.tiktokw.eu
@@ -261,6 +262,7 @@ payload:
   - +.log32-normal-zr.tiktokv.com
   - +.log32-normal.capcutapi.com
   - +.log32-normal.tiktokv.com
+  - +.log53-normal-c-useast1a.tiktokv.com
   - +.log58-normal-alisg.tiktokv.com
   - +.log58-normal-c-alisg.tiktokv.com
   - +.log58-normal-c-useast1a.tiktokv.com
@@ -268,6 +270,8 @@ payload:
   - +.log58-normal-useast2a.tiktokv.com
   - +.log58-normal-ycru.tiktokv.com
   - +.log58-normal.tiktokv.com
+  - +.log61-normal-c-alisg.tiktokv.com
+  - +.log61-normal-c-useast1a.tiktokv.com
   - +.log77-normal-c-alisg.tiktokv.com
   - +.log77-normal-c-useast1a.tiktokv.com
   - +.log9-normal-c-useast1a.tiktokv.com
@@ -512,8 +516,6 @@ payload:
   - +.ug-sg.capcutapi.com
   - +.ug-va.capcutapi.com
   - +.ug.snssdk.com
-  - +.url4077.ads-service.tiktok.com
-  - +.url7108.ads-service.tiktok.com
   - +.v16-ad.byteoversea.com
   - +.vaali-mcs-useast1a.byteoversea.com
   - +.vaali-mcs-useast2a.byteoversea.com
