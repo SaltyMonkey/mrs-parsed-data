@@ -605,6 +605,7 @@ payload:
   - appleworldwidedeveloper.sc.omtrdc.net
   - az764295.vo.msecnd.net
   - bingsettingssearch.trafficmanager.net
+  - builds.dotnet.microsoft.com
   - cdn-cn.apple-mapkit.com
   - cdn-cn1.apple-mapkit.com
   - cdn-cn2.apple-mapkit.com
@@ -629,6 +630,7 @@ payload:
   - developers.facebook.com
   - docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
   - docker-pinata-support.s3.amazonaws.com
+  - dotnetcli.trafficmanager.net
   - download.visualstudio.microsoft.com
   - dtlgalleryint.cloudapp.net
   - firebase-settings.crashlytics.com
@@ -685,9 +687,11 @@ payload:
   - psg-int-eastus.cloudapp.net
   - rink.hockeyapp.net
   - rt.services.visualstudio.com
+  - sundry-star-net-geo.trafficmanager.net
   - update.crashlytics.com
   - vscode-sync-insiders.trafficmanager.net
   - vscode-sync.trafficmanager.net
   - vscode.blob.core.windows.net
+  - vscode.download.prss.microsoft.com
   - vscode.search.windows.net
   - vsmarketplacebadge.apphb.com
