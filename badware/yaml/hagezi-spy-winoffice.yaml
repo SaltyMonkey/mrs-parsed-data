@@ -23,7 +23,6 @@ payload:
   - +.adserver.bing.com
   - +.adstore.response.gcp.eastus.trafficmanager.net
   - +.adsyndication.msn.com
-  - +.adsyndication.msn.com.nsatc.net
   - +.advertising.jp.msn.com
   - +.advertising.microsoft.com
   - +.agps-location-livenet.trafficmanager.net
@@ -36,7 +35,6 @@ payload:
   - +.analytics.pstnhub.microsoft.com
   - +.analytics.trafficmanager.net
   - +.analyticsehnwe.servicebus.windows.net
-  - +.analyticsiot-prod-mobileapps-ehn.servicebus.windows.net
   - +.analyticspixel.microsoft.com
   - +.api.edgeoffer.microsoft.com
   - +.applicationinsights.azure.com
@@ -152,6 +150,7 @@ payload:
   - +.eurppc-powerpoint-telemetry.officeapps.live.com
   - +.eurppc-word-telemetry.officeapps.live.com
   - +.events-sandbox.data.microsoft.com
+  - +.events-sandbox.data.msn.cn
   - +.events-sandbox.data.msn.com
   - +.events.data.microsoft.com
   - +.events.data.msn.cn
@@ -179,7 +178,7 @@ payload:
   - +.hk-tracker.trafficmanager.net
   - +.hme-uat-loganalytics-namespace.servicebus.windows.net
   - +.i1.services.social.microsoft.com
-  - +.icmskillevents.trafficmanager.net
+  - +.identity.nel.measure.office.net.intern.schreinereistumpf.de
   - +.ieonline.microsoft.com
   - +.in.appcenter.ms
   - +.in.applicationinsights.azure.cn
@@ -239,6 +238,7 @@ payload:
   - +.partnerfraudevents.trafficmanager.net
   - +.pgtbr1-excel-telemetry-vip.officeapps.live.com
   - +.pgtbr2-excel-telemetry-vip.officeapps.live.com
+  - +.pgtca1-powerpoint-telemetry-vip.officeapps.live.com
   - +.pgteu1-excel-telemetry-vip.officeapps.live.com
   - +.pgteu1-powerpoint-telemetry-vip.officeapps.live.com
   - +.pgteu1-word-telemetry-vip.officeapps.live.com
@@ -252,8 +252,8 @@ payload:
   - +.pgteu4-powerpoint-telemetry-vip.officeapps.live.com
   - +.pgteu4-word-telemetry-vip.officeapps.live.com
   - +.pgteu5-excel-telemetry-vip.officeapps.live.com
-  - +.pgteu5-powerpoint-telemetry-vip.officeapps.live.com
   - +.pgteu5-word-telemetry-vip.officeapps.live.com
+  - +.pgtmx1-excel-telemetry-vip.officeapps.live.com
   - +.pgtus1-excel-telemetry-vip.officeapps.live.com
   - +.pgtus1-powerpoint-telemetry-vip.officeapps.live.com
   - +.pgtus1-word-telemetry-vip.officeapps.live.com
@@ -339,13 +339,11 @@ payload:
   - +.statsfe2.ws.microsoft.com
   - +.stjjp.msn.com
   - +.swiftanalyticsprod.servicebus.windows.net
-  - +.t-ring-fallback-s2.msedge.net
   - +.t-ring-fallback.msedge.net
   - +.t-ring-fallbacks1.msedge.net
   - +.t-ring-s2.msedge.net
   - +.t-ring-trafficshield.msedge.net
   - +.t-ring.msedge.net
-  - +.t-s2-ring.msedge.net
   - +.teams-events-data.trafficmanager.net
   - +.telecommandsvc.microsoft.com
   - +.telem-edge.smartscreen.microsoft.com
@@ -368,7 +366,6 @@ payload:
   - +.udc.msn.com
   - +.ukc-onenote-telemetry.officeapps.live.com
   - +.ukc-visio-telemetry.officeapps.live.com
-  - +.us-mesh-events-data-leafs.trafficmanager.net
   - +.us1-excel-telemetry.officeapps.live.com
   - +.us1-powerpoint-telemetry.officeapps.live.com
   - +.us1-word-telemetry.officeapps.live.com
