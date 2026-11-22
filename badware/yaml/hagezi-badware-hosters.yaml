@@ -3,11 +3,14 @@ payload:
   - +.000a.de
   - +.000free.us
   - +.000nethost.com
+  - +.000space.com
   - +.000webapp.com
   - +.000webhost.com
   - +.000webhost.info
   - +.000webhostapp.com
   - +.00author.com
+  - +.00freehost.com
+  - +.00freeweb.com
   - +.00go.com
   - +.00it.com
   - +.00m.in
@@ -34,6 +37,7 @@ payload:
   - +.135.it
   - +.13e.de
   - +.150m.com
+  - +.16mb.com
   - +.178.at
   - +.17p.de
   - +.193.at
@@ -73,6 +77,7 @@ payload:
   - +.2itb.com
   - +.2kool4u.net
   - +.2no.co
+  - +.2u.gg
   - +.3-89-181-9.cprapid.com
   - +.310.at
   - +.350.com
@@ -98,6 +103,7 @@ payload:
   - +.5v.pl
   - +.66ghz.com
   - +.6te.net
+  - +.7.je
   - +.741.com
   - +.766.at
   - +.8.je
@@ -110,6 +116,7 @@ payload:
   - +.9down.com
   - +.9gb.de
   - +.9k.com
+  - +.9vpsta1.com
   - +.a-loch.de
   - +.a.gp
   - +.a0001.net
@@ -130,6 +137,7 @@ payload:
   - +.abhauen.de
   - +.abklappern.de
   - +.about.lc
+  - +.abroad-links.com
   - +.absichern.eu
   - +.absorbiert.de
   - +.abstellen.de
@@ -146,6 +154,7 @@ payload:
   - +.all.co.uk
   - +.all.lc
   - +.allemal.de
+  - +.allsha.re
   - +.als-geschenk.de
   - +.am-geilsten.de
   - +.am-strand.de
@@ -156,9 +165,11 @@ payload:
   - +.and-you.de
   - +.anfliegen.de
   - +.angelfire.com
+  - +.annoyingnightmareedit.com
   - +.anonfile.com
   - +.anschauen.in
   - +.anschiessen.de
+  - +.antonellapouncedcrewels.com
   - +.anyhub.net
   - +.apac.orbitor.dev
   - +.appbitly.com
@@ -170,7 +181,9 @@ payload:
   - +.asset-cdn.dev
   - +.at.cr
   - +.at.st
+  - +.atpcf.co.uk
   - +.atsnx.com
+  - +.atspace.co.uk
   - +.atw.hu
   - +.atwebpages.com
   - +.au.gp
@@ -179,17 +192,20 @@ payload:
   - +.auto.lc
   - +.aw3.de
   - +.aws3-demo.link
+  - +.aws3.link
   - +.axifile.com
   - +.az.gp
   - +.azl.one
   - +.b.gp
   - +.b12sites.com
   - +.b2b.lc
+  - +.b51.tw
   - +.baggyrepackingrocky.com
   - +.bakoweb.com
   - +.ballern.de
   - +.bayfiles.com
   - +.be.gp
+  - +.beepworld.it
   - +.beget.tech
   - +.begins.de
   - +.beplaced.com
@@ -198,13 +214,17 @@ payload:
   - +.betrunken.org
   - +.bg.gp
   - +.bget.ru
+  - +.bidiurl.com
   - +.bigheadhosting.net
   - +.bilder.lc
   - +.billblett.com
+  - +.biolink.com.do
   - +.bitly.net
+  - +.bitvn.co
   - +.bityl.co
   - +.bitzli.ch
   - +.biz.ps
+  - +.biz.tc
   - +.blatnet.com
   - +.blink.hirebiz.com
   - +.blltly.com
@@ -213,8 +233,98 @@ payload:
   - +.blogcheese.com
   - +.bloggt.de
   - +.blogmonster.de
+  - +.blogspot.ae
+  - +.blogspot.al
+  - +.blogspot.am
+  - +.blogspot.at
+  - +.blogspot.au
+  - +.blogspot.ba
+  - +.blogspot.be
+  - +.blogspot.bg
+  - +.blogspot.blog
+  - +.blogspot.bom
+  - +.blogspot.br
+  - +.blogspot.ca
+  - +.blogspot.ch
+  - +.blogspot.cl
+  - +.blogspot.cm
+  - +.blogspot.co
+  - +.blogspot.co.at
+  - +.blogspot.co.id
+  - +.blogspot.co.il
+  - +.blogspot.co.in
+  - +.blogspot.co.ke
+  - +.blogspot.co.nz
+  - +.blogspot.co.uk
+  - +.blogspot.co.za
+  - +.blogspot.com
+  - +.blogspot.com.ar
+  - +.blogspot.com.au
+  - +.blogspot.com.br
+  - +.blogspot.com.by
+  - +.blogspot.com.co
+  - +.blogspot.com.com
+  - +.blogspot.com.cy
+  - +.blogspot.com.ee
+  - +.blogspot.com.eg
+  - +.blogspot.com.es
+  - +.blogspot.com.mt
+  - +.blogspot.com.mx
+  - +.blogspot.com.my
+  - +.blogspot.com.ng
+  - +.blogspot.com.pl
+  - +.blogspot.com.tr
+  - +.blogspot.com.uy
+  - +.blogspot.cz
+  - +.blogspot.de
+  - +.blogspot.dk
+  - +.blogspot.edu
+  - +.blogspot.es
+  - +.blogspot.eu
+  - +.blogspot.fi
+  - +.blogspot.fr
+  - +.blogspot.gr
+  - +.blogspot.hk
+  - +.blogspot.hr
+  - +.blogspot.hu
+  - +.blogspot.id
+  - +.blogspot.ie
+  - +.blogspot.in
+  - +.blogspot.is
+  - +.blogspot.it
+  - +.blogspot.jp
+  - +.blogspot.kr
+  - +.blogspot.li
+  - +.blogspot.lt
+  - +.blogspot.lu
+  - +.blogspot.md
+  - +.blogspot.mk
+  - +.blogspot.mx
+  - +.blogspot.my
+  - +.blogspot.net
+  - +.blogspot.nl
+  - +.blogspot.no
+  - +.blogspot.om
+  - +.blogspot.org
+  - +.blogspot.pe
+  - +.blogspot.pl
+  - +.blogspot.pt
+  - +.blogspot.qa
+  - +.blogspot.ro
+  - +.blogspot.rs
+  - +.blogspot.ru
+  - +.blogspot.se
+  - +.blogspot.sg
+  - +.blogspot.si
+  - +.blogspot.sk
+  - +.blogspot.sn
+  - +.blogspot.tw
+  - +.blogspot.ug
+  - +.blogspot.uk
   - +.blogspot.vip
   - +.bo.gp
+  - +.boarfishesquandangsunderdried.com
+  - +.boxmail.biz
   - +.boxmode.io
   - +.br.gp
   - +.brizy.site
@@ -245,6 +355,7 @@ payload:
   - +.cableonline.com.mx
   - +.cbkgardens.com
   - +.cc.cd
+  - +.ccname.org
   - +.ccwu.cc
   - +.cebol.me
   - +.center.tl
@@ -273,6 +384,7 @@ payload:
   - +.cloud-ip.biz
   - +.cloud-ip.cc
   - +.cloudflare-ipfs.com
+  - +.cloudnary.net
   - +.cloudns.asia
   - +.cloudns.be
   - +.cloudns.biz
@@ -297,6 +409,7 @@ payload:
   - +.cn.gp
   - +.co.gp
   - +.com-portal.de
+  - +.com.nu
   - +.com0.de
   - +.com24.at
   - +.come.ac
@@ -306,6 +419,7 @@ payload:
   - +.company.site
   - +.comxa.com
   - +.conohawing.com
+  - +.convertri.com
   - +.cool.hn
   - +.cool.lc
   - +.coolfreepages.com
@@ -314,11 +428,14 @@ payload:
   - +.craftum.io
   - +.created.app
   - +.creatorlink.net
-  - +.crypto-market-world.com
+  - +.crustwebsites.net
   - +.cryptonight.net
   - +.cs-clan.org
   - +.cstu.io
+  - +.csvip.me
   - +.ct.ws
+  - +.ctempurl.com
+  - +.cuer.io
   - +.curryfielddistribution.com
   - +.cut.vin
   - +.cutedrive.com
@@ -344,12 +461,14 @@ payload:
   - +.de.mg
   - +.de.pl
   - +.de5.net
+  - +.descontosachados.com
   - +.design.tl
+  - +.designcarthosting.com
   - +.digitalzones.com
   - +.dik.si
   - +.dimsolo.com
   - +.diowebhost.com
-  - +.dohggte.com
+  - +.dollarlink.net
   - +.domain.lc
   - +.dot.tk
   - +.dothome.co.kr
@@ -362,11 +481,15 @@ payload:
   - +.dpdns.org
   - +.dpuplet.net
   - +.dreht-auf.de
+  - +.drrop.cc
+  - +.dstly.xyz
   - +.dvd.lc
   - +.dweb.link
   - +.dx.am
   - +.e-docssig.com
   - +.e.gp
+  - +.easeado.com
+  - +.eb2a.com
   - +.ec.gp
   - +.ecardalert.com
   - +.ecomplanet.com
@@ -411,6 +534,7 @@ payload:
   - +.ev.de
   - +.events-games.com
   - +.ewp.live
+  - +.ex-foary.com
   - +.exactpages.com
   - +.ezyro.com
   - +.f11.us
@@ -422,6 +546,7 @@ payload:
   - +.fast-page.org
   - +.fastshare.org
   - +.fat-fly.com
+  - +.fcpages.com
   - +.ferreracademy.com
   - +.fileave.com
   - +.filebin.net
@@ -447,6 +572,7 @@ payload:
   - +.forum7.de
   - +.forumil.com
   - +.fotos.lc
+  - +.fr.am
   - +.fr.gp
   - +.framer.website
   - +.freakshare.net
@@ -476,6 +602,7 @@ payload:
   - +.freewebportal.com
   - +.freewebsitehosting.com
   - +.freightinternationalservices.com
+  - +.frewwebs.com
   - +.friendcircles.com
   - +.ftp.totallyanonymous.com
   - +.fuer-alle.de
@@ -485,6 +612,7 @@ payload:
   - +.fun.pe
   - +.fun5.de
   - +.fw.bz
+  - +.fwb4me.us
   - +.fwh.is
   - +.gakken.shop
   - +.game.lc
@@ -517,15 +645,20 @@ payload:
   - +.guide.lc
   - +.h.gp
   - +.h4g3z1-hoster.web.app
+  - +.halloit.eu
+  - +.halobet.digital
   - +.han.gl
   - +.hanefra7bikiemta.com
   - +.hardbin.com
   - +.hase.in
   - +.hashnode.dev
   - +.healthyemployee.me
+  - +.hellokity.xyz
+  - +.helvetqr.ch
   - +.hemihydro.com
   - +.hexe.in
   - +.hilfe24h.de
+  - +.hiturl.at
   - +.hk6vdj4z.click
   - +.hokilink.net
   - +.home.lc
@@ -538,6 +671,7 @@ payload:
   - +.hostfree.pw
   - +.hostingersite.com
   - +.hostingsiteforfree.com
+  - +.hot.lc
   - +.hotfile.com
   - +.hotshare.net
   - +.hp.lc
@@ -562,6 +696,7 @@ payload:
   - +.id.gp
   - +.idiot24.de
   - +.ij2.de
+  - +.il.gp
   - +.ilink-to.net
   - +.im-internet.eu
   - +.imagengratis.org
@@ -583,8 +718,10 @@ payload:
   - +.info4.de
   - +.infos.cx
   - +.infos.lc
+  - +.infos.st
   - +.infura-ipfs.io
   - +.infy.uk
+  - +.ink4.co
   - +.inmotionhosting.com
   - +.instantfreesite.com
   - +.int.ps
@@ -593,13 +730,16 @@ payload:
   - +.intrudeimpolitetortoise.com
   - +.invoicenotices.com
   - +.inx.lv
+  - +.iolink.me
   - +.ipfs.best-practice.se
+  - +.ipfs.inbrowser.link
   - +.ipfs.ink
   - +.ipfs.io
   - +.ipfs.joaoleitao.org
   - +.ipfs.orbitor.dev
   - +.iplogger.cn
   - +.iplogger.co
+  - +.ipns.inbrowser.link
   - +.ir.gp
   - +.is-alive.de
   - +.is-best.net
@@ -619,15 +759,19 @@ payload:
   - +.j55.eu
   - +.ja.cat
   - +.janhost.com
+  - +.jayan-uvl.com
   - +.jcmemoryscan.com
   - +.jimdofree.com
   - +.jimdosite.com
   - +.jixx.de
   - +.jixx.net
+  - +.jm-88.cc
   - +.job.ec
   - +.joomla.com
   - +.jp.gp
   - +.ju.mp
+  - +.jujubots.io
+  - +.just2earn.com
   - +.justns.ru
   - +.k.gp
   - +.k1.cx
@@ -642,14 +786,19 @@ payload:
   - +.kilu.net
   - +.kilu.org
   - +.kiluweb.com
+  - +.kl.com.ua
   - +.klammert.de
+  - +.konubinix.eu
   - +.kortlink.dk
   - +.kr.gp
   - +.kraftonevent.com
   - +.kro.kr
   - +.kurzschliessen.de
+  - +.kutt.to
+  - +.kyb101.link
   - +.kz.gp
   - +.l.gp
+  - +.l.jiosewa.com
   - +.l4n.org
   - +.l8n5kafm6l.net
   - +.laden.biz
@@ -658,30 +807,46 @@ payload:
   - +.leechall.com
   - +.leetleech.org
   - +.lernt.de
+  - +.letz.kr
+  - +.lhb.pw
   - +.lhosting.info
   - +.lhr.life
+  - +.lib-net.dev
   - +.liebe.lc
   - +.liftmyresume.com
   - +.lihi1.com
   - +.lihi3.cc
   - +.likesyou.org
   - +.link.ac
+  - +.linkat.me
   - +.linkcyb.org
+  - +.linkdly.me
   - +.linkfast.me
   - +.linkhd.co
+  - +.linkiweb.com
+  - +.linklab.cc
   - +.linkme.vn
   - +.linkrex.net
   - +.links.lc
+  - +.linksc.click
+  - +.linksnapro.com
+  - +.linkste.com
+  - +.linkswave.net
+  - +.linkulb.com
+  - +.liteshort.com
   - +.littlebyte.net
   - +.live-stream.eu
   - +.live-website.com
   - +.live2.de
   - +.liveblog365.com
+  - +.lksfy.com
   - +.llink.to
   - +.lmy.de
+  - +.lnfo.uz
   - +.lnk.do
   - +.lnk.ink
   - +.lnkz.at
+  - +.lnkz.us
   - +.loca.lt
   - +.localto.net
   - +.localtonet.com
@@ -691,9 +856,12 @@ payload:
   - +.lovelocals.us
   - +.loveslife.biz
   - +.lovestoblog.com
+  - +.lplink.ru
   - +.lu.kg
   - +.luzzati.com
   - +.lyli.fi
+  - +.lynk.la
+  - +.lynkme.bio
   - +.m-pages.com
   - +.m.vu
   - +.ma.gp
@@ -719,10 +887,13 @@ payload:
   - +.mightyurl.mightyscripts.xyz
   - +.migly.in
   - +.mihanblog.com
+  - +.minilink.nl
   - +.mirorii.com
   - +.mit-wenig-geld.de
   - +.mixh.jp
   - +.mixturecloud.com
+  - +.mk-live-webinar.com
+  - +.mlnk.vn
   - +.mmm.page
   - +.mobi.ps
   - +.mobile.web.tr
@@ -743,6 +914,7 @@ payload:
   - +.my5353.com
   - +.myartsonline.com
   - +.mybb.pw
+  - +.mybb.rocks
   - +.myblogvoice.com
   - +.mybluehost.me
   - +.mybluehostin.me
@@ -754,6 +926,7 @@ payload:
   - +.myfreesites.net
   - +.myftpupload.com
   - +.myfunnelish.com
+  - +.myip.kr
   - +.mylinkinb.io
   - +.myportfolio.com
   - +.mypressonline.com
@@ -765,6 +938,7 @@ payload:
   - +.n.gp
   - +.name.ac
   - +.name.vg
+  - +.narod.ru
   - +.neocities.org
   - +.netfast.org
   - +.nethouse.ru
@@ -794,6 +968,7 @@ payload:
   - +.o.gp
   - +.of-love.de
   - +.officialsitebuilder.com
+  - +.ogqu.top
   - +.ohw.tf
   - +.olinks.click
   - +.omas.in
@@ -801,6 +976,7 @@ payload:
   - +.on-fleek.app
   - +.on.gp
   - +.on.lc
+  - +.onaiappbuilder.com
   - +.onbit.pro
   - +.one4u.0lx.net
   - +.onepage.website
@@ -810,21 +986,26 @@ payload:
   - +.online.gp
   - +.online.ly
   - +.online.tc
+  - +.onlineweb.shop
   - +.onlinewebshop.net
   - +.only4u.eu
   - +.onmbl.com
   - +.opent2.com
+  - +.opisial.com
   - +.orgfree.com
   - +.orgsites.com
   - +.os.md
   - +.oundhertobeconsist.org
+  - +.ourl.me
   - +.own-free-website.com
   - +.oyn.at
   - +.ozq.de
   - +.p.gp
+  - +.p2blogs.com
   - +.page.gd
   - +.page4.me
   - +.pagedemo.co
+  - +.palpatecricketmajesty.com
   - +.pancake.run
   - +.parknhost.com
   - +.party.lc
@@ -835,6 +1016,7 @@ payload:
   - +.ph.gp
   - +.photos.lc
   - +.picvalley.net
+  - +.pixabayy.net
   - +.pixelt.de
   - +.pk.gp
   - +.pktriot.net
@@ -843,7 +1025,9 @@ payload:
   - +.planet.tl
   - +.plasmic.run
   - +.plu.sh
+  - +.plxabay.net
   - +.polink.co
+  - +.popden.link
   - +.portal.lc
   - +.pory.app
   - +.pp.ua
@@ -854,6 +1038,8 @@ payload:
   - +.pro.vg
   - +.pro3.de
   - +.profis.info
+  - +.profreehost.com
+  - +.prolink168.com
   - +.psce.pw
   - +.psee.io
   - +.psend.com
@@ -866,10 +1052,13 @@ payload:
   - +.ql4h.net
   - +.qptr.ru
   - +.qr.nikastic.com
+  - +.qrab.eu
   - +.qrcodedynamic.com
   - +.qrcodeveloper.com
+  - +.qrgen.co.uk
   - +.qrsu.io
   - +.qry.kr
+  - +.qty3e.pro
   - +.qu.am
   - +.quiztionnaire.uk
   - +.qzz.io
@@ -879,6 +1068,7 @@ payload:
   - +.rapidshare.com
   - +.rapidshare.de
   - +.rapidshare.se
+  - +.rdrclk.com
   - +.re2.de
   - +.reco.ws
   - +.redirme.com
@@ -898,8 +1088,10 @@ payload:
   - +.ru.gp
   - +.ru.nu
   - +.rumahweb.org
+  - +.runi.surf
   - +.s.gp
   - +.sa.gp
+  - +.santuy.me
   - +.sc.link
   - +.schmust.de
   - +.schoolrack.com
@@ -923,22 +1115,27 @@ payload:
   - +.server2.eu
   - +.server3.eu
   - +.service.lc
+  - +.sgeiruehou.cfd
   - +.share.lc
   - +.sharkserve.com
   - +.shohu.shop
+  - +.shoort.ch
   - +.shop.fm
   - +.shop2.de
   - +.shopping.cr
   - +.shopping.hn
   - +.short-link.net
   - +.shortcm.li
+  - +.shortduck.com
   - +.shorten.so
   - +.shorter.me
   - +.shortest.link
-  - +.shortslinks.site
   - +.shortu.be
   - +.shorturl.ae
+  - +.shorturl.az
+  - +.shorturl.ly
   - +.shrty.eu
+  - +.shurl.ch
   - +.site44.com
   - +.sitebeat.crazydomains.com
   - +.sitepalace.com
@@ -948,6 +1145,7 @@ payload:
   - +.slwatch.co
   - +.sms.cr
   - +.smsu.io
+  - +.snappshort.com
   - +.snifferip.com
   - +.social-networking.me
   - +.socialsmp.com
@@ -967,6 +1165,7 @@ payload:
   - +.static-lib.dev
   - +.staticrun.app
   - +.storacha.link
+  - +.storiediviaggio.com
   - +.stormpages.com
   - +.studio.site
   - +.suchtis.de
@@ -975,6 +1174,7 @@ payload:
   - +.surl.lt
   - +.sv.gp
   - +.sviluppo.host
+  - +.swig.gs
   - +.swtest.ru
   - +.sxx.in
   - +.sylu.cc
@@ -994,18 +1194,26 @@ payload:
   - +.temporary.site
   - +.tentbuildingservices.eu
   - +.test.lc
+  - +.testingnow.me
   - +.th.gp
   - +.thamboli.co.za
+  - +.thewee.link
+  - +.thoughtlanes.net
+  - +.thryt.com
   - +.tiiny.io
   - +.tiiny.site
   - +.tinylink.in
   - +.tinyupload.com
   - +.tinyurl.ph
+  - +.tkpd.me
   - +.tld.cc
   - +.tlsn.io
+  - +.tmearn.net
   - +.tmpfiles.org
   - +.tmweb.ru
   - +.to.lk
+  - +.to24r.com
+  - +.toolaxy.com
   - +.top.lc
   - +.top.tc
   - +.top8.com
@@ -1018,11 +1226,14 @@ payload:
   - +.trend.in
   - +.trim.one
   - +.tripod.com
+  - +.trustless-gateway.link
   - +.trycloudflare.com
+  - +.tryurl.io
   - +.tunnelmole.net
   - +.turbo.site
   - +.turkish.lc
   - +.tutorial-blog.net
+  - +.tvoy-link.ru
   - +.tw.gp
   - +.tw1.ru
   - +.twilight.ws
@@ -1031,10 +1242,12 @@ payload:
   - +.u2l.ai
   - +.u3vw.shop
   - +.ua.gp
+  - +.ubd.one
   - +.ubpages.com
   - +.ucoz.ru
   - +.ueuo.com
   - +.ugu.pl
+  - +.ui-wp.dev
   - +.uk.cr
   - +.uk.gp
   - +.uk.nu
@@ -1047,7 +1260,9 @@ payload:
   - +.ume.la
   - +.unaux.com
   - +.unesa.me
+  - +.unim.ma
   - +.unl.one
+  - +.unsplasc.net
   - +.uploadbox.com
   - +.uploadbuzz.cc
   - +.uploader.eu
@@ -1056,14 +1271,22 @@ payload:
   - +.uploadjar.com
   - +.uplooder.net
   - +.upsara.com
+  - +.uptolink.one
+  - +.uptolink1.com
   - +.urest.org
+  - +.url-short.me
   - +.url.sumanonline.com
   - +.url.usacomment.com
   - +.url1.io
+  - +.url666x.com
   - +.urlaub.lc
+  - +.urlcut.app
   - +.urle.me
+  - +.urllink.live
   - +.urlto.me
+  - +.urlty.cc
   - +.urlyte.com
+  - +.urlz.gr
   - +.us.ci
   - +.us.kg
   - +.us.nf
@@ -1072,15 +1295,18 @@ payload:
   - +.usafreespace.com
   - +.usclargo.com
   - +.user.lc
+  - +.ushort.my
   - +.uz.gp
   - +.v.gp
   - +.v0r.org
+  - +.vampyrejibmen.com
   - +.vastserve.com
   - +.vav.li
   - +.vdxh.com
   - +.ve.gp
   - +.verifypass.pw
   - +.verkniffen.de
+  - +.via0.com
   - +.vidcloud.co
   - +.virtue.nu
   - +.virus.in
@@ -1093,10 +1319,12 @@ payload:
   - +.vpn.net.br
   - +.vuzelia.com
   - +.vz.lc
+  - +.w09.ru
   - +.w0of-woof.com
   - +.w3s.link
   - +.w3spaces.com
   - +.wapka.club
+  - +.wapka.co
   - +.wapka.site
   - +.wapka.store
   - +.wapka.top
@@ -1110,6 +1338,7 @@ payload:
   - +.webaccess-alert.com
   - +.webaccess-email.com
   - +.webador.com
+  - +.webb.in
   - +.webblog24.de
   - +.webboss.site
   - +.webcindario.com
@@ -1118,6 +1347,7 @@ payload:
   - +.weblium.site
   - +.webn.cc
   - +.webnode.com
+  - +.webnode.com.co
   - +.webnode.com.pt
   - +.webobo.com
   - +.webpages.one
@@ -1142,6 +1372,7 @@ payload:
   - +.wstd.io
   - +.wtcsites.com
   - +.wuaze.com
+  - +.www-tinyurl.com
   - +.www4.me
   - +.wy5532.com
   - +.x.gp
@@ -1170,11 +1401,13 @@ payload:
   - +.yj.ae
   - +.ykm.de
   - +.yolasite.com
+  - +.yorurl.com
   - +.you.lc
   - +.yourdomain.com
   - +.yovip.net
   - +.yu3.io
   - +.yuichi.shop
+  - +.yusite.my.id
   - +.z.gp
   - +.za.gp
   - +.zabc.net
@@ -1184,6 +1417,7 @@ payload:
   - +.zeleaks.site
   - +.ziddu.com
   - +.zippyshare.com
+  - +.zmfcxr.srnky.com
   - +.zone.id
   - +.zustimmen.de
   - +.zx9.de
