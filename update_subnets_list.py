@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 from scripts.collapse_subnets import collapse_file
@@ -12,7 +13,6 @@ from scripts.file_operations import (
     append_lines,
     clean_lines,
     ensure_eof_newline,
-    json_arrays,
     lines_to_yaml,
     merge_unique,
     remove_files,
@@ -24,10 +24,12 @@ from scripts.file_operations import (
 
 ROOT = Path(__file__).resolve().parent
 FOLDER = ROOT / "subnets"
+CLOUDFRONT_FEED = "cloudfront.json"
 
 ASN_GROUPS = {
     "contabo": (51167, 141995),
     "akamai": (20940, 63949),
+    "apple": (714, 6185),
     "roblox": (22697,),
     "scaleway": (12876,),
     "scalaxy": (58061,),
@@ -38,7 +40,7 @@ ASN_GROUPS = {
     "ovh": (16276,),
     "digitalocean": (14061,),
     "bunny": (200325,),
-    "meta": (32934,),
+    "meta": (32934, 63293, 54115, 149642),
     "telegram": (62041, 62014, 211157, 44907, 59930),
     "fastly": (54113,),
     "gcore": (199524, 202422),
@@ -46,12 +48,24 @@ ASN_GROUPS = {
 
 TELEGRAM_EXTRA_IPV4_SUBNETS = ("5.28.192.0/18",)
 
+# from itdoginfo/allow-domains
+# https://support.google.com/a/answer/1279090
+GOOGLE_MEET_V4 = (
+    "74.125.247.128/32",
+    "74.125.250.0/24",
+    "142.250.82.0/24",
+)
+GOOGLE_MEET_V6 = (
+    "2001:4860:4864:4:8000::/128",
+    "2001:4860:4864:5::/64",
+    "2001:4860:4864:6::/64",
+)
+
 SOURCES = (
-    ("https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg", "ipv4/discord-voice.txt"),
-    ("https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg", "ipv6/discord-voice.txt"),
+    ("https://iplist.opencck.org/?format=text&data=cidr4&site=discord.gg&site=discord.media", "ipv4/discord-voice.txt"),
+    ("https://iplist.opencck.org/?format=text&data=cidr6&site=discord.gg&site=discord.media", "ipv6/discord-voice.txt"),
     ("https://community.antifilter.download/list/community.lst", "ipv4/antifilter-community.txt"),
-    ("https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo-lite/geoip/apple.yaml", "ipv4/yaml/apple.yaml"),
-    ("https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips", "ipv4/cloudfront.json"),
+    ("https://ip-ranges.amazonaws.com/ip-ranges.json", CLOUDFRONT_FEED),
 )
 
 
@@ -61,6 +75,20 @@ def generate_asn_lists(name: str, asns: tuple[int, ...]) -> None:
     run_bgpq4("-4", ipv4_file, [str(asn) for asn in asns])
     run_bgpq4("-6", ipv6_file, [str(asn) for asn in asns])
     merge_unique((ipv4_file, ipv6_file), FOLDER / "dual" / f"{name}.txt")
+
+
+def parse_cloudfront_feed(source: Path, ipv4_file: Path, ipv6_file: Path) -> None:
+    feed = json.loads(source.read_text(encoding="utf-8"))
+    ipv4_prefixes = [
+        entry["ip_prefix"] for entry in feed["prefixes"] if entry["service"] == "CLOUDFRONT"
+    ]
+    ipv6_prefixes = [
+        entry["ipv6_prefix"] for entry in feed["ipv6_prefixes"] if entry["service"] == "CLOUDFRONT"
+    ]
+
+    for path, prefixes in ((ipv4_file, ipv4_prefixes), (ipv6_file, ipv6_prefixes)):
+        with path.open("w", encoding="utf-8", newline="\n") as output:
+            output.writelines(prefix + "\n" for prefix in prefixes)
 
 
 def main() -> None:
@@ -86,19 +114,24 @@ def main() -> None:
     ensure_eof_newline((telegram_ipv4, telegram_ipv6))
     merge_unique((telegram_ipv4, telegram_ipv6), FOLDER / "dual/telegram.txt")
 
-    if FOLDER / "ipv4/cloudfront.json" in ready:
-        json_arrays(
-            FOLDER / "ipv4/cloudfront.json",
-            FOLDER / "ipv4/cloudfront.txt",
-            ("CLOUDFRONT_GLOBAL_IP_LIST", "CLOUDFRONT_REGIONAL_EDGE_IP_LIST"),
-        )
-        ready.add(FOLDER / "ipv4/cloudfront.txt")
+    cloudfront_feed = FOLDER / CLOUDFRONT_FEED
+    if cloudfront_feed in ready:
+        cloudfront_ipv4 = FOLDER / "ipv4/cloudfront.txt"
+        cloudfront_ipv6 = FOLDER / "ipv6/cloudfront.txt"
+        parse_cloudfront_feed(cloudfront_feed, cloudfront_ipv4, cloudfront_ipv6)
+        ready.update((cloudfront_ipv4, cloudfront_ipv6))
 
-    for name in ("cloudflare", "discord-voice"):
+    for family, prefixes in (("ipv4", GOOGLE_MEET_V4), ("ipv6", GOOGLE_MEET_V6)):
+        subnet_file = FOLDER / family / "google-meet.txt"
+        with subnet_file.open("w", encoding="utf-8", newline="\n") as output:
+            output.write("\n".join(prefixes) + "\n")
+        ready.add(subnet_file)
+
+    for name in ("cloudflare", "discord-voice", "cloudfront", "google-meet"):
         ipv4_file = FOLDER / "ipv4" / f"{name}.txt"
         ipv6_file = FOLDER / "ipv6" / f"{name}.txt"
-        if name == "discord-voice" and not (ipv4_file in ready and ipv6_file in ready):
-            print("Keeping previous ruleset for dual/discord-voice.txt")
+        if not (ipv4_file in ready and ipv6_file in ready):
+            print(f"Keeping previous ruleset for dual/{name}.txt")
             continue
         ensure_eof_newline((ipv4_file, ipv6_file))
         dual_file = FOLDER / "dual" / f"{name}.txt"
@@ -122,7 +155,11 @@ def main() -> None:
         clean_lines(text_file, list_file)
         sort_unique_lines(list_file, list_file)
         lines_to_yaml(list_file, yaml_file)
-        run_mihomo("ipcidr", yaml_file, text_file.with_suffix(".mrs"))
+        mrs_file = text_file.with_suffix(".mrs")
+        if list_file.stat().st_size:
+            run_mihomo("ipcidr", yaml_file, mrs_file)
+        else:
+            mrs_file.unlink(missing_ok=True)
 
     remove_files(FOLDER, ("*.txt", "*.tmp", "*.json"), recursive=True)
 
