@@ -124,15 +124,18 @@ X|x|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/serv
 Xbox|xbox|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/services/xbox.mrs
 YouTube|youtube|domain|mrs|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/services/youtube.mrs
 Akamai CIDR|akamai-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/akamai.list
+Apple CIDR|apple-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/apple.list
 Bunny CIDR|bunny-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/bunny.list
 CDN77 CIDR|cdn77-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/cdn77.list
 Cloudflare CIDR|cloudflare-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/cloudflare.list
+Cloudfront CIDR|cloudfront-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/cloudfront.list
 Contabo CIDR|contabo-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/contabo.list
 Datacamp CIDR|datacamp-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/datacamp.list
 DigitalOcean CIDR|digitalocean-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/digitalocean.list
 Discord voice CIDR|discord-voice-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/discord-voice.list
 Fastly CIDR|fastly-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/fastly.list
 Gcore CIDR|gcore-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/gcore.list
+Google meet CIDR|google-meet-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/google-meet.list
 Hetzner CIDR|hetzner-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/hetzner.list
 Meta CIDR|meta-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/meta.list
 OVH CIDR|ovh-ipcidr|ipcidr|text|https://cdn.jsdelivr.net/gh/saltymonkey/mrs-parsed-data@main/subnets/dual/ovh.list

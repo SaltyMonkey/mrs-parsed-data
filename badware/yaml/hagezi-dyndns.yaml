@@ -1,7 +1,6 @@
 payload:
   - +.0000000000000000000000.com
   - +.001www.com
-  - +.0rg.us
   - +.0x.no
   - +.100mountain.com
   - +.10dv.com
@@ -81,7 +80,6 @@ payload:
   - +.atholdinginc.com
   - +.atlantatruckdrivingschool.us
   - +.auraria.org
-  - +.australia.ai
   - +.authorizeddns.net
   - +.authorizeddns.org
   - +.autoipset.com
@@ -243,6 +241,7 @@ payload:
   - +.ddnsgeek.com
   - +.ddnsguru.com
   - +.ddnsking.com
+  - +.ddnslive.com
   - +.ddnss.ch
   - +.ddnss.de
   - +.ddnss.eu
@@ -595,7 +594,6 @@ payload:
   - +.game-host.org
   - +.game-server.cc
   - +.garmanage.com
-  - +.garypatel.com
   - +.gastright.com
   - +.geekgalaxy.com
   - +.geobattery.com
@@ -1198,7 +1196,6 @@ payload:
   - +.root64.de
   - +.roth.ca
   - +.route64.de
-  - +.routemehome.com
   - +.roxa.org
   - +.rpz.su
   - +.rr.nu
@@ -1347,7 +1344,6 @@ payload:
   - +.synology-diskstation.de
   - +.synology-ds.de
   - +.synoserver.com
-  - +.syntereo.com
   - +.sysadminetworks.com
   - +.system-ns.com
   - +.systes.net
@@ -1382,14 +1378,12 @@ payload:
   - +.tobuy.us
   - +.toh.info
   - +.topdns.com
-  - +.topsddns.net
   - +.toshibanetcam.com
   - +.toythieves.com
   - +.tpddns.cn
   - +.traeumtgerade.de
   - +.trailsendlodge.org
   - +.trickip.net
-  - +.trickip.org
   - +.trieditmyself.com
   - +.tru.io
   - +.truthvid.com
@@ -1449,7 +1443,6 @@ payload:
   - +.wakingmoon.com
   - +.wan64.de
   - +.wanip.ch
-  - +.warp9computers.com
   - +.webhop.biz
   - +.webhop.info
   - +.webhop.me
@@ -1479,7 +1472,6 @@ payload:
   - +.writesthisblog.com
   - +.www1.biz
   - +.wwwhost.biz
-  - +.wwwhost.us
   - +.x24hr.com
   - +.x443.pw
   - +.xddns.de
