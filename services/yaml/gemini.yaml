@@ -15,6 +15,7 @@ payload:
   - +.gemini.google
   - +.gemini.google.com
   - +.gemini.gstatic.com
+  - +.gemma.ai
   - +.generativeai.google
   - +.generativelanguage.googleapis.com
   - +.jules.google

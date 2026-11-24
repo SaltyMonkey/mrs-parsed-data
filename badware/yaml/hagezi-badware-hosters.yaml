@@ -7,7 +7,6 @@ payload:
   - +.000webapp.com
   - +.000webhost.com
   - +.000webhost.info
-  - +.000webhostapp.com
   - +.00author.com
   - +.00freehost.com
   - +.00freeweb.com
@@ -468,6 +467,7 @@ payload:
   - +.efacturas.net
   - +.eg.gp
   - +.ehaitao.com
+  - +.elcano-ipfs.workers.dev
   - +.electronicfiles.net
   - +.elementfx.com
   - +.emochila.com
@@ -522,6 +522,7 @@ payload:
   - +.filme.lc
   - +.financecryptoworld.com
   - +.firm.nu
+  - +.firstcloudit.com
   - +.flazio.com
   - +.fleek.co
   - +.flf.li
@@ -594,7 +595,6 @@ payload:
   - +.godaddysites.com
   - +.gofreeserve.com
   - +.gomix.me
-  - +.googletagmanagers.com
   - +.gr-site.com
   - +.gr.gp
   - +.gr.kg
@@ -874,7 +874,6 @@ payload:
   - +.npx.de
   - +.ns.hn
   - +.nsfera.pl
-  - +.nut.cc
   - +.nyc.mn
   - +.o-f.com
   - +.o-link.top
