@@ -52,6 +52,7 @@ payload:
   - +.bugsnag.com
   - +.builtwithnix.org
   - +.busybox.net
+  - +.cachix.org
   - +.cafe.github.com
   - +.calendarserver.org
   - +.canonical.com
@@ -88,6 +89,7 @@ payload:
   - +.dartlang.org
   - +.dartpad.dev
   - +.datalore.io
+  - +.debian.map.fastlydns.net
   - +.debian.org
   - +.deno.com
   - +.deno.land
@@ -555,6 +557,7 @@ payload:
   - +.visualstudio.com
   - +.visualstudio.eu
   - +.visualstudio.net
+  - +.vivox.com
   - +.vsassets.io
   - +.vscode-cdn.net
   - +.vscode-unpkg.net
