@@ -18,6 +18,7 @@ payload:
   - +.07080900.xyz
   - +.078.me
   - +.0bs.de
+  - +.0catch.com
   - +.0fees.net
   - +.0fees.us
   - +.0hna.com
@@ -25,9 +26,14 @@ payload:
   - +.0x0.st
   - +.1.vg
   - +.10001mb.com
+  - +.100freemb.com
+  - +.100webspace.com
   - +.10gbfreehost.com
+  - +.110mb.com
   - +.114.at
   - +.115.at
+  - +.125mb.com
+  - +.126.com
   - +.128-199-7-137.cprapid.com
   - +.12n.de
   - +.131.at
@@ -39,6 +45,8 @@ payload:
   - +.17p.de
   - +.193.at
   - +.1a.lc
+  - +.1accesshost.com
+  - +.1colony.com
   - +.1freewebspace.com
   - +.1hwy.com
   - +.1ll.us
@@ -53,6 +61,9 @@ payload:
   - +.1x7.de
   - +.2.je
   - +.204.at
+  - +.208-115-225-138.cprapid.com
+  - +.20fr.com
+  - +.20m.com
   - +.20m.us
   - +.22web.org
   - +.24.co.at
@@ -88,17 +99,20 @@ payload:
   - +.4kp.de
   - +.4u2.de
   - +.4x.si
+  - +.50webs.com
   - +.530.at
   - +.5gbfree.com
   - +.5mp.eu
   - +.5on.de
   - +.5oo.de
   - +.5v.pl
+  - +.6.je
   - +.66ghz.com
   - +.6te.net
   - +.7.je
   - +.741.com
   - +.766.at
+  - +.7m.pl
   - +.8.je
   - +.81x.com
   - +.85d.de
@@ -133,6 +147,7 @@ payload:
   - +.absorbiert.de
   - +.abstellen.de
   - +.abwechslungsreiches.de
+  - +.ac-page.com
   - +.ac6.de
   - +.adlinkfly.mightyscripts.xyz
   - +.admarketlocation.com
@@ -142,6 +157,7 @@ payload:
   - +.airset.com
   - +.al6.de
   - +.alavps.com
+  - +.alboompro.com
   - +.all.co.uk
   - +.all.lc
   - +.allemal.de
@@ -168,7 +184,10 @@ payload:
   - +.at.cr
   - +.at.st
   - +.atsnx.com
+  - +.atspace.biz
   - +.atspace.co.uk
+  - +.atspace.com
+  - +.atspace.org
   - +.atw.hu
   - +.atwebpages.com
   - +.au.gp
@@ -184,6 +203,8 @@ payload:
   - +.b2b.lc
   - +.bakoweb.com
   - +.ballern.de
+  - +.bandungberita.com
+  - +.bappy.com
   - +.bayfiles.com
   - +.be.gp
   - +.beepworld.it
@@ -201,10 +222,14 @@ payload:
   - +.bitly.net
   - +.bityl.co
   - +.bitzli.ch
+  - +.biz.ly
   - +.biz.ps
   - +.biz.tc
+  - +.blackapplehost.com
+  - +.blackblogs.org
   - +.blatnet.com
   - +.blink.hirebiz.com
+  - +.blinkweb.com
   - +.blltly.com
   - +.blog-online.eu
   - +.blog.lc
@@ -220,6 +245,8 @@ payload:
   - +.blogspot.be
   - +.blogspot.bg
   - +.blogspot.blog
+  - +.blogspot.bom
+  - +.blogspot.br
   - +.blogspot.ca
   - +.blogspot.ch
   - +.blogspot.cl
@@ -254,6 +281,7 @@ payload:
   - +.blogspot.cz
   - +.blogspot.de
   - +.blogspot.dk
+  - +.blogspot.edu
   - +.blogspot.es
   - +.blogspot.eu
   - +.blogspot.fi
@@ -301,6 +329,7 @@ payload:
   - +.boxmode.io
   - +.br.gp
   - +.bravenet.com
+  - +.bravesites.com
   - +.brizy.site
   - +.bugs3.com
   - +.builderall.net
@@ -308,11 +337,17 @@ payload:
   - +.bulkurlshortener.com
   - +.business.site
   - +.bx5.de
+  - +.byethost.com
   - +.byethost11.com
+  - +.byethost12.com
   - +.byethost13.com
   - +.byethost14.com
+  - +.byethost17.com
   - +.byethost18.com
   - +.byethost24.com
+  - +.byethost3.com
+  - +.byethost31.com
+  - +.byethost32.com
   - +.byethost33.com
   - +.byethost4.com
   - +.byethost5.com
@@ -326,11 +361,13 @@ payload:
   - +.ca.gp
   - +.cabanova.com
   - +.cableonline.com.mx
+  - +.cba.pl
   - +.cbkgardens.com
   - +.cc.cd
   - +.ccname.org
   - +.ccwu.cc
   - +.cebol.me
+  - +.cellnovis.com
   - +.center.tl
   - +.cf-ipfs.com
   - +.ch.gp
@@ -405,6 +442,7 @@ payload:
   - +.cs-clan.org
   - +.cstu.io
   - +.ct.ws
+  - +.ct8.pl
   - +.ctempurl.com
   - +.cut.vin
   - +.cutedrive.com
@@ -416,7 +454,9 @@ payload:
   - +.d3l.de
   - +.da.cx
   - +.daftpage.com
+  - +.dailyblogzz.com
   - +.dardarkom.com
+  - +.dcr.sehlat.io
   - +.ddl2.pl
   - +.de-2.de
   - +.de-info.de
@@ -429,13 +469,16 @@ payload:
   - +.de.mg
   - +.de.pl
   - +.de5.net
+  - +.delegated-ipfs.dev
   - +.design.tl
   - +.designcarthosting.com
   - +.digitalzones.com
   - +.dik.si
   - +.dimsolo.com
+  - +.dinamikajambi.com
   - +.diowebhost.com
   - +.domain.lc
+  - +.doodlekit.com
   - +.dot.tk
   - +.dothome.co.kr
   - +.douploads.net
@@ -445,16 +488,23 @@ payload:
   - +.downloaden24.de
   - +.dox4.com
   - +.dpdns.org
+  - +.dr.ag
+  - +.dreamstation.com
   - +.dreht-auf.de
+  - +.drivehq.com
+  - +.duanwenzi.cn
   - +.dvd.lc
   - +.dweb.link
   - +.dx.am
   - +.e-docssig.com
+  - +.e-kei.pl
   - +.e.gp
+  - +.easyfreehosting.com
   - +.eb2a.com
   - +.ec.gp
   - +.ecardalert.com
   - +.ecomplanet.com
+  - +.ecrater.com
   - +.edgeone.app
   - +.edgeone.dev
   - +.edoctransfer.com
@@ -485,6 +535,7 @@ payload:
   - +.eu.gg
   - +.eu.gl
   - +.eu.gp
+  - +.eu.ki
   - +.eu.nu
   - +.eu.orbitor.dev
   - +.eu3.biz
@@ -497,6 +548,7 @@ payload:
   - +.events-games.com
   - +.ewp.live
   - +.exactpages.com
+  - +.ez-sites.ws
   - +.ezyro.com
   - +.f11.us
   - +.facebookid.live
@@ -504,6 +556,7 @@ payload:
   - +.facepl.com
   - +.familylobby.com
   - +.fanclub.rocks
+  - +.fashion.blog
   - +.fast-page.org
   - +.fastshare.org
   - +.fat-fly.com
@@ -518,6 +571,7 @@ payload:
   - +.fileurls.com
   - +.filme.lc
   - +.financecryptoworld.com
+  - +.firearms.com
   - +.firm.nu
   - +.firstcloudit.com
   - +.flazio.com
@@ -535,6 +589,7 @@ payload:
   - +.fotos.lc
   - +.fr.am
   - +.fr.gp
+  - +.fr.nf
   - +.framer.website
   - +.freakshare.net
   - +.free.bizhat.com
@@ -545,24 +600,31 @@ payload:
   - +.freeblog.biz
   - +.freecities.com
   - +.freecluster.eu
+  - +.freeforums.org
   - +.freehomepage.com
   - +.freehost.ag
   - +.freehoster.ch
+  - +.freehostia.com
   - +.freehosting.cc
   - +.freehostingcloud.com
   - +.freehostingking.com
   - +.freehostyou.com
   - +.freeoda.com
+  - +.freeservers.com
   - +.freesite.org
   - +.freetzi.com
   - +.freevar.com
   - +.freeweb.me
   - +.freewebhosting4u.com
+  - +.freewebhostingarea.com
   - +.freewebhostmost.com
   - +.freewebpages.org
   - +.freewebportal.com
+  - +.freewebs.com
   - +.freewebsitehosting.com
+  - +.freewebspace.com
   - +.freewebtools.com
+  - +.freewha.com
   - +.freightinternationalservices.com
   - +.frewwebs.com
   - +.friendcircles.com
@@ -575,7 +637,9 @@ payload:
   - +.fw.bz
   - +.fwh.is
   - +.gakken.shop
+  - +.galeon.com
   - +.game.lc
+  - +.gamer.gd
   - +.gaming.lc
   - +.gateway.lighthouse.storage
   - +.gateway.pinata.cloud
@@ -595,10 +659,13 @@ payload:
   - +.gr.gp
   - +.gr.kg
   - +.grabify.org
+  - +.graffiti.net
   - +.gratis.lc
   - +.great-site.net
   - +.greatnow.com
+  - +.grwebsite.com
   - +.gt.tc
+  - +.gtempurl.com
   - +.guest.de
   - +.guide.lc
   - +.h.gp
@@ -611,6 +678,7 @@ payload:
   - +.healthyemployee.me
   - +.hexe.in
   - +.hilfe24h.de
+  - +.hinerava.com
   - +.home.lc
   - +.homemarker.com
   - +.homepage.cx
@@ -624,6 +692,7 @@ payload:
   - +.hotfile.com
   - +.hotshare.net
   - +.hp.lc
+  - +.hpage.com
   - +.hr-organization.com
   - +.hr-rewards.com
   - +.hst5.com
@@ -636,6 +705,7 @@ payload:
   - +.hyderabadadda.com
   - +.hyip.com
   - +.hyperphp.com
+  - +.hz.cz
   - +.i.gp
   - +.i8.ae
   - +.ibiz.cc
@@ -678,6 +748,8 @@ payload:
   - +.invoicenotices.com
   - +.inx.lv
   - +.ipfs.best-practice.se
+  - +.ipfs.eth.aragon.network
+  - +.ipfs.filebase.io
   - +.ipfs.inbrowser.link
   - +.ipfs.ink
   - +.ipfs.io
@@ -723,6 +795,7 @@ payload:
   - +.kesug.com
   - +.kilu.at
   - +.kilu.biz
+  - +.kilu.de
   - +.kilu.info
   - +.kilu.net
   - +.kilu.org
@@ -734,6 +807,8 @@ payload:
   - +.kr.gp
   - +.kraftonevent.com
   - +.kro.kr
+  - +.kulichki.net
+  - +.kulichki.ru
   - +.kurzschliessen.de
   - +.kz.gp
   - +.l.gp
@@ -742,6 +817,7 @@ payload:
   - +.laden.biz
   - +.latam.orbitor.dev
   - +.launchaco.com
+  - +.leaguelineup.com
   - +.leechall.com
   - +.leetleech.org
   - +.lernt.de
@@ -761,6 +837,7 @@ payload:
   - +.live-website.com
   - +.live2.de
   - +.liveblog365.com
+  - +.livebloggs.com
   - +.llink.to
   - +.lmy.de
   - +.lnk.do
@@ -775,6 +852,7 @@ payload:
   - +.lovelocals.us
   - +.loveslife.biz
   - +.lovestoblog.com
+  - +.lspmr.org
   - +.lu.kg
   - +.luzzati.com
   - +.lyli.fi
@@ -796,11 +874,13 @@ payload:
   - +.medianewsonline.com
   - +.mega-debrid.eu
   - +.meusitehostgator.com.br
+  - +.miarroba.com
   - +.microsoftaistories.com
   - +.microsoftfiles.live
   - +.mightyurl.mightyscripts.xyz
   - +.migly.in
   - +.mihanblog.com
+  - +.mindnmagick.com
   - +.mirorii.com
   - +.mit-wenig-geld.de
   - +.mixh.jp
@@ -820,6 +900,7 @@ payload:
   - +.my-free.website
   - +.my-place.us
   - +.my-style.in
+  - +.my-webs.org
   - +.my.gp
   - +.my3gb.com
   - +.my5353.com
@@ -838,8 +919,10 @@ payload:
   - +.myfunnelish.com
   - +.mygamesonline.org
   - +.mylinkinb.io
+  - +.mypinata.cloud
   - +.myportfolio.com
   - +.mypressonline.com
+  - +.mysite.com
   - +.mystrikingly.com
   - +.mytempdir.com
   - +.mywebcommunity.org
@@ -855,6 +938,7 @@ payload:
   - +.netten.ru
   - +.netz.tl
   - +.newmail.ru
+  - +.nexgenelectricct.com
   - +.nexmicrosystems.com
   - +.nftstorage.link
   - +.ngrok-free.app
@@ -886,6 +970,7 @@ payload:
   - +.on.lc
   - +.onaiappbuilder.com
   - +.one4u.0lx.net
+  - +.onepage.me
   - +.onepage.website
   - +.online-net.de
   - +.online.cm
@@ -902,12 +987,14 @@ payload:
   - +.orgfree.com
   - +.orgsites.com
   - +.os.md
+  - +.over-blog.com
   - +.own-free-website.com
   - +.oyn.at
   - +.ozq.de
   - +.p.gp
   - +.p2blogs.com
   - +.page.gd
+  - +.page.tl
   - +.page4.me
   - +.pagedemo.co
   - +.pancake.run
@@ -915,12 +1002,18 @@ payload:
   - +.party.lc
   - +.paste.ee
   - +.pc.lc
+  - +.pcriot.com
   - +.pe.gp
   - +.pe.hu
+  - +.peraichi.com
   - +.perfektionieren.de
+  - +.perl.sh
   - +.ph.gp
   - +.photos.lc
+  - +.phpnet.us
   - +.picvalley.net
+  - +.piczo.com
+  - +.pirchio.com
   - +.pixelt.de
   - +.pk.gp
   - +.pktriot.net
@@ -940,6 +1033,7 @@ payload:
   - +.pro3.de
   - +.profis.info
   - +.profreehost.com
+  - +.prohosts.org
   - +.psce.pw
   - +.psee.io
   - +.psend.com
@@ -965,6 +1059,7 @@ payload:
   - +.rapidshare.com
   - +.rapidshare.de
   - +.rapidshare.se
+  - +.ravencoinipfs-gateway.com
   - +.re2.de
   - +.reco.ws
   - +.redirme.com
@@ -983,6 +1078,7 @@ payload:
   - +.ru.gp
   - +.ru.nu
   - +.rumahweb.org
+  - +.runhosting.com
   - +.s.gp
   - +.sa.gp
   - +.santuy.me
@@ -1011,6 +1107,7 @@ payload:
   - +.service.lc
   - +.share.lc
   - +.sharkserve.com
+  - +.shivtr.com
   - +.shohu.shop
   - +.shop.fm
   - +.shop2.de
@@ -1022,6 +1119,9 @@ payload:
   - +.shortest.link
   - +.shortu.be
   - +.shorturl.ae
+  - +.sibpages.com
+  - +.simdif.com
+  - +.site.pro
   - +.site123.me
   - +.site44.com
   - +.sitebeat.crazydomains.com
@@ -1034,7 +1134,6 @@ payload:
   - +.snifferip.com
   - +.social-networking.me
   - +.socialsmp.com
-  - +.softr.app
   - +.solidwebhost.com
   - +.somee.com
   - +.space.lc
@@ -1049,6 +1148,7 @@ payload:
   - +.start.page
   - +.staticrun.app
   - +.storacha.link
+  - +.stormloader.com
   - +.stormpages.com
   - +.studio.site
   - +.suchtis.de
@@ -1063,6 +1163,8 @@ payload:
   - +.sylu.net
   - +.synergize.co
   - +.t.gp
+  - +.t35.com
+  - +.talk4fun.net
   - +.te4m.de
   - +.team.cx
   - +.team.tl
@@ -1079,8 +1181,11 @@ payload:
   - +.th.gp
   - +.thamboli.co.za
   - +.thoughtlanes.net
+  - +.tiiny.host
   - +.tiiny.io
   - +.tiiny.site
+  - +.tilda.ws
+  - +.timeforchangecounselling.com
   - +.tinylink.in
   - +.tinyupload.com
   - +.tinyurl.ph
@@ -1099,6 +1204,7 @@ payload:
   - +.trackfinanceworld.com
   - +.transfer.sh
   - +.trend.in
+  - +.tribalpages.com
   - +.trim.one
   - +.tripod.com
   - +.trustless-gateway.link
@@ -1114,6 +1220,8 @@ payload:
   - +.u.gp
   - +.ua.gp
   - +.ubpages.com
+  - +.ucoz.com
+  - +.ucoz.net
   - +.ucoz.ru
   - +.ueuo.com
   - +.ugu.pl
@@ -1165,6 +1273,7 @@ payload:
   - +.vidcloud.co
   - +.virtue.nu
   - +.virus.in
+  - +.vmn.net
   - +.vn.gp
   - +.vn.run
   - +.voellig-daneben.de
@@ -1194,13 +1303,20 @@ payload:
   - +.webboss.site
   - +.webflow.io
   - +.webflowtest.io
+  - +.webgarden.com
   - +.weblium.site
   - +.webn.cc
   - +.webnode.com
   - +.webnode.com.co
   - +.webnode.com.pt
+  - +.webnode.cr
+  - +.webnode.es
+  - +.webnode.gr
+  - +.webnode.page
+  - +.webnode.sk
   - +.webobo.com
   - +.webpages.one
+  - +.webs.com
   - +.webservis.ru
   - +.website.at
   - +.website.org
@@ -1233,8 +1349,11 @@ payload:
   - +.xl.lc
   - +.xml.in
   - +.xo.je
+  - +.xooit.com
+  - +.xooit.fr
   - +.xp3.biz
   - +.xsl.tel
+  - +.xsltel.com
   - +.xsph.ru
   - +.xtreemhost.com
   - +.xurl.app
@@ -1243,14 +1362,17 @@ payload:
   - +.xx.lc
   - +.xxl.lc
   - +.y.gp
+  - +.y0.pl
   - +.y55.eu
   - +.ygrrvlvvgf.top
   - +.yip.su
   - +.yj.ae
   - +.ykm.de
+  - +.yola.com
   - +.yolasite.com
   - +.you.lc
   - +.yourdomain.com
+  - +.yourfreehosting.net
   - +.yourjavascript.com
   - +.yovip.net
   - +.yu3.io
@@ -1263,8 +1385,11 @@ payload:
   - +.zeabur.app
   - +.ziddu.com
   - +.zippyshare.com
+  - +.zohosites.com
   - +.zone.id
+  - +.zoomshare.com
   - +.zustimmen.de
   - +.zx9.de
   - +.zya.me
+  - +.zyrosite.com
   - +.zzz.com.ua

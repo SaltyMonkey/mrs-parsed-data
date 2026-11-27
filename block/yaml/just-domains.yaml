@@ -251,6 +251,7 @@ payload:
   - +.bumble.com
   - +.buymeacoffee.com
   - +.byteoversea.com
+  - +.bytesroute.com
   - +.calibre-ebook.com
   - +.calvinklein.nl
   - +.calvinklein.us
@@ -265,6 +266,7 @@ payload:
   - +.captions-cdn.xyz
   - +.capture.se
   - +.cardhaus.com
+  - +.cards.scryfall.io
   - +.carnegieendowment.org
   - +.carrefouruae.com
   - +.cars.com
@@ -309,6 +311,7 @@ payload:
   - +.chesscomfiles.com
   - +.chub.ai
   - +.cici.com
+  - +.cimediacloud.com
   - +.cirad.fr
   - +.circlecrewpinkcrowd.com
   - +.cisco.com
@@ -543,6 +546,7 @@ payload:
   - +.entware.net
   - +.envatousercontent.com
   - +.eoptolink.com
+  - +.epidemicsound.com
   - +.epidemz.net.co
   - +.eporner.com
   - +.err.ee
@@ -765,6 +769,7 @@ payload:
   - +.hevy.com
   - +.hevyapp.com
   - +.hevycoach.com
+  - +.hifishark.com
   - +.hitomi.la
   - +.hollisterco.com
   - +.holod.media
@@ -1155,6 +1160,7 @@ payload:
   - +.nba.com
   - +.nc.com
   - +.ncsoft.com
+  - +.ndmdhs.com
   - +.neformat.com.ua
   - +.neo4j.com
   - +.neowin.com
@@ -1463,6 +1469,7 @@ payload:
   - +.reka.ai
   - +.rekordbox.com
   - +.releases.hashicorp.com
+  - +.remarkable.com
   - +.remna.st
   - +.remove.bg
   - +.render-state.to
@@ -1667,6 +1674,7 @@ payload:
   - +.solarwinds.com
   - +.sonara.ai
   - +.sony.co.jp
+  - +.sony.net
   - +.sophos.com
   - +.sora.com
   - +.sotaproject.com
@@ -1790,6 +1798,7 @@ payload:
   - +.thepiratebay.org
   - +.theporndude.com
   - +.thesassway.com
+  - +.theserverside.com
   - +.thestar.com
   - +.thetrainline.com
   - +.thetruestory.news
@@ -2099,6 +2108,7 @@ payload:
   - +.xvideos-cdn.com
   - +.xvideos.com
   - +.yachtsbt.com
+  - +.yahoo.com
   - +.yande.re
   - +.yeggi.com
   - +.yithemes.com
