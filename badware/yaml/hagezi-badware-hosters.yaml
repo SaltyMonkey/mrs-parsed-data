@@ -244,9 +244,6 @@ payload:
   - +.blogspot.ba
   - +.blogspot.be
   - +.blogspot.bg
-  - +.blogspot.blog
-  - +.blogspot.bom
-  - +.blogspot.br
   - +.blogspot.ca
   - +.blogspot.ch
   - +.blogspot.cl
@@ -255,7 +252,6 @@ payload:
   - +.blogspot.co.at
   - +.blogspot.co.id
   - +.blogspot.co.il
-  - +.blogspot.co.in
   - +.blogspot.co.ke
   - +.blogspot.co.nz
   - +.blogspot.co.uk
@@ -273,7 +269,6 @@ payload:
   - +.blogspot.com.es
   - +.blogspot.com.mt
   - +.blogspot.com.mx
-  - +.blogspot.com.my
   - +.blogspot.com.ng
   - +.blogspot.com.pl
   - +.blogspot.com.tr
@@ -281,7 +276,6 @@ payload:
   - +.blogspot.cz
   - +.blogspot.de
   - +.blogspot.dk
-  - +.blogspot.edu
   - +.blogspot.es
   - +.blogspot.eu
   - +.blogspot.fi
